@@ -1,0 +1,37 @@
+{% assign settings = trmnl.plugin_settings.custom_fields_values %}
+{% assign filter_mode = settings.content_filter | default: "both" | downcase %}
+{% assign pool = events %}
+{% if filter_mode contains "breakthrough" %}{% assign pool = events | where: "type", "breakthrough" %}{% endif %}
+{% if filter_mode contains "failure" %}{% assign pool = events | where: "type", "failure" %}{% endif %}
+{% if pool == empty %}{% assign pool = events %}{% endif %}
+{% assign local_timestamp = trmnl.system.timestamp_utc | plus: trmnl.user.utc_offset %}
+{% assign today_key = local_timestamp | date: "%m-%d" %}
+{% assign day_index = local_timestamp | date: "%j" | plus: 0 | minus: 1 | modulo: pool.size %}
+{% assign selected = pool[day_index] %}
+{% assign anniversary = false %}
+{% for item in pool %}{% if item.month_day == today_key %}{% assign selected = item %}{% assign anniversary = true %}{% break %}{% endif %}{% endfor %}
+{% assign show_summary = true %}{% if settings.show_summary == false or settings.show_summary == "false" %}{% assign show_summary = false %}{% endif %}
+{% assign show_source = false %}{% if settings.show_source == true or settings.show_source == "true" %}{% assign show_source = true %}{% endif %}
+
+<div class="layout layout--col layout--stretch">
+  <div class="bb-shell">
+    <div class="bb-meta">
+      <span class="label {% if selected.type == 'failure' %}label--inverted{% else %}label--outline{% endif %}">{{ selected.type | upcase }}</span>
+      <span class="label label--outline">{{ selected.discipline | upcase }}{% if anniversary %} · ON THIS DAY{% endif %}</span>
+    </div>
+    <div class="bb-main">
+      <div class="bb-story">
+        <div class="bb-year">{{ selected.year }}</div>
+        <div class="bb-headline">{{ selected.title }}</div>
+        {% if show_summary %}<div class="bb-summary">{{ selected.summary }}</div>{% endif %}
+      </div>
+      <div class="bb-lesson">
+        <span class="label">ENGINEERING LESSON</span>
+        <div class="bb-lesson-text">{{ selected.lesson }}</div>
+        {% if show_source %}<div class="bb-source">Source: {{ selected.source_label }}</div>{% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="title_bar"><span class="title">Built &amp; Broken</span><span class="instance">{{ selected.year }} · {{ selected.discipline }}</span></div>
