@@ -1,6 +1,18 @@
 {
   "events": [
     {
+      "id": "iphone-introduced-2007",
+      "month_day": "01-09",
+      "year": 2007,
+      "type": "breakthrough",
+      "discipline": "Product Engineering",
+      "title": "The iPhone replaces buttons with a software surface",
+      "summary": "Apple introduced a handheld device combining a phone, music player and internet communicator. Its large multi-touch display made the interface adaptable in software instead of fixed in physical controls.",
+      "lesson": "Moving controls into software can let one physical platform serve many changing functions, provided the interaction remains direct and understandable.",
+      "source_label": "Apple",
+      "source_url": "https://www.apple.com/newsroom/2007/01/09Apple-Reinvents-the-Phone-with-iPhone/"
+    },
+    {
       "id": "london-underground-opens-1863",
       "month_day": "01-10",
       "year": 1863,
@@ -35,6 +47,18 @@
       "lesson": "A new energy source can change the architecture of an entire system, not merely improve its endurance.",
       "source_label": "U.S. Naval History and Heritage Command",
       "source_url": "https://www.history.navy.mil/browse-by-topic/ships/submarines/uss-nautilus.html"
+    },
+    {
+      "id": "hartford-civic-center-roof-1978",
+      "month_day": "01-18",
+      "year": 1978,
+      "type": "failure",
+      "discipline": "Structural Engineering",
+      "title": "The Hartford arena roof collapses under winter loading",
+      "summary": "The space-frame roof of the Hartford Civic Center collapsed after snow and freezing rain. The failure exposed how a visually elegant, highly redundant structure could still be vulnerable to modelling and design assumptions.",
+      "lesson": "Complex load paths require independent checking of the model, boundary conditions and failure modes—not confidence derived from redundancy alone.",
+      "source_label": "National Institute of Standards and Technology",
+      "source_url": "https://nvlpubs.nist.gov/nistpubs/sp958-lide/html/283-288.html"
     },
     {
       "id": "macintosh-launch-1984",
@@ -133,6 +157,18 @@
       "source_url": "https://www.boeing.com/commercial/747-8"
     },
     {
+      "id": "eniac-unveiled-1946",
+      "month_day": "02-15",
+      "year": 1946,
+      "type": "breakthrough",
+      "discipline": "Computing",
+      "title": "ENIAC demonstrates general-purpose electronic computing",
+      "summary": "The University of Pennsylvania unveiled ENIAC and demonstrated the machine publicly. Electronic switching brought unprecedented speed to calculations that could be reconfigured for different problems.",
+      "lesson": "A general-purpose architecture creates more value than a single fast calculation because the next problem can reuse the same machine.",
+      "source_label": "University of Pennsylvania",
+      "source_url": "https://highlights.cis.upenn.edu/in-celebration-of-eniac/"
+    },
+    {
       "id": "friendship-7-1962",
       "month_day": "02-20",
       "year": 1962,
@@ -229,6 +265,18 @@
       "source_url": "https://www.nasa.gov/history/95-years-ago-goddards-first-liquid-fueled-rocket/"
     },
     {
+      "id": "volta-electric-pile-1800",
+      "month_day": "03-20",
+      "year": 1800,
+      "type": "breakthrough",
+      "discipline": "Electrical Engineering",
+      "title": "Volta describes the first continuous electric battery",
+      "summary": "Alessandro Volta described a stack of alternating silver and zinc separated by brine-soaked material. Unlike earlier static sources, the pile supplied a sustained electric current.",
+      "lesson": "A useful energy source must provide controlled flow, not merely a dramatic peak; continuity can matter more than intensity.",
+      "source_label": "MIT Lemelson Program",
+      "source_url": "https://lemelson.mit.edu/resources/alessandro-volta"
+    },
+    {
       "id": "bp-texas-city-2005",
       "month_day": "03-23",
       "year": 2005,
@@ -265,6 +313,18 @@
       "source_url": "https://www.dol.gov/general/aboutdol/history/mono-regsafepart07"
     },
     {
+      "id": "tenerife-runway-collision-1977",
+      "month_day": "03-27",
+      "year": 1977,
+      "type": "failure",
+      "discipline": "Aviation",
+      "title": "Two 747s collide on Tenerife's occupied runway",
+      "summary": "In fog at a congested airport, a KLM 747 began its takeoff while a Pan Am 747 was still taxiing on the same runway. Ambiguous radio language and lost visual awareness combined with operational pressure.",
+      "lesson": "Safety-critical communication must use standardized, closed-loop language that makes authorization and system state impossible to confuse.",
+      "source_label": "U.S. Federal Aviation Administration",
+      "source_url": "https://www.faa.gov/lessons_learned/transport_airplane/accidents/PH-BUF"
+    },
+    {
       "id": "three-mile-island-1979",
       "month_day": "03-28",
       "year": 1979,
@@ -287,6 +347,18 @@
       "lesson": "Standardized parts and precise workshop drawings can turn an unprecedented structure into repeatable assembly work.",
       "source_label": "Eiffel Tower official history",
       "source_url": "https://www.toureiffel.paris/en/the-monument/history"
+    },
+    {
+      "id": "tiros-1-1960",
+      "month_day": "04-01",
+      "year": 1960,
+      "type": "breakthrough",
+      "discipline": "Earth Observation",
+      "title": "TIROS-1 makes weather visible from orbit",
+      "summary": "NASA launched the first experimental weather satellite. In 78 operating days, its television cameras demonstrated that cloud cover and weather patterns could be monitored from space.",
+      "lesson": "A new observation point can transform forecasting before the sensors themselves become sophisticated.",
+      "source_label": "NASA",
+      "source_url": "https://www.nasa.gov/image-article/tiros-nations-first-weather-satellite/"
     },
     {
       "id": "tesoro-anacortes-2010",
@@ -347,6 +419,18 @@
       "lesson": "Design beyond preventing failure: provide detection, evacuation and rescue capacity for the failure that still occurs.",
       "source_label": "U.S. National Oceanic and Atmospheric Administration",
       "source_url": "https://www.noaa.gov/office-of-general-counsel/gc-international-section/rms-titanic-frequently-asked-questions"
+    },
+    {
+      "id": "texas-city-disaster-1947",
+      "month_day": "04-16",
+      "year": 1947,
+      "type": "failure",
+      "discipline": "Process Safety",
+      "title": "Burning ammonium nitrate devastates Texas City",
+      "summary": "A fire aboard the Grandcamp culminated in an enormous ammonium-nitrate explosion at the port. A second loaded ship later exploded, multiplying damage across nearby industrial facilities and the city.",
+      "lesson": "Hazardous materials must be classified, segregated and fought according to their reaction chemistry; ordinary cargo assumptions can amplify an emergency.",
+      "source_label": "U.S. National Oceanic and Atmospheric Administration",
+      "source_url": "https://response.restoration.noaa.gov/about/media/56-years-after-chemical-catastrophe-science-prevented-second-texas-city-disaster.html"
     },
     {
       "id": "west-fertilizer-2013",
@@ -505,6 +589,18 @@
       "source_url": "https://www.nasa.gov/history/50-years-ago-the-launch-of-skylab-americas-first-space-station/"
     },
     {
+      "id": "gloster-e28-first-flight-1941",
+      "month_day": "05-15",
+      "year": 1941,
+      "type": "breakthrough",
+      "discipline": "Aviation",
+      "title": "Britain's first jet aircraft proves Whittle's engine",
+      "summary": "The Gloster E.28/39 made a 17-minute first flight with a Whittle turbojet. Built as a technology demonstrator, it provided flight experience that led directly toward the Gloster Meteor fighter.",
+      "lesson": "A focused demonstrator should answer the riskiest system question before a complete operational product is designed around it.",
+      "source_label": "BAE Systems Heritage",
+      "source_url": "https://heritage.baesystems.com/page/gloster-e.28-39"
+    },
+    {
       "id": "ronan-point-1968",
       "month_day": "05-16",
       "year": 1968,
@@ -527,6 +623,18 @@
       "lesson": "An unprecedented span succeeds when structural innovation is paired with redundancy, stiffness and a practical operating system.",
       "source_label": "New York City Municipal Archives",
       "source_url": "https://a860-collectionguides.nyc.gov/repositories/2/resources/38"
+    },
+    {
+      "id": "american-191-1979",
+      "month_day": "05-25",
+      "year": 1979,
+      "type": "failure",
+      "discipline": "Aviation",
+      "title": "American 191 loses an engine and hidden safety systems",
+      "summary": "The left engine and pylon separated during takeoff from Chicago, damaging hydraulics and retracting leading-edge slats. Electrical losses also removed warnings that could have revealed the asymmetric stall risk.",
+      "lesson": "A single physical failure must not silently remove both the protective function and the indication that protection has been lost.",
+      "source_label": "U.S. Federal Aviation Administration",
+      "source_url": "https://www.faa.gov/lessons_learned/transport_airplane/accidents/N110AA"
     },
     {
       "id": "golden-gate-1937",
@@ -601,6 +709,18 @@
       "source_url": "https://www.gov.uk/government/publications/grenfell-tower-inquiry-phase-2-report-government-response/grenfell-tower-inquiry-phase-2-report-government-response-html"
     },
     {
+      "id": "tereshkova-vostok-6-1963",
+      "month_day": "06-16",
+      "year": 1963,
+      "type": "breakthrough",
+      "discipline": "Space",
+      "title": "Valentina Tereshkova becomes the first woman in space",
+      "summary": "Vostok 6 carried Valentina Tereshkova into orbit for nearly three days. She completed 49 orbits, kept a flight log and gathered data on the human body's response to spaceflight.",
+      "lesson": "Expanding who participates is part of expanding what a technical system can learn, test and ultimately serve.",
+      "source_label": "European Space Agency",
+      "source_url": "https://www.esa.int/About_Us/50_years_of_ESA/50_years_of_humans_in_space/First_woman_in_space_Valentina"
+    },
+    {
       "id": "manchester-baby-1948",
       "month_day": "06-21",
       "year": 1948,
@@ -623,6 +743,42 @@
       "lesson": "A safety system must treat loss of detection as occupied or unknown—not as evidence that the protected space is clear.",
       "source_label": "U.S. National Transportation Safety Board",
       "source_url": "https://www.ntsb.gov/investigations/Pages/DCA09MR007.aspx"
+    },
+    {
+      "id": "barcode-first-scan-1974",
+      "month_day": "06-26",
+      "year": 1974,
+      "type": "breakthrough",
+      "discipline": "Automation",
+      "title": "The supermarket barcode enters everyday service",
+      "summary": "The first installation of supermarket scanners entered service at a Marsh store in Troy, Ohio. A standardized printed code connected physical goods to automated identification and checkout data.",
+      "lesson": "Automation scales when every participant agrees on a simple, machine-readable interface at the boundary between systems.",
+      "source_label": "Smithsonian Institution",
+      "source_url": "https://americanhistory.si.edu/collections/object/nmah_892778"
+    },
+    {
+      "id": "grand-canyon-midair-1956",
+      "month_day": "06-30",
+      "year": 1956,
+      "type": "failure",
+      "discipline": "Aviation",
+      "title": "A Grand Canyon collision exposes an overloaded air system",
+      "summary": "A TWA Super Constellation and United DC-7 collided while flying visually in uncontrolled airspace. All 128 people aboard died, focusing attention on the limitations of traffic separation and airspace oversight.",
+      "lesson": "When traffic outgrows informal coordination, safety requires system-level surveillance, positive separation and clear authority.",
+      "source_label": "U.S. Federal Aviation Administration",
+      "source_url": "https://www.faa.gov/lessons_learned/transport_airplane/accidents/N6902C"
+    },
+    {
+      "id": "sony-walkman-launch-1979",
+      "month_day": "07-01",
+      "year": 1979,
+      "type": "breakthrough",
+      "discipline": "Consumer Electronics",
+      "title": "The Walkman creates personal portable listening",
+      "summary": "Sony put the TPS-L2 portable stereo on sale in Japan. Removing recording and pairing a compact player with lightweight headphones created a new use case rather than a smaller conventional tape deck.",
+      "lesson": "Purposeful subtraction can create a new category when it removes cost and bulk while protecting the experience users actually want.",
+      "source_label": "Sony",
+      "source_url": "https://www.sony.com/en/SonyInfo/CorporateInfo/History/SonyHistory/2-03.html"
     },
     {
       "id": "benz-public-drive-1886",
@@ -685,6 +841,18 @@
       "source_url": "https://www.nist.gov/el/walkway-collapse-kansas-city-missouri-1981"
     },
     {
+      "id": "united-232-1989",
+      "month_day": "07-19",
+      "year": 1989,
+      "type": "failure",
+      "discipline": "Aviation",
+      "title": "United 232 loses all three hydraulic systems",
+      "summary": "An engine fan disk fragmented and debris disabled all three hydraulic systems controlling the DC-10. The crew improvised steering with differential engine thrust but crashed during the emergency landing at Sioux City.",
+      "lesson": "Redundancy is not independence when supposedly separate channels share the same physical damage zone.",
+      "source_label": "U.S. National Transportation Safety Board",
+      "source_url": "https://www.ntsb.gov/investigations/Pages/DCA89MA063.aspx"
+    },
+    {
       "id": "apollo-11-1969",
       "month_day": "07-20",
       "year": 1969,
@@ -745,6 +913,18 @@
       "source_url": "https://www.ibm.com/history/personal-computer"
     },
     {
+      "id": "indiana-state-fair-stage-2011",
+      "month_day": "08-13",
+      "year": 2011,
+      "type": "failure",
+      "discipline": "Temporary Structures",
+      "title": "A concert stage collapses as severe weather arrives",
+      "summary": "Wind from an approaching thunderstorm brought down the temporary stage roof at the Indiana State Fair. Seven people died; safety findings cited inadequate engineering specifications and inspection.",
+      "lesson": "Temporary does not mean low consequence: define wind limits, verify the erected structure and assign one person clear authority to stop the event.",
+      "source_label": "Indiana Department of Labor",
+      "source_url": "https://www.in.gov/dol/files/FY_2014_Indiana_State_Occupational_Annual_Report.pdf"
+    },
+    {
       "id": "panama-canal-1914",
       "month_day": "08-15",
       "year": 1914,
@@ -755,6 +935,18 @@
       "lesson": "Transformative infrastructure often succeeds by controlling the environment as a system rather than overpowering one obstacle.",
       "source_label": "Panama Canal Authority",
       "source_url": "https://pancanal.com/en/end-of-the-construction/"
+    },
+    {
+      "id": "voyager-2-launch-1977",
+      "month_day": "08-20",
+      "year": 1977,
+      "type": "breakthrough",
+      "discipline": "Space",
+      "title": "Voyager 2 begins the only tour of all four giant planets",
+      "summary": "NASA launched Voyager 2 on a trajectory to Jupiter and Saturn that was later extended to Uranus and Neptune. It remains the only spacecraft to have visited both ice giants.",
+      "lesson": "Designing margin and adaptable operations into a mission can turn one successful objective into decades of additional discovery.",
+      "source_label": "NASA",
+      "source_url": "https://science.nasa.gov/mission/voyager/voyager-2/"
     },
     {
       "id": "mini-1959",
@@ -781,6 +973,18 @@
       "source_url": "https://www.ntsb.gov/investigations/Pages/DCA06MA064.aspx"
     },
     {
+      "id": "quebec-bridge-collapse-1907",
+      "month_day": "08-29",
+      "year": 1907,
+      "type": "failure",
+      "discipline": "Structural Engineering",
+      "title": "The Québec Bridge collapses during construction",
+      "summary": "The south arm of the immense cantilever bridge collapsed into the St. Lawrence River, killing 76 workers. Members had shown alarming deformation while construction loads continued to increase.",
+      "lesson": "Visible deformation is system feedback, not a scheduling inconvenience; stop work until the discrepancy between calculation and reality is resolved.",
+      "source_label": "Government of Canada",
+      "source_url": "https://www.canada.ca/en/housing-infrastructure-communities/news/2021/04/the-history-of-the-quebec-bridge.html"
+    },
+    {
       "id": "swissair-111-1998",
       "month_day": "09-02",
       "year": 1998,
@@ -793,6 +997,18 @@
       "source_url": "https://www.tsb.gc.ca/eng/rapports-reports/aviation/1998/a98h0003/a98h0003.html"
     },
     {
+      "id": "pearl-street-station-1882",
+      "month_day": "09-04",
+      "year": 1882,
+      "type": "breakthrough",
+      "discipline": "Power Engineering",
+      "title": "Pearl Street turns electric light into a utility",
+      "summary": "Edison's central station began supplying direct-current electricity to customers in lower Manhattan. Generation, underground conductors, metering and lamps operated as one commercial system.",
+      "lesson": "A component becomes infrastructure only when generation, distribution, measurement and customer use are engineered together.",
+      "source_label": "Thomas A. Edison Papers",
+      "source_url": "https://edison.rutgers.edu/life-of-edison/biographical-essays/lighting/from-research-to-development"
+    },
+    {
       "id": "kilby-integrated-circuit-1958",
       "month_day": "09-12",
       "year": 1958,
@@ -803,6 +1019,18 @@
       "lesson": "Reliability and scale improve when interfaces disappear; integrating components can remove more failure opportunities than perfecting each connection.",
       "source_label": "Texas Instruments",
       "source_url": "https://www.ti.com/about-ti/behind-chip/articles/from-idea-to-invention-the-origin-story-of-the-tiny-chip-that-changed-the-world.html"
+    },
+    {
+      "id": "big-bayou-canot-1993",
+      "month_day": "09-22",
+      "year": 1993,
+      "type": "failure",
+      "discipline": "Rail",
+      "title": "An unseen bridge strike sends the Sunset Limited off track",
+      "summary": "Barges pushed in dense fog struck and displaced the Big Bayou Canot railroad bridge. Minutes later, an Amtrak train reached the misaligned span and derailed because no effective warning connected the impact to rail operations.",
+      "lesson": "At infrastructure interfaces, abnormal contact must trigger detection and automatic warning before the next high-energy movement arrives.",
+      "source_label": "U.S. National Transportation Safety Board",
+      "source_url": "https://www.ntsb.gov/investigations/Pages/DCA93MR007.aspx"
     },
     {
       "id": "mars-climate-orbiter-1999",
@@ -829,6 +1057,18 @@
       "source_url": "https://www.usbr.gov/lc/hooverdam/history/articles/chrono.html"
     },
     {
+      "id": "sony-cdp101-1982",
+      "month_day": "10-01",
+      "year": 1982,
+      "type": "breakthrough",
+      "discipline": "Consumer Electronics",
+      "title": "Sony launches the first commercial compact-disc player",
+      "summary": "Sony released the CDP-101 alongside an initial catalogue of 50 compact discs. Digital optical playback separated repeated use from the physical contact and wear of a stylus or tape head.",
+      "lesson": "A new medium succeeds as an ecosystem: playback hardware, standardized content and available titles must arrive together.",
+      "source_label": "Sony",
+      "source_url": "https://www.sony.com/en/SonyInfo/CorporateInfo/History/SonyHistory/2-07.html"
+    },
+    {
       "id": "sputnik-1957",
       "month_day": "10-04",
       "year": 1957,
@@ -839,6 +1079,18 @@
       "lesson": "A simple, working demonstration can change an entire field more decisively than a grand unfinished system.",
       "source_label": "NASA History",
       "source_url": "https://www.nasa.gov/history/dawn-of-the-space-age/"
+    },
+    {
+      "id": "ladbroke-grove-1999",
+      "month_day": "10-05",
+      "year": 1999,
+      "type": "failure",
+      "discipline": "Rail",
+      "title": "Ladbroke Grove exposes a signal passed at danger",
+      "summary": "A commuter train passed a red signal near London Paddington and collided head-on with an express train. The inquiry examined driver training, signal sighting and the wider management of repeated warning signs.",
+      "lesson": "Repeated near misses are evidence of a system defect; aggregate and act on weak signals before the same pathway produces a catastrophe.",
+      "source_label": "UK Office of Rail and Road",
+      "source_url": "https://www.orr.gov.uk/search-news/ladbroke-grove-25-years-was-era-defining-event"
     },
     {
       "id": "vajont-1963",
@@ -949,6 +1201,30 @@
       "source_url": "https://www.nasa.gov/history/20-years-ago-space-station-construction-begins/"
     },
     {
+      "id": "mgm-grand-fire-1980",
+      "month_day": "11-21",
+      "year": 1980,
+      "type": "failure",
+      "discipline": "Fire Safety",
+      "title": "Smoke carries a ground-floor fire through the MGM Grand",
+      "summary": "A fire largely confined to the first floor sent smoke through the Las Vegas high-rise. Most of the 85 deaths occurred on upper floors, demonstrating how shafts and vertical pathways can spread lethal conditions far from flames.",
+      "lesson": "Fire compartments fail if smoke paths remain open; model pressure, shafts and vertical transport as part of the life-safety system.",
+      "source_label": "National Institute of Standards and Technology",
+      "source_url": "https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir90-4253.pdf"
+    },
+    {
+      "id": "ford-moving-assembly-line-1913",
+      "month_day": "12-01",
+      "year": 1913,
+      "type": "breakthrough",
+      "discipline": "Manufacturing",
+      "title": "Ford puts the automobile on a moving assembly line",
+      "summary": "Ford incorporated a moving final assembly line at Highland Park. Bringing the product past specialized workstations cut Model T assembly time to about 90 minutes and changed mass production.",
+      "lesson": "Throughput improves when flow, task sequence and material delivery are designed as one system instead of optimizing each workstation alone.",
+      "source_label": "Ford Motor Company",
+      "source_url": "https://corporate.ford.com/articles/history/moving-assembly-line/"
+    },
+    {
       "id": "chicago-pile-1-1942",
       "month_day": "12-02",
       "year": 1942,
@@ -1007,6 +1283,18 @@
       "lesson": "A small end-to-end demonstration can prove energy conversion and control before scaling the plant around it.",
       "source_label": "U.S. Department of Energy",
       "source_url": "https://www.energy.gov/ne/articles/9-notable-facts-about-worlds-first-nuclear-power-plant-ebr-i"
+    },
+    {
+      "id": "kingston-coal-ash-spill-2008",
+      "month_day": "12-22",
+      "year": 2008,
+      "type": "failure",
+      "discipline": "Geotechnical Engineering",
+      "title": "A coal-ash dike releases millions of cubic yards",
+      "summary": "A containment dike failed at TVA's Kingston Fossil Plant, releasing about 5.4 million cubic yards of coal ash across waterways and roughly 300 acres of surrounding land.",
+      "lesson": "Waste storage is a long-lived engineered system: monitor changing material properties, pore pressure, geometry and consequences throughout its operating life.",
+      "source_label": "U.S. Environmental Protection Agency",
+      "source_url": "https://www.epa.gov/coal-combustion-residuals/coal-ash-rule"
     },
     {
       "id": "james-webb-launch-2021",
