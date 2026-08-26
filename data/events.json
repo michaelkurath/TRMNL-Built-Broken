@@ -26,12 +26,12 @@
     },
     {
       "id": "first-insulin-treatment-1922",
-      "month_day": "01-11",
+      "month_day": "01-23",
       "year": 1922,
       "type": "breakthrough",
       "discipline": "Medicine",
-      "title": "Insulin treatment turns a fatal disease into a manageable one",
-      "summary": "Leonard Thompson received the first injection of Banting and Best's pancreatic extract at Toronto General Hospital. A more purified preparation given twelve days later produced a dramatic clinical improvement.",
+      "title": "Purified insulin produces the first clear clinical success",
+      "summary": "After an impure extract given on 11 January produced little clinical benefit, Leonard Thompson received James Collip's purified preparation on 23 January. His blood glucose fell sharply without the earlier toxic reaction.",
       "lesson": "A laboratory discovery becomes a treatment only when purification, dosing, measurement and repeatable production work as one system.",
       "source_label": "University of Toronto Libraries",
       "source_url": "https://fisherdigitus.library.utoronto.ca/exhibits/show/insulin100/early-patients/leonard-thompson"
@@ -174,8 +174,8 @@
       "year": 1946,
       "type": "breakthrough",
       "discipline": "Computing",
-      "title": "ENIAC demonstrates general-purpose electronic computing",
-      "summary": "The University of Pennsylvania unveiled ENIAC and demonstrated the machine publicly. Electronic switching brought unprecedented speed to calculations that could be reconfigured for different problems.",
+      "title": "ENIAC is formally presented as a general-purpose computer",
+      "summary": "Following a press demonstration on 14 February, ENIAC was formally presented at the University of Pennsylvania on 15 February. Electronic switching brought unprecedented speed to calculations that could be reconfigured for different problems.",
       "lesson": "A general-purpose architecture creates more value than a single fast calculation because the next problem can reuse the same machine.",
       "source_label": "University of Pennsylvania",
       "source_url": "https://highlights.cis.upenn.edu/in-celebration-of-eniac/"
@@ -258,11 +258,11 @@
       "year": 2006,
       "type": "failure",
       "discipline": "Medicine",
-      "title": "The TGN1412 trial exposes six volunteers at once",
-      "summary": "All six volunteers given the experimental antibody TGN1412 experienced serious adverse reactions during a first-in-human trial. The incident prompted new scrutiny of dose selection and Phase I trial design.",
+      "title": "Rapid TGN1412 dosing exposes six volunteers",
+      "summary": "The experimental antibody TGN1412 was administered to six volunteers in quick succession, with about ten minutes between infusions. All six developed severe cytokine-release reactions.",
       "lesson": "When uncertainty is highest, use sentinel dosing and enough observation time to prevent one unknown response from becoming a multi-person event.",
-      "source_label": "UK Parliament",
-      "source_url": "https://hansard.parliament.uk/Commons/2006-06-08/debates/06060813000087/TGN1412"
+      "source_label": "New England Journal of Medicine",
+      "source_url": "https://www.nejm.org/doi/full/10.1056/NEJMoa063842"
     },
     {
       "id": "fiu-bridge-2018",
@@ -1027,10 +1027,10 @@
       "type": "failure",
       "discipline": "Civil Engineering",
       "title": "The Québec Bridge collapses during construction",
-      "summary": "The south arm of the immense cantilever bridge collapsed into the St. Lawrence River, killing 76 workers. Members had shown alarming deformation while construction loads continued to increase.",
+      "summary": "The south arm of the immense cantilever bridge collapsed into the St. Lawrence River, killing about 75 workers. A royal commission attributed the failure to defective compression-chord design and errors in engineering judgment.",
       "lesson": "Visible deformation is system feedback, not a scheduling inconvenience; stop work until the discrepancy between calculation and reality is resolved.",
-      "source_label": "Government of Canada",
-      "source_url": "https://www.canada.ca/en/housing-infrastructure-communities/news/2021/04/the-history-of-the-quebec-bridge.html"
+      "source_label": "Royal Commission, Government of Canada",
+      "source_url": "https://publications.gc.ca/site/eng/9.827974/publication.html"
     },
     {
       "id": "swissair-111-1998",
