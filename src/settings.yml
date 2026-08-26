@@ -47,6 +47,15 @@ custom_fields:
   default: both
   description: Show all cases or limit the daily rotation to one type.
   optional: true
+- keyname: display_mode
+  name: Display mode
+  field_type: select
+  options:
+  - Daily
+  - Random
+  default: daily
+  description: Daily prioritizes anniversaries; Random selects a new case on each render.
+  optional: true
 - keyname: show_summary
   name: Show event summary?
   field_type: boolean

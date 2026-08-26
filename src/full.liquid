@@ -1,5 +1,6 @@
 {% assign settings = trmnl.plugin_settings.custom_fields_values %}
 {% assign filter_mode = settings.content_filter | default: "both" | downcase %}
+{% assign display_mode = settings.display_mode | default: "daily" | downcase %}
 {% assign pool = events %}
 {% if filter_mode contains "breakthrough" %}{% assign pool = events | where: "type", "breakthrough" %}{% endif %}
 {% if filter_mode contains "failure" %}{% assign pool = events | where: "type", "failure" %}{% endif %}
@@ -9,7 +10,12 @@
 {% assign day_index = local_timestamp | date: "%j" | plus: 0 | minus: 1 | modulo: pool.size %}
 {% assign selected = pool[day_index] %}
 {% assign anniversary = false %}
-{% for item in pool %}{% if item.month_day == today_key %}{% assign selected = item %}{% assign anniversary = true %}{% break %}{% endif %}{% endfor %}
+{% if display_mode contains "random" %}
+  {% assign random_index = "now" | date: "%N" | modulo: pool.size %}
+  {% assign selected = pool[random_index] %}
+{% else %}
+  {% for item in pool %}{% if item.month_day == today_key %}{% assign selected = item %}{% assign anniversary = true %}{% break %}{% endif %}{% endfor %}
+{% endif %}
 {% assign show_summary = true %}{% if settings.show_summary == false or settings.show_summary == "false" %}{% assign show_summary = false %}{% endif %}
 {% assign show_source = false %}{% if settings.show_source == true or settings.show_source == "true" %}{% assign show_source = true %}{% endif %}
 {% assign show_source_qr = true %}{% if settings.show_source_qr == false or settings.show_source_qr == "false" %}{% assign show_source_qr = false %}{% endif %}
@@ -18,7 +24,7 @@
   <div class="bb-shell">
     <div class="bb-meta">
       <span class="label {% if selected.type == 'failure' %}label--inverted{% else %}label--outline{% endif %}">{{ selected.type | upcase }}</span>
-      <span class="bb-case-note">{% if anniversary %}On this day · {{ today_key | replace: "-", "." }}{% else %}Curated case{% endif %}</span>
+      <span class="bb-case-note">{% if display_mode contains "random" %}Random case{% elsif anniversary %}On this day · {{ today_key | replace: "-", "." }}{% else %}Curated case{% endif %}</span>
     </div>
     <div class="bb-main">
       <div class="bb-story">

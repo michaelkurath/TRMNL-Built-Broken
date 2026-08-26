@@ -25,6 +25,7 @@ The dataset currently contains 38 sourced cases split evenly between breakthroug
 ## Settings
 
 - Show both types, breakthroughs only, or failures only
+- Choose a stable daily case or a new random case on each render
 - Show or hide the event summary
 - Optionally show the source name
 - Show or hide a QR code linking to the authoritative source
