@@ -22,7 +22,28 @@ When the dataset contains an event matching the current month and day, that anni
 
 ## Current status
 
-The dataset currently contains 110 sourced cases split evenly between breakthroughs and failures. The long-term target is one curated anniversary for every day of the year.
+The dataset currently contains 116 sourced cases split evenly between breakthroughs and failures. The long-term target is one curated anniversary for every day of the year.
+
+### Categories
+
+Cases use one of 16 normalized categories:
+
+- Aviation
+- Automotive Engineering
+- Civil Engineering
+- Communications
+- Computing
+- Consumer Technology
+- Electrical Engineering
+- Fire Safety
+- Manufacturing & Automation
+- Marine Engineering
+- Medicine
+- Nuclear Engineering
+- Process Engineering
+- Rail
+- Software & Systems
+- Space
 
 ## Settings
 
@@ -55,7 +76,7 @@ src/settings.yml          TRMNL recipe configuration
   "month_day": "08-26",
   "year": 1959,
   "type": "breakthrough",
-  "discipline": "Automotive",
+  "discipline": "Automotive Engineering",
   "title": "The Mini turns packaging into the innovation",
   "summary": "What happened and why it mattered.",
   "lesson": "The transferable engineering lesson.",
@@ -83,6 +104,7 @@ Add the `trmnl` topic to the repository so other TRMNL plugin builders can find 
 - Separate documented facts from the original engineering lesson.
 - Avoid myths and simplified failure explanations when the official investigation is more nuanced.
 - Keep summaries understandable without removing the decisive technical detail.
+- Use one of the normalized category names listed above; do not introduce synonyms for an existing category.
 - Never present fatalities as entertainment; focus on the system and the lesson.
 
 ## License
