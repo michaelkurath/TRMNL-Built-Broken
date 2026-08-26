@@ -20,7 +20,7 @@ When the dataset contains an event matching the current month and day, that anni
 
 ## Current status
 
-The dataset currently contains 38 sourced cases split evenly between breakthroughs and failures. The long-term target is one curated anniversary for every day of the year.
+The dataset currently contains 62 sourced cases split evenly between breakthroughs and failures. The long-term target is one curated anniversary for every day of the year.
 
 ## Settings
 

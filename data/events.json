@@ -1,6 +1,18 @@
 {
   "events": [
     {
+      "id": "london-underground-opens-1863",
+      "month_day": "01-10",
+      "year": 1863,
+      "type": "breakthrough",
+      "discipline": "Rail",
+      "title": "London opens the world's first underground railway",
+      "summary": "The Metropolitan Railway began passenger service between Paddington and Farringdon. Building a railway beneath crowded streets established a new layer of urban transport infrastructure.",
+      "lesson": "When surface space is exhausted, changing the system's geometry can unlock capacity that incremental optimization cannot.",
+      "source_label": "Transport for London",
+      "source_url": "https://tfl.gov.uk/info-for/media/press-releases/2023/january/happy-birthday-london-underground-the-tube-celebrates-160-years-of-serving-the-capital"
+    },
+    {
       "id": "nautilus-nuclear-power-1955",
       "month_day": "01-17",
       "year": 1955,
@@ -11,6 +23,18 @@
       "lesson": "A new energy source can change the architecture of an entire system, not merely improve its endurance.",
       "source_label": "U.S. Naval History and Heritage Command",
       "source_url": "https://www.history.navy.mil/browse-by-topic/ships/submarines/uss-nautilus.html"
+    },
+    {
+      "id": "apollo-1-fire-1967",
+      "month_day": "01-27",
+      "year": 1967,
+      "type": "failure",
+      "discipline": "Aerospace",
+      "title": "Apollo 1: a ground test becomes a lethal system test",
+      "summary": "A cabin fire during a launch-pad test killed astronauts Virgil Grissom, Edward White and Roger Chaffee. A high-pressure oxygen atmosphere, combustible materials and a difficult inward-opening hatch made the fire unsurvivable.",
+      "lesson": "A test environment can be more hazardous than the mission. Analyze the complete test configuration as an operational system.",
+      "source_label": "NASA",
+      "source_url": "https://www.nasa.gov/apollo-1-resources/"
     },
     {
       "id": "challenger-1986",
@@ -25,6 +49,18 @@
       "source_url": "https://www.nasa.gov/history/rogersrep/v1ch3.htm"
     },
     {
+      "id": "explorer-1-1958",
+      "month_day": "01-31",
+      "year": 1958,
+      "type": "breakthrough",
+      "discipline": "Space",
+      "title": "Explorer 1 turns a first satellite into a discovery",
+      "summary": "The United States launched Explorer 1, its first satellite. James Van Allen's cosmic-ray experiment returned unexpected measurements that led to discovery of the radiation belts around Earth.",
+      "lesson": "A first prototype creates more value when it carries instruments able to reveal what the designers do not yet know.",
+      "source_label": "NASA",
+      "source_url": "https://science.nasa.gov/mission/explorer-1/"
+    },
+    {
       "id": "columbia-2003",
       "month_day": "02-01",
       "year": 2003,
@@ -37,6 +73,18 @@
       "source_url": "https://www.nasa.gov/remembering-columbia-sts-107/"
     },
     {
+      "id": "imperial-sugar-explosion-2008",
+      "month_day": "02-07",
+      "year": 2008,
+      "type": "failure",
+      "discipline": "Process",
+      "title": "Imperial Sugar: ordinary dust becomes explosive fuel",
+      "summary": "A combustible sugar-dust explosion and fire killed 14 people at the Port Wentworth refinery. Dust had accumulated on surfaces and inside enclosed conveying equipment, allowing the initial event to propagate.",
+      "lesson": "A familiar material can become a high-energy hazard when particle size, concentration, confinement and ignition align.",
+      "source_label": "U.S. Chemical Safety Board",
+      "source_url": "https://www.csb.gov/imperial-sugar-company-dust-explosion-and-fire/"
+    },
+    {
       "id": "boeing-747-first-flight-1969",
       "month_day": "02-09",
       "year": 1969,
@@ -47,6 +95,18 @@
       "lesson": "When scale changes radically, the factory, tooling and logistics become part of the product design.",
       "source_label": "Boeing",
       "source_url": "https://www.boeing.com/commercial/747-8"
+    },
+    {
+      "id": "friendship-7-1962",
+      "month_day": "02-20",
+      "year": 1962,
+      "type": "breakthrough",
+      "discipline": "Space",
+      "title": "Friendship 7 carries an American into orbit",
+      "summary": "John Glenn completed three Earth orbits aboard Friendship 7, becoming the first American to orbit the planet. The flight integrated launch, tracking, life support, re-entry and recovery into one mission.",
+      "lesson": "A complex system is demonstrated only when every interface works across the complete operating cycle.",
+      "source_label": "NASA",
+      "source_url": "https://www.nasa.gov/history/friendship7/"
     },
     {
       "id": "concorde-first-flight-1969",
@@ -109,6 +169,18 @@
       "source_url": "https://www.ntsb.gov/investigations/Pages/HWY18MH009.aspx"
     },
     {
+      "id": "goddard-liquid-rocket-1926",
+      "month_day": "03-16",
+      "year": 1926,
+      "type": "breakthrough",
+      "discipline": "Propulsion",
+      "title": "Goddard launches the first liquid-fuel rocket",
+      "summary": "Robert Goddard launched a rocket powered by liquid oxygen and gasoline in Auburn, Massachusetts. The short flight demonstrated a controllable propulsion architecture that could outperform solid propellants.",
+      "lesson": "A modest experiment can validate the architecture that matters, even when its immediate performance looks unimpressive.",
+      "source_label": "NASA",
+      "source_url": "https://www.nasa.gov/history/95-years-ago-goddards-first-liquid-fueled-rocket/"
+    },
+    {
       "id": "bp-texas-city-2005",
       "month_day": "03-23",
       "year": 2005,
@@ -157,6 +229,66 @@
       "source_url": "https://www.toureiffel.paris/en/the-monument/history"
     },
     {
+      "id": "tesoro-anacortes-2010",
+      "month_day": "04-02",
+      "year": 2010,
+      "type": "failure",
+      "discipline": "Process",
+      "title": "Tesoro: hidden damage ruptures a heat exchanger",
+      "summary": "A nearly 40-year-old heat exchanger at the Anacortes refinery ruptured during startup, causing an explosion and fire that killed seven workers. High-temperature hydrogen attack had weakened the steel from within.",
+      "lesson": "Damage mechanisms that are hard to inspect require conservative material limits, targeted monitoring and explicit life-cycle management.",
+      "source_label": "U.S. Chemical Safety Board",
+      "source_url": "https://www.csb.gov/tesoro-anacortes-refinery-fatal-explosion-and-fire-/"
+    },
+    {
+      "id": "portable-cellular-call-1973",
+      "month_day": "04-03",
+      "year": 1973,
+      "type": "breakthrough",
+      "discipline": "Communications",
+      "title": "Motorola demonstrates a portable cellular phone",
+      "summary": "Motorola publicly demonstrated a working handheld cellular telephone in New York. The prototype showed that a cellular network could serve a person carrying a device, not only a telephone installed in a car.",
+      "lesson": "Changing where a system boundary sits can transform a service: mobility became a property of the user, not the vehicle.",
+      "source_label": "Motorola Solutions",
+      "source_url": "https://www.motorolasolutions.com/en_us/about/history/explore-motorola-heritage/cell-phone-development.html"
+    },
+    {
+      "id": "vostok-1-1961",
+      "month_day": "04-12",
+      "year": 1961,
+      "type": "breakthrough",
+      "discipline": "Space",
+      "title": "Vostok 1 carries the first human into space",
+      "summary": "Yuri Gagarin completed one orbit of Earth during a 108-minute flight aboard Vostok 1. The mission proved that launch, life support, orbital flight and return could be integrated for a human passenger.",
+      "lesson": "For a first-of-kind mission, success depends on managing the whole sequence—not optimizing any single phase in isolation.",
+      "source_label": "European Space Agency",
+      "source_url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/MagISStra/More_than_two_million_first_orbits"
+    },
+    {
+      "id": "titanic-1912",
+      "month_day": "04-15",
+      "year": 1912,
+      "type": "failure",
+      "discipline": "Marine",
+      "title": "Titanic: prestige cannot substitute for survivability",
+      "summary": "RMS Titanic sank after striking an iceberg during its maiden voyage, killing about 1,500 people. The disaster drove international changes in lifeboat provision, radio watchkeeping and ice patrols.",
+      "lesson": "Design beyond preventing failure: provide detection, evacuation and rescue capacity for the failure that still occurs.",
+      "source_label": "U.S. National Oceanic and Atmospheric Administration",
+      "source_url": "https://www.noaa.gov/office-of-general-counsel/gc-international-section/rms-titanic-frequently-asked-questions"
+    },
+    {
+      "id": "west-fertilizer-2013",
+      "month_day": "04-17",
+      "year": 2013,
+      "type": "failure",
+      "discipline": "Process",
+      "title": "West Fertilizer: a stored material endangers its neighbors",
+      "summary": "A fire reached roughly 30 tons of fertilizer-grade ammonium nitrate at a storage facility in West, Texas. The resulting explosion killed 15 people, injured more than 260 and damaged nearby homes and schools.",
+      "lesson": "Hazard controls must extend beyond the fence line; inventory, siting, emergency planning and community exposure are one system.",
+      "source_label": "U.S. Chemical Safety Board",
+      "source_url": "https://www.csb.gov/west-fertilizer-explosion-and-fire-/"
+    },
+    {
       "id": "deepwater-horizon-2010",
       "month_day": "04-20",
       "year": 2010,
@@ -193,6 +325,30 @@
       "source_url": "https://www.iaea.org/topics/chornobyl/faqs"
     },
     {
+      "id": "a380-first-flight-2005",
+      "month_day": "04-27",
+      "year": 2005,
+      "type": "breakthrough",
+      "discipline": "Aerospace",
+      "title": "The Airbus A380 makes its first flight",
+      "summary": "The double-deck A380 took off from Toulouse for its maiden flight. Its scale required globally distributed manufacturing, specialized transport logistics and carefully controlled assembly interfaces.",
+      "lesson": "At extreme scale, logistics and configuration control become first-class parts of the engineering design.",
+      "source_label": "Airbus",
+      "source_url": "https://www.airbus.com/en/newsroom/stories/2025-04-happy-20th-anniversary-a380"
+    },
+    {
+      "id": "web-public-domain-1993",
+      "month_day": "04-30",
+      "year": 1993,
+      "type": "breakthrough",
+      "discipline": "Computing",
+      "title": "CERN releases the Web into the public domain",
+      "summary": "CERN made the World Wide Web software available royalty-free in the public domain. Open access allowed anyone to implement, extend and deploy the protocols without negotiating permission.",
+      "lesson": "For a network technology, open interfaces and permissionless adoption can matter as much as the original invention.",
+      "source_label": "CERN",
+      "source_url": "https://home.cern/30-years-free-and-open-web/"
+    },
+    {
       "id": "channel-tunnel-1994",
       "month_day": "05-06",
       "year": 1994,
@@ -215,6 +371,42 @@
       "lesson": "Large parallel projects only become one system when their geometry, standards, schedule and final interface agree.",
       "source_label": "U.S. National Park Service",
       "source_url": "https://www.nps.gov/articles/getaway-gosp.htm"
+    },
+    {
+      "id": "valujet-592-1996",
+      "month_day": "05-11",
+      "year": 1996,
+      "type": "failure",
+      "discipline": "Aviation",
+      "title": "ValuJet 592: mislabeled components become live hazards",
+      "summary": "ValuJet Flight 592 crashed after improperly prepared chemical oxygen generators activated in the cargo compartment and fed an uncontrollable fire. All 110 people aboard were killed.",
+      "lesson": "A component's hazardous state must remain visible through removal, storage, labeling, contracting and transport.",
+      "source_label": "U.S. National Transportation Safety Board",
+      "source_url": "https://www.ntsb.gov/investigations/Pages/DCA96MA054.aspx"
+    },
+    {
+      "id": "ronan-point-1968",
+      "month_day": "05-16",
+      "year": 1968,
+      "type": "failure",
+      "discipline": "Structural",
+      "title": "Ronan Point: a local blast triggers progressive collapse",
+      "summary": "A gas explosion in an 18th-floor flat blew out load-bearing panels, causing one corner of the 22-storey tower to collapse downward. Four people died and 17 were injured.",
+      "lesson": "A robust structure must tolerate local damage without allowing it to propagate into disproportionate collapse.",
+      "source_label": "UK Independent Review of Building Regulations",
+      "source_url": "https://assets.publishing.service.gov.uk/media/5a81d68ced915d74e6234631/Independent_Review_of_Building_Regulations_and_Fire_Safety.pdf"
+    },
+    {
+      "id": "brooklyn-bridge-opens-1883",
+      "month_day": "05-24",
+      "year": 1883,
+      "type": "breakthrough",
+      "discipline": "Civil",
+      "title": "The Brooklyn Bridge joins two cities across the East River",
+      "summary": "The Brooklyn Bridge opened between Manhattan and Brooklyn as the world's longest suspension bridge at the time. Its hybrid cable-and-stiffening system carried rail, road and pedestrian traffic.",
+      "lesson": "An unprecedented span succeeds when structural innovation is paired with redundancy, stiffness and a practical operating system.",
+      "source_label": "New York City Municipal Archives",
+      "source_url": "https://a860-collectionguides.nyc.gov/repositories/2/resources/38"
     },
     {
       "id": "golden-gate-1937",
@@ -265,6 +457,18 @@
       "source_url": "https://www.usbr.gov/pn/snakeriver/dams/uppersnake/teton/index.html"
     },
     {
+      "id": "williams-olefins-2013",
+      "month_day": "06-13",
+      "year": 2013,
+      "type": "failure",
+      "discipline": "Process",
+      "title": "Williams Olefins: standby equipment is isolated from relief",
+      "summary": "A heat exchanger reboiler ruptured at the Geismar plant after being heated while isolated from its pressure-relief path. The explosion killed two workers and injured 167.",
+      "lesson": "Every permitted valve configuration must preserve a safe pressure path, including startup, standby and maintenance states.",
+      "source_label": "U.S. Chemical Safety Board",
+      "source_url": "https://www.csb.gov/csb-releases-final-case-study-into-2013-explosion-and-fire-at-williams-olefins-plant-in-geismar-louisiana/"
+    },
+    {
       "id": "grenfell-tower-2017",
       "month_day": "06-14",
       "year": 2017,
@@ -275,6 +479,18 @@
       "lesson": "Compliance of individual products does not prove the assembled building system will resist fire.",
       "source_label": "UK Government response to the Grenfell Inquiry",
       "source_url": "https://www.gov.uk/government/publications/grenfell-tower-inquiry-phase-2-report-government-response/grenfell-tower-inquiry-phase-2-report-government-response-html"
+    },
+    {
+      "id": "manchester-baby-1948",
+      "month_day": "06-21",
+      "year": 1948,
+      "type": "breakthrough",
+      "discipline": "Computing",
+      "title": "The Manchester Baby runs a stored program",
+      "summary": "The Small-Scale Experimental Machine successfully executed a program held electronically in its memory. Instructions and data could now share storage and be changed without rewiring the machine.",
+      "lesson": "Moving behavior from wiring into stored information turns a special-purpose machine into a programmable platform.",
+      "source_label": "University of Manchester",
+      "source_url": "https://www.cs.manchester.ac.uk/about/history-and-heritage/"
     },
     {
       "id": "piper-alpha-1988",
@@ -311,6 +527,30 @@
       "lesson": "Systems engineering succeeds when independently difficult subsystems are designed around one shared mission.",
       "source_label": "NASA",
       "source_url": "https://www3.nasa.gov/specials/60counting/spaceflight.html"
+    },
+    {
+      "id": "concorde-af4590-2000",
+      "month_day": "07-25",
+      "year": 2000,
+      "type": "failure",
+      "discipline": "Aviation",
+      "title": "Concorde 4590: runway debris crosses system boundaries",
+      "summary": "Concorde Flight 4590 crashed after striking a metal strip on the runway. Tire fragments damaged a fuel tank, released fuel ignited and the aircraft lost thrust shortly after takeoff.",
+      "lesson": "Trace high-energy debris paths across subsystem boundaries; a small external object can defeat several protections in sequence.",
+      "source_label": "French Bureau of Enquiry and Analysis",
+      "source_url": "https://bea.aero/en/investigation-reports/notified-events/detail/accident-to-the-concorde-registered-f-btsc-operated-by-air-france-occured-on-07-25-00-at-gonesse/"
+    },
+    {
+      "id": "i35w-bridge-2007",
+      "month_day": "08-01",
+      "year": 2007,
+      "type": "failure",
+      "discipline": "Structural",
+      "title": "I-35W bridge: an original design error meets added load",
+      "summary": "The Minneapolis bridge collapsed during evening traffic, killing 13 people. The NTSB found undersized gusset plates from the original design, combined with increased dead load and concentrated construction loads.",
+      "lesson": "Reassess the complete load path when permanent weight or temporary construction loads change—not only the modified components.",
+      "source_label": "U.S. National Transportation Safety Board",
+      "source_url": "https://www.ntsb.gov/investigations/Pages/HWY07MH024.aspx"
     },
     {
       "id": "panama-canal-1914",
@@ -385,6 +625,18 @@
       "source_url": "https://www.unesco.org/en/memory-world/criminal-proceedings-vajont-dam-disaster"
     },
     {
+      "id": "bell-x1-sound-barrier-1947",
+      "month_day": "10-14",
+      "year": 1947,
+      "type": "breakthrough",
+      "discipline": "Aeronautical",
+      "title": "The Bell X-1 breaks the sound barrier",
+      "summary": "Chuck Yeager piloted the rocket-powered Bell X-1 beyond Mach 1 in controlled level flight. Its thin, bullet-shaped body and all-moving horizontal tail addressed the severe aerodynamic changes near sonic speed.",
+      "lesson": "When a regime change invalidates familiar controls, redesign around the new physics instead of forcing the old architecture harder.",
+      "source_label": "NASA",
+      "source_url": "https://www.nasa.gov/image-article/bell-x-1/"
+    },
+    {
       "id": "arpanet-message-1969",
       "month_day": "10-29",
       "year": 1969,
@@ -421,6 +673,18 @@
       "source_url": "https://www.intel.com/pressroom/kits/quickrefyr.htm"
     },
     {
+      "id": "zarya-launch-1998",
+      "month_day": "11-20",
+      "year": 1998,
+      "type": "breakthrough",
+      "discipline": "Space",
+      "title": "Zarya begins construction of the International Space Station",
+      "summary": "The Zarya control module launched as the first element of the International Space Station. It provided early power, propulsion and control while later modules from multiple nations assembled around shared interfaces.",
+      "lesson": "A long-lived modular system begins with stable interfaces and an initial element that can support incomplete configurations.",
+      "source_label": "NASA",
+      "source_url": "https://www.nasa.gov/history/20-years-ago-space-station-construction-begins/"
+    },
+    {
       "id": "chicago-pile-1-1942",
       "month_day": "12-02",
       "year": 1942,
@@ -433,6 +697,18 @@
       "source_url": "https://www.energy.gov/ne/articles/10-intriguing-facts-about-worlds-first-nuclear-chain-reaction"
     },
     {
+      "id": "buncefield-2005",
+      "month_day": "12-11",
+      "year": 2005,
+      "type": "failure",
+      "discipline": "Process",
+      "title": "Buncefield: independent shutdown fails with the gauge",
+      "summary": "A gasoline storage tank overflowed, forming a large vapor cloud that exploded at the Buncefield depot. The level gauge had stuck and the independent high-level shutdown did not prevent overfilling.",
+      "lesson": "A protection layer is independent only if its sensing, logic, actuation and failure modes do not share the initiating fault.",
+      "source_label": "UK Health and Safety Executive",
+      "source_url": "https://www.hse.gov.uk/comah/buncefield/index.htm"
+    },
+    {
       "id": "wright-flight-1903",
       "month_day": "12-17",
       "year": 1903,
@@ -443,6 +719,18 @@
       "lesson": "Solve controllability, not just raw performance. A machine that cannot be controlled has not solved the problem.",
       "source_label": "U.S. National Park Service",
       "source_url": "https://www.nps.gov/places/000/december-17-1903.htm"
+    },
+    {
+      "id": "t2-laboratories-2007",
+      "month_day": "12-19",
+      "year": 2007,
+      "type": "failure",
+      "discipline": "Chemical",
+      "title": "T2 Laboratories: cooling loss triggers a runaway reaction",
+      "summary": "A reactor exploded at T2 Laboratories in Jacksonville, killing four people and injuring 32. Inadequate understanding of the reaction hazards left the process unable to control a rapid temperature and pressure rise after cooling failed.",
+      "lesson": "Scale-up requires reaction calorimetry and a safe response to cooling loss; normal operating data cannot define the runaway boundary.",
+      "source_label": "U.S. Chemical Safety Board",
+      "source_url": "https://www.csb.gov/t2-laboratories-inc-reactive-chemical-explosion/"
     },
     {
       "id": "james-webb-launch-2021",
