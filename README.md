@@ -1,5 +1,7 @@
 # Built & Broken
 
+<img width="112" alt="Built &amp; Broken icon" src="assets/icon.svg" />
+
 An open-source [TRMNL](https://trmnl.com/) recipe presenting one carefully sourced engineering breakthrough or failure each day—and the lesson engineers can take from it.
 
 The recipe is connected through [GitHub Sync](https://help.trmnl.com/en/articles/15977899-github-sync), keeping changes made in TRMNL and this repository aligned.
@@ -34,6 +36,8 @@ The dataset currently contains 62 sourced cases split evenly between breakthroug
 ## Repository structure
 
 ```text
+assets/icon.svg          Scalable project icon
+assets/icon.png          Transparent 512 px icon
 data/events.json          Curated engineering cases
 src/full.liquid           Full-screen layout
 src/half_horizontal.liquid

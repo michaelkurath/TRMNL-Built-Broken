@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Built &amp; Broken icon</title>
+  <desc id="desc">A bold engineering gear with an angular section missing from its right side.</desc>
+  <defs>
+    <mask id="broken-edge">
+      <rect width="512" height="512" fill="white"/>
+      <circle cx="256" cy="256" r="92" fill="black"/>
+      <path d="M 390 116 L 346 176 L 374 217 L 338 256 L 374 295 L 346 336 L 390 396 L 512 396 L 512 116 Z" fill="black"/>
+    </mask>
+  </defs>
+
+  <g fill="#000" mask="url(#broken-edge)">
+    <circle cx="256" cy="256" r="166"/>
+
+    <rect x="228" y="24" width="56" height="96" rx="8"/>
+    <rect x="228" y="24" width="56" height="96" rx="8" transform="rotate(45 256 256)"/>
+    <rect x="228" y="24" width="56" height="96" rx="8" transform="rotate(90 256 256)"/>
+    <rect x="228" y="24" width="56" height="96" rx="8" transform="rotate(135 256 256)"/>
+    <rect x="228" y="24" width="56" height="96" rx="8" transform="rotate(180 256 256)"/>
+    <rect x="228" y="24" width="56" height="96" rx="8" transform="rotate(225 256 256)"/>
+    <rect x="228" y="24" width="56" height="96" rx="8" transform="rotate(270 256 256)"/>
+    <rect x="228" y="24" width="56" height="96" rx="8" transform="rotate(315 256 256)"/>
+  </g>
+
+</svg>
