@@ -69,7 +69,7 @@ custom_fields:
 - keyname: show_source_qr
   name: Show source QR code?
   field_type: boolean
-  default: true
+  default: false
   description: Add a scannable QR code linking to the authoritative source.
   optional: true
 name: Built & Broken
