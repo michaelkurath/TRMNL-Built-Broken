@@ -1,0 +1,63 @@
+---
+strategy: polling
+no_screen_padding: 'no'
+dark_mode: 'no'
+static_data: "{}"
+polling_verb: get
+framework_version: 3.1.1
+serverless_language: ''
+polling_url: https://raw.githubusercontent.com/michaelkurath/TRMNL-Built-Broken/main/data/events.json
+polling_headers: ''
+polling_body: ''
+id: 457120
+oauth_enabled: 'false'
+oauth_pkce_enabled: 'no'
+oauth_authorize_url: ''
+oauth_token_url: ''
+oauth_scopes: ''
+oauth_scope_separator: ''
+oauth_refresh_url: ''
+oauth_auth_params: ''
+oauth_token_headers: ''
+oauth_token_site: ''
+oauth_token_params: ''
+oauth_token_request_auth_method: ''
+oauth_body_format: ''
+oauth_token_response_metadata: ''
+oauth_authorization_method: ''
+oauth_refresh_params: ''
+oauth_token_field_name: ''
+oauth_expiry_field_name: ''
+oauth_expiry_strategy: ''
+oauth_fixed_expiry_ms: ''
+custom_fields:
+- keyname: author_bio
+  field_type: author_bio
+  name: About This Plugin
+  category: custom,education
+  description: Daily engineering breakthroughs and failures, each reduced to the decision, detail or assumption engineers can learn from.
+  email_address: michael.kurath@gmail.com
+  learn_more_url: https://github.com/michaelkurath/TRMNL-Built-Broken
+- keyname: content_filter
+  name: Cases to show
+  field_type: select
+  options:
+  - Both
+  - Breakthroughs
+  - Failures
+  default: both
+  description: Show all cases or limit the daily rotation to one type.
+  optional: true
+- keyname: show_summary
+  name: Show event summary?
+  field_type: boolean
+  default: true
+  optional: true
+- keyname: show_source
+  name: Show source name?
+  field_type: boolean
+  default: false
+  optional: true
+name: Built & Broken
+description: Daily engineering wins and failures
+refresh_interval: 720
