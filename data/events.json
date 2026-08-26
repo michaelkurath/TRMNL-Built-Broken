@@ -13,6 +13,18 @@
       "source_url": "https://tfl.gov.uk/info-for/media/press-releases/2023/january/happy-birthday-london-underground-the-tube-celebrates-160-years-of-serving-the-capital"
     },
     {
+      "id": "boston-molasses-flood-1919",
+      "month_day": "01-15",
+      "year": 1919,
+      "type": "failure",
+      "discipline": "Structural",
+      "title": "Boston Molasses Flood: a storage tank fails without warning",
+      "summary": "A large molasses tank ruptured in Boston's North End, releasing a destructive wave through nearby streets. Twenty-one people died and buildings, vehicles and elevated-rail structures were damaged.",
+      "lesson": "Low operating pressure does not mean low consequence; large stored volume, brittle material and weak inspection can create catastrophic energy release.",
+      "source_label": "U.S. National Park Service",
+      "source_url": "https://www.nps.gov/planyourvisit/event-details.htm?id=77CBFCF8-0695-F02E-82BB84BDAE450E38"
+    },
+    {
       "id": "nautilus-nuclear-power-1955",
       "month_day": "01-17",
       "year": 1955,
@@ -23,6 +35,18 @@
       "lesson": "A new energy source can change the architecture of an entire system, not merely improve its endurance.",
       "source_label": "U.S. Naval History and Heritage Command",
       "source_url": "https://www.history.navy.mil/browse-by-topic/ships/submarines/uss-nautilus.html"
+    },
+    {
+      "id": "macintosh-launch-1984",
+      "month_day": "01-24",
+      "year": 1984,
+      "type": "breakthrough",
+      "discipline": "Computing",
+      "title": "Macintosh makes the graphical interface a consumer product",
+      "summary": "Apple released the Macintosh with a mouse-driven graphical interface, a compact integrated display and visual desktop metaphors. It brought interaction methods developed in research laboratories to a mass-market computer.",
+      "lesson": "A technology becomes transformative when hardware, software and interaction design are engineered as one understandable product.",
+      "source_label": "Computer History Museum",
+      "source_url": "https://computerhistory.org/blog/a-computer-for-the-rest-of-us/"
     },
     {
       "id": "apollo-1-fire-1967",
@@ -73,6 +97,18 @@
       "source_url": "https://www.nasa.gov/remembering-columbia-sts-107/"
     },
     {
+      "id": "east-palestine-2023",
+      "month_day": "02-03",
+      "year": 2023,
+      "type": "failure",
+      "discipline": "Rail",
+      "title": "East Palestine: a hot bearing escapes the warning system",
+      "summary": "A failed and overheated wheel bearing caused a Norfolk Southern freight train to derail in Ohio. Hazardous-material tank cars were damaged and the subsequent fire forced evacuation of nearby residents.",
+      "lesson": "Condition monitoring must provide enough detection distance, alarm clarity and response time to stop a degrading component before failure.",
+      "source_label": "U.S. National Transportation Safety Board",
+      "source_url": "https://www.ntsb.gov/news/press-releases/Pages/NR20240625.aspx"
+    },
+    {
       "id": "imperial-sugar-explosion-2008",
       "month_day": "02-07",
       "year": 2008,
@@ -107,6 +143,18 @@
       "lesson": "A complex system is demonstrated only when every interface works across the complete operating cycle.",
       "source_label": "NASA",
       "source_url": "https://www.nasa.gov/history/friendship7/"
+    },
+    {
+      "id": "radar-daventry-1935",
+      "month_day": "02-26",
+      "year": 1935,
+      "type": "breakthrough",
+      "discipline": "Electronics",
+      "title": "The Daventry experiment proves aircraft can be detected by radio",
+      "summary": "Robert Watson-Watt's team detected radio signals reflected from an RAF bomber using transmissions from Daventry. The improvised experiment demonstrated the practical basis for radar-based air defence.",
+      "lesson": "A focused experiment should test the weakest assumption in the proposed system before the full system is built.",
+      "source_label": "Royal Air Force Museum",
+      "source_url": "https://www.rafmuseum.org.uk/research/research-enquiries/history-of-aviation-timeline/british-military-aviation/1935-2/"
     },
     {
       "id": "concorde-first-flight-1969",
@@ -205,6 +253,18 @@
       "source_url": "https://www.ntsb.gov/safety/safety-recs/recletters/M90_32_43.pdf"
     },
     {
+      "id": "triangle-shirtwaist-fire-1911",
+      "month_day": "03-25",
+      "year": 1911,
+      "type": "failure",
+      "discipline": "Fire Safety",
+      "title": "Triangle fire: production controls block emergency escape",
+      "summary": "Fire swept through the Triangle Waist Company factory in New York, killing 146 workers. Inadequate exits, locked access and weak fire protections prevented many occupants from escaping.",
+      "lesson": "Security and production controls must fail safe during an emergency; no routine objective outranks a clear and usable escape path.",
+      "source_label": "U.S. Department of Labor",
+      "source_url": "https://www.dol.gov/general/aboutdol/history/mono-regsafepart07"
+    },
+    {
       "id": "three-mile-island-1979",
       "month_day": "03-28",
       "year": 1979,
@@ -251,6 +311,18 @@
       "lesson": "Changing where a system boundary sits can transform a service: mobility became a property of the user, not the vehicle.",
       "source_label": "Motorola Solutions",
       "source_url": "https://www.motorolasolutions.com/en_us/about/history/explore-motorola-heritage/cell-phone-development.html"
+    },
+    {
+      "id": "intelsat-1-1965",
+      "month_day": "04-06",
+      "year": 1965,
+      "type": "breakthrough",
+      "discipline": "Communications",
+      "title": "Early Bird begins global commercial satellite communications",
+      "summary": "Intelsat I, known as Early Bird, launched into geosynchronous orbit as the first commercial communications satellite of its kind. It connected established ground stations across the Atlantic.",
+      "lesson": "Choosing the right operating architecture can simplify every endpoint; geosynchronous orbit made antennas and service continuity far easier.",
+      "source_label": "NASA",
+      "source_url": "https://www.nasa.gov/history/communications-satellites/"
     },
     {
       "id": "vostok-1-1961",
@@ -337,6 +409,18 @@
       "source_url": "https://www.airbus.com/en/newsroom/stories/2025-04-happy-20th-anniversary-a380"
     },
     {
+      "id": "aloha-243-1988",
+      "month_day": "04-28",
+      "year": 1988,
+      "type": "failure",
+      "discipline": "Aviation",
+      "title": "Aloha 243: hidden fatigue opens an aircraft in flight",
+      "summary": "A large section of the Boeing 737's upper fuselage separated during flight after lap-joint fatigue and disbonding went undetected. The crew landed the severely damaged aircraft, but one flight attendant was lost.",
+      "lesson": "Inspection intervals and methods must follow actual crack growth, environment and usage—not only the original design-life assumptions.",
+      "source_label": "U.S. National Transportation Safety Board",
+      "source_url": "https://www.ntsb.gov/investigations/Pages/DCA88MA054.aspx"
+    },
+    {
       "id": "web-public-domain-1993",
       "month_day": "04-30",
       "year": 1993,
@@ -349,6 +433,18 @@
       "source_url": "https://home.cern/30-years-free-and-open-web/"
     },
     {
+      "id": "empire-state-building-1931",
+      "month_day": "05-01",
+      "year": 1931,
+      "type": "breakthrough",
+      "discipline": "Structural",
+      "title": "Empire State Building industrializes the skyscraper",
+      "summary": "The 102-storey Empire State Building officially opened after construction lasting about one year and 45 days. Standardized steelwork, coordinated deliveries and repetitive floor planning sustained exceptional speed.",
+      "lesson": "Schedule breakthroughs come from designing the production system—interfaces, repetition and material flow—not merely making crews work faster.",
+      "source_label": "Empire State Building official history",
+      "source_url": "https://www.esbnyc.com/about/history"
+    },
+    {
       "id": "channel-tunnel-1994",
       "month_day": "05-06",
       "year": 1994,
@@ -359,6 +455,18 @@
       "lesson": "Interfaces between teams deserve the same design attention as the structure itself—geometry, standards and decisions must meet in the middle.",
       "source_label": "Eurotunnel LeShuttle",
       "source_url": "https://www.leshuttle.com/uk-en/discover/why-choose-leshuttle/build/the-channel-tunnel"
+    },
+    {
+      "id": "sunshine-skyway-collapse-1980",
+      "month_day": "05-09",
+      "year": 1980,
+      "type": "failure",
+      "discipline": "Civil",
+      "title": "Sunshine Skyway: a ship strike removes an unprotected pier",
+      "summary": "The bulk carrier Summit Venture struck a bridge support pier during severe weather, collapsing about 1,297 feet of roadway into Tampa Bay. Thirty-five people died as vehicles continued onto the failed span.",
+      "lesson": "Critical supports need impact protection, and sudden structural loss needs an independent way to stop approaching users.",
+      "source_label": "U.S. National Transportation Safety Board",
+      "source_url": "https://www.ntsb.gov/investigations/Pages/DCA80AM050.aspx"
     },
     {
       "id": "transcontinental-railroad-1869",
@@ -383,6 +491,18 @@
       "lesson": "A component's hazardous state must remain visible through removal, storage, labeling, contracting and transport.",
       "source_label": "U.S. National Transportation Safety Board",
       "source_url": "https://www.ntsb.gov/investigations/Pages/DCA96MA054.aspx"
+    },
+    {
+      "id": "skylab-launch-1973",
+      "month_day": "05-14",
+      "year": 1973,
+      "type": "breakthrough",
+      "discipline": "Space",
+      "title": "Skylab turns damaged hardware into a working space station",
+      "summary": "NASA launched Skylab, the first U.S. space station. Launch damage removed its thermal shield and disabled a solar array, but engineers and astronauts developed repairs that enabled three productive crewed missions.",
+      "lesson": "Recovery capability comes from observable failure states, adaptable procedures and hardware that people can access and repair.",
+      "source_label": "NASA",
+      "source_url": "https://www.nasa.gov/history/50-years-ago-the-launch-of-skylab-americas-first-space-station/"
     },
     {
       "id": "ronan-point-1968",
@@ -493,6 +613,30 @@
       "source_url": "https://www.cs.manchester.ac.uk/about/history-and-heritage/"
     },
     {
+      "id": "fort-totten-metro-2009",
+      "month_day": "06-22",
+      "year": 2009,
+      "type": "failure",
+      "discipline": "Rail",
+      "title": "Fort Totten: the control system loses a train",
+      "summary": "A Washington Metro train struck the rear of a stopped train after faulty track-circuit modules stopped detecting it and continued transmitting movement commands. Nine people died.",
+      "lesson": "A safety system must treat loss of detection as occupied or unknown—not as evidence that the protected space is clear.",
+      "source_label": "U.S. National Transportation Safety Board",
+      "source_url": "https://www.ntsb.gov/investigations/Pages/DCA09MR007.aspx"
+    },
+    {
+      "id": "benz-public-drive-1886",
+      "month_day": "07-03",
+      "year": 1886,
+      "type": "breakthrough",
+      "discipline": "Automotive",
+      "title": "The Benz Patent Motor Car enters public streets",
+      "summary": "Carl Benz drove his patented three-wheeled motor car publicly around Mannheim. The vehicle combined its engine, fuel system, transmission, chassis and steering as a purpose-built road machine rather than a motorized carriage.",
+      "lesson": "A new product category emerges when its subsystems are designed around the new purpose instead of attached to the old architecture.",
+      "source_label": "Mercedes-Benz Public Archive",
+      "source_url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/Benz-Patent-Motor-Car-1886---1894.xhtml?oid=4373"
+    },
+    {
       "id": "piper-alpha-1988",
       "month_day": "07-06",
       "year": 1988,
@@ -503,6 +647,30 @@
       "lesson": "Equipment status must survive every shift change. A permit system is a safety barrier only when operations can see and trust it.",
       "source_label": "UK Health and Safety Executive",
       "source_url": "https://www.hse.gov.uk/offshore/piper-alpha-disaster-public-inquiry.htm"
+    },
+    {
+      "id": "seveso-1976",
+      "month_day": "07-10",
+      "year": 1976,
+      "type": "failure",
+      "discipline": "Chemical",
+      "title": "Seveso: a runaway reaction spreads beyond the plant",
+      "summary": "An uncontrolled reaction in a trichlorophenol process released a toxic cloud containing dioxin near Seveso, Italy. Widespread contamination led Europe to create major-accident control legislation bearing the town's name.",
+      "lesson": "Runaway protection, release containment and off-site planning must be designed together when a process can affect the surrounding community.",
+      "source_label": "European Commission Joint Research Centre",
+      "source_url": "https://minerva.jrc.ec.europa.eu/en/shorturl/minerva/9_mahb_bulletin_no9_fortheweb_a4"
+    },
+    {
+      "id": "mariner-4-images-1965",
+      "month_day": "07-15",
+      "year": 1965,
+      "type": "breakthrough",
+      "discipline": "Space",
+      "title": "Mariner 4 returns the first close-up image of Mars",
+      "summary": "Mariner 4 transmitted the first close-range images of another planet after an eight-month journey. Its limited communications link returned image data line by line across interplanetary distance.",
+      "lesson": "When bandwidth is scarce, disciplined encoding, storage and error-tolerant transmission can deliver information more valuable than raw data volume.",
+      "source_label": "NASA",
+      "source_url": "https://science.nasa.gov/resource/first-close-up-image-of-mars-by-mariner-4/"
     },
     {
       "id": "hyatt-walkways-1981",
@@ -541,6 +709,18 @@
       "source_url": "https://bea.aero/en/investigation-reports/notified-events/detail/accident-to-the-concorde-registered-f-btsc-operated-by-air-france-occured-on-07-25-00-at-gonesse/"
     },
     {
+      "id": "transatlantic-cable-1866",
+      "month_day": "07-27",
+      "year": 1866,
+      "type": "breakthrough",
+      "discipline": "Communications",
+      "title": "A durable telegraph cable connects the Atlantic",
+      "summary": "The 1866 expedition completed a reliable submarine telegraph cable between Europe and North America after earlier cables failed. Messages that had taken days or weeks could cross the ocean in minutes.",
+      "lesson": "After first-of-kind failure, improve the complete deployment system—materials, handling, testing, repair and recovery—not only the headline component.",
+      "source_label": "Smithsonian National Museum of American History",
+      "source_url": "https://americanhistory.si.edu/explore/exhibitions/cyrus-field-and-transatlantic-telegraph-cable"
+    },
+    {
       "id": "i35w-bridge-2007",
       "month_day": "08-01",
       "year": 2007,
@@ -551,6 +731,18 @@
       "lesson": "Reassess the complete load path when permanent weight or temporary construction loads change—not only the modified components.",
       "source_label": "U.S. National Transportation Safety Board",
       "source_url": "https://www.ntsb.gov/investigations/Pages/HWY07MH024.aspx"
+    },
+    {
+      "id": "ibm-pc-1981",
+      "month_day": "08-12",
+      "year": 1981,
+      "type": "breakthrough",
+      "discipline": "Computing",
+      "title": "The IBM PC makes an open component ecosystem mainstream",
+      "summary": "IBM introduced its Personal Computer using commercially available components and published technical information that enabled compatible hardware and software. The architecture rapidly became an industry standard.",
+      "lesson": "A platform can scale faster when clear interfaces let other organizations add value without redesigning the core system.",
+      "source_label": "IBM",
+      "source_url": "https://www.ibm.com/history/personal-computer"
     },
     {
       "id": "panama-canal-1914",
@@ -575,6 +767,42 @@
       "lesson": "When space is fixed, question the architecture before optimizing the individual components.",
       "source_label": "BMW Group Archive",
       "source_url": "https://www.press.bmwgroup.com/usa/article/detail/T0452134EN_US/happy-birthday-mini-66-years-of-driving-pleasure-style-and-individuality?language=en_US"
+    },
+    {
+      "id": "comair-5191-2006",
+      "month_day": "08-27",
+      "year": 2006,
+      "type": "failure",
+      "discipline": "Aviation",
+      "title": "Comair 5191: the aircraft departs from the wrong runway",
+      "summary": "The crew lined up on Lexington's short, unlit runway 26 instead of the assigned runway 22. The aircraft overran the runway during takeoff, killing 49 of the 50 people aboard.",
+      "lesson": "For irreversible actions, independently verify position against the intended configuration rather than relying on expectation and visual familiarity.",
+      "source_label": "U.S. National Transportation Safety Board",
+      "source_url": "https://www.ntsb.gov/investigations/Pages/DCA06MA064.aspx"
+    },
+    {
+      "id": "swissair-111-1998",
+      "month_day": "09-02",
+      "year": 1998,
+      "type": "failure",
+      "discipline": "Aviation",
+      "title": "Swissair 111: hidden fire outruns diagnosis and diversion",
+      "summary": "An in-flight fire spread through flammable materials above the cockpit ceiling of Swissair Flight 111. Critical systems failed before the crew could land, and all 229 people aboard died.",
+      "lesson": "Smoke of unknown origin is a time-critical system failure; materials, detection and procedures must assume that hidden fire can accelerate.",
+      "source_label": "Transportation Safety Board of Canada",
+      "source_url": "https://www.tsb.gc.ca/eng/rapports-reports/aviation/1998/a98h0003/a98h0003.html"
+    },
+    {
+      "id": "kilby-integrated-circuit-1958",
+      "month_day": "09-12",
+      "year": 1958,
+      "type": "breakthrough",
+      "discipline": "Electronics",
+      "title": "Jack Kilby demonstrates a working integrated circuit",
+      "summary": "Texas Instruments engineer Jack Kilby demonstrated an electronic circuit whose components were formed on one piece of semiconductor material. Integration replaced many discrete parts and their individual connections.",
+      "lesson": "Reliability and scale improve when interfaces disappear; integrating components can remove more failure opportunities than perfecting each connection.",
+      "source_label": "Texas Instruments",
+      "source_url": "https://www.ti.com/about-ti/behind-chip/articles/from-idea-to-invention-the-origin-story-of-the-tiny-chip-that-changed-the-world.html"
     },
     {
       "id": "mars-climate-orbiter-1999",
@@ -637,6 +865,18 @@
       "source_url": "https://www.nasa.gov/image-article/bell-x-1/"
     },
     {
+      "id": "aberfan-1966",
+      "month_day": "10-21",
+      "year": 1966,
+      "type": "failure",
+      "discipline": "Geotechnical",
+      "title": "Aberfan: an unmanaged waste tip becomes a landslide",
+      "summary": "A saturated coal-waste tip slid down the hillside into the Welsh village of Aberfan, engulfing a school and homes. The disaster killed 144 people, including 116 children.",
+      "lesson": "Waste storage is an engineered structure: drainage, geology, loading history and downstream exposure require ownership and continuous control.",
+      "source_label": "UK National Recovery Guidance",
+      "source_url": "https://www.gov.uk/guidance/national-recovery-guidance"
+    },
+    {
       "id": "arpanet-message-1969",
       "month_day": "10-29",
       "year": 1969,
@@ -661,6 +901,18 @@
       "source_url": "https://www.wsdot.wa.gov/tnbhistory/collapse.htm"
     },
     {
+      "id": "apollo-4-saturn-v-1967",
+      "month_day": "11-09",
+      "year": 1967,
+      "type": "breakthrough",
+      "discipline": "Space",
+      "title": "Apollo 4 tests the complete Saturn V at once",
+      "summary": "NASA launched the first Saturn V on Apollo 4 using an all-up configuration with all three stages live. The mission tested propulsion, staging, spacecraft systems and high-speed re-entry in one integrated flight.",
+      "lesson": "Integrated testing exposes interface behavior that isolated qualification cannot, when the risk is understood and the instrumentation is ready.",
+      "source_label": "NASA",
+      "source_url": "https://www.nasa.gov/history/55-years-ago-apollo-4-the-first-flight-of-the-saturn-v/"
+    },
+    {
       "id": "intel-4004-1971",
       "month_day": "11-15",
       "year": 1971,
@@ -671,6 +923,18 @@
       "lesson": "A powerful abstraction moves complexity from specialized hardware into a reusable platform.",
       "source_label": "Intel",
       "source_url": "https://www.intel.com/pressroom/kits/quickrefyr.htm"
+    },
+    {
+      "id": "kings-cross-fire-1987",
+      "month_day": "11-18",
+      "year": 1987,
+      "type": "failure",
+      "discipline": "Fire Safety",
+      "title": "King's Cross: a small escalator fire becomes a fireball",
+      "summary": "A fire beneath a wooden escalator at King's Cross Underground station suddenly intensified and spread into the ticket hall, killing 31 people. The inquiry produced extensive changes to materials, procedures and fire management.",
+      "lesson": "Do not classify a hazard by its familiar beginning; geometry, concealed fuel and airflow can create a rapid transition to a different regime.",
+      "source_label": "London Fire Brigade",
+      "source_url": "https://www.london-fire.gov.uk/museum/london-fire-brigade-history-and-stories/fires-and-incidents-that-changed-history/the-kings-cross-fire-1987/"
     },
     {
       "id": "zarya-launch-1998",
@@ -733,6 +997,18 @@
       "source_url": "https://www.csb.gov/t2-laboratories-inc-reactive-chemical-explosion/"
     },
     {
+      "id": "ebr-1-electricity-1951",
+      "month_day": "12-20",
+      "year": 1951,
+      "type": "breakthrough",
+      "discipline": "Nuclear",
+      "title": "EBR-I produces usable electricity from nuclear fission",
+      "summary": "Experimental Breeder Reactor I generated enough electricity to illuminate four 200-watt lamps, the first usable electrical power produced by nuclear fission. It later supplied electricity to its entire building.",
+      "lesson": "A small end-to-end demonstration can prove energy conversion and control before scaling the plant around it.",
+      "source_label": "U.S. Department of Energy",
+      "source_url": "https://www.energy.gov/ne/articles/9-notable-facts-about-worlds-first-nuclear-power-plant-ebr-i"
+    },
+    {
       "id": "james-webb-launch-2021",
       "month_day": "12-25",
       "year": 2021,
@@ -743,6 +1019,18 @@
       "lesson": "When repair is impractical, deployment reliability comes from controlled sequence design, extensive testing and observable state transitions.",
       "source_label": "NASA",
       "source_url": "https://science.nasa.gov/mission/webb/launch/"
+    },
+    {
+      "id": "eastern-401-1972",
+      "month_day": "12-29",
+      "year": 1972,
+      "type": "failure",
+      "discipline": "Aviation",
+      "title": "Eastern 401: a small indicator captures the whole cockpit",
+      "summary": "While the crew investigated a landing-gear indication, the autopilot was inadvertently disconnected and the aircraft descended unnoticed into the Florida Everglades. The crash became a catalyst for crew resource management.",
+      "lesson": "Troubleshooting must never consume the function that keeps the system safe; assign one person and one instrument loop to guard the primary state.",
+      "source_label": "U.S. Federal Aviation Administration",
+      "source_url": "https://www.faa.gov/lessons_learned/transport_airplane/accidents/N310EA"
     }
   ]
 }
