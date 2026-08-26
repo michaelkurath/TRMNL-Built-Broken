@@ -1,6 +1,18 @@
 {
   "events": [
     {
+      "id": "nautilus-nuclear-power-1955",
+      "month_day": "01-17",
+      "year": 1955,
+      "type": "breakthrough",
+      "discipline": "Marine",
+      "title": "Nautilus gets underway on nuclear power",
+      "summary": "USS Nautilus left the pier under nuclear power, becoming the first submarine driven by a nuclear reactor. Its propulsion system removed the need for frequent surfacing to recharge batteries.",
+      "lesson": "A new energy source can change the architecture of an entire system, not merely improve its endurance.",
+      "source_label": "U.S. Naval History and Heritage Command",
+      "source_url": "https://www.history.navy.mil/browse-by-topic/ships/submarines/uss-nautilus.html"
+    },
+    {
       "id": "challenger-1986",
       "month_day": "01-28",
       "year": 1986,
@@ -23,6 +35,150 @@
       "lesson": "Repeatedly surviving a defect does not make the defect safe. Treat recurring anomalies as evidence, not reassurance.",
       "source_label": "NASA",
       "source_url": "https://www.nasa.gov/remembering-columbia-sts-107/"
+    },
+    {
+      "id": "boeing-747-first-flight-1969",
+      "month_day": "02-09",
+      "year": 1969,
+      "type": "breakthrough",
+      "discipline": "Aerospace",
+      "title": "The Boeing 747 makes its first flight",
+      "summary": "The prototype 747 took off from Everett for the first time. Developing the large aircraft also required Boeing to create an immense new factory and a production system capable of assembling it.",
+      "lesson": "When scale changes radically, the factory, tooling and logistics become part of the product design.",
+      "source_label": "Boeing",
+      "source_url": "https://www.boeing.com/commercial/747-8"
+    },
+    {
+      "id": "concorde-first-flight-1969",
+      "month_day": "03-02",
+      "year": 1969,
+      "type": "breakthrough",
+      "discipline": "Aerospace",
+      "title": "Concorde proves a shared supersonic design",
+      "summary": "The French-built Concorde 001 completed the programme's first flight from Toulouse. The aircraft emerged from a formal British-French partnership spanning companies, governments and engineering teams.",
+      "lesson": "International engineering works when interfaces, authority and configuration control are designed as carefully as the hardware.",
+      "source_label": "Airbus",
+      "source_url": "https://www.airbus.com/en/newsroom/stories/2019-03-the-day-concorde-flew-into-the-history-books"
+    },
+    {
+      "id": "telephone-call-1876",
+      "month_day": "03-10",
+      "year": 1876,
+      "type": "breakthrough",
+      "discipline": "Communications",
+      "title": "Bell's telephone carries understandable speech",
+      "summary": "Alexander Graham Bell spoke through his experimental telephone and Thomas Watson heard and understood him in the next room. Bell recorded the successful test in his laboratory notebook.",
+      "lesson": "A complete end-to-end demonstration resolves more uncertainty than isolated component performance.",
+      "source_label": "U.S. Library of Congress",
+      "source_url": "https://www.loc.gov/loc/lcib/9904/bell.html"
+    },
+    {
+      "id": "fukushima-2011",
+      "month_day": "03-11",
+      "year": 2011,
+      "type": "failure",
+      "discipline": "Nuclear",
+      "title": "Fukushima: one hazard defeats several safeguards",
+      "summary": "A major earthquake and tsunami struck Japan and severely affected the Fukushima Daiichi site. Loss of power and cooling contributed to core damage across multiple reactor units.",
+      "lesson": "Redundant equipment is not independent when one external hazard can disable its shared power, access and support systems.",
+      "source_label": "International Atomic Energy Agency",
+      "source_url": "https://www.iaea.org/topics/response/fukushima-daiichi-nuclear-accident"
+    },
+    {
+      "id": "st-francis-dam-1928",
+      "month_day": "03-12",
+      "year": 1928,
+      "type": "failure",
+      "discipline": "Civil",
+      "title": "St. Francis Dam: the foundation becomes the failure",
+      "summary": "The concrete gravity dam failed suddenly during the night, releasing its reservoir through the Santa Clara Valley. Later analysis identified weak geology and sliding at an abutment as central to the failure.",
+      "lesson": "A dam is not only concrete. Its abutments, foundation geology and reservoir slopes are structural components too.",
+      "source_label": "U.S. Bureau of Reclamation",
+      "source_url": "https://www.usbr.gov/ssle/damsafety/documents/RCEM-CaseHistories20140304.pdf"
+    },
+    {
+      "id": "fiu-bridge-2018",
+      "month_day": "03-15",
+      "year": 2018,
+      "type": "failure",
+      "discipline": "Structural",
+      "title": "FIU bridge: calculation errors survive peer review",
+      "summary": "A partially constructed pedestrian bridge collapsed onto an open road in Miami. The NTSB found load-and-capacity calculation errors and an inadequate independent peer review.",
+      "lesson": "When real cracking contradicts the model, stop exposure and challenge the model before continuing work.",
+      "source_label": "U.S. National Transportation Safety Board",
+      "source_url": "https://www.ntsb.gov/investigations/Pages/HWY18MH009.aspx"
+    },
+    {
+      "id": "bp-texas-city-2005",
+      "month_day": "03-23",
+      "year": 2005,
+      "type": "failure",
+      "discipline": "Process",
+      "title": "Texas City: good injury numbers hide process risk",
+      "summary": "Explosions at BP's Texas City refinery killed 15 workers and injured 180. The CSB found organizational and safety deficiencies at multiple levels of the company.",
+      "lesson": "Personal-safety statistics cannot reveal whether high-energy process hazards are actually under control.",
+      "source_label": "U.S. Chemical Safety Board",
+      "source_url": "https://www.csb.gov/bp-america-texas-city-refinery-explosion/"
+    },
+    {
+      "id": "exxon-valdez-1989",
+      "month_day": "03-24",
+      "year": 1989,
+      "type": "failure",
+      "discipline": "Marine",
+      "title": "Exxon Valdez grounds on Bligh Reef",
+      "summary": "The loaded tanker left its traffic lane to avoid ice and grounded in Prince William Sound. Eight cargo tanks ruptured, producing a major crude-oil spill.",
+      "lesson": "Navigation safety needs layered barriers—route monitoring, rested staffing and effective traffic oversight—not one attentive operator.",
+      "source_label": "U.S. National Transportation Safety Board",
+      "source_url": "https://www.ntsb.gov/safety/safety-recs/recletters/M90_32_43.pdf"
+    },
+    {
+      "id": "three-mile-island-1979",
+      "month_day": "03-28",
+      "year": 1979,
+      "type": "failure",
+      "discipline": "Nuclear",
+      "title": "Three Mile Island: controls obscure the plant state",
+      "summary": "A combination of equipment malfunction, misleading indications and operator actions led to a partial core meltdown at Unit 2. The accident exposed serious weaknesses in control-room design and emergency preparation.",
+      "lesson": "An indicator must show what the equipment actually did, not merely that a command was sent.",
+      "source_label": "U.S. Nuclear Regulatory Commission",
+      "source_url": "https://www.nrc.gov/reading-rm/doc-collections/fact-sheets/3mile-isle"
+    },
+    {
+      "id": "eiffel-tower-1889",
+      "month_day": "03-31",
+      "year": 1889,
+      "type": "breakthrough",
+      "discipline": "Structural",
+      "title": "The Eiffel Tower turns repetition into speed",
+      "summary": "The tower was completed after two years, two months and five days of work. Thousands of accurately detailed iron parts were prefabricated and assembled with millions of rivets.",
+      "lesson": "Standardized parts and precise workshop drawings can turn an unprecedented structure into repeatable assembly work.",
+      "source_label": "Eiffel Tower official history",
+      "source_url": "https://www.toureiffel.paris/en/the-monument/history"
+    },
+    {
+      "id": "deepwater-horizon-2010",
+      "month_day": "04-20",
+      "year": 2010,
+      "type": "failure",
+      "discipline": "Process",
+      "title": "Deepwater Horizon: warning tests are misread",
+      "summary": "The Macondo well blew out, causing explosions and fire aboard Deepwater Horizon. Investigators found that pressure-test results were misinterpreted and the blowout preventer failed during the emergency.",
+      "lesson": "A safety-critical test needs explicit acceptance criteria and a required response when the result is ambiguous.",
+      "source_label": "U.S. Chemical Safety Board",
+      "source_url": "https://www.csb.gov/macondo-blowout-and-explosion/"
+    },
+    {
+      "id": "hubble-launch-1990",
+      "month_day": "04-24",
+      "year": 1990,
+      "type": "breakthrough",
+      "discipline": "Aerospace",
+      "title": "Hubble launches with repair built into the concept",
+      "summary": "Space Shuttle Discovery launched the Hubble Space Telescope. Although a mirror flaw was discovered later, the observatory's serviceable design allowed astronauts to install corrective optics.",
+      "lesson": "For systems that cannot be perfectly verified before deployment, planned access and recoverability are design features.",
+      "source_label": "NASA",
+      "source_url": "https://science.nasa.gov/mission/hubble/overview/the-history-of-hubble/"
     },
     {
       "id": "chernobyl-1986",
@@ -49,6 +205,18 @@
       "source_url": "https://www.leshuttle.com/uk-en/discover/why-choose-leshuttle/build/the-channel-tunnel"
     },
     {
+      "id": "transcontinental-railroad-1869",
+      "month_day": "05-10",
+      "year": 1869,
+      "type": "breakthrough",
+      "discipline": "Rail",
+      "title": "Two railroads meet at one final interface",
+      "summary": "The Central Pacific and Union Pacific lines met at Promontory Summit, completing the first transcontinental railroad across the United States. A telegraph announced the final connection nationwide.",
+      "lesson": "Large parallel projects only become one system when their geometry, standards, schedule and final interface agree.",
+      "source_label": "U.S. National Park Service",
+      "source_url": "https://www.nps.gov/articles/getaway-gosp.htm"
+    },
+    {
       "id": "golden-gate-1937",
       "month_day": "05-27",
       "year": 1937,
@@ -61,6 +229,18 @@
       "source_url": "https://www.goldengate.org/bridge/history-research/moments-events/key-dates/"
     },
     {
+      "id": "air-france-447-2009",
+      "month_day": "06-01",
+      "year": 2009,
+      "type": "failure",
+      "discipline": "Aerospace",
+      "title": "AF447: automation hands back an unclear situation",
+      "summary": "Temporary icing of the Airbus A330's Pitot probes produced unreliable airspeed indications and an autopilot disconnect. The crew did not recognize the resulting stall before the aircraft struck the Atlantic.",
+      "lesson": "Automation handover must leave humans with enough cues, training and time to identify the actual flight state.",
+      "source_label": "French Civil Aviation Safety Investigation Authority",
+      "source_url": "https://bea.aero/en/investigation-reports/notified-events/detail/accident-to-the-airbus-a330-203-registered-f-gzcp-and-operated-by-air-france-occured-on-06-01-2009-in-the-atlantic-ocean/"
+    },
+    {
       "id": "ariane-501-1996",
       "month_day": "06-04",
       "year": 1996,
@@ -71,6 +251,42 @@
       "lesson": "Proven software is only proven inside its validated operating assumptions. Reuse the tests and assumptions, not just the code.",
       "source_label": "European Space Agency",
       "source_url": "https://www.esa.int/Newsroom/Press_Releases/Ariane_501_-_Presentation_of_Inquiry_Board_report"
+    },
+    {
+      "id": "teton-dam-1976",
+      "month_day": "06-05",
+      "year": 1976,
+      "type": "failure",
+      "discipline": "Civil",
+      "title": "Teton Dam fails during its first filling",
+      "summary": "Seepage appeared through the embankment as the new reservoir filled. Attempts to plug the leaks failed, internal erosion accelerated and the dam breached catastrophically.",
+      "lesson": "First filling is a commissioning test. Instrumentation, trigger limits and emergency drawdown must be ready before water rises.",
+      "source_label": "U.S. Bureau of Reclamation",
+      "source_url": "https://www.usbr.gov/pn/snakeriver/dams/uppersnake/teton/index.html"
+    },
+    {
+      "id": "grenfell-tower-2017",
+      "month_day": "06-14",
+      "year": 2017,
+      "type": "failure",
+      "discipline": "Fire Safety",
+      "title": "Grenfell: the façade becomes a fire path",
+      "summary": "A kitchen fire escaped into Grenfell Tower's external envelope and spread rapidly around the high-rise. The public inquiry exposed failures across products, testing, regulation and oversight.",
+      "lesson": "Compliance of individual products does not prove the assembled building system will resist fire.",
+      "source_label": "UK Government response to the Grenfell Inquiry",
+      "source_url": "https://www.gov.uk/government/publications/grenfell-tower-inquiry-phase-2-report-government-response/grenfell-tower-inquiry-phase-2-report-government-response-html"
+    },
+    {
+      "id": "piper-alpha-1988",
+      "month_day": "07-06",
+      "year": 1988,
+      "type": "failure",
+      "discipline": "Process",
+      "title": "Piper Alpha: maintenance status is lost at handover",
+      "summary": "A condensate pump was restarted while its pressure-safety valve was absent for maintenance, allowing gas to escape and ignite. Escalating fires destroyed the offshore platform.",
+      "lesson": "Equipment status must survive every shift change. A permit system is a safety barrier only when operations can see and trust it.",
+      "source_label": "UK Health and Safety Executive",
+      "source_url": "https://www.hse.gov.uk/offshore/piper-alpha-disaster-public-inquiry.htm"
     },
     {
       "id": "hyatt-walkways-1981",
@@ -97,6 +313,18 @@
       "source_url": "https://www3.nasa.gov/specials/60counting/spaceflight.html"
     },
     {
+      "id": "panama-canal-1914",
+      "month_day": "08-15",
+      "year": 1914,
+      "type": "breakthrough",
+      "discipline": "Civil",
+      "title": "The Panama Canal opens a controlled water route",
+      "summary": "The steamship Ancon made the official opening transit through the Panama Canal. Locks, dams, an artificial lake and major excavations created a navigable route between two oceans.",
+      "lesson": "Transformative infrastructure often succeeds by controlling the environment as a system rather than overpowering one obstacle.",
+      "source_label": "Panama Canal Authority",
+      "source_url": "https://pancanal.com/en/end-of-the-construction/"
+    },
+    {
       "id": "mini-1959",
       "month_day": "08-26",
       "year": 1959,
@@ -121,6 +349,18 @@
       "source_url": "https://www.jpl.nasa.gov/missions/mars-climate-orbiter/"
     },
     {
+      "id": "hoover-dam-1935",
+      "month_day": "09-30",
+      "year": 1935,
+      "type": "breakthrough",
+      "discipline": "Civil",
+      "title": "Hoover Dam integrates water, power and construction",
+      "summary": "President Franklin D. Roosevelt dedicated the immense concrete arch-gravity dam. The project combined river diversion, flood control, water storage and hydroelectric generation at unprecedented scale.",
+      "lesson": "Megaproject value comes from integrating operating purposes early, not adding disconnected functions after construction.",
+      "source_label": "U.S. Bureau of Reclamation",
+      "source_url": "https://www.usbr.gov/lc/hooverdam/history/articles/chrono.html"
+    },
+    {
       "id": "sputnik-1957",
       "month_day": "10-04",
       "year": 1957,
@@ -133,6 +373,30 @@
       "source_url": "https://www.nasa.gov/history/dawn-of-the-space-age/"
     },
     {
+      "id": "vajont-1963",
+      "month_day": "10-09",
+      "year": 1963,
+      "type": "failure",
+      "discipline": "Geotechnical",
+      "title": "Vajont: the dam survives but the system fails",
+      "summary": "A vast landslide entered the Vajont reservoir and displaced a wave over the dam into the valley below. The concrete dam itself remained largely intact while communities downstream were destroyed.",
+      "lesson": "Passing the structural check is not enough when hazards outside the structure can dominate the system consequence.",
+      "source_label": "UNESCO Memory of the World",
+      "source_url": "https://www.unesco.org/en/memory-world/criminal-proceedings-vajont-dam-disaster"
+    },
+    {
+      "id": "arpanet-message-1969",
+      "month_day": "10-29",
+      "year": 1969,
+      "type": "breakthrough",
+      "discipline": "Computing",
+      "title": "ARPANET's first message crashes after two letters",
+      "summary": "A UCLA team attempted to send LOGIN to a computer at Stanford Research Institute. The remote system crashed after receiving LO, but the connection was restored and the full command followed.",
+      "lesson": "The first useful systems test is small, end-to-end and allowed to fail where the interfaces are real.",
+      "source_label": "UCLA Samueli School of Engineering",
+      "source_url": "https://samueli.ucla.edu/internet50-press/"
+    },
+    {
       "id": "tacoma-narrows-1940",
       "month_day": "11-07",
       "year": 1940,
@@ -143,6 +407,18 @@
       "lesson": "A structure must be stable under dynamic interaction with its environment, not merely strong under static loads.",
       "source_label": "Washington State DOT",
       "source_url": "https://www.wsdot.wa.gov/tnbhistory/collapse.htm"
+    },
+    {
+      "id": "intel-4004-1971",
+      "month_day": "11-15",
+      "year": 1971,
+      "type": "breakthrough",
+      "discipline": "Electronics",
+      "title": "The Intel 4004 makes computing programmable",
+      "summary": "Intel introduced the 4004 general-purpose programmable microprocessor. Functions that previously required custom hardware could now be implemented by mass-produced silicon and software.",
+      "lesson": "A powerful abstraction moves complexity from specialized hardware into a reusable platform.",
+      "source_label": "Intel",
+      "source_url": "https://www.intel.com/pressroom/kits/quickrefyr.htm"
     },
     {
       "id": "chicago-pile-1-1942",
@@ -167,6 +443,18 @@
       "lesson": "Solve controllability, not just raw performance. A machine that cannot be controlled has not solved the problem.",
       "source_label": "U.S. National Park Service",
       "source_url": "https://www.nps.gov/places/000/december-17-1903.htm"
+    },
+    {
+      "id": "james-webb-launch-2021",
+      "month_day": "12-25",
+      "year": 2021,
+      "type": "breakthrough",
+      "discipline": "Aerospace",
+      "title": "Webb launches folded for a million-kilometre journey",
+      "summary": "The James Webb Space Telescope launched aboard Ariane 5 toward its operating region around the Sun-Earth L2 point. Its mirror and sunshield then deployed through a long sequence of planned steps.",
+      "lesson": "When repair is impractical, deployment reliability comes from controlled sequence design, extensive testing and observable state transitions.",
+      "source_label": "NASA",
+      "source_url": "https://science.nasa.gov/mission/webb/launch/"
     }
   ]
 }
