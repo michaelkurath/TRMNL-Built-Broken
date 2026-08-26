@@ -9,6 +9,7 @@
 {% assign day_index = local_timestamp | date: "%j" | plus: 0 | minus: 1 | modulo: pool.size %}
 {% assign selected = pool[day_index] %}
 {% for item in pool %}{% if item.month_day == today_key %}{% assign selected = item %}{% break %}{% endif %}{% endfor %}
+{% assign show_source_qr = true %}{% if settings.show_source_qr == false or settings.show_source_qr == "false" %}{% assign show_source_qr = false %}{% endif %}
 
 <div class="layout layout--col layout--stretch">
   <div class="bb-compact">
@@ -18,7 +19,10 @@
     </div>
     <div class="bb-quadrant-title">{{ selected.title }}</div>
     <div class="bb-rule"></div>
-    <div class="bb-quadrant-lesson">{{ selected.lesson }}</div>
+    <div class="bb-lesson-row">
+      <div class="bb-quadrant-lesson">{{ selected.lesson }}</div>
+      {% if show_source_qr and selected.source_url %}<div class="bb-compact-qr">{{ selected.source_url | qr_code: 2 }}</div>{% endif %}
+    </div>
   </div>
 </div>
 

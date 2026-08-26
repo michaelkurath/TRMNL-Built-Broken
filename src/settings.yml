@@ -36,7 +36,6 @@ custom_fields:
   name: About This Plugin
   category: custom,education
   description: Daily engineering breakthroughs and failures, each reduced to the decision, detail or assumption engineers can learn from.
-  email_address: michael.kurath@gmail.com
   learn_more_url: https://github.com/michaelkurath/TRMNL-Built-Broken
 - keyname: content_filter
   name: Cases to show
@@ -57,6 +56,12 @@ custom_fields:
   name: Show source name?
   field_type: boolean
   default: false
+  optional: true
+- keyname: show_source_qr
+  name: Show source QR code?
+  field_type: boolean
+  default: true
+  description: Add a scannable QR code linking to the authoritative source.
   optional: true
 name: Built & Broken
 description: Daily engineering wins and failures

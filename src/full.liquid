@@ -12,23 +12,40 @@
 {% for item in pool %}{% if item.month_day == today_key %}{% assign selected = item %}{% assign anniversary = true %}{% break %}{% endif %}{% endfor %}
 {% assign show_summary = true %}{% if settings.show_summary == false or settings.show_summary == "false" %}{% assign show_summary = false %}{% endif %}
 {% assign show_source = false %}{% if settings.show_source == true or settings.show_source == "true" %}{% assign show_source = true %}{% endif %}
+{% assign show_source_qr = true %}{% if settings.show_source_qr == false or settings.show_source_qr == "false" %}{% assign show_source_qr = false %}{% endif %}
 
 <div class="layout layout--col layout--stretch">
   <div class="bb-shell">
     <div class="bb-meta">
       <span class="label {% if selected.type == 'failure' %}label--inverted{% else %}label--outline{% endif %}">{{ selected.type | upcase }}</span>
-      <span class="label label--outline">{{ selected.discipline | upcase }}{% if anniversary %} · ON THIS DAY{% endif %}</span>
+      <span class="bb-case-note">{% if anniversary %}On this day · {{ today_key | replace: "-", "." }}{% else %}Curated case{% endif %}</span>
     </div>
     <div class="bb-main">
       <div class="bb-story">
-        <div class="bb-year">{{ selected.year }}</div>
+        <div class="bb-year-row">
+          <div class="bb-year">{{ selected.year }}</div>
+          <div class="bb-discipline">{{ selected.discipline }}<br>engineering</div>
+        </div>
         <div class="bb-headline">{{ selected.title }}</div>
-        {% if show_summary %}<div class="bb-summary">{{ selected.summary }}</div>{% endif %}
+        {% if show_summary %}
+          <div class="bb-summary-block">
+            <span class="bb-section-label">What happened</span>
+            <div class="bb-summary">{{ selected.summary }}</div>
+          </div>
+        {% endif %}
       </div>
       <div class="bb-lesson">
-        <span class="label">ENGINEERING LESSON</span>
-        <div class="bb-lesson-text">{{ selected.lesson }}</div>
-        {% if show_source %}<div class="bb-source">Source: {{ selected.source_label }}</div>{% endif %}
+        <div class="bb-lesson-header">
+          <span class="bb-section-label">Engineering lesson</span>
+          <span class="bb-lesson-mark {% if selected.type == 'failure' %}bb-lesson-mark--failure{% endif %}">{% if selected.type == 'failure' %}!{% else %}+{% endif %}</span>
+        </div>
+        <div class="bb-lesson-body"><div class="bb-lesson-text">{{ selected.lesson }}</div></div>
+        {% if show_source or show_source_qr %}
+          <div class="bb-source-row">
+            {% if show_source %}<div class="bb-source">Source: {{ selected.source_label }}</div>{% endif %}
+            {% if show_source_qr and selected.source_url %}<div class="bb-source-qr">{{ selected.source_url | qr_code: 3 }}</div>{% endif %}
+          </div>
+        {% endif %}
       </div>
     </div>
   </div>

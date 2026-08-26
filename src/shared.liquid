@@ -3,7 +3,7 @@
     height: 100%;
     display: flex;
     flex-direction: column;
-    gap: 14px;
+    gap: 12px;
   }
 
   .bb-meta {
@@ -17,8 +17,8 @@
     flex: 1;
     min-height: 0;
     display: grid;
-    grid-template-columns: minmax(0, 3fr) minmax(210px, 2fr);
-    gap: 24px;
+    grid-template-columns: minmax(0, 1.55fr) minmax(280px, 1fr);
+    gap: 18px;
     align-items: stretch;
   }
 
@@ -26,47 +26,167 @@
     min-width: 0;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 12px;
+    gap: 10px;
+    padding: 18px 8px 4px 2px;
+    border-top: 5px solid #000;
   }
 
-  .bb-year {
-    font-size: 66px;
-    line-height: .82;
-    font-weight: 800;
-    letter-spacing: -4px;
-  }
-
-  .bb-headline {
-    font-size: 34px;
-    line-height: 1.02;
-    font-weight: 700;
-    letter-spacing: -1px;
-  }
-
-  .bb-summary {
-    font-size: 18px;
-    line-height: 1.25;
-  }
-
-  .bb-lesson {
-    border: 3px solid #000;
-    padding: 18px;
+  .bb-year-row {
     display: flex;
-    flex-direction: column;
+    align-items: flex-end;
     justify-content: space-between;
     gap: 12px;
   }
 
+  .bb-year {
+    font-size: 124px;
+    line-height: .78;
+    font-weight: 800;
+    letter-spacing: -8px;
+  }
+
+  .bb-discipline {
+    padding-bottom: 6px;
+    font-size: 15px;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: right;
+  }
+
+  .bb-headline {
+    max-width: 95%;
+    font-size: 39px;
+    line-height: 1.03;
+    font-weight: 700;
+    letter-spacing: -1.4px;
+  }
+
+  .bb-summary {
+    font-size: 19px;
+    line-height: 1.27;
+  }
+
+  .bb-summary-block {
+    margin-top: auto;
+    padding-top: 12px;
+    border-top: 2px solid #000;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+
+  .bb-section-label {
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .bb-lesson {
+    border: 3px solid #000;
+    padding: 16px 18px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .bb-lesson-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #000;
+  }
+
+  .bb-lesson-mark {
+    width: 34px;
+    height: 34px;
+    border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    line-height: 1;
+    font-weight: 800;
+  }
+
+  .bb-lesson-mark--failure {
+    color: #fff;
+    background: #000;
+  }
+
+  .bb-lesson-body {
+    flex: 1;
+    min-height: 0;
+    display: flex;
+    align-items: center;
+  }
+
   .bb-lesson-text {
-    font-size: 24px;
-    line-height: 1.12;
-    font-weight: 650;
+    font-size: 28px;
+    line-height: 1.11;
+    font-weight: 700;
   }
 
   .bb-source {
+    padding-top: 10px;
     font-size: 13px;
     line-height: 1.1;
+  }
+
+  .bb-source-row {
+    min-height: 42px;
+    padding-top: 10px;
+    border-top: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  .bb-source-qr {
+    width: 42px;
+    height: 42px;
+    flex: 0 0 42px;
+  }
+
+  .bb-source-qr .qr-code,
+  .bb-compact-qr .qr-code {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .bb-lesson-row {
+    min-height: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  .bb-lesson-row .bb-lesson-text,
+  .bb-lesson-row .bb-quadrant-lesson {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .bb-compact-qr {
+    width: 34px;
+    height: 34px;
+    flex: 0 0 34px;
+  }
+
+  .bb-case-note {
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: .7px;
+    text-transform: uppercase;
   }
 
   .bb-compact {
@@ -79,6 +199,7 @@
 
   .bb-compact .bb-headline {
     font-size: 25px;
+    max-width: none;
   }
 
   .bb-compact .bb-lesson-text {
