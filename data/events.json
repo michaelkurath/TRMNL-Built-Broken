@@ -1,0 +1,172 @@
+{
+  "events": [
+    {
+      "id": "challenger-1986",
+      "month_day": "01-28",
+      "year": 1986,
+      "type": "failure",
+      "discipline": "Aerospace",
+      "title": "Challenger: warnings lost in the launch decision",
+      "summary": "Space Shuttle Challenger broke apart 73 seconds after launch. Cold-stiffened O-rings failed to seal a solid rocket booster joint, while earlier engineering concerns had not stopped the launch.",
+      "lesson": "A technical warning is useless if the decision process can overrule it without resolving the uncertainty.",
+      "source_label": "NASA Rogers Commission",
+      "source_url": "https://www.nasa.gov/history/rogersrep/v1ch3.htm"
+    },
+    {
+      "id": "columbia-2003",
+      "month_day": "02-01",
+      "year": 2003,
+      "type": "failure",
+      "discipline": "Aerospace",
+      "title": "Columbia: familiar damage became normal",
+      "summary": "Foam shed from the external tank during launch and breached Columbia's left wing. Superheated gas entered the wing during re-entry, causing the orbiter to break apart.",
+      "lesson": "Repeatedly surviving a defect does not make the defect safe. Treat recurring anomalies as evidence, not reassurance.",
+      "source_label": "NASA",
+      "source_url": "https://www.nasa.gov/remembering-columbia-sts-107/"
+    },
+    {
+      "id": "chernobyl-1986",
+      "month_day": "04-26",
+      "year": 1986,
+      "type": "failure",
+      "discipline": "Nuclear",
+      "title": "Chornobyl: an unsafe test met an unstable reactor",
+      "summary": "Reactor Unit 4 went out of control during a planned low-power test. The resulting explosion and fire destroyed the reactor building and released large amounts of radioactive material.",
+      "lesson": "Safety depends on the plant, the procedure and the organization together. Weakness in all three can align catastrophically.",
+      "source_label": "IAEA",
+      "source_url": "https://www.iaea.org/topics/chornobyl/faqs"
+    },
+    {
+      "id": "channel-tunnel-1994",
+      "month_day": "05-06",
+      "year": 1994,
+      "type": "breakthrough",
+      "discipline": "Civil",
+      "title": "The Channel Tunnel connects two national systems",
+      "summary": "The rail tunnel beneath the English Channel officially opened, physically linking Britain and continental Europe. Three parallel tunnels joined works advancing from two countries.",
+      "lesson": "Interfaces between teams deserve the same design attention as the structure itself—geometry, standards and decisions must meet in the middle.",
+      "source_label": "Eurotunnel LeShuttle",
+      "source_url": "https://www.leshuttle.com/uk-en/discover/why-choose-leshuttle/build/the-channel-tunnel"
+    },
+    {
+      "id": "golden-gate-1937",
+      "month_day": "05-27",
+      "year": 1937,
+      "type": "breakthrough",
+      "discipline": "Civil",
+      "title": "The Golden Gate Bridge opens ahead of schedule",
+      "summary": "The bridge opened first to pedestrians, connecting San Francisco and Marin across a difficult strait. It was completed ahead of schedule and under budget.",
+      "lesson": "Ambitious engineering is credible when structural innovation is matched by disciplined construction planning.",
+      "source_label": "Golden Gate Bridge District",
+      "source_url": "https://www.goldengate.org/bridge/history-research/moments-events/key-dates/"
+    },
+    {
+      "id": "ariane-501-1996",
+      "month_day": "06-04",
+      "year": 1996,
+      "type": "failure",
+      "discipline": "Software",
+      "title": "Ariane 5: reused software meets a new flight envelope",
+      "summary": "Ariane 5 Flight 501 lost guidance and attitude information shortly after launch. An inertial-reference conversion overflowed in software inherited from Ariane 4.",
+      "lesson": "Proven software is only proven inside its validated operating assumptions. Reuse the tests and assumptions, not just the code.",
+      "source_label": "European Space Agency",
+      "source_url": "https://www.esa.int/Newsroom/Press_Releases/Ariane_501_-_Presentation_of_Inquiry_Board_report"
+    },
+    {
+      "id": "hyatt-walkways-1981",
+      "month_day": "07-17",
+      "year": 1981,
+      "type": "failure",
+      "discipline": "Structural",
+      "title": "Hyatt walkways: a small detail doubles the load",
+      "summary": "Two suspended walkways collapsed into the hotel atrium. The box-beam and hanger-rod connections lacked sufficient load capacity after a critical connection detail was changed.",
+      "lesson": "A detail change is a design change. Recalculate the complete load path before approving it.",
+      "source_label": "NIST",
+      "source_url": "https://www.nist.gov/el/walkway-collapse-kansas-city-missouri-1981"
+    },
+    {
+      "id": "apollo-11-1969",
+      "month_day": "07-20",
+      "year": 1969,
+      "type": "breakthrough",
+      "discipline": "Aerospace",
+      "title": "Apollo 11 lands humans on the Moon",
+      "summary": "After a four-day journey, Apollo 11's lunar module landed in the Sea of Tranquility. The mission integrated propulsion, navigation, computing, communications and human judgement.",
+      "lesson": "Systems engineering succeeds when independently difficult subsystems are designed around one shared mission.",
+      "source_label": "NASA",
+      "source_url": "https://www3.nasa.gov/specials/60counting/spaceflight.html"
+    },
+    {
+      "id": "mini-1959",
+      "month_day": "08-26",
+      "year": 1959,
+      "type": "breakthrough",
+      "discipline": "Automotive",
+      "title": "The Mini turns packaging into the innovation",
+      "summary": "The British Motor Corporation unveiled Alec Issigonis's compact Mini. Its transverse engine and front-wheel-drive layout devoted far more of the vehicle footprint to people and luggage.",
+      "lesson": "When space is fixed, question the architecture before optimizing the individual components.",
+      "source_label": "BMW Group Archive",
+      "source_url": "https://www.press.bmwgroup.com/usa/article/detail/T0452134EN_US/happy-birthday-mini-66-years-of-driving-pleasure-style-and-individuality?language=en_US"
+    },
+    {
+      "id": "mars-climate-orbiter-1999",
+      "month_day": "09-23",
+      "year": 1999,
+      "type": "failure",
+      "discipline": "Systems",
+      "title": "Mars Climate Orbiter: one interface, two unit systems",
+      "summary": "NASA lost contact as the spacecraft reached Mars. The navigation error came from one part of the system supplying English units where another expected metric units.",
+      "lesson": "Units are part of an interface contract. Make them explicit, machine-checkable and impossible to ignore.",
+      "source_label": "NASA JPL",
+      "source_url": "https://www.jpl.nasa.gov/missions/mars-climate-orbiter/"
+    },
+    {
+      "id": "sputnik-1957",
+      "month_day": "10-04",
+      "year": 1957,
+      "type": "breakthrough",
+      "discipline": "Space",
+      "title": "Sputnik begins the space age",
+      "summary": "The Soviet Union placed the first artificial satellite into Earth orbit. The small radio transmitter demonstrated an entirely new technological capability to the world.",
+      "lesson": "A simple, working demonstration can change an entire field more decisively than a grand unfinished system.",
+      "source_label": "NASA History",
+      "source_url": "https://www.nasa.gov/history/dawn-of-the-space-age/"
+    },
+    {
+      "id": "tacoma-narrows-1940",
+      "month_day": "11-07",
+      "year": 1940,
+      "type": "failure",
+      "discipline": "Civil",
+      "title": "Tacoma Narrows: static strength was not enough",
+      "summary": "Only four months after opening, the slender suspension bridge collapsed in wind. Its deck entered a self-excited torsional motion that the original design approach did not control.",
+      "lesson": "A structure must be stable under dynamic interaction with its environment, not merely strong under static loads.",
+      "source_label": "Washington State DOT",
+      "source_url": "https://www.wsdot.wa.gov/tnbhistory/collapse.htm"
+    },
+    {
+      "id": "chicago-pile-1-1942",
+      "month_day": "12-02",
+      "year": 1942,
+      "type": "breakthrough",
+      "discipline": "Nuclear",
+      "title": "Chicago Pile-1 sustains a controlled chain reaction",
+      "summary": "Enrico Fermi's team achieved the first self-sustaining, controlled nuclear chain reaction beneath the stands of the University of Chicago's Stagg Field.",
+      "lesson": "A breakthrough experiment should make the critical variable observable and controllable—not merely prove that the reaction can occur.",
+      "source_label": "U.S. Department of Energy",
+      "source_url": "https://www.energy.gov/ne/articles/10-intriguing-facts-about-worlds-first-nuclear-chain-reaction"
+    },
+    {
+      "id": "wright-flight-1903",
+      "month_day": "12-17",
+      "year": 1903,
+      "type": "breakthrough",
+      "discipline": "Aeronautical",
+      "title": "The Wright Flyer achieves controlled powered flight",
+      "summary": "Orville Wright flew for 12 seconds and 120 feet at Kitty Hawk. The deeper achievement was three-axis control, developed through years of experiments and iterative testing.",
+      "lesson": "Solve controllability, not just raw performance. A machine that cannot be controlled has not solved the problem.",
+      "source_label": "U.S. National Park Service",
+      "source_url": "https://www.nps.gov/places/000/december-17-1903.htm"
+    }
+  ]
+}
