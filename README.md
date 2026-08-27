@@ -66,6 +66,9 @@ Cases use one of 21 normalized categories:
 assets/icon.svg          Scalable project icon
 assets/icon.png          Transparent 512 px icon
 data/events.json          Curated engineering cases
+data/alternate-events.json Reserve candidates for dates already used in the main archive
+data/factchecks.json      Manual source-check ledger
+data/trmnl.json           Compact runtime feed for TRMNL
 docs/index.html           GitHub Pages web version
 src/full.liquid           Full-screen layout
 src/half_horizontal.liquid
@@ -117,7 +120,7 @@ Validate the data before publishing changes:
 node scripts/validate-data.js
 ```
 
-The validator checks the archive, compact TRMNL feed, factcheck ledger, category names, source URLs, type balance and the TRMNL payload size limit.
+The validator checks the archive, compact TRMNL feed, alternate candidate file, factcheck ledger, category names, source URLs, type balance and the TRMNL payload size limit.
 
 ## Editorial rules
 
