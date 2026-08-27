@@ -1,9 +1,18 @@
 {% assign settings = trmnl.plugin_settings.custom_fields_values %}
 {% assign filter_mode = settings.content_filter | default: "both" | downcase %}
 {% assign display_mode = settings.display_mode | default: "daily" | downcase %}
+{% if events == nil or events == empty %}
+<div class="layout layout--col layout--center">
+  <div class="flex flex--col flex--center gap--small text--center">
+    <span class="title">Built &amp; Broken</span>
+    <span class="description">No engineering cases were received. Check the polling data source.</span>
+  </div>
+</div>
+<div class="title_bar"><span class="title">Built &amp; Broken</span><span class="instance">Data unavailable</span></div>
+{% else %}
 {% assign pool = events %}
-{% if filter_mode contains "breakthrough" %}{% assign pool = events | where: "type", "breakthrough" %}{% endif %}
-{% if filter_mode contains "failure" %}{% assign pool = events | where: "type", "failure" %}{% endif %}
+{% if filter_mode == "breakthrough" %}{% assign pool = events | where: "type", "breakthrough" %}{% endif %}
+{% if filter_mode == "failure" %}{% assign pool = events | where: "type", "failure" %}{% endif %}
 {% assign filter_fallback = false %}
 {% if pool == empty %}{% assign filter_fallback = true %}{% assign pool = events %}{% endif %}
 {% assign local_timestamp = trmnl.system.timestamp_utc | plus: trmnl.user.utc_offset %}
@@ -11,8 +20,9 @@
 {% assign day_index = local_timestamp | date: "%j" | plus: 0 | minus: 1 | modulo: pool.size %}
 {% assign selected = pool[day_index] %}
 {% assign anniversary = false %}
-{% if display_mode contains "random" %}
-  {% assign random_index = "now" | date: "%N" | modulo: pool.size %}
+{% if display_mode == "random" %}
+  {% assign max_index = pool.size | minus: 1 %}
+  {% assign random_index = "" | random_number: max_index | plus: 0 %}
   {% assign selected = pool[random_index] %}
 {% else %}
   {% for item in pool %}{% if item.month_day == today_key %}{% assign selected = item %}{% assign anniversary = true %}{% break %}{% endif %}{% endfor %}
@@ -23,24 +33,24 @@
 <div class="layout layout--col layout--stretch">
   <div class="flex flex--col gap--small stretch">
     <div class="flex flex--row flex--between flex--center-y gap--small">
-      <span class="label {% if selected.type == 'failure' %}label--inverted{% else %}label--outline{% endif %}">{{ selected.type | upcase }}</span>
-      <span class="label">{% if filter_fallback %}Filter unavailable · showing all{% elsif display_mode contains "random" %}Random case{% elsif anniversary %}On this day · {{ today_key | replace: "-", "." }}{% else %}Curated case{% endif %}</span>
+      <span class="label {% if selected.type == 'failure' %}label--inverted{% else %}label--outline{% endif %}">{{ selected.type | default: "case" | upcase }}</span>
+      <span class="label">{% if filter_fallback %}Filter unavailable · showing all{% elsif display_mode == "random" %}Random case{% elsif anniversary %}On this day · {{ today_key | replace: "-", "." }}{% else %}Curated case{% endif %}</span>
     </div>
     <div class="grid grid--cols-1 md:grid--cols-3 portrait:grid--cols-1 md:portrait:grid--cols-1 gap--medium stretch">
       <div class="col--span-1 md:col--span-2 portrait:col--span-1 md:portrait:col--span-1 flex flex--col flex--between gap--small">
         <div class="flex flex--col gap--small">
           <div class="divider"></div>
           <div class="flex flex--row flex--between flex--bottom gap--small">
-            <span class="value value--xlarge md:value--xxxlarge portrait:value--large md:portrait:value--large value--tnums">{{ selected.year }}</span>
-            <span class="label text--right pb--small">{{ selected.discipline }}<br>engineering</span>
+            <span class="value value--xlarge md:value--xxxlarge portrait:value--large md:portrait:value--large value--tnums">{{ selected.year | default: "----" }}</span>
+            <span class="label text--right pb--small">{{ selected.discipline | default: "General" }}<br>engineering</span>
           </div>
-          <div class="title title--large md:title--large lg:title--xxlarge portrait:title--large md:portrait:title--large" data-clamp="3">{{ selected.title }}</div>
+          <div class="title title--large md:title--large lg:title--xxlarge portrait:title--large md:portrait:title--large" data-clamp="3">{{ selected.title | default: "Engineering case" }}</div>
         </div>
         {% if show_summary %}
           <div class="flex flex--col gap--small pt--small">
             <div class="divider"></div>
             <span class="label text--center">What happened</span>
-            <div class="description text--base md:text--base lg:text--large portrait:text--base md:portrait:text--base" data-clamp="3" data-clamp-lg="4">{{ selected.summary }}</div>
+            <div class="description text--base md:text--base lg:text--large portrait:text--base md:portrait:text--base" data-clamp="3" data-clamp-lg="4">{{ selected.summary | default: "No event summary is available." }}</div>
           </div>
         {% endif %}
       </div>
@@ -50,14 +60,15 @@
           <span class="outline flex flex--row flex--center label w--8 h--8 {% if selected.type == 'failure' %}label--inverted{% endif %}">{% if selected.type == 'failure' %}!{% else %}+{% endif %}</span>
         </div>
         <div class="divider"></div>
-        <div class="flex flex--row flex--center-y grow"><div class="description text--large md:text--large lg:text--xlarge portrait:text--large md:portrait:text--large font--bold">{{ selected.lesson }}</div></div>
+        <div class="flex flex--row flex--center-y grow"><div class="description text--large md:text--large lg:text--xlarge portrait:text--large md:portrait:text--large font--bold">{{ selected.lesson | default: "No engineering lesson is available." }}</div></div>
         {% if show_source %}
           <div class="divider"></div>
-          <div class="description text--small pt--small" data-clamp="1">Source: {{ selected.source_label }}</div>
+          <div class="description text--small pt--small" data-clamp="1">Source: {{ selected.source_label | default: "Unavailable" }}</div>
         {% endif %}
       </div>
     </div>
   </div>
 </div>
 
-<div class="title_bar"><span class="title">Built &amp; Broken</span><span class="instance">{{ selected.year }} · {{ selected.discipline }}</span></div>
+<div class="title_bar"><span class="title">Built &amp; Broken</span><span class="instance">{{ selected.year | default: "----" }} · {{ selected.discipline | default: "General" }}</span></div>
+{% endif %}

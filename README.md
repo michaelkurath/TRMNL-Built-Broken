@@ -51,7 +51,6 @@ Cases use one of 16 normalized categories:
 - Choose a stable daily case or a new random case on each render
 - Show or hide the event summary
 - Optionally show the source name
-- Show or hide a QR code linking to the authoritative source
 - Full, half-horizontal, half-vertical, and quadrant layouts
 
 ## Repository structure
@@ -72,18 +71,24 @@ src/settings.yml          TRMNL recipe configuration
 
 ```json
 {
-  "id": "mini-1959",
-  "month_day": "08-26",
-  "year": 1959,
-  "type": "breakthrough",
-  "discipline": "Automotive Engineering",
-  "title": "The Mini turns packaging into the innovation",
-  "summary": "What happened and why it mattered.",
-  "lesson": "The transferable engineering lesson.",
-  "source_label": "BMW Group Archive",
-  "source_url": "https://example.com/source"
+  "events": [
+    {
+      "id": "mini-1959",
+      "month_day": "08-26",
+      "year": 1959,
+      "type": "breakthrough",
+      "discipline": "Automotive Engineering",
+      "title": "The Mini turns packaging into the innovation",
+      "summary": "What happened and why it mattered.",
+      "lesson": "The transferable engineering lesson.",
+      "source_label": "BMW Group Archive",
+      "source_url": "https://example.com/source"
+    }
+  ]
 }
 ```
+
+The polling response must contain a non-empty `events` array. Templates show a data-unavailable state if the array is missing or empty, and provide readable defaults when an individual display field is absent.
 
 ## Development
 
