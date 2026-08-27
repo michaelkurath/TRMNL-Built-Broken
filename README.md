@@ -4,6 +4,8 @@
 
 An open-source [TRMNL](https://trmnl.com/) recipe presenting one carefully sourced engineering breakthrough or failure each day—and the lesson engineers can take from it.
 
+The browser version is available through GitHub Pages: [Built & Broken](https://michaelkurath.github.io/TRMNL-Built-Broken/).
+
 The recipe is connected through [GitHub Sync](https://help.trmnl.com/en/articles/15977899-github-sync), keeping changes made in TRMNL and this repository aligned.
 
 <img width="150" alt="Works with TRMNL" src="https://trmnl.com/images/brand/badges/light/works-with-trmnl/trmnl-badge-works-with-light.svg" />
@@ -64,6 +66,7 @@ Cases use one of 21 normalized categories:
 assets/icon.svg          Scalable project icon
 assets/icon.png          Transparent 512 px icon
 data/events.json          Curated engineering cases
+docs/index.html           GitHub Pages web version
 src/full.liquid           Full-screen layout
 src/half_horizontal.liquid
 src/half_vertical.liquid
