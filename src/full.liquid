@@ -34,13 +34,13 @@
             <span class="value value--xlarge md:value--xxxlarge portrait:value--large md:portrait:value--large value--tnums">{{ selected.year }}</span>
             <span class="label text--right pb--small">{{ selected.discipline }}<br>engineering</span>
           </div>
-          <div class="title title--large md:title--xxlarge portrait:title--large md:portrait:title--large">{{ selected.title }}</div>
+          <div class="title title--large md:title--large lg:title--xxlarge portrait:title--large md:portrait:title--large" data-clamp="3">{{ selected.title }}</div>
         </div>
         {% if show_summary %}
           <div class="flex flex--col gap--small pt--small">
             <div class="divider"></div>
             <span class="label text--center">What happened</span>
-            <div class="description text--base md:text--large portrait:text--base md:portrait:text--base">{{ selected.summary }}</div>
+            <div class="description text--base md:text--base lg:text--large portrait:text--base md:portrait:text--base" data-clamp="3" data-clamp-lg="4">{{ selected.summary }}</div>
           </div>
         {% endif %}
       </div>
@@ -50,7 +50,7 @@
           <span class="outline flex flex--row flex--center label w--8 h--8 {% if selected.type == 'failure' %}label--inverted{% endif %}">{% if selected.type == 'failure' %}!{% else %}+{% endif %}</span>
         </div>
         <div class="divider"></div>
-        <div class="flex flex--row flex--center-y grow"><div class="description text--large md:text--xlarge portrait:text--large md:portrait:text--large font--bold">{{ selected.lesson }}</div></div>
+        <div class="flex flex--row flex--center-y grow"><div class="description text--large md:text--large lg:text--xlarge portrait:text--large md:portrait:text--large font--bold">{{ selected.lesson }}</div></div>
         {% if show_source %}
           <div class="divider"></div>
           <div class="description text--small pt--small" data-clamp="1">Source: {{ selected.source_label }}</div>
