@@ -18,38 +18,38 @@
 {% endif %}
 {% assign show_summary = true %}{% if settings.show_summary == false or settings.show_summary == "false" %}{% assign show_summary = false %}{% endif %}
 {% assign show_source = false %}{% if settings.show_source == true or settings.show_source == "true" %}{% assign show_source = true %}{% endif %}
-{% assign show_source_qr = true %}{% if settings.show_source_qr == false or settings.show_source_qr == "false" %}{% assign show_source_qr = false %}{% endif %}
 
 <div class="layout layout--col layout--stretch">
-  <div class="bb-shell">
-    <div class="bb-meta">
+  <div class="flex flex--col gap--small stretch">
+    <div class="flex flex--row flex--between flex--center-y gap--small">
       <span class="label {% if selected.type == 'failure' %}label--inverted{% else %}label--outline{% endif %}">{{ selected.type | upcase }}</span>
-      <span class="bb-case-note">{% if display_mode contains "random" %}Random case{% elsif anniversary %}On this day · {{ today_key | replace: "-", "." }}{% else %}Curated case{% endif %}</span>
+      <span class="bb-case-note label">{% if display_mode contains "random" %}Random case{% elsif anniversary %}On this day · {{ today_key | replace: "-", "." }}{% else %}Curated case{% endif %}</span>
     </div>
-    <div class="bb-main">
-      <div class="bb-story">
-        <div class="bb-year-row">
-          <div class="bb-year">{{ selected.year }}</div>
-          <div class="bb-discipline">{{ selected.discipline }}<br>engineering</div>
+    <div class="bb-main grid grid--cols-2 gap--medium stretch">
+      <div class="bb-story flex flex--col gap--small pt--small">
+        <div class="flex flex--row flex--between flex--bottom gap--small">
+          <div class="bb-year value value--peta value--tnums">{{ selected.year }}</div>
+          <div class="bb-discipline label text--right pb--small">{{ selected.discipline }}<br>engineering</div>
         </div>
-        <div class="bb-headline">{{ selected.title }}</div>
+        <div class="bb-headline title title--xxlarge">{{ selected.title }}</div>
         {% if show_summary %}
-          <div class="bb-summary-block">
-            <span class="bb-section-label">What happened</span>
-            <div class="bb-summary">{{ selected.summary }}</div>
+          <div class="bb-summary-block flex flex--col gap--small pt--small">
+            <div class="divider"></div>
+            <span class="label">What happened</span>
+            <div class="bb-summary description text--large">{{ selected.summary }}</div>
           </div>
         {% endif %}
       </div>
-      <div class="bb-lesson">
-        <div class="bb-lesson-header">
-          <span class="bb-section-label">Engineering lesson</span>
-          <span class="bb-lesson-mark {% if selected.type == 'failure' %}bb-lesson-mark--failure{% endif %}">{% if selected.type == 'failure' %}!{% else %}+{% endif %}</span>
+      <div class="bb-lesson flex flex--col gap--small p--medium">
+        <div class="flex flex--row flex--between flex--center-y gap--small pb--small">
+          <span class="label">Engineering lesson</span>
+          <span class="bb-lesson-mark flex flex--row flex--center value value--xlarge {% if selected.type == 'failure' %}bb-lesson-mark--failure{% endif %}">{% if selected.type == 'failure' %}!{% else %}+{% endif %}</span>
         </div>
-        <div class="bb-lesson-body"><div class="bb-lesson-text">{{ selected.lesson }}</div></div>
-        {% if show_source or show_source_qr %}
-          <div class="bb-source-row">
-            {% if show_source %}<div class="bb-source">Source: {{ selected.source_label }}</div>{% endif %}
-            {% if show_source_qr and selected.source_url %}<div class="bb-source-qr">{{ selected.source_url | qr_code: 3 }}</div>{% endif %}
+        <div class="divider"></div>
+        <div class="bb-lesson-body flex flex--row flex--center-y"><div class="bb-lesson-text title title--large">{{ selected.lesson }}</div></div>
+        {% if show_source %}
+          <div class="bb-source-row pt--small">
+            <div class="bb-source description">Source: {{ selected.source_label }}</div>
           </div>
         {% endif %}
       </div>

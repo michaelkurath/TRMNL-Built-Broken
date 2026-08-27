@@ -66,12 +66,6 @@ custom_fields:
   field_type: boolean
   default: false
   optional: true
-- keyname: show_source_qr
-  name: Show source QR code?
-  field_type: boolean
-  default: false
-  description: Add a scannable QR code linking to the authoritative source.
-  optional: true
 name: Built & Broken
 description: Daily engineering wins and failures
 refresh_interval: 720
