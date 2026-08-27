@@ -545,6 +545,186 @@
       ],
       "evidence_url": "https://www.boeing.com/commercial/747-8",
       "notes": "Boeing page confirms the first 747 took off on Feb. 9, 1969 and notes Everett factory construction began in 1966 and remains the world's largest building by volume. Source is retained, though a dedicated Boeing history page would be cleaner if one becomes available."
+    },
+    {
+      "id": "eniac-unveiled-1946",
+      "checked_at": "2026-08-27",
+      "status": "verified_with_note",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://highlights.cis.upenn.edu/in-celebration-of-eniac/",
+      "notes": "Penn CIS confirms ENIAC was unveiled at the University of Pennsylvania on Feb. 15 and was all-electronic and programmable. Keep note that some institutional histories distinguish a Feb. 14 public/press announcement from the Feb. 15 formal dedication/presentation."
+    },
+    {
+      "id": "friendship-7-1962",
+      "checked_at": "2026-08-27",
+      "status": "verified",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.nasa.gov/history/friendship7/",
+      "notes": "NASA confirms John Glenn became the first American to orbit Earth on Feb. 20, 1962, completed three orbits, flew 4 hours 55 minutes 23 seconds, and that Project Mercury aimed to place a piloted spacecraft in orbit, observe human performance, and recover both safely."
+    },
+    {
+      "id": "grayrigg-derailment-2007",
+      "checked_at": "2026-08-27",
+      "status": "corrected",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.gov.uk/raib-reports/derailment-at-grayrigg",
+      "notes": "Replaced obsolete raib.gov.uk URL with current GOV.UK RAIB report page. RAIB confirms the Feb. 23, 2007 Virgin West Coast derailment at 2B points near Grayrigg/Lambrigg and the failures of stretcher bars, lock stretcher bar and fastenings, plus inspection and maintenance factors."
+    },
+    {
+      "id": "united-811-1989",
+      "checked_at": "2026-08-27",
+      "status": "verified",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.ntsb.gov/investigations/Pages/DCA89MA027.aspx",
+      "notes": "NTSB confirms the Feb. 24, 1989 United 811 explosive decompression after the forward lower-lobe cargo door separated during climb from Honolulu, the successful emergency return, and nine passengers lost at sea."
+    },
+    {
+      "id": "patriot-dhahran-1991",
+      "checked_at": "2026-08-27",
+      "status": "verified",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.gao.gov/assets/imtec-92-26.pdf",
+      "notes": "GAO full report confirms the Feb. 25, 1991 Dhahran Patriot failure, continuous operation for over 100 hours, inaccurate time calculation, range-gate shift and failure to track/intercept the incoming Scud."
+    },
+    {
+      "id": "radar-daventry-1935",
+      "checked_at": "2026-08-27",
+      "status": "verified",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.rafmuseum.org.uk/research/research-enquiries/history-of-aviation-timeline/british-military-aviation/1935-2/",
+      "notes": "RAF Museum confirms the Feb. 26, 1935 practical demonstration proposed by R.A. Watson-Watt: Daventry transmitter signals reflected from a Handley Page Heyford and detected by Slough Radio Research Station staff at Weedon."
+    },
+    {
+      "id": "raspberry-pi-launch-2012",
+      "checked_at": "2026-08-27",
+      "status": "verified",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.raspberrypi.com/news/happy-birthday-2018/",
+      "notes": "Raspberry Pi confirms the first units went on sale on Feb. 29, 2012 via element14 and RS Components, with over 100,000 orders on the first day and demand far beyond the original expectations."
+    },
+    {
+      "id": "concorde-first-flight-1969",
+      "checked_at": "2026-08-27",
+      "status": "verified",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.airbus.com/en/newsroom/stories/2019-03-the-day-concorde-flew-into-the-history-books",
+      "notes": "Airbus confirms Concorde 001 first flew from Toulouse at 3:38pm on Mar. 2, 1969, that the maiden flight lasted 29 minutes, and that the Franco-British programme had a formal 50:50 research and assembly cost share."
+    },
+    {
+      "id": "herald-free-enterprise-1987",
+      "checked_at": "2026-08-27",
+      "status": "verified_with_note",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.gov.uk/maib-reports/flooding-and-subsequent-capsize-of-ro-ro-passenger-ferry-herald-of-free-enterprise-off-the-port-of-zeebrugge-belgium-with-loss-of-193-lives",
+      "notes": "MAIB/GOV.UK page confirms the Mar. 6, 1987 flooding and capsize of the ro-ro ferry with loss of 193 lives and links the formal investigation report. The visible page summary does not spell out bow-door status, so that detail is treated as supported by the linked formal report rather than the landing-page text alone."
+    },
+    {
+      "id": "telephone-call-1876",
+      "checked_at": "2026-08-27",
+      "status": "verified_with_note",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.loc.gov/collections/alexander-graham-bell-papers/about-this-collection/",
+      "notes": "Library of Congress search snippets/about collection confirm Bell's March 10, 1876 experimental notebook pages describe the first successful telephone experiment and the words to Watson. Original cited LOC bulletin intermittently blocks fetches, so this ledger entry points to the more stable LOC collection page."
     }
   ]
 }
