@@ -761,6 +761,186 @@
       ],
       "evidence_url": "https://www.ebrd.com/home/news-and-events/news/2016/unique-engineering-feat-concluded-as-chernobyl-arch-has-reached-resting-place.html",
       "notes": "EBRD confirms the Nov. 29, 2016 milestone: the New Safe Confinement was moved 327 metres into final position over Chornobyl Unit 4, enclosing the 1986 makeshift shelter. The page also confirms the 36,000-tonne movable land-based arch and its 100-year safety/dismantling purpose."
+    },
+    {
+      "id": "fukushima-2011",
+      "checked_at": "2026-08-27",
+      "status": "verified",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.iaea.org/topics/response/fukushima-daiichi-nuclear-accident",
+      "notes": "IAEA confirms the 11 March 2011 earthquake and tsunami, Fukushima Daiichi accident, INES Level 7 classification, and later safety-improvement/action-plan work. The current entry's shared-hazard lesson is editorial but consistent with the reported loss of multiple safety elements after the external event."
+    },
+    {
+      "id": "st-francis-dam-1928",
+      "checked_at": "2026-08-27",
+      "status": "source_improved",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://damfailures.org/case-study/st-francis-dam-california-1928",
+      "notes": "Replaced the broad Bureau of Reclamation case-history PDF with the ASDSO Dam Failures case study, which directly supports the March 12-13, 1928 breach, concrete gravity dam context, abutment/foundation geology, uplift/sliding concerns, and foundation-failure lesson."
+    },
+    {
+      "id": "tgn1412-trial-2006",
+      "checked_at": "2026-08-27",
+      "status": "verified_with_note",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.jci.org/articles/view/35382",
+      "notes": "NEJM article/search metadata supports six healthy volunteers, TGN1412 administration and severe cytokine-release reactions. JCI directly supports that ten minutes was too short an interval between dosing and that longer observation could have spared the other five volunteers. Current NEJM page is retained as the source but is crawler-hostile."
+    },
+    {
+      "id": "cotton-gin-patent-1794",
+      "checked_at": "2026-08-27",
+      "status": "verified",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.archives.gov/milestone-documents/patent-for-cotton-gin",
+      "notes": "National Archives confirms Whitney's cotton gin patent date of 3/14/1794, its seed-from-fiber function, short-staple cotton improvement, production impact, and the linked social consequence around expansion of slavery."
+    },
+    {
+      "id": "fiu-bridge-2018",
+      "checked_at": "2026-08-27",
+      "status": "verified",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.ntsb.gov/investigations/Pages/HWY18MH009.aspx",
+      "notes": "NTSB confirms the 3/15/2018 FIU pedestrian bridge collapse, load-and-capacity calculation errors, inadequate peer review, observed cracking, and failure to close the road as the cracking became unacceptable."
+    },
+    {
+      "id": "goddard-liquid-rocket-1926",
+      "checked_at": "2026-08-27",
+      "status": "verified",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.nasa.gov/history/95-years-ago-goddards-first-liquid-fueled-rocket/",
+      "notes": "NASA confirms Goddard's first liquid-fueled rocket launch on March 16, 1926 in Auburn, Massachusetts, using gasoline and liquid oxygen, and gives the short flight performance that supports the modest-experiment lesson."
+    },
+    {
+      "id": "volta-electric-pile-1800",
+      "checked_at": "2026-08-27",
+      "status": "verified",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://lemelson.mit.edu/resources/alessandro-volta",
+      "notes": "MIT Lemelson confirms Volta revealed the Voltaic Pile on March 20, 1800, using alternating silver and zinc with brine-soaked cloth, and that it provided continuous current as the world's first battery."
+    },
+    {
+      "id": "bp-texas-city-2005",
+      "checked_at": "2026-08-27",
+      "status": "verified",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.csb.gov/bp-america-texas-city-refinery-explosion/",
+      "notes": "CSB confirms the March 23, 2005 Texas City refinery explosion, 15 deaths, 180 injuries, restart of the hydrocarbon isomerization unit, tower flooding/overpressure, and organizational/process-safety management deficiencies."
+    },
+    {
+      "id": "exxon-valdez-1989",
+      "checked_at": "2026-08-27",
+      "status": "verified",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.ntsb.gov/safety/safety-recs/recletters/M90_32_43.pdf",
+      "notes": "NTSB confirms the March 24, 1989 Exxon Valdez grounding on Bligh Reef, ice-avoidance course correction, eight ruptured cargo tanks, large crude-oil spill, third-mate bridge control and fatigue/manning concerns."
+    },
+    {
+      "id": "triangle-shirtwaist-fire-1911",
+      "checked_at": "2026-08-27",
+      "status": "source_improved",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.osha.gov/aboutosha/40-years/trianglefactoryfireaccount",
+      "notes": "Replaced a crawler-hostile DOL history URL with OSHA's Triangle account. OSHA confirms the March 25 fire at the Triangle Waist Company factory, 146 deaths, one collapsed fire escape, locked/wrong-way doors, trapped workers, poor fire protection and the workplace-safety reform legacy."
     }
   ]
 }

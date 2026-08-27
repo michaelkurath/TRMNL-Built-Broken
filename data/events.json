@@ -393,8 +393,8 @@
       "title": "St. Francis Dam: the foundation becomes the failure",
       "summary": "The concrete gravity dam failed suddenly during the night, releasing its reservoir through the Santa Clara Valley. Later analysis identified weak geology and sliding at an abutment as central to the failure.",
       "lesson": "A dam is not only concrete. Its abutments, foundation geology and reservoir slopes are structural components too.",
-      "source_label": "U.S. Bureau of Reclamation",
-      "source_url": "https://www.usbr.gov/ssle/damsafety/documents/RCEM-CaseHistories20140304.pdf"
+      "source_label": "ASDSO Dam Failures",
+      "source_url": "https://damfailures.org/case-study/st-francis-dam-california-1928"
     },
     {
       "id": "tgn1412-trial-2006",
@@ -489,8 +489,8 @@
       "title": "Triangle fire: production controls block emergency escape",
       "summary": "Fire swept through the Triangle Waist Company factory in New York, killing 146 workers. Inadequate exits, locked access and weak fire protections prevented many occupants from escaping.",
       "lesson": "Security and production controls must fail safe during an emergency; no routine objective outranks a clear and usable escape path.",
-      "source_label": "U.S. Department of Labor",
-      "source_url": "https://www.dol.gov/general/aboutdol/history/mono-regsafepart07"
+      "source_label": "U.S. OSHA",
+      "source_url": "https://www.osha.gov/aboutosha/40-years/trianglefactoryfireaccount"
     },
     {
       "id": "tenerife-runway-collision-1977",
