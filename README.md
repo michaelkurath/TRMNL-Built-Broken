@@ -111,6 +111,14 @@ During local development, use `data/events.json` as the polling response. Before
 
 Add the `trmnl` topic to the repository so other TRMNL plugin builders can find it.
 
+Validate the data before publishing changes:
+
+```sh
+node scripts/validate-data.js
+```
+
+The validator checks the archive, compact TRMNL feed, factcheck ledger, category names, source URLs, type balance and the TRMNL payload size limit.
+
 ## Editorial rules
 
 - Prefer investigation bodies, operators, government archives, museums, universities, and original project organizations.

@@ -1,0 +1,29 @@
+name: Validate data
+
+on:
+  push:
+    paths:
+      - "data/**"
+      - "scripts/validate-data.js"
+      - ".github/workflows/validate.yml"
+  pull_request:
+    paths:
+      - "data/**"
+      - "scripts/validate-data.js"
+      - ".github/workflows/validate.yml"
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Validate data files
+        run: node scripts/validate-data.js
