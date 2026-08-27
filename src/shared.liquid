@@ -1,50 +1,117 @@
 <style>
+  .bb-shell {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .bb-meta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
   .bb-main {
     flex: 1;
     min-height: 0;
+    display: grid;
     grid-template-columns: minmax(0, 1.55fr) minmax(280px, 1fr);
+    gap: 18px;
+    align-items: stretch;
   }
 
   .bb-story {
     min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 18px 8px 4px 2px;
     border-top: 5px solid #000;
   }
 
+  .bb-year-row {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
   .bb-year {
+    font-size: 124px;
     line-height: .78;
+    font-weight: 800;
     letter-spacing: -8px;
   }
 
-  .bb-discipline,
-  .bb-case-note {
+  .bb-discipline {
+    padding-bottom: 6px;
+    font-size: 15px;
     line-height: 1;
-    letter-spacing: .7px;
+    font-weight: 700;
     text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: right;
   }
 
   .bb-headline {
     max-width: 95%;
+    font-size: 39px;
     line-height: 1.03;
+    font-weight: 700;
     letter-spacing: -1.4px;
   }
 
-  .bb-summary,
-  .bb-source {
-    line-height: 1.2;
+  .bb-summary {
+    font-size: 19px;
+    line-height: 1.27;
   }
 
   .bb-summary-block {
     margin-top: auto;
+    padding-top: 12px;
+    border-top: 2px solid #000;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+  }
+
+  .bb-section-label {
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
   }
 
   .bb-lesson {
     border: 3px solid #000;
+    padding: 16px 18px 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .bb-lesson-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #000;
   }
 
   .bb-lesson-mark {
     width: 34px;
     height: 34px;
     border: 2px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    line-height: 1;
+    font-weight: 800;
   }
 
   .bb-lesson-mark--failure {
@@ -55,13 +122,24 @@
   .bb-lesson-body {
     flex: 1;
     min-height: 0;
+    display: flex;
+    align-items: center;
   }
 
   .bb-lesson-text {
+    font-size: 28px;
     line-height: 1.11;
+    font-weight: 700;
+  }
+
+  .bb-source {
+    padding-top: 10px;
+    font-size: 13px;
+    line-height: 1.1;
   }
 
   .bb-source-row {
+    padding-top: 10px;
     border-top: 1px solid #000;
   }
 
@@ -69,19 +147,45 @@
     min-height: 0;
   }
 
+  .bb-case-note {
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: .7px;
+    text-transform: uppercase;
+  }
+
   .bb-compact {
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
   }
 
   .bb-compact .bb-headline {
+    font-size: 25px;
     max-width: none;
   }
 
+  .bb-compact .bb-lesson-text {
+    font-size: 18px;
+  }
+
+  .bb-rule {
+    width: 100%;
+    border-top: 2px solid #000;
+  }
+
   .bb-quadrant-title {
+    font-size: 21px;
     line-height: 1.05;
+    font-weight: 700;
   }
 
   .bb-quadrant-lesson {
+    font-size: 15px;
     line-height: 1.15;
+    font-weight: 600;
   }
 </style>
