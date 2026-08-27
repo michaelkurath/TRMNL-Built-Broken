@@ -64,6 +64,8 @@ const FACTCHECK_STATUSES = new Set([
   "corrected",
 ]);
 
+const ALTERNATE_STATUSES = new Set(["reserve_date_conflict"]);
+
 const errors = [];
 const warnings = [];
 
@@ -269,14 +271,117 @@ function validateFactchecks(data, events) {
   }
 }
 
+function validateAlternates(data, events) {
+  if (!data) return;
+  if (!Array.isArray(data.candidates)) {
+    errors.push("data/alternate-events.json: expected a candidates array.");
+    return;
+  }
+
+  const eventById = new Map(events.map((event) => [event.id, event]));
+  const candidateIds = new Set();
+
+  data.candidates.forEach((candidate, index) => {
+    const label = candidate.id || `alternate candidate at index ${index}`;
+
+    for (const field of [...REQUIRED_EVENT_FIELDS, "status", "conflicts_with"]) {
+      if (candidate[field] === undefined || candidate[field] === null) {
+        errors.push(`${label}: missing required field "${field}".`);
+      }
+    }
+
+    for (const field of [
+      "id",
+      "month_day",
+      "type",
+      "discipline",
+      "title",
+      "summary",
+      "lesson",
+      "source_label",
+      "source_url",
+      "status",
+    ]) {
+      if (!isNonEmptyString(candidate[field])) {
+        errors.push(`${label}: "${field}" must be a non-empty string.`);
+      }
+    }
+
+    if (candidateIds.has(candidate.id)) {
+      errors.push(`${label}: duplicate alternate candidate id "${candidate.id}".`);
+    }
+    candidateIds.add(candidate.id);
+
+    if (eventById.has(candidate.id)) {
+      errors.push(`${label}: alternate candidate id already exists in events.json.`);
+    }
+
+    if (!isValidMonthDay(candidate.month_day)) {
+      errors.push(`${label}: invalid month_day "${candidate.month_day}".`);
+    }
+
+    if (!Number.isInteger(candidate.year)) {
+      errors.push(`${label}: year must be an integer.`);
+    }
+
+    if (!EVENT_TYPES.has(candidate.type)) {
+      errors.push(`${label}: unknown type "${candidate.type}".`);
+    }
+
+    if (!CATEGORIES.has(candidate.discipline)) {
+      errors.push(`${label}: unknown discipline "${candidate.discipline}".`);
+    }
+
+    if (
+      typeof candidate.source_url === "string" &&
+      !candidate.source_url.startsWith("https://")
+    ) {
+      errors.push(`${label}: source_url must use HTTPS.`);
+    }
+
+    if (!ALTERNATE_STATUSES.has(candidate.status)) {
+      errors.push(`${label}: unknown alternate status "${candidate.status}".`);
+    }
+
+    if (
+      !Array.isArray(candidate.conflicts_with) ||
+      candidate.conflicts_with.length === 0
+    ) {
+      errors.push(`${label}: conflicts_with must be a non-empty array.`);
+      return;
+    }
+
+    for (const conflictId of candidate.conflicts_with) {
+      if (!isNonEmptyString(conflictId)) {
+        errors.push(`${label}: conflicts_with entries must be non-empty strings.`);
+        continue;
+      }
+
+      const conflict = eventById.get(conflictId);
+      if (!conflict) {
+        errors.push(`${label}: conflict target "${conflictId}" does not exist.`);
+        continue;
+      }
+
+      if (conflict.month_day !== candidate.month_day) {
+        errors.push(
+          `${label}: conflict target "${conflictId}" is on ${conflict.month_day}, not ${candidate.month_day}.`,
+        );
+      }
+    }
+  });
+}
+
 const eventsData = readJson("data/events.json");
 const trmnlData = readJson("data/trmnl.json");
 const factchecksData = readJson("data/factchecks.json");
+const alternatesData = readJson("data/alternate-events.json");
 
 const events = validateEvents(eventsData);
 if (events.length > 0) {
   validateTrmnl(trmnlData, events);
   validateFactchecks(factchecksData, events);
+  validateAlternates(alternatesData, events);
 }
 
 if (warnings.length > 0) {
@@ -294,9 +399,11 @@ if (errors.length > 0) {
 const breakthroughs = events.filter((event) => event.type === "breakthrough").length;
 const failures = events.filter((event) => event.type === "failure").length;
 const checked = factchecksData?.checks?.length || 0;
+const alternates = alternatesData?.candidates?.length || 0;
 
 console.log("Validation passed:");
 console.log(`- Events: ${events.length}`);
 console.log(`- Breakthroughs/failures: ${breakthroughs}/${failures}`);
 console.log(`- Factchecks: ${checked}/${events.length}`);
+console.log(`- Alternate candidates: ${alternates}`);
 console.log(`- TRMNL payload: ${byteSize("data/trmnl.json")} bytes`);
