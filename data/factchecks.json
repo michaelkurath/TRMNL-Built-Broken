@@ -725,6 +725,42 @@
       ],
       "evidence_url": "https://www.loc.gov/collections/alexander-graham-bell-papers/about-this-collection/",
       "notes": "Library of Congress search snippets/about collection confirm Bell's March 10, 1876 experimental notebook pages describe the first successful telephone experiment and the words to Watson. Original cited LOC bulletin intermittently blocks fetches, so this ledger entry points to the more stable LOC collection page."
+    },
+    {
+      "id": "sl1-reactor-accident-1961",
+      "checked_at": "2026-08-27",
+      "status": "verified_with_note",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://id.energy.gov/Home/FOIAReadingRoom",
+      "notes": "DOE Idaho FOIA reading room lists the official SL-1 accident reports for the Jan. 3, 1961 Stationary Low-Power Reactor No. 1 accident. DOE oral-history footnotes and INL history pages support that crew were reconnecting control rods for restart, a steam explosion occurred, and all three crew members died; the detailed rapid power-excursion analysis is in the linked official reports."
+    },
+    {
+      "id": "chornobyl-new-safe-confinement-2016",
+      "checked_at": "2026-08-27",
+      "status": "verified",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.ebrd.com/home/news-and-events/news/2016/unique-engineering-feat-concluded-as-chernobyl-arch-has-reached-resting-place.html",
+      "notes": "EBRD confirms the Nov. 29, 2016 milestone: the New Safe Confinement was moved 327 metres into final position over Chornobyl Unit 4, enclosing the 1986 makeshift shelter. The page also confirms the 36,000-tonne movable land-based arch and its 100-year safety/dismantling purpose."
     }
   ]
 }
