@@ -44,8 +44,8 @@ custom_fields:
   - Both
   - Breakthroughs
   - Failures
-  default: 'both'
-  description: Show all cases or limit the daily rotation to one type. Empty or unavailable results show all cases.
+  default: both
+  description: Show all cases or limit the daily rotation to one type. Empty uses Both.
   optional: true
 - keyname: display_mode
   name: Display mode
@@ -53,7 +53,7 @@ custom_fields:
   options:
   - Daily
   - Random
-  default: 'daily'
+  default: daily
   description: Daily prioritizes anniversaries; Random selects a new case on each render. Empty uses Daily.
   optional: true
 - keyname: show_summary
