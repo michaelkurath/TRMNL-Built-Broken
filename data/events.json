@@ -1141,6 +1141,18 @@
       "source_url": "https://www3.nasa.gov/specials/60counting/spaceflight.html"
     },
     {
+      "id": "mariner-1-1962",
+      "month_day": "07-22",
+      "year": 1962,
+      "type": "failure",
+      "discipline": "Software & Systems",
+      "title": "Mariner 1 is destroyed after a guidance-software fault",
+      "summary": "NASA's first attempt to send a spacecraft to Venus veered off course shortly after launch and was destroyed by range safety. NASA describes the loss as a software glitch in the launch vehicle guidance system.",
+      "lesson": "Safety-critical software needs independent validation of code, transcription and assumptions before it is trusted to steer hardware at full energy.",
+      "source_label": "NASA",
+      "source_url": "https://science.nasa.gov/mission/mariner-1/"
+    },
+    {
       "id": "landsat-1-launch-1972",
       "month_day": "07-23",
       "year": 1972,
@@ -1307,6 +1319,18 @@
       "lesson": "Transformative infrastructure often succeeds by controlling the environment as a system rather than overpowering one obstacle.",
       "source_label": "Panama Canal Authority",
       "source_url": "https://pancanal.com/en/end-of-the-construction/"
+    },
+    {
+      "id": "sayano-shushenskaya-2009",
+      "month_day": "08-17",
+      "year": 2009,
+      "type": "failure",
+      "discipline": "Energy Engineering",
+      "title": "Sayano-Shushenskaya loses a turbine under water pressure",
+      "summary": "Unit 2 at Russia's Sayano-Shushenskaya hydroelectric plant failed catastrophically, flooding the turbine hall and destroying much of the station's generating capacity. The accident followed severe mechanical vibration and anchoring failure.",
+      "lesson": "Large energy systems need vibration limits, shutdown authority and inspection regimes that treat abnormal operation as a warning, not a production inconvenience.",
+      "source_label": "POWER Magazine",
+      "source_url": "https://www.powermag.com/investigating-the-sayano-shushenskaya-hydro-power-plant-disaster/"
     },
     {
       "id": "voyager-2-launch-1977",
@@ -1969,6 +1993,18 @@
       "source_url": "https://www.nasa.gov/history/55-years-ago-apollo-4-the-first-flight-of-the-saturn-v/"
     },
     {
+      "id": "bessemer-steel-patent-1856",
+      "month_day": "11-11",
+      "year": 1856,
+      "type": "breakthrough",
+      "discipline": "Materials Engineering",
+      "title": "Bessemer patents a practical route to mass steel",
+      "summary": "Henry Bessemer received a U.S. patent for manufacturing iron and steel by blowing air through molten iron. The process helped turn steel from an expensive specialty material into an industrial construction material.",
+      "lesson": "A materials breakthrough changes engineering only when the process can produce useful properties at scale and cost.",
+      "source_label": "IEEE REACH",
+      "source_url": "https://reach.ieee.org/primary-sources/henry-bessemer-us-patent-manufacture-of-iron-and-steel/"
+    },
+    {
       "id": "intel-4004-1971",
       "month_day": "11-15",
       "year": 1971,
@@ -2099,6 +2135,18 @@
       "lesson": "Autonomous landing software must distinguish transient deployment signals from irreversible state transitions before committing to engine shutdown.",
       "source_label": "NASA",
       "source_url": "https://science.nasa.gov/mission/mars-polar-lander-deep-space-2/"
+    },
+    {
+      "id": "engelbart-demo-1968",
+      "month_day": "12-09",
+      "year": 1968,
+      "type": "breakthrough",
+      "discipline": "Consumer Technology",
+      "title": "Engelbart demonstrates the future of interactive computing",
+      "summary": "Douglas Engelbart and his SRI team gave a live demonstration of the oN-Line System, showing a mouse, hypertext, windows, shared-screen collaboration and video communication in one working environment.",
+      "lesson": "Interface inventions become powerful when they are demonstrated as a coherent workflow, not as isolated clever controls.",
+      "source_label": "Doug Engelbart Institute",
+      "source_url": "https://www.dougengelbart.org/theDemo"
     },
     {
       "id": "toyota-prius-sale-1997",
