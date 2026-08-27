@@ -49,16 +49,40 @@
       "source_url": "https://tfl.gov.uk/info-for/media/press-releases/2023/january/happy-birthday-london-underground-the-tube-celebrates-160-years-of-serving-the-capital"
     },
     {
+      "id": "jack-in-the-box-ecoli-1993",
+      "month_day": "01-13",
+      "year": 1993,
+      "type": "failure",
+      "discipline": "Food & Agricultural Engineering",
+      "title": "Jack in the Box reveals weak cooking controls",
+      "summary": "A physician reported a cluster of severe E. coli O157:H7 illnesses in Washington. The outbreak was later linked to undercooked hamburgers and helped drive stronger process-control thinking in meat safety.",
+      "lesson": "Food safety is an engineered control problem: critical temperatures, verification and traceability must survive peak demand.",
+      "source_label": "U.S. Centers for Disease Control and Prevention",
+      "source_url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/00020219.htm"
+    },
+    {
       "id": "boston-molasses-flood-1919",
       "month_day": "01-15",
       "year": 1919,
       "type": "failure",
-      "discipline": "Civil Engineering",
+      "discipline": "Food & Agricultural Engineering",
       "title": "Boston Molasses Flood: a storage tank fails without warning",
       "summary": "A large molasses tank ruptured in Boston's North End, releasing a destructive wave through nearby streets. Twenty-one people died and buildings, vehicles and elevated-rail structures were damaged.",
       "lesson": "Low operating pressure does not mean low consequence; large stored volume, brittle material and weak inspection can create catastrophic energy release.",
       "source_label": "U.S. National Park Service",
       "source_url": "https://www.nps.gov/planyourvisit/event-details.htm?id=77CBFCF8-0695-F02E-82BB84BDAE450E38"
+    },
+    {
+      "id": "ss-schenectady-fracture-1943",
+      "month_day": "01-16",
+      "year": 1943,
+      "type": "failure",
+      "discipline": "Materials Engineering",
+      "title": "SS Schenectady fractures while lying at the dock",
+      "summary": "The welded T2 tanker split in two at Portland shortly after sea trials. The fracture became a classic case in brittle fracture, welding practice and material toughness.",
+      "lesson": "A structure can meet its shape requirements and still fail if material toughness, weld detail and service temperature are not treated as one system.",
+      "source_label": "The Welding Institute",
+      "source_url": "https://www.twi-global.com/technical-knowledge/published-papers/schenectady-t2-tanker"
     },
     {
       "id": "nautilus-nuclear-power-1955",
@@ -373,6 +397,18 @@
       "source_url": "https://www.nejm.org/doi/full/10.1056/NEJMoa063842"
     },
     {
+      "id": "cotton-gin-patent-1794",
+      "month_day": "03-14",
+      "year": 1794,
+      "type": "breakthrough",
+      "discipline": "Food & Agricultural Engineering",
+      "title": "The cotton gin mechanizes crop separation",
+      "summary": "Eli Whitney received a U.S. patent for a cotton gin that used mechanical separation to remove seeds from cotton fiber. The machine changed agricultural production by turning a slow hand task into a repeatable process.",
+      "lesson": "Mechanizing one bottleneck can reshape a whole production chain, including social consequences the machine designer may not control.",
+      "source_label": "U.S. National Archives",
+      "source_url": "https://www.archives.gov/milestone-documents/patent-for-cotton-gin"
+    },
+    {
       "id": "fiu-bridge-2018",
       "month_day": "03-15",
       "year": 2018,
@@ -517,6 +553,30 @@
       "source_url": "https://www.motorolasolutions.com/en_us/about/history/explore-motorola-heritage/cell-phone-development.html"
     },
     {
+      "id": "crossness-pumping-station-1865",
+      "month_day": "04-04",
+      "year": 1865,
+      "type": "breakthrough",
+      "discipline": "Environmental Engineering",
+      "title": "Crossness starts pumping London's sewage away",
+      "summary": "The Crossness Pumping Station was officially opened as part of Bazalgette's main drainage system. Its steam engines lifted sewage into outfall reservoirs so London could move waste away from dense streets and the central Thames.",
+      "lesson": "Public-health engineering depends on unglamorous capacity, gradients, pumping and maintenance working reliably every day.",
+      "source_label": "Crossness Engines Trust",
+      "source_url": "https://crossness.org.uk/timeline/"
+    },
+    {
+      "id": "upper-big-branch-2010",
+      "month_day": "04-05",
+      "year": 2010,
+      "type": "failure",
+      "discipline": "Mining & Tunneling",
+      "title": "Upper Big Branch mine explodes underground",
+      "summary": "A methane ignition and coal-dust explosion killed 29 miners at the Upper Big Branch Mine in West Virginia. Investigators found failures in ventilation, rock dusting, equipment maintenance and safety management.",
+      "lesson": "Underground hazards need layered controls; ventilation, dust suppression and inspection cannot be treated as paperwork.",
+      "source_label": "U.S. Mine Safety and Health Administration",
+      "source_url": "https://www.msha.gov/fatality-reports/2010/fatality-3-through-31-april-5-2010"
+    },
+    {
       "id": "intelsat-1-1965",
       "month_day": "04-06",
       "year": 1965,
@@ -611,6 +671,18 @@
       "lesson": "For systems that cannot be perfectly verified before deployment, planned access and recoverability are design features.",
       "source_label": "NASA",
       "source_url": "https://science.nasa.gov/mission/hubble/overview/the-history-of-hubble/"
+    },
+    {
+      "id": "flint-water-switch-2014",
+      "month_day": "04-25",
+      "year": 2014,
+      "type": "failure",
+      "discipline": "Environmental Engineering",
+      "title": "Flint changes water source without corrosion control",
+      "summary": "Flint switched its municipal water supply to the Flint River. Without proper corrosion control, distribution pipes released lead and other contaminants into drinking water.",
+      "lesson": "Water quality is not only source quality; chemistry, pipes, treatment and monitoring interact inside the distribution system.",
+      "source_label": "U.S. Centers for Disease Control and Prevention",
+      "source_url": "https://www.cdc.gov/casper/php/publications-links/flint-water-crisis.html"
     },
     {
       "id": "chernobyl-1986",
@@ -961,6 +1033,18 @@
       "source_url": "https://www.sony.com/en/SonyInfo/CorporateInfo/History/SonyHistory/2-03.html"
     },
     {
+      "id": "haber-ammonia-synthesis-1909",
+      "month_day": "07-02",
+      "year": 1909,
+      "type": "breakthrough",
+      "discipline": "Food & Agricultural Engineering",
+      "title": "Haber makes ammonia from air",
+      "summary": "Fritz Haber's laboratory apparatus produced liquid ammonia from nitrogen and hydrogen under high pressure. The work became the basis for industrial nitrogen fertilizer through the Haber-Bosch process.",
+      "lesson": "Changing the limiting input to a production system can change the scale of the entire industry built on it.",
+      "source_label": "Science Museum Group",
+      "source_url": "https://collection.sciencemuseumgroup.org.uk/objects/co525225/sample-of-habers-synthetic-ammonia-2-july-1909"
+    },
+    {
       "id": "benz-public-drive-1886",
       "month_day": "07-03",
       "year": 1886,
@@ -995,6 +1079,18 @@
       "lesson": "Runaway protection, release containment and off-site planning must be designed together when a process can affect the surrounding community.",
       "source_label": "European Commission Joint Research Centre",
       "source_url": "https://minerva.jrc.ec.europa.eu/en/shorturl/minerva/9_mahb_bulletin_no9_fortheweb_a4"
+    },
+    {
+      "id": "bakelite-patent-filed-1907",
+      "month_day": "07-13",
+      "year": 1907,
+      "type": "breakthrough",
+      "discipline": "Materials Engineering",
+      "title": "Baekeland files the Bakelite patent",
+      "summary": "Leo Baekeland filed a patent covering heat-and-pressure hardening of phenol-formaldehyde products. Bakelite became a landmark synthetic thermoset material for electrical and consumer goods.",
+      "lesson": "A new material becomes an engineering platform when its processing route is controllable enough for repeatable parts.",
+      "source_label": "U.S. Patent and Trademark Archive",
+      "source_url": "https://classic-patents.com/patents/us-942699-baekeland-bakelite"
     },
     {
       "id": "mariner-4-images-1965",
@@ -1121,7 +1217,7 @@
       "month_day": "08-05",
       "year": 2010,
       "type": "failure",
-      "discipline": "Civil Engineering",
+      "discipline": "Mining & Tunneling",
       "title": "San José mine collapses above 33 workers",
       "summary": "A collapse in Chile's San José copper-gold mine trapped 33 miners about 2,300 feet underground. The later rescue succeeded, but the initial failure exposed the consequence of poor escape routes and weak emergency preparedness.",
       "lesson": "Do not treat rescue as the primary safety system; underground work needs independent escape, communication and survivable refuge before collapse occurs.",
@@ -1139,6 +1235,18 @@
       "lesson": "When legacy architectures hit a scaling limit, a more complex sequence can be safer if each phase is testable, timed and fault-managed.",
       "source_label": "NASA",
       "source_url": "https://science.nasa.gov/resource/curiosity-has-landed/"
+    },
+    {
+      "id": "love-canal-emergency-1978",
+      "month_day": "08-07",
+      "year": 1978,
+      "type": "failure",
+      "discipline": "Environmental Engineering",
+      "title": "Love Canal exposes buried chemical waste",
+      "summary": "New York announced the purchase of homes affected by chemicals at Love Canal after residents reported odors, residues and health concerns. The case became a defining lesson in hazardous-waste containment and remediation.",
+      "lesson": "Buried waste is still an engineered system; containment, records, land use and long-term monitoring must survive after disposal stops.",
+      "source_label": "U.S. Environmental Protection Agency",
+      "source_url": "https://www.epa.gov/archive/epa/aboutepa/love-canal-tragedy.html"
     },
     {
       "id": "magellan-venus-orbit-1990",
@@ -1181,7 +1289,7 @@
       "month_day": "08-14",
       "year": 2003,
       "type": "failure",
-      "discipline": "Electrical Engineering",
+      "discipline": "Energy Engineering",
       "title": "A grid alarm failure helps darken the Northeast",
       "summary": "The northeastern United States and southern Canada lost power after local transmission problems cascaded across the grid. A failed control-room alarm system and weak situational awareness let operators miss the developing emergency.",
       "lesson": "Large networks need observable failure states; protection logic is incomplete if operators cannot see the system degrading in time to act.",
@@ -1313,7 +1421,7 @@
       "month_day": "09-04",
       "year": 1882,
       "type": "breakthrough",
-      "discipline": "Electrical Engineering",
+      "discipline": "Energy Engineering",
       "title": "Pearl Street turns electric light into a utility",
       "summary": "Edison's central station began supplying direct-current electricity to customers in lower Manhattan. Generation, underground conductors, metering and lamps operated as one commercial system.",
       "lesson": "A component becomes infrastructure only when generation, distribution, measurement and customer use are engineered together.",
@@ -1349,7 +1457,7 @@
       "month_day": "09-07",
       "year": 1893,
       "type": "breakthrough",
-      "discipline": "Electrical Engineering",
+      "discipline": "Energy Engineering",
       "title": "Mill Creek proves commercial three-phase power",
       "summary": "The Mill Creek No. 1 hydroelectric plant began operating near Redlands, California. Its three-phase alternating-current system became an important early commercial demonstration of long-distance electric power transmission.",
       "lesson": "An electrical architecture becomes persuasive when generation, transmission, load and protection work together in a paying system.",
@@ -1717,6 +1825,18 @@
       "source_url": "https://www.computerhistory.org/timeline/1962/"
     },
     {
+      "id": "chilean-miners-rescued-2010",
+      "month_day": "10-13",
+      "year": 2010,
+      "type": "breakthrough",
+      "discipline": "Mining & Tunneling",
+      "title": "Engineers rescue the 33 Chilean miners",
+      "summary": "The trapped San José miners were brought to the surface one at a time in the Fenix capsule after a multinational drilling and rescue effort. NASA engineers advised on medical, psychological and capsule-design requirements.",
+      "lesson": "A rescue system succeeds when drilling, life support, human factors, lifting hardware and command structure are engineered as one operation.",
+      "source_label": "NASA Oral Histories",
+      "source_url": "https://www.nasa.gov/history/history-publications-and-resources/oral-histories/chilean-miners-rescue/"
+    },
+    {
       "id": "bell-x1-sound-barrier-1947",
       "month_day": "10-14",
       "year": 1947,
@@ -1727,6 +1847,30 @@
       "lesson": "When a regime change invalidates familiar controls, redesign around the new physics instead of forcing the old architecture harder.",
       "source_label": "NASA",
       "source_url": "https://www.nasa.gov/image-article/bell-x-1/"
+    },
+    {
+      "id": "gotthard-base-breakthrough-2010",
+      "month_day": "10-15",
+      "year": 2010,
+      "type": "breakthrough",
+      "discipline": "Mining & Tunneling",
+      "title": "Gotthard Base Tunnel breaks through the Alps",
+      "summary": "The main breakthrough of the Gotthard Base Tunnel took place beneath Sedrun. The event confirmed the alignment and excavation work behind what would become the world's longest railway tunnel.",
+      "lesson": "Long tunnels are won by survey control, geology, logistics and boring progress staying aligned over years, not by excavation speed alone.",
+      "source_label": "AlpTransit Portal",
+      "source_url": "https://www.alptransit-portal.ch/en/events/ereignis/breakthrough-in-the-gotthard"
+    },
+    {
+      "id": "clean-water-act-1972",
+      "month_day": "10-18",
+      "year": 1972,
+      "type": "breakthrough",
+      "discipline": "Environmental Engineering",
+      "title": "Clean Water Act makes treatment a system requirement",
+      "summary": "The U.S. Clean Water Act established the basic structure for regulating pollutant discharges into waters. It tied environmental goals to permits, wastewater standards and treatment infrastructure.",
+      "lesson": "Environmental performance becomes engineerable when limits, monitoring and treatment capacity are specified as enforceable system requirements.",
+      "source_label": "U.S. Environmental Protection Agency",
+      "source_url": "https://www.epa.gov/laws-regulations/discover-history-clean-water-act"
     },
     {
       "id": "aberfan-1966",
@@ -1741,6 +1885,18 @@
       "source_url": "https://www.gov.uk/guidance/national-recovery-guidance"
     },
     {
+      "id": "nylon-announced-1938",
+      "month_day": "10-27",
+      "year": 1938,
+      "type": "breakthrough",
+      "discipline": "Materials Engineering",
+      "title": "DuPont announces nylon to the public",
+      "summary": "DuPont's Charles Stine announced nylon in a national broadcast at the Herald Tribune forum. The synthetic polyamide showed how designed polymers could move from laboratory chemistry into mass-produced everyday materials.",
+      "lesson": "A material breakthrough becomes industrial only when chemistry, processing, product fit and supply scale arrive together.",
+      "source_label": "American Chemical Society",
+      "source_url": "https://www.acs.org/education/whatischemistry/landmarks/carotherspolymers.html"
+    },
+    {
       "id": "arpanet-message-1969",
       "month_day": "10-29",
       "year": 1969,
@@ -1751,6 +1907,18 @@
       "lesson": "The first useful systems test is small, end-to-end and allowed to fail where the interfaces are real.",
       "source_label": "UCLA Samueli School of Engineering",
       "source_url": "https://samueli.ucla.edu/internet50-press/"
+    },
+    {
+      "id": "minamata-cause-report-1956",
+      "month_day": "11-03",
+      "year": 1956,
+      "type": "failure",
+      "discipline": "Environmental Engineering",
+      "title": "Minamata investigators trace poison through seafood",
+      "summary": "Kumamoto University researchers reported that Minamata disease was intoxication from eating fish and shellfish contaminated by a heavy metal. The source was later tied to industrial wastewater containing methylmercury.",
+      "lesson": "A waste stream can become a human exposure pathway through the environment; monitoring must follow the material beyond the factory boundary.",
+      "source_label": "National Institute for Minamata Disease",
+      "source_url": "https://nimd.env.go.jp/archives/english/minamata_disease_in_depth/cause_investigation/"
     },
     {
       "id": "qantas-32-2010",
@@ -1823,6 +1991,18 @@
       "lesson": "Do not classify a hazard by its familiar beginning; geometry, concealed fuel and airflow can create a rapid transition to a different regime.",
       "source_label": "London Fire Brigade",
       "source_url": "https://www.london-fire.gov.uk/museum/london-fire-brigade-history-and-stories/fires-and-incidents-that-changed-history/the-kings-cross-fire-1987/"
+    },
+    {
+      "id": "pike-river-mine-2010",
+      "month_day": "11-19",
+      "year": 2010,
+      "type": "failure",
+      "discipline": "Mining & Tunneling",
+      "title": "Pike River mine explodes before evacuation",
+      "summary": "An underground explosion at New Zealand's Pike River coal mine killed 29 men. The Royal Commission found major weaknesses in hazard management, methane control, emergency planning and regulatory oversight.",
+      "lesson": "For underground work, production pressure must never outrank ventilation, gas monitoring, second egress and an emergency plan that can actually be executed.",
+      "source_label": "Pike River Royal Commission",
+      "source_url": "https://pikeriver.royalcommission.govt.nz/volume-one---what-happened-at-pike-river"
     },
     {
       "id": "zarya-launch-1998",
@@ -1957,6 +2137,18 @@
       "source_url": "https://www.gov.uk/raib-reports/report-19-2018-collision-at-london-waterloo"
     },
     {
+      "id": "silver-bridge-collapse-1967",
+      "month_day": "12-15",
+      "year": 1967,
+      "type": "failure",
+      "discipline": "Materials Engineering",
+      "title": "Silver Bridge fails from one cracked eyebar",
+      "summary": "The U.S. 35 bridge at Point Pleasant collapsed during rush-hour traffic, killing 46 people. The NTSB found that failure began with a fracture in one suspension-chain eyebar.",
+      "lesson": "High-strength material and low redundancy demand inspection methods capable of finding the flaws that ordinary access cannot reveal.",
+      "source_label": "U.S. National Transportation Safety Board",
+      "source_url": "https://www.ntsb.gov/investigations/Pages/80267.aspx"
+    },
+    {
       "id": "wright-flight-1903",
       "month_day": "12-17",
       "year": 1903,
@@ -1985,7 +2177,7 @@
       "month_day": "12-20",
       "year": 1951,
       "type": "breakthrough",
-      "discipline": "Nuclear Engineering",
+      "discipline": "Energy Engineering",
       "title": "EBR-I produces usable electricity from nuclear fission",
       "summary": "Experimental Breeder Reactor I generated enough electricity to illuminate four 200-watt lamps, the first usable electrical power produced by nuclear fission. It later supplied electricity to its entire building.",
       "lesson": "A small end-to-end demonstration can prove energy conversion and control before scaling the plant around it.",
@@ -1997,7 +2189,7 @@
       "month_day": "12-22",
       "year": 2008,
       "type": "failure",
-      "discipline": "Civil Engineering",
+      "discipline": "Environmental Engineering",
       "title": "A coal-ash dike releases millions of cubic yards",
       "summary": "A containment dike failed at TVA's Kingston Fossil Plant, releasing about 5.4 million cubic yards of coal ash across waterways and roughly 300 acres of surrounding land.",
       "lesson": "Waste storage is a long-lived engineered system: monitor changing material properties, pore pressure, geometry and consequences throughout its operating life.",
