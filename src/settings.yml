@@ -45,7 +45,7 @@ custom_fields:
   - Breakthroughs
   - Failures
   default: both
-  description: Show all cases or limit the daily rotation to one type.
+  description: Show all cases or limit the daily rotation to one type. Empty uses Both.
   optional: true
 - keyname: display_mode
   name: Display mode
@@ -54,17 +54,19 @@ custom_fields:
   - Daily
   - Random
   default: daily
-  description: Daily prioritizes anniversaries; Random selects a new case on each render.
+  description: Daily prioritizes anniversaries; Random selects a new case on each render. Empty uses Daily.
   optional: true
 - keyname: show_summary
   name: Show event summary?
   field_type: boolean
   default: true
+  description: Include the short event account. Empty uses Yes.
   optional: true
 - keyname: show_source
   name: Show source name?
   field_type: boolean
   default: false
+  description: Add the authoritative source name in the full layout. Empty uses No.
   optional: true
 name: Built & Broken
 description: Daily engineering wins and failures
