@@ -42,7 +42,7 @@
       "month_day": "05-06",
       "year": 1937,
       "type": "failure",
-      "discipline": "Aerospace",
+      "discipline": "Aviation",
       "title": "Hindenburg burns during landing",
       "summary": "The German passenger airship Hindenburg caught fire while preparing to land at Lakehurst, New Jersey. The disaster killed 35 people aboard and one member of the ground crew, ending confidence in hydrogen-filled passenger airships.",
       "lesson": "A spectacular vehicle still depends on ordinary operational margins: weather, handling, materials, ignition controls and emergency escape all have to survive the final approach.",
@@ -52,7 +52,7 @@
       "conflicts_with": [
         "channel-tunnel-1994"
       ],
-      "notes": "National Archives source confirms May 6, 1937, Lakehurst, and fatalities. Conflicts with Channel Tunnel opening on 05-06."
+      "notes": "National Archives source confirms May 6, 1937, Lakehurst, and fatalities. Conflicts with Channel Tunnel opening on 05-06. Discipline normalized from Aerospace to Aviation because the production category list does not use Aerospace."
     },
     {
       "id": "uster-pool-ceiling-collapse-1985",
