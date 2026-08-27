@@ -1,6 +1,18 @@
 {
   "events": [
     {
+      "id": "sl1-reactor-accident-1961",
+      "month_day": "01-03",
+      "year": 1961,
+      "type": "failure",
+      "discipline": "Nuclear Engineering",
+      "title": "SL-1: restart work destroys a small reactor",
+      "summary": "During restart work at Idaho's Stationary Low-Power Reactor No. 1, a rapid power excursion and steam explosion destroyed the reactor. All three crew members died.",
+      "lesson": "If one manual action can add enough reactivity to destroy the system, the design relies on procedure where it needs inherent limits and independent control.",
+      "source_label": "U.S. Department of Energy",
+      "source_url": "https://id.energy.gov/Home/FOIAReadingRoom"
+    },
+    {
       "id": "stanford-heart-transplant-1968",
       "month_day": "01-06",
       "year": 1968,
@@ -2099,6 +2111,18 @@
       "lesson": "Navigation systems are socio-technical; database changes, briefings, visibility limits and crew mental models must agree before terrain margins disappear.",
       "source_label": "Mahon Report",
       "source_url": "https://www.erebus.co.nz/Investigation/Mahon-Report"
+    },
+    {
+      "id": "chornobyl-new-safe-confinement-2016",
+      "month_day": "11-29",
+      "year": 2016,
+      "type": "breakthrough",
+      "discipline": "Nuclear Engineering",
+      "title": "Chornobyl's confinement arch reaches the reactor",
+      "summary": "The New Safe Confinement was slid 327 metres from its assembly area into its final position over Unit 4. The 36,000-tonne arch enclosed the 1986 shelter so dismantling and waste management could proceed under cover.",
+      "lesson": "When the hazard prevents direct construction, move the worksite: build in a safer place, then transfer the finished system with controlled interfaces.",
+      "source_label": "European Bank for Reconstruction and Development",
+      "source_url": "https://www.ebrd.com/home/news-and-events/news/2016/unique-engineering-feat-concluded-as-chernobyl-arch-has-reached-resting-place.html"
     },
     {
       "id": "ford-moving-assembly-line-1913",
