@@ -4,6 +4,23 @@
   "purpose": "Candidate events for dates that are already occupied in data/events.json. These are source-backed reserve entries for future support of alternate facts, regional editions, topic packs, or a deeper archive.",
   "candidates": [
     {
+      "id": "wikipedia-launch-2001",
+      "month_day": "01-15",
+      "year": 2001,
+      "type": "breakthrough",
+      "discipline": "Computing",
+      "title": "Wikipedia turns editing into infrastructure",
+      "summary": "Wikipedia launched as a freely editable online encyclopedia. It converted wiki-style collaboration into a public knowledge infrastructure that could grow through distributed maintenance.",
+      "lesson": "Open systems still need architecture: versioning, moderation, norms and rollback tools can make uncontrolled contributions useful.",
+      "source_label": "Wikimedia Foundation",
+      "source_url": "https://annual.wikimedia.org/2015/history.html",
+      "status": "reserve_date_conflict",
+      "conflicts_with": [
+        "boston-molasses-flood-1919"
+      ],
+      "notes": "Wikimedia source confirms Jan. 15, 2001 launch. Conflicts with Boston Molasses Flood on 01-15."
+    },
+    {
       "id": "lego-brick-patent-1958",
       "month_day": "01-28",
       "year": 1958,
@@ -21,6 +38,23 @@
       "notes": "Strong official source; conflicts with Challenger on 01-28."
     },
     {
+      "id": "mars-reconnaissance-orbiter-orbit-insertion-2006",
+      "month_day": "03-10",
+      "year": 2006,
+      "type": "breakthrough",
+      "discipline": "Space",
+      "title": "MRO arrives to make Mars observable in detail",
+      "summary": "NASA's Mars Reconnaissance Orbiter entered Mars orbit. After aerobraking and checkout, it became high-resolution mapping and communications-relay infrastructure for Mars exploration.",
+      "lesson": "Orbit insertion is only the first interface; the real system value comes from instruments, relay links and long operational life.",
+      "source_label": "NASA",
+      "source_url": "https://science.nasa.gov/mission/mars-reconnaissance-orbiter/",
+      "status": "reserve_date_conflict",
+      "conflicts_with": [
+        "telephone-call-1876"
+      ],
+      "notes": "NASA source confirms Mars Orbit Insertion on Mar. 10, 2006. Conflicts with Bell's first telephone call on 03-10."
+    },
+    {
       "id": "sts-1-shuttle-launch-1981",
       "month_day": "04-12",
       "year": 1981,
@@ -36,6 +70,40 @@
         "vostok-1-1961"
       ],
       "notes": "NASA source confirms first Space Shuttle mission and Apr. 12, 1981 launch. Conflicts with Vostok 1 on 04-12."
+    },
+    {
+      "id": "ford-mustang-public-debut-1964",
+      "month_day": "04-17",
+      "year": 1964,
+      "type": "breakthrough",
+      "discipline": "Automotive Engineering",
+      "title": "Mustang turns platform reuse into desire",
+      "summary": "Ford introduced the Mustang to the public at the New York World's Fair and in showrooms, packaging familiar components into a new market category.",
+      "lesson": "Platform reuse can be innovative when packaging, timing, price and identity are engineered as carefully as the hardware.",
+      "source_label": "Ford",
+      "source_url": "https://www.fromtheroad.ford.com/us/en/articles/2021/mustang-launch--the-grand-introduction",
+      "status": "reserve_date_conflict",
+      "conflicts_with": [
+        "west-fertilizer-2013"
+      ],
+      "notes": "Ford source confirms public introduction on Apr. 17, 1964. Conflicts with West Fertilizer on 04-17."
+    },
+    {
+      "id": "rana-plaza-collapse-2013",
+      "month_day": "04-24",
+      "year": 2013,
+      "type": "failure",
+      "discipline": "Civil Engineering",
+      "title": "Rana Plaza turns cracks into a mass-casualty warning",
+      "summary": "Rana Plaza in Dhaka, which housed five garment factories, collapsed. At least 1,134 people died and more than 2,500 were injured.",
+      "lesson": "Structural warnings must stop occupancy. Production pressure cannot be allowed to override visible damage in a loaded building.",
+      "source_label": "International Labour Organization",
+      "source_url": "https://www.social-protection.org/gimi/ShowProject.action?id=2860",
+      "status": "reserve_date_conflict",
+      "conflicts_with": [
+        "hubble-launch-1990"
+      ],
+      "notes": "ILO source confirms Apr. 24, 2013, Dhaka, five garment factories, at least 1,134 deaths and more than 2,500 injuries. Conflicts with Hubble launch on 04-24."
     },
     {
       "id": "hindenburg-disaster-1937",
@@ -106,6 +174,23 @@
       "notes": "LOC source confirms May 24, 1844 and first telegraphic message. Conflicts with Brooklyn Bridge opening on 05-24."
     },
     {
+      "id": "kennedy-moon-goal-1961",
+      "month_day": "05-25",
+      "year": 1961,
+      "type": "breakthrough",
+      "discipline": "Space",
+      "title": "Kennedy turns the Moon into a systems deadline",
+      "summary": "President John F. Kennedy asked Congress to commit the United States to landing a person on the Moon and returning them safely to Earth before the decade was out.",
+      "lesson": "An ambitious engineering program needs a clear outcome, deadline, budget path and system-integration ownership.",
+      "source_label": "NASA History",
+      "source_url": "https://www.nasa.gov/history/the-decision-to-go-to-the-moon/",
+      "status": "reserve_date_conflict",
+      "conflicts_with": [
+        "american-191-1979"
+      ],
+      "notes": "NASA History source confirms Kennedy's May 25, 1961 address and lunar goal. Conflicts with American Airlines Flight 191 on 05-25."
+    },
+    {
       "id": "gemini-iv-spacewalk-1965",
       "month_day": "06-03",
       "year": 1965,
@@ -121,6 +206,23 @@
         "therac25-first-overdose-1985"
       ],
       "notes": "NASA source confirms June 3, 1965 and the first American spacewalk. Conflicts with Therac-25 first overdose on 06-03."
+    },
+    {
+      "id": "univac-i-dedicated-1951",
+      "month_day": "06-14",
+      "year": 1951,
+      "type": "breakthrough",
+      "discipline": "Computing",
+      "title": "UNIVAC I brings computing into public administration",
+      "summary": "Census Bureau officials attended the dedication of UNIVAC I at the Eckert-Mauchly Laboratory in Philadelphia, marking an early commercial computer entering government use.",
+      "lesson": "Computing becomes infrastructure when it leaves the lab and attaches to real institutional workloads.",
+      "source_label": "U.S. Census Bureau",
+      "source_url": "https://www.census.gov/about/history/bureau-history/census-innovations/technology/univac-i.html",
+      "status": "reserve_date_conflict",
+      "conflicts_with": [
+        "grenfell-tower-2017"
+      ],
+      "notes": "Census source confirms UNIVAC I dedication on Jun. 14, 1951. Conflicts with Grenfell Tower on 06-14."
     },
     {
       "id": "spaceshipone-first-private-spaceflight-2004",
@@ -174,6 +276,40 @@
       "notes": "NASA source confirms July 20, 1976 and first truly successful Mars landing. Conflicts with Apollo 11 on 07-20."
     },
     {
+      "id": "drake-oil-well-1859",
+      "month_day": "08-27",
+      "year": 1859,
+      "type": "breakthrough",
+      "discipline": "Energy Engineering",
+      "title": "Drake proves oil can be drilled like water",
+      "summary": "The Drake Well struck oil near Titusville, Pennsylvania. The successful well helped launch repeatable commercial oil drilling in the United States.",
+      "lesson": "A resource boom can start with a production method, not a discovery; repeatable extraction changes the whole system.",
+      "source_label": "Drake Well Museum and Park",
+      "source_url": "https://www.drakewell.org/about-us/site-history",
+      "status": "reserve_date_conflict",
+      "conflicts_with": [
+        "comair-5191-2006"
+      ],
+      "notes": "Drake Well Museum source confirms Aug. 27, 1859 and the historic well site. Conflicts with Comair Flight 5191 on 08-27."
+    },
+    {
+      "id": "first-computer-bug-1947",
+      "month_day": "09-09",
+      "year": 1947,
+      "type": "failure",
+      "discipline": "Computing",
+      "title": "A relay fault turns debugging into a record",
+      "summary": "A Harvard Mark II team recorded a moth caught between relay contacts and taped it into the computer logbook as the first actual case of a bug being found.",
+      "lesson": "Failure records matter. A small fault becomes useful when the system preserves enough context to diagnose and teach it.",
+      "source_label": "Computer History Museum",
+      "source_url": "https://www.computerhistory.org/tdih/september/9/",
+      "status": "reserve_date_conflict",
+      "conflicts_with": [
+        "san-bruno-pipeline-2010"
+      ],
+      "notes": "Computer History Museum source confirms Sep. 9, 1947, Harvard Mark II and the logged relay fault. Conflicts with San Bruno pipeline explosion on 09-09."
+    },
+    {
       "id": "luna-2-launch-1959",
       "month_day": "09-12",
       "year": 1959,
@@ -206,6 +342,23 @@
         "psa-flight-182-1978"
       ],
       "notes": "IEEE Milestone source confirms Sep. 25, 1956 service start. Conflicts with PSA Flight 182 on 09-25."
+    },
+    {
+      "id": "ford-model-t-first-production-1908",
+      "month_day": "09-27",
+      "year": 1908,
+      "type": "breakthrough",
+      "discipline": "Automotive Engineering",
+      "title": "Ford records the first Model T",
+      "summary": "Ford's first Model T production card records car number 1 assembled at the Piquette plant in Detroit, a step toward the mass-market automobile system Ford would scale.",
+      "lesson": "A revolutionary product still begins as a traceable production object: configuration, records and factory learning make scale possible.",
+      "source_label": "The Henry Ford",
+      "source_url": "https://www.thehenryford.org/collections/explore/artifact/312908",
+      "status": "reserve_date_conflict",
+      "conflicts_with": [
+        "dawn-launch-2007"
+      ],
+      "notes": "The Henry Ford source confirms the first Model T was assembled on Sep. 27, 1908. Conflicts with Dawn launch on 09-27."
     },
     {
       "id": "tokaido-shinkansen-opens-1964",
@@ -308,6 +461,23 @@
         "t2-laboratories-2007"
       ],
       "notes": "The explosion occurred during the night of 19/20 December 1947. Stored as 12-19 for now because armasuisse states December 1947 and other sources identify 19 December; 12-20 is also occupied by EBR-I."
+    },
+    {
+      "id": "transistor-demonstrated-1947",
+      "month_day": "12-23",
+      "year": 1947,
+      "type": "breakthrough",
+      "discipline": "Electrical Engineering",
+      "title": "Bell Labs demonstrates the transistor",
+      "summary": "John Bardeen and Walter Brattain demonstrated the point-contact transistor to Bell Labs supervisors, turning solid-state amplification into a working device.",
+      "lesson": "A component-level breakthrough can redraw whole systems when it changes size, reliability, power and manufacturability at once.",
+      "source_label": "Computer History Museum",
+      "source_url": "https://www.computerhistory.org/tdih/december/23/",
+      "status": "reserve_date_conflict",
+      "conflicts_with": [
+        "first-kidney-transplant-1954"
+      ],
+      "notes": "Computer History Museum source confirms Dec. 23, 1947 demonstration to Bell Labs supervisors. Conflicts with first successful kidney transplant on 12-23."
     }
   ]
 }
