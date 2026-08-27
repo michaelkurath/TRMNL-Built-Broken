@@ -1,6 +1,30 @@
 {
   "events": [
     {
+      "id": "stanford-heart-transplant-1968",
+      "month_day": "01-06",
+      "year": 1968,
+      "type": "breakthrough",
+      "discipline": "Medicine",
+      "title": "Stanford performs the first U.S. adult heart transplant",
+      "summary": "Norman Shumway's team transplanted a donor heart into Mike Kasperak at Stanford Hospital. The operation grew out of years of work on surgical technique, organ preservation and rejection control.",
+      "lesson": "Clinical breakthroughs need a prepared technical system around the dramatic act: preservation, timing, monitoring, aftercare and repeatable protocol.",
+      "source_label": "Stanford Medicine",
+      "source_url": "https://med.stanford.edu/news/all-news/2018/01/50-years-ago-stanford-heart-doctors-made-history.html"
+    },
+    {
+      "id": "kegworth-1989",
+      "month_day": "01-08",
+      "year": 1989,
+      "type": "failure",
+      "discipline": "Aviation",
+      "title": "Kegworth: crews shut down the healthy engine",
+      "summary": "British Midland Flight 92 suffered a fan-blade failure in its left engine, but confusing vibration and smoke cues led the crew to shut down the right engine. The aircraft crashed near Kegworth while attempting to divert.",
+      "lesson": "When cockpit cues are ambiguous, diagnosis needs confirmation against independent indications before removing a remaining source of control or power.",
+      "source_label": "UK Air Accidents Investigation Branch",
+      "source_url": "https://www.gov.uk/aaib-reports/4-1990-boeing-737-400-g-obme-8-january-1989"
+    },
+    {
       "id": "iphone-introduced-2007",
       "month_day": "01-09",
       "year": 2007,
@@ -23,18 +47,6 @@
       "lesson": "When surface space is exhausted, changing the system's geometry can unlock capacity that incremental optimization cannot.",
       "source_label": "Transport for London",
       "source_url": "https://tfl.gov.uk/info-for/media/press-releases/2023/january/happy-birthday-london-underground-the-tube-celebrates-160-years-of-serving-the-capital"
-    },
-    {
-      "id": "first-insulin-treatment-1922",
-      "month_day": "01-23",
-      "year": 1922,
-      "type": "breakthrough",
-      "discipline": "Medicine",
-      "title": "Purified insulin produces the first clear clinical success",
-      "summary": "After an impure extract given on 11 January produced little clinical benefit, Leonard Thompson received James Collip's purified preparation on 23 January. His blood glucose fell sharply without the earlier toxic reaction.",
-      "lesson": "A laboratory discovery becomes a treatment only when purification, dosing, measurement and repeatable production work as one system.",
-      "source_label": "University of Toronto Libraries",
-      "source_url": "https://fisherdigitus.library.utoronto.ca/exhibits/show/insulin100/early-patients/leonard-thompson"
     },
     {
       "id": "boston-molasses-flood-1919",
@@ -73,6 +85,18 @@
       "source_url": "https://nvlpubs.nist.gov/nistpubs/sp958-lide/html/283-288.html"
     },
     {
+      "id": "first-insulin-treatment-1922",
+      "month_day": "01-23",
+      "year": 1922,
+      "type": "breakthrough",
+      "discipline": "Medicine",
+      "title": "Purified insulin produces the first clear clinical success",
+      "summary": "After an impure extract given on 11 January produced little clinical benefit, Leonard Thompson received James Collip's purified preparation on 23 January. His blood glucose fell sharply without the earlier toxic reaction.",
+      "lesson": "A laboratory discovery becomes a treatment only when purification, dosing, measurement and repeatable production work as one system.",
+      "source_label": "University of Toronto Libraries",
+      "source_url": "https://fisherdigitus.library.utoronto.ca/exhibits/show/insulin100/early-patients/leonard-thompson"
+    },
+    {
       "id": "macintosh-launch-1984",
       "month_day": "01-24",
       "year": 1984,
@@ -83,6 +107,18 @@
       "lesson": "A technology becomes transformative when hardware, software and interaction design are engineered as one understandable product.",
       "source_label": "Computer History Museum",
       "source_url": "https://computerhistory.org/blog/a-computer-for-the-rest-of-us/"
+    },
+    {
+      "id": "baird-television-demo-1926",
+      "month_day": "01-26",
+      "year": 1926,
+      "type": "breakthrough",
+      "discipline": "Communications",
+      "title": "Baird demonstrates working television in public",
+      "summary": "John Logie Baird demonstrated moving television images to members of the Royal Institution in his London laboratory. The mechanical system showed that live image transmission could be made visible to observers.",
+      "lesson": "A crude public demonstration can still validate the hard interface: sensing, transmission, reconstruction and human perception working end to end.",
+      "source_label": "Science Museum Group",
+      "source_url": "https://collection.sciencemuseumgroup.org.uk/people/cp3684/john-logie-baird"
     },
     {
       "id": "apollo-1-fire-1967",
@@ -107,6 +143,18 @@
       "lesson": "A technical warning is useless if the decision process can overrule it without resolving the uncertainty.",
       "source_label": "NASA Rogers Commission",
       "source_url": "https://www.nasa.gov/history/rogersrep/v1ch3.htm"
+    },
+    {
+      "id": "benz-patent-motor-car-1886",
+      "month_day": "01-29",
+      "year": 1886,
+      "type": "breakthrough",
+      "discipline": "Automotive Engineering",
+      "title": "Benz patents a vehicle built around its engine",
+      "summary": "Carl Benz applied for patent DRP 37435 for a vehicle powered by a gas engine. The three-wheeled Patent Motor Car integrated engine, chassis and controls as a purpose-built automobile.",
+      "lesson": "A new machine becomes practical when the core technology is integrated into a coherent vehicle, not bolted onto an old form.",
+      "source_label": "Mercedes-Benz Group",
+      "source_url": "https://group.mercedes-benz.com/company/tradition/company-history/1885-1886.html"
     },
     {
       "id": "explorer-1-1958",
@@ -193,6 +241,42 @@
       "source_url": "https://www.nasa.gov/history/friendship7/"
     },
     {
+      "id": "grayrigg-derailment-2007",
+      "month_day": "02-23",
+      "year": 2007,
+      "type": "failure",
+      "discipline": "Rail",
+      "title": "Grayrigg: a points failure derails a high-speed train",
+      "summary": "A Virgin West Coast train derailed at Lambrigg near Grayrigg after a set of points failed. The investigation focused on inspection, maintenance and the condition of critical stretcher-bar fastenings.",
+      "lesson": "For high-speed infrastructure, small retained components need maintenance systems that treat loosening, wear and inspection quality as safety-critical variables.",
+      "source_label": "UK Rail Accident Investigation Branch",
+      "source_url": "https://www.raib.gov.uk/publications/investigation_reports/reports_2008/report202008.cfm"
+    },
+    {
+      "id": "united-811-1989",
+      "month_day": "02-24",
+      "year": 1989,
+      "type": "failure",
+      "discipline": "Aviation",
+      "title": "United 811 loses a cargo door in flight",
+      "summary": "A Boeing 747 experienced explosive decompression after its forward cargo door separated during climb from Honolulu. The crew returned safely, but nine passengers were lost through the opening.",
+      "lesson": "A door, latch or lock is a pressure-boundary component; its status must be mechanically secure and unambiguous before stored energy is applied.",
+      "source_label": "U.S. National Transportation Safety Board",
+      "source_url": "https://www.ntsb.gov/investigations/Pages/DCA89MA027.aspx"
+    },
+    {
+      "id": "patriot-dhahran-1991",
+      "month_day": "02-25",
+      "year": 1991,
+      "type": "failure",
+      "discipline": "Software & Systems",
+      "title": "A Patriot battery looks in the wrong place",
+      "summary": "A Patriot missile-defense system at Dhahran failed to track and intercept an incoming Scud after long continuous operation. A software timing error accumulated until the radar search window shifted away from the target.",
+      "lesson": "Numerical error is state. Test time-dependent software over realistic operating duration, not just correct behavior immediately after startup.",
+      "source_label": "U.S. Government Accountability Office",
+      "source_url": "https://www.gao.gov/products/imtec-92-26"
+    },
+    {
       "id": "radar-daventry-1935",
       "month_day": "02-26",
       "year": 1935,
@@ -205,6 +289,18 @@
       "source_url": "https://www.rafmuseum.org.uk/research/research-enquiries/history-of-aviation-timeline/british-military-aviation/1935-2/"
     },
     {
+      "id": "raspberry-pi-launch-2012",
+      "month_day": "02-29",
+      "year": 2012,
+      "type": "breakthrough",
+      "discipline": "Consumer Technology",
+      "title": "Raspberry Pi makes a small computer deliberately reachable",
+      "summary": "The first Raspberry Pi went on sale as a low-cost credit-card-sized computer for learning and experimentation. Demand immediately exceeded supply, revealing a wider need for accessible programmable hardware.",
+      "lesson": "Accessibility is an engineering requirement: cost, documentation, ports and community support determine who can build with a platform.",
+      "source_label": "Raspberry Pi Foundation",
+      "source_url": "https://www.raspberrypi.com/news/happy-birthday-2018/"
+    },
+    {
       "id": "concorde-first-flight-1969",
       "month_day": "03-02",
       "year": 1969,
@@ -215,6 +311,18 @@
       "lesson": "International engineering works when interfaces, authority and configuration control are designed as carefully as the hardware.",
       "source_label": "Airbus",
       "source_url": "https://www.airbus.com/en/newsroom/stories/2019-03-the-day-concorde-flew-into-the-history-books"
+    },
+    {
+      "id": "herald-free-enterprise-1987",
+      "month_day": "03-06",
+      "year": 1987,
+      "type": "failure",
+      "discipline": "Marine Engineering",
+      "title": "Herald of Free Enterprise capsizes after departure",
+      "summary": "The roll-on/roll-off ferry left Zeebrugge with its bow doors open and rapidly flooded on the vehicle deck. The capsize caused the loss of 193 lives and reshaped ferry safety management.",
+      "lesson": "A fast-loading operational design needs positive status indication and authority to stop departure when a single unchecked state can sink the system.",
+      "source_label": "UK Marine Accident Investigation Branch",
+      "source_url": "https://www.gov.uk/maib-reports/flooding-and-subsequent-capsize-of-ro-ro-passenger-ferry-herald-of-free-enterprise-off-the-port-of-zeebrugge-belgium-with-loss-of-193-lives"
     },
     {
       "id": "telephone-call-1876",
@@ -419,6 +527,18 @@
       "lesson": "Choosing the right operating architecture can simplify every endpoint; geosynchronous orbit made antennas and service continuity far easier.",
       "source_label": "NASA",
       "source_url": "https://www.nasa.gov/history/communications-satellites/"
+    },
+    {
+      "id": "ibm-system-360-1964",
+      "month_day": "04-07",
+      "year": 1964,
+      "type": "breakthrough",
+      "discipline": "Computing",
+      "title": "IBM System/360 makes compatibility the product",
+      "summary": "IBM launched System/360 as a family of software-compatible computers spanning many sizes and prices. Customers could grow within one architecture instead of rewriting for each new machine.",
+      "lesson": "A platform can be more valuable than a single high-performance product when compatibility protects user investment over time.",
+      "source_label": "IBM",
+      "source_url": "https://www.ibm.com/history/system-360"
     },
     {
       "id": "vostok-1-1961",
@@ -637,6 +757,18 @@
       "source_url": "https://assets.publishing.service.gov.uk/media/5a81d68ced915d74e6234631/Independent_Review_of_Building_Regulations_and_Fire_Safety.pdf"
     },
     {
+      "id": "ethernet-memo-1973",
+      "month_day": "05-22",
+      "year": 1973,
+      "type": "breakthrough",
+      "discipline": "Communications",
+      "title": "Metcalfe's Ethernet memo defines a local network",
+      "summary": "Robert Metcalfe wrote a memo at Xerox PARC proposing Ethernet as a way to connect computers. The design became a foundation for local networking and later internet infrastructure.",
+      "lesson": "A scalable communication system needs rules for sharing the medium as much as it needs physical wires and signals.",
+      "source_label": "Computer History Museum",
+      "source_url": "https://www.computerhistory.org/tdih/may/22/"
+    },
+    {
       "id": "brooklyn-bridge-opens-1883",
       "month_day": "05-24",
       "year": 1883,
@@ -781,6 +913,18 @@
       "source_url": "https://www.ntsb.gov/investigations/Pages/DCA09MR007.aspx"
     },
     {
+      "id": "surfside-collapse-2021",
+      "month_day": "06-24",
+      "year": 2021,
+      "type": "failure",
+      "discipline": "Civil Engineering",
+      "title": "Champlain Towers South collapses without warning",
+      "summary": "The Surfside condominium partially collapsed, killing 98 people. NIST's technical findings concluded that the collapse began when connections between garage columns and the pool deck failed earlier in June.",
+      "lesson": "Aging structures need inspection and repair systems that connect local deterioration to whole-building load paths before reserve capacity disappears.",
+      "source_label": "National Institute of Standards and Technology",
+      "source_url": "https://www.nist.gov/news-events/news/2026/06/nist-releases-technical-findings-what-caused-2021-partial-collapse"
+    },
+    {
       "id": "barcode-first-scan-1974",
       "month_day": "06-26",
       "year": 1974,
@@ -901,6 +1045,18 @@
       "source_url": "https://www3.nasa.gov/specials/60counting/spaceflight.html"
     },
     {
+      "id": "landsat-1-launch-1972",
+      "month_day": "07-23",
+      "year": 1972,
+      "type": "breakthrough",
+      "discipline": "Space",
+      "title": "Landsat begins continuous Earth observation",
+      "summary": "NASA launched Landsat 1, originally the Earth Resources Technology Satellite. It began the longest-running satellite program for systematic observation of Earth's land surface.",
+      "lesson": "Long-term engineering value can come from continuity: consistent measurement over decades enables uses the original designers cannot fully predict.",
+      "source_label": "NASA",
+      "source_url": "https://science.nasa.gov/mission/landsat-1/"
+    },
+    {
       "id": "concorde-af4590-2000",
       "month_day": "07-25",
       "year": 2000,
@@ -985,6 +1141,18 @@
       "source_url": "https://science.nasa.gov/mission/voyager/voyager-2/"
     },
     {
+      "id": "millard-ammonia-release-2010",
+      "month_day": "08-23",
+      "year": 2010,
+      "type": "failure",
+      "discipline": "Process Engineering",
+      "title": "Millard releases ammonia after hydraulic shock",
+      "summary": "A refrigeration system at Millard Refrigerated Services released about 32,000 pounds of anhydrous ammonia. Hydraulic shock in the piping created a sudden pressure surge and exposed many offsite workers.",
+      "lesson": "Transient states in fluid systems can be more dangerous than steady operation; procedures must account for trapped liquid, rapid valve changes and mixed phases.",
+      "source_label": "U.S. Chemical Safety Board",
+      "source_url": "https://www.csb.gov/millard-refrigerated-services-ammonia-release/"
+    },
+    {
       "id": "mini-1959",
       "month_day": "08-26",
       "year": 1959,
@@ -1057,6 +1225,42 @@
       "source_url": "https://edison.rutgers.edu/life-of-edison/biographical-essays/lighting/from-research-to-development"
     },
     {
+      "id": "voyager-1-launch-1977",
+      "month_day": "09-05",
+      "year": 1977,
+      "type": "breakthrough",
+      "discipline": "Space",
+      "title": "Voyager 1 launches on a faster path outward",
+      "summary": "Voyager 1 launched after Voyager 2 but followed a faster trajectory toward Jupiter and Saturn. It later became the first human-made object to enter interstellar space.",
+      "lesson": "Mission architecture can trade launch order for trajectory advantage; timing and path design may matter more than sequence alone.",
+      "source_label": "NASA",
+      "source_url": "https://science.nasa.gov/mission/voyager/voyager-1/"
+    },
+    {
+      "id": "san-bruno-pipeline-2010",
+      "month_day": "09-09",
+      "year": 2010,
+      "type": "failure",
+      "discipline": "Process Engineering",
+      "title": "San Bruno: a pipeline flaw reaches a neighborhood",
+      "summary": "A natural-gas transmission pipeline ruptured in San Bruno, California, producing a large crater and fire. Eight people were killed, homes were destroyed and emergency response was delayed.",
+      "lesson": "Pipeline integrity depends on trustworthy records, threat identification and response planning; pressure containment cannot rely on assumed history.",
+      "source_label": "U.S. National Transportation Safety Board",
+      "source_url": "https://www.ntsb.gov/investigations/Pages/DCA10MP008.aspx"
+    },
+    {
+      "id": "lhc-first-beam-2008",
+      "month_day": "09-10",
+      "year": 2008,
+      "type": "breakthrough",
+      "discipline": "Electrical Engineering",
+      "title": "The LHC steers its first beam around the full ring",
+      "summary": "CERN successfully steered the first beam around all 27 kilometres of the Large Hadron Collider. The event marked the transition from construction to commissioning of a highly integrated scientific machine.",
+      "lesson": "For enormous instruments, first operation proves interfaces: magnets, vacuum, timing, controls, cryogenics and people must work in one synchronized loop.",
+      "source_label": "CERN",
+      "source_url": "https://home.cern/first-beam-in-the-lhc-accelerating-science/"
+    },
+    {
       "id": "kilby-integrated-circuit-1958",
       "month_day": "09-12",
       "year": 1958,
@@ -1117,6 +1321,18 @@
       "source_url": "https://www.sony.com/en/SonyInfo/CorporateInfo/History/SonyHistory/2-07.html"
     },
     {
+      "id": "xcel-hydroelectric-tunnel-fire-2007",
+      "month_day": "10-02",
+      "year": 2007,
+      "type": "failure",
+      "discipline": "Fire Safety",
+      "title": "Xcel tunnel fire traps workers underground",
+      "summary": "A fire erupted deep inside a drained hydroelectric penstock while workers used flammable solvent during coating work. Five people were killed in the confined underground tunnel.",
+      "lesson": "Confined-space work needs a rescueable design of work: atmosphere control, ignition control, escape planning and qualified emergency response before entry.",
+      "source_label": "U.S. Chemical Safety Board",
+      "source_url": "https://www.csb.gov/xcel-energy-company-hydroelectric-tunnel-fire/"
+    },
+    {
       "id": "sputnik-1957",
       "month_day": "10-04",
       "year": 1957,
@@ -1141,6 +1357,18 @@
       "source_url": "https://www.orr.gov.uk/search-news/ladbroke-grove-25-years-was-era-defining-event"
     },
     {
+      "id": "implantable-pacemaker-1958",
+      "month_day": "10-08",
+      "year": 1958,
+      "type": "breakthrough",
+      "discipline": "Medicine",
+      "title": "The first implantable pacemaker enters a human body",
+      "summary": "Ake Senning implanted a pacemaker developed with Rune Elmqvist in Sweden. The early devices failed quickly, but the concept of a self-contained implanted cardiac stimulator was proven.",
+      "lesson": "Implantable engineering must solve function and environment together: power, sealing, leads, biocompatibility and replacement become one design problem.",
+      "source_label": "National Library of Medicine",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2572009/"
+    },
+    {
       "id": "vajont-1963",
       "month_day": "10-09",
       "year": 1963,
@@ -1151,6 +1379,18 @@
       "lesson": "Passing the structural check is not enough when hazards outside the structure can dominate the system consequence.",
       "source_label": "UNESCO Memory of the World",
       "source_url": "https://www.unesco.org/en/memory-world/criminal-proceedings-vajont-dam-disaster"
+    },
+    {
+      "id": "ibm-1311-disk-pack-1962",
+      "month_day": "10-11",
+      "year": 1962,
+      "type": "breakthrough",
+      "discipline": "Computing",
+      "title": "IBM's removable disk pack makes storage portable",
+      "summary": "IBM announced the 1311 disk storage drive with removable disk packs. Users could move direct-access storage between systems and keep offline capacity beyond one fixed machine.",
+      "lesson": "Decoupling media from mechanism can change how capacity, security and maintenance scale across a computing system.",
+      "source_label": "Computer History Museum",
+      "source_url": "https://www.computerhistory.org/timeline/1962/"
     },
     {
       "id": "bell-x1-sound-barrier-1947",
@@ -1187,6 +1427,18 @@
       "lesson": "The first useful systems test is small, end-to-end and allowed to fail where the interfaces are real.",
       "source_label": "UCLA Samueli School of Engineering",
       "source_url": "https://samueli.ucla.edu/internet50-press/"
+    },
+    {
+      "id": "qantas-32-2010",
+      "month_day": "11-04",
+      "year": 2010,
+      "type": "failure",
+      "discipline": "Aviation",
+      "title": "QF32 survives an uncontained engine failure",
+      "summary": "A Qantas A380 suffered an uncontained engine failure after takeoff from Singapore. The ATSB found a fatigue crack in an oil feed pipe led to an internal oil fire and turbine-disc failure.",
+      "lesson": "High-energy rotating machinery needs containment, segregation and failure-management paths that assume fragments and cascading system damage are possible.",
+      "source_label": "Australian Transport Safety Bureau",
+      "source_url": "https://www.atsb.gov.au/investigations/ao-2010-089"
     },
     {
       "id": "tacoma-narrows-1940",
@@ -1297,6 +1549,30 @@
       "source_url": "https://www.energy.gov/ne/articles/10-intriguing-facts-about-worlds-first-nuclear-chain-reaction"
     },
     {
+      "id": "mars-polar-lander-1999",
+      "month_day": "12-03",
+      "year": 1999,
+      "type": "failure",
+      "discipline": "Software & Systems",
+      "title": "Mars Polar Lander likely shuts down too early",
+      "summary": "NASA lost Mars Polar Lander and the Deep Space 2 probes on arrival. An investigation found the lander most likely interpreted a false touchdown signal and shut down its descent engines prematurely.",
+      "lesson": "Autonomous landing software must distinguish transient deployment signals from irreversible state transitions before committing to engine shutdown.",
+      "source_label": "NASA",
+      "source_url": "https://science.nasa.gov/mission/mars-polar-lander-deep-space-2/"
+    },
+    {
+      "id": "toyota-prius-sale-1997",
+      "month_day": "12-10",
+      "year": 1997,
+      "type": "breakthrough",
+      "discipline": "Automotive Engineering",
+      "title": "Toyota puts the Prius hybrid on sale",
+      "summary": "Toyota put the Prius on sale in Japan as a production passenger car using its hybrid system. The drivetrain combined combustion, electric drive, generation and control software for everyday use.",
+      "lesson": "A cleaner architecture reaches impact only when the control system, manufacturing plan and customer product arrive together.",
+      "source_label": "Toyota Motor Corporation",
+      "source_url": "https://global.toyota/en/detail/7905316"
+    },
+    {
       "id": "buncefield-2005",
       "month_day": "12-11",
       "year": 2005,
@@ -1307,6 +1583,18 @@
       "lesson": "A protection layer is independent only if its sensing, logic, actuation and failure modes do not share the initiating fault.",
       "source_label": "UK Health and Safety Executive",
       "source_url": "https://www.hse.gov.uk/comah/buncefield/index.htm"
+    },
+    {
+      "id": "clapham-junction-1988",
+      "month_day": "12-12",
+      "year": 1988,
+      "type": "failure",
+      "discipline": "Rail",
+      "title": "Clapham Junction exposes a wrong-side signal failure",
+      "summary": "A crowded train collided with another near Clapham Junction after faulty signalling work allowed a signal to show proceed when it should not have. The crash killed 35 people and injured 484.",
+      "lesson": "Safety-critical modifications need independent inspection, fatigue control and commissioning discipline; informal working habits can defeat formal protection.",
+      "source_label": "UK Rail Accident Investigation Branch",
+      "source_url": "https://www.gov.uk/raib-reports/report-19-2018-collision-at-london-waterloo"
     },
     {
       "id": "wright-flight-1903",
