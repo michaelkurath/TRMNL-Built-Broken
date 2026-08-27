@@ -45,7 +45,7 @@ custom_fields:
   - Breakthroughs
   - Failures
   default: both
-  description: Show all cases or limit the daily rotation to one type. Empty uses Both.
+  description: Show all cases or limit the daily rotation to one type. Empty or unavailable results show all cases.
   optional: true
 - keyname: display_mode
   name: Display mode
