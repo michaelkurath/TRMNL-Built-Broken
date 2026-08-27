@@ -129,6 +129,10 @@ The validator checks the archive, compact TRMNL feed, factcheck ledger, category
 - Choose the primary user-facing domain for `discipline`; keep cross-cutting causes such as fatigue, corrosion, human factors or software interfaces in the summary and lesson until tag support exists.
 - Never present fatalities as entertainment; focus on the system and the lesson.
 
+## Transparency
+
+Built & Broken is AI-assisted, source-backed, and human-curated. AI is used to help draft, organize, and review engineering-history entries; every fact links to a source, and entries are progressively tracked in [`data/factchecks.json`](data/factchecks.json).
+
 ## Support
 
 Built & Broken is open source. If you find it useful or just enjoy the daily engineering lessons, you can [support ongoing fact-checking and maintenance through PayPal](https://paypal.me/MichaelKurath).
