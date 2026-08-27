@@ -131,7 +131,9 @@ The validator checks the archive, compact TRMNL feed, factcheck ledger, category
 
 ## Transparency
 
-Built & Broken is AI-assisted, source-backed, and human-curated. AI is used to help draft, organize, and review engineering-history entries; every fact links to a source, and entries are progressively tracked in [`data/factchecks.json`](data/factchecks.json).
+Built & Broken is an experiment in using AI-assisted research and development responsibly. The goal is not to publish disposable generated text, but to build a useful, constrained, source-backed project where AI helps with drafting, organization, review, and maintenance.
+
+Every published case links to a source, the dataset is checked by automated validation, entries are progressively tracked in [`data/factchecks.json`](data/factchecks.json), and human judgment decides what is included, corrected, deferred, or rejected.
 
 ## Support
 
