@@ -1,0 +1,719 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Built & Broken</title>
+    <meta
+      name="description"
+      content="Daily engineering breakthroughs, failures, and lessons from the open Built & Broken dataset."
+    />
+    <style>
+      :root {
+        --ink: #15130f;
+        --paper: #f2efe6;
+        --panel: #fbf8ef;
+        --muted: #6b6252;
+        --line: #15130f;
+        --built: #d7f2b8;
+        --broken: #ffd0bd;
+        --wash: #eee7d8;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background:
+          linear-gradient(rgba(21, 19, 15, 0.07) 1px, transparent 1px),
+          linear-gradient(90deg, rgba(21, 19, 15, 0.07) 1px, transparent 1px),
+          var(--paper);
+        background-size: 28px 28px;
+        color: var(--ink);
+        font-family:
+          Arial,
+          Helvetica,
+          sans-serif;
+      }
+
+      a {
+        color: inherit;
+      }
+
+      button,
+      select {
+        font: inherit;
+      }
+
+      .shell {
+        width: min(1280px, 100%);
+        min-height: 100vh;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      .topbar {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+        gap: 24px;
+        padding-bottom: 20px;
+        border-bottom: 2px solid var(--line);
+      }
+
+      .eyebrow {
+        margin: 0 0 8px;
+        color: var(--muted);
+        font-size: 12px;
+        font-weight: 900;
+        letter-spacing: 0.32em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(42px, 7vw, 82px);
+        line-height: 0.9;
+        letter-spacing: -0.06em;
+      }
+
+      .intro {
+        max-width: 560px;
+        margin: 0;
+        color: #5f5648;
+        font-size: 16px;
+        line-height: 1.55;
+      }
+
+      .layout {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) 360px;
+        gap: 24px;
+        padding-top: 28px;
+      }
+
+      .fact-card,
+      .control-card,
+      .trmnl-card {
+        border: 2px solid var(--line);
+        border-radius: 28px;
+        background: var(--panel);
+        box-shadow: 8px 8px 0 var(--line);
+      }
+
+      .fact-card {
+        overflow: hidden;
+      }
+
+      .fact-head,
+      .fact-body,
+      .control-card,
+      .trmnl-card {
+        padding: 28px;
+      }
+
+      .fact-head {
+        border-bottom: 2px solid var(--line);
+      }
+
+      .badges {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        flex-wrap: wrap;
+        margin-bottom: 22px;
+      }
+
+      .badge {
+        display: inline-flex;
+        align-items: center;
+        min-height: 28px;
+        padding: 4px 12px;
+        border: 2px solid var(--line);
+        border-radius: 999px;
+        font-size: 12px;
+        font-weight: 900;
+      }
+
+      .badge.built {
+        background: var(--built);
+      }
+
+      .badge.broken {
+        background: var(--broken);
+      }
+
+      .date {
+        margin-left: auto;
+        color: var(--muted);
+        font-size: 14px;
+        font-weight: 800;
+      }
+
+      .status {
+        margin: 0 0 10px;
+        color: #7b705e;
+        font-family:
+          ui-monospace,
+          SFMono-Regular,
+          Menlo,
+          Consolas,
+          monospace;
+        font-size: 12px;
+        font-weight: 800;
+        letter-spacing: 0.22em;
+        text-transform: uppercase;
+      }
+
+      h2 {
+        max-width: 900px;
+        margin: 0;
+        font-size: clamp(34px, 6vw, 72px);
+        line-height: 0.95;
+        letter-spacing: -0.055em;
+      }
+
+      .fact-body {
+        display: grid;
+        grid-template-columns: minmax(0, 1.3fr) minmax(220px, 0.7fr);
+        gap: 24px;
+      }
+
+      .summary {
+        margin: 0;
+        font-size: clamp(20px, 2.4vw, 28px);
+        line-height: 1.5;
+      }
+
+      .lesson {
+        margin-top: 24px;
+        padding: 20px;
+        border: 2px solid var(--line);
+        border-radius: 24px;
+        background: var(--wash);
+      }
+
+      .lesson-label {
+        margin: 0 0 10px;
+        color: var(--muted);
+        font-family:
+          ui-monospace,
+          SFMono-Regular,
+          Menlo,
+          Consolas,
+          monospace;
+        font-size: 12px;
+        font-weight: 900;
+        letter-spacing: 0.2em;
+        text-transform: uppercase;
+      }
+
+      .lesson p:last-child {
+        margin: 0;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 1.6;
+      }
+
+      .meta-panel {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 18px;
+        padding: 20px;
+        border: 2px dashed var(--line);
+        border-radius: 24px;
+        background: #f6f1e5;
+      }
+
+      .stats {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 14px;
+      }
+
+      .stat strong {
+        display: block;
+        font-size: 34px;
+        line-height: 1;
+        letter-spacing: -0.06em;
+      }
+
+      .stat span {
+        display: block;
+        margin-top: 5px;
+        color: var(--muted);
+        font-size: 11px;
+        font-weight: 900;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+      }
+
+      .sidebar {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+      }
+
+      .control-card h3,
+      .trmnl-card h3 {
+        margin: 0;
+        font-size: 28px;
+        line-height: 1;
+        letter-spacing: -0.04em;
+      }
+
+      .control-card p,
+      .trmnl-card p {
+        color: #5f5648;
+        line-height: 1.6;
+      }
+
+      .field {
+        margin-top: 18px;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 8px;
+        font-size: 12px;
+        font-weight: 900;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+      }
+
+      select {
+        width: 100%;
+        min-height: 42px;
+        padding: 8px 12px;
+        border: 2px solid var(--line);
+        border-radius: 10px;
+        background: #f6f1e5;
+        color: var(--ink);
+      }
+
+      .actions {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+        margin-top: 20px;
+      }
+
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        min-height: 42px;
+        padding: 10px 16px;
+        border: 2px solid var(--line);
+        border-radius: 999px;
+        background: transparent;
+        color: var(--ink);
+        font-weight: 900;
+        text-decoration: none;
+        cursor: pointer;
+      }
+
+      .button.primary {
+        background: var(--ink);
+        color: var(--panel);
+      }
+
+      .match-count {
+        margin-bottom: 0;
+        padding: 12px 14px;
+        border-radius: 18px;
+        background: var(--wash);
+      }
+
+      .trmnl-card {
+        background: var(--ink);
+        color: var(--panel);
+        box-shadow: 8px 8px 0 #b9aa8f;
+      }
+
+      .trmnl-card p {
+        color: #d7ccb8;
+      }
+
+      .trmnl-card .button {
+        width: 100%;
+        background: var(--panel);
+        color: var(--ink);
+      }
+
+      .source-link {
+        width: 100%;
+      }
+
+      .error-note {
+        display: none;
+        margin-top: 12px;
+        color: #5f5648;
+        font-size: 13px;
+        line-height: 1.5;
+      }
+
+      @media (max-width: 980px) {
+        .topbar,
+        .layout,
+        .fact-body {
+          grid-template-columns: 1fr;
+        }
+
+        .layout {
+          display: flex;
+          flex-direction: column;
+        }
+
+        .topbar {
+          align-items: flex-start;
+        }
+      }
+
+      @media (max-width: 620px) {
+        .shell {
+          padding: 14px;
+        }
+
+        .fact-card,
+        .control-card,
+        .trmnl-card {
+          border-radius: 20px;
+          box-shadow: 5px 5px 0 var(--line);
+        }
+
+        .fact-head,
+        .fact-body,
+        .control-card,
+        .trmnl-card {
+          padding: 20px;
+        }
+
+        .date {
+          width: 100%;
+          margin-left: 0;
+        }
+
+        .actions {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">Today in engineering</p>
+          <h1>Built &amp; Broken</h1>
+        </div>
+        <p class="intro">
+          Carefully sourced engineering breakthroughs and failures, built from
+          the same open dataset as the TRMNL recipe.
+        </p>
+      </header>
+
+      <section class="layout">
+        <article class="fact-card" aria-live="polite">
+          <div class="fact-head">
+            <div class="badges">
+              <span id="typeBadge" class="badge built">Breakthrough</span>
+              <span id="categoryBadge" class="badge">Aviation</span>
+              <span id="dateText" class="date">Loading...</span>
+            </div>
+            <p id="statusText" class="status">Loading live dataset</p>
+            <h2 id="titleText">Loading Built &amp; Broken</h2>
+          </div>
+
+          <div class="fact-body">
+            <div>
+              <p id="summaryText" class="summary">
+                Fetching the latest engineering facts from GitHub.
+              </p>
+              <div class="lesson">
+                <p class="lesson-label">Engineering lesson</p>
+                <p id="lessonText">The dataset is loading.</p>
+              </div>
+            </div>
+
+            <aside class="meta-panel">
+              <div class="stats">
+                <div class="stat">
+                  <strong id="totalStat">-</strong>
+                  <span>facts</span>
+                </div>
+                <div class="stat">
+                  <strong id="categoryStat">-</strong>
+                  <span>topics</span>
+                </div>
+                <div class="stat">
+                  <strong id="builtStat">-</strong>
+                  <span>built</span>
+                </div>
+                <div class="stat">
+                  <strong id="brokenStat">-</strong>
+                  <span>broken</span>
+                </div>
+              </div>
+              <a
+                id="sourceLink"
+                class="button primary source-link"
+                href="https://github.com/michaelkurath/TRMNL-Built-Broken"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Open source
+              </a>
+            </aside>
+          </div>
+        </article>
+
+        <aside class="sidebar">
+          <section class="control-card" aria-labelledby="browseTitle">
+            <h3 id="browseTitle">Browse</h3>
+            <p>Filter the same curated facts used by the TRMNL recipe.</p>
+
+            <div class="field">
+              <label for="typeFilter">Type</label>
+              <select id="typeFilter">
+                <option value="both">Built &amp; broken</option>
+                <option value="breakthrough">Breakthroughs only</option>
+                <option value="failure">Failures only</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="categoryFilter">Topic</label>
+              <select id="categoryFilter">
+                <option value="all">All topics</option>
+              </select>
+            </div>
+
+            <div class="actions">
+              <button id="todayButton" class="button" type="button">
+                Today
+              </button>
+              <button id="randomButton" class="button primary" type="button">
+                Random
+              </button>
+            </div>
+
+            <p id="matchCount" class="match-count">Loading facts...</p>
+            <p id="errorNote" class="error-note">
+              The live dataset could not be loaded, so this page is showing one
+              fallback fact.
+            </p>
+          </section>
+
+          <section class="trmnl-card" aria-labelledby="trmnlTitle">
+            <h3 id="trmnlTitle">Also made for TRMNL</h3>
+            <p>
+              The e-ink recipe shows one carefully sourced engineering lesson
+              per day.
+            </p>
+            <a
+              class="button"
+              href="https://github.com/michaelkurath/TRMNL-Built-Broken"
+              rel="noreferrer"
+              target="_blank"
+            >
+              View open-source project
+            </a>
+            <p>
+              No TRMNL required here; this web version is for anyone who wants
+              the daily engineering hit in a browser.
+            </p>
+          </section>
+        </aside>
+      </section>
+    </main>
+
+    <script>
+      const DATA_URL =
+        "https://raw.githubusercontent.com/michaelkurath/TRMNL-Built-Broken/main/data/events.json";
+
+      const fallbackEvents = [
+        {
+          id: "fallback-wright-flight-1903",
+          month_day: "12-17",
+          year: 1903,
+          type: "breakthrough",
+          discipline: "Aviation",
+          title: "The Wright Flyer achieves controlled powered flight",
+          summary:
+            "Orville Wright flew for 12 seconds and 120 feet at Kitty Hawk. The deeper achievement was three-axis control, developed through years of experiments and iterative testing.",
+          lesson:
+            "Solve controllability, not just raw performance. A machine that cannot be controlled has not solved the problem.",
+          source_label: "U.S. National Park Service",
+          source_url: "https://www.nps.gov/places/000/december-17-1903.htm",
+        },
+      ];
+
+      let events = fallbackEvents;
+      let selectedEvent = fallbackEvents[0];
+      let status = "loading";
+
+      const elements = {
+        typeBadge: document.querySelector("#typeBadge"),
+        categoryBadge: document.querySelector("#categoryBadge"),
+        dateText: document.querySelector("#dateText"),
+        statusText: document.querySelector("#statusText"),
+        titleText: document.querySelector("#titleText"),
+        summaryText: document.querySelector("#summaryText"),
+        lessonText: document.querySelector("#lessonText"),
+        sourceLink: document.querySelector("#sourceLink"),
+        totalStat: document.querySelector("#totalStat"),
+        categoryStat: document.querySelector("#categoryStat"),
+        builtStat: document.querySelector("#builtStat"),
+        brokenStat: document.querySelector("#brokenStat"),
+        typeFilter: document.querySelector("#typeFilter"),
+        categoryFilter: document.querySelector("#categoryFilter"),
+        matchCount: document.querySelector("#matchCount"),
+        errorNote: document.querySelector("#errorNote"),
+      };
+
+      function todayKey() {
+        const now = new Date();
+        return `${String(now.getMonth() + 1).padStart(2, "0")}-${String(
+          now.getDate(),
+        ).padStart(2, "0")}`;
+      }
+
+      function dayOfYearIndex() {
+        const now = new Date();
+        const start = new Date(now.getFullYear(), 0, 0);
+        return Math.floor((now - start) / 86400000);
+      }
+
+      function formatDate(monthDay) {
+        const [month, day] = monthDay.split("-").map(Number);
+        return new Intl.DateTimeFormat("en", {
+          month: "long",
+          day: "numeric",
+        }).format(new Date(2024, month - 1, day));
+      }
+
+      function filteredEvents() {
+        const type = elements.typeFilter.value;
+        const category = elements.categoryFilter.value;
+
+        return events.filter((event) => {
+          const typeMatches = type === "both" || event.type === type;
+          const categoryMatches =
+            category === "all" || event.discipline === category;
+          return typeMatches && categoryMatches;
+        });
+      }
+
+      function pickDaily(pool) {
+        const exact = pool.find((event) => event.month_day === todayKey());
+        return exact || pool[dayOfYearIndex() % pool.length];
+      }
+
+      function pickRandom(pool, currentId) {
+        if (pool.length <= 1) return pool[0];
+
+        let next = pool[Math.floor(Math.random() * pool.length)];
+        while (next.id === currentId) {
+          next = pool[Math.floor(Math.random() * pool.length)];
+        }
+        return next;
+      }
+
+      function render(event) {
+        const categories = [...new Set(events.map((item) => item.discipline))];
+        const breakthroughs = events.filter(
+          (item) => item.type === "breakthrough",
+        ).length;
+        const failures = events.filter((item) => item.type === "failure").length;
+        const matches = filteredEvents();
+
+        elements.typeBadge.textContent =
+          event.type === "breakthrough" ? "Breakthrough" : "Failure";
+        elements.typeBadge.className =
+          event.type === "breakthrough" ? "badge built" : "badge broken";
+        elements.categoryBadge.textContent = event.discipline;
+        elements.dateText.textContent = `${formatDate(event.month_day)}, ${
+          event.year
+        }`;
+        elements.statusText.textContent =
+          status === "fallback"
+            ? "Showing fallback fact"
+            : `${events.length} facts in the live dataset`;
+        elements.titleText.textContent = event.title;
+        elements.summaryText.textContent = event.summary;
+        elements.lessonText.textContent = event.lesson;
+        elements.sourceLink.href = event.source_url;
+        elements.sourceLink.textContent = `Source: ${event.source_label}`;
+        elements.totalStat.textContent = events.length;
+        elements.categoryStat.textContent = categories.length;
+        elements.builtStat.textContent = breakthroughs;
+        elements.brokenStat.textContent = failures;
+        elements.matchCount.textContent = matches.length
+          ? `${matches.length} facts match the current filter.`
+          : "No facts match this filter yet. The dataset is still growing.";
+        elements.errorNote.style.display = status === "fallback" ? "block" : "none";
+      }
+
+      function populateCategories() {
+        const categories = [...new Set(events.map((event) => event.discipline))]
+          .sort((a, b) => a.localeCompare(b));
+
+        for (const category of categories) {
+          const option = document.createElement("option");
+          option.value = category;
+          option.textContent = category;
+          elements.categoryFilter.appendChild(option);
+        }
+      }
+
+      function showToday() {
+        const pool = filteredEvents();
+        selectedEvent = pickDaily(pool.length ? pool : events);
+        render(selectedEvent);
+      }
+
+      function showRandom() {
+        const pool = filteredEvents();
+        selectedEvent = pickRandom(pool.length ? pool : events, selectedEvent.id);
+        render(selectedEvent);
+      }
+
+      async function init() {
+        try {
+          const response = await fetch(DATA_URL, { cache: "no-store" });
+          if (!response.ok) throw new Error("Dataset unavailable");
+
+          const data = await response.json();
+          if (!Array.isArray(data.events) || !data.events.length) {
+            throw new Error("Dataset empty");
+          }
+
+          events = data.events;
+          status = "ready";
+        } catch {
+          events = fallbackEvents;
+          status = "fallback";
+        }
+
+        populateCategories();
+        selectedEvent = pickDaily(events);
+        render(selectedEvent);
+      }
+
+      elements.typeFilter.addEventListener("change", showToday);
+      elements.categoryFilter.addEventListener("change", showToday);
+      document.querySelector("#todayButton").addEventListener("click", showToday);
+      document
+        .querySelector("#randomButton")
+        .addEventListener("click", showRandom);
+
+      init();
+    </script>
+  </body>
+</html>
