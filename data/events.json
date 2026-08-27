@@ -69,8 +69,8 @@
       "title": "Boston Molasses Flood: a storage tank fails without warning",
       "summary": "A large molasses tank ruptured in Boston's North End, releasing a destructive wave through nearby streets. Twenty-one people died and buildings, vehicles and elevated-rail structures were damaged.",
       "lesson": "Low operating pressure does not mean low consequence; large stored volume, brittle material and weak inspection can create catastrophic energy release.",
-      "source_label": "U.S. National Park Service",
-      "source_url": "https://www.nps.gov/planyourvisit/event-details.htm?id=77CBFCF8-0695-F02E-82BB84BDAE450E38"
+      "source_label": "City of Boston",
+      "source_url": "https://www.boston.gov/news/100-years-ago-today-molasses-crashes-through-bostons-north-end"
     },
     {
       "id": "ss-schenectady-fracture-1943",
@@ -82,7 +82,7 @@
       "summary": "The welded T2 tanker split in two at Portland shortly after sea trials. The fracture became a classic case in brittle fracture, welding practice and material toughness.",
       "lesson": "A structure can meet its shape requirements and still fail if material toughness, weld detail and service temperature are not treated as one system.",
       "source_label": "The Welding Institute",
-      "source_url": "https://www.twi-global.com/technical-knowledge/published-papers/schenectady-t2-tanker"
+      "source_url": "https://www.twi-global.com/media-and-events/insights/schenectady-t2-tanker"
     },
     {
       "id": "nautilus-nuclear-power-1955",

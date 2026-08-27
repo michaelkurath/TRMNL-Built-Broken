@@ -185,6 +185,186 @@
       ],
       "evidence_url": "https://www.faa.gov/lessons_learned/transport_airplane/accidents/N310EA",
       "notes": "FAA confirms the Dec. 29, 1972 crash, nose-gear indication distraction, unnoticed descent, 112 deaths, and the crew resource management lesson."
+    },
+    {
+      "id": "stanford-heart-transplant-1968",
+      "checked_at": "2026-08-27",
+      "status": "verified",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://med.stanford.edu/news/all-news/2018/01/50-years-ago-stanford-heart-doctors-made-history.html",
+      "notes": "Stanford Medicine confirms that Norman Shumway performed the first U.S. adult heart transplant on Jan. 6, 1968, with Mike Kasperak as the recipient, and supports the surgical preparation, preservation and rejection-control framing."
+    },
+    {
+      "id": "kegworth-1989",
+      "checked_at": "2026-08-27",
+      "status": "verified_with_note",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.gov.uk/aaib-reports/4-1990-boeing-737-400-g-obme-8-january-1989",
+      "notes": "The AAIB page is the official report landing page for the Jan. 8, 1989 Boeing 737-400 accident. A FAA lessons-learned page directly exposes the left-engine fan-blade failure, right-engine shutdown and cockpit-cue chain, so the source is retained with supporting evidence noted."
+    },
+    {
+      "id": "iphone-introduced-2007",
+      "checked_at": "2026-08-27",
+      "status": "verified",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.apple.com/newsroom/2007/01/09Apple-Reinvents-the-Phone-with-iPhone/",
+      "notes": "Apple confirms the Jan. 9, 2007 introduction and the combined phone, widescreen iPod, internet communicator and multi-touch software-interface claims."
+    },
+    {
+      "id": "london-underground-opens-1863",
+      "checked_at": "2026-08-27",
+      "status": "verified",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://tfl.gov.uk/info-for/media/press-releases/2023/january/happy-birthday-london-underground-the-tube-celebrates-160-years-of-serving-the-capital",
+      "notes": "Transport for London confirms the Jan. 10, 1863 first Metropolitan Railway journey between Paddington and Farringdon and describes it as the world's first underground railway."
+    },
+    {
+      "id": "jack-in-the-box-ecoli-1993",
+      "checked_at": "2026-08-27",
+      "status": "verified",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/00020219.htm",
+      "notes": "CDC confirms the Jan. 13, 1993 physician report to Washington health officials, the E. coli O157:H7 illness cluster, and linkage to hamburgers from a restaurant chain with undercooked ground beef as the control issue."
+    },
+    {
+      "id": "boston-molasses-flood-1919",
+      "checked_at": "2026-08-27",
+      "status": "source_improved",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.boston.gov/news/100-years-ago-today-molasses-crashes-through-bostons-north-end",
+      "notes": "Replaced the thinner NPS event page with a City of Boston source. It confirms Jan. 15, 1919, the 50-foot tank rupture, 2.3 million gallons released, 21 deaths, 150 injuries, elevated-rail damage, and structural concerns about wall thickness and cracking."
+    },
+    {
+      "id": "ss-schenectady-fracture-1943",
+      "checked_at": "2026-08-27",
+      "status": "source_improved",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.twi-global.com/media-and-events/insights/schenectady-t2-tanker",
+      "notes": "Updated the stale TWI URL to the live article. The Welding Institute confirms the Jan. 16, 1943 dockside fracture, that Schenectady broke in two amidships, and the brittle-fracture/material-toughness lesson."
+    },
+    {
+      "id": "nautilus-nuclear-power-1955",
+      "checked_at": "2026-08-27",
+      "status": "verified_with_note",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.history.navy.mil/browse-by-topic/ships/submarines/uss-nautilus.html",
+      "notes": "The cited NHHC page intermittently times out in the crawler, but indexed NHHC content confirms that Nautilus was the world's first nuclear-powered submarine and on Jan. 17, 1955 was underway on nuclear power. The Navy's Nuclear Navy page also supports the same date and milestone."
+    },
+    {
+      "id": "hartford-civic-center-roof-1978",
+      "checked_at": "2026-08-27",
+      "status": "verified_with_note",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://nvlpubs.nist.gov/nistpubs/sp958-lide/html/283-288.html",
+      "notes": "NIST supports the Jan. 18, 1978 Hartford Civic Arena roof collapse after snow and freezing rain and frames it within structural load/reliability lessons. The detailed modelling/design-assumption language is supported by engineering secondary sources and should get a deeper primary-source pass later."
+    },
+    {
+      "id": "first-insulin-treatment-1922",
+      "checked_at": "2026-08-27",
+      "status": "verified",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://fisherdigitus.library.utoronto.ca/exhibits/show/insulin100/early-patients/leonard-thompson",
+      "notes": "University of Toronto Libraries confirms Leonard Thompson first received Banting and Best's extract on Jan. 11, 1922, then Collip's purified extract on Jan. 23; the second test was dramatically successful and lowered blood sugar to normal in one day."
     }
   ]
 }
