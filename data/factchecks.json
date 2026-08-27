@@ -365,6 +365,186 @@
       ],
       "evidence_url": "https://fisherdigitus.library.utoronto.ca/exhibits/show/insulin100/early-patients/leonard-thompson",
       "notes": "University of Toronto Libraries confirms Leonard Thompson first received Banting and Best's extract on Jan. 11, 1922, then Collip's purified extract on Jan. 23; the second test was dramatically successful and lowered blood sugar to normal in one day."
+    },
+    {
+      "id": "macintosh-launch-1984",
+      "checked_at": "2026-08-27",
+      "status": "verified",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://computerhistory.org/blog/a-computer-for-the-rest-of-us/",
+      "notes": "Computer History Museum confirms the Jan. 24, 1984 Macintosh launch, graphical user interface, mouse-driven point-and-click interaction, compact all-in-one design context and mass-market usability framing."
+    },
+    {
+      "id": "baird-television-demo-1926",
+      "checked_at": "2026-08-27",
+      "status": "verified",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://collection.sciencemuseumgroup.org.uk/people/cp3684/john-logie-baird",
+      "notes": "Science Museum Group confirms Baird repeated his light-and-shade television experiments for Royal Institution members on Jan. 26, 1926 after earlier experiments with Stooky Bill, supporting the working-television demonstration framing."
+    },
+    {
+      "id": "apollo-1-fire-1967",
+      "checked_at": "2026-08-27",
+      "status": "verified_with_note",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.nasa.gov/apollo-1-resources/",
+      "notes": "NASA confirms the Jan. 27, 1967 launch-pad test fire and deaths of Grissom, White and Chaffee, and links to the Apollo 204 Review Board report. The oxygen, combustible-materials and hatch details are supported by the linked review materials rather than fully exposed on the overview page."
+    },
+    {
+      "id": "challenger-1986",
+      "checked_at": "2026-08-27",
+      "status": "verified",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.nasa.gov/history/rogersrep/v1ch3.htm",
+      "notes": "Rogers Commission chapter confirms the cold launch context, aft field-joint smoke, incomplete sealing action, O-ring erosion by hot propellant gases, flame plume from the right solid rocket booster and rapid vehicle breakup around 73 seconds."
+    },
+    {
+      "id": "benz-patent-motor-car-1886",
+      "checked_at": "2026-08-27",
+      "status": "verified",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://group.mercedes-benz.com/company/tradition/company-history/1885-1886.html",
+      "notes": "Mercedes-Benz Group confirms Carl Benz applied on Jan. 29, 1886 for patent number 37435 for a vehicle powered by a gas engine and describes the engine/chassis integration of the three-wheeled Patent Motor Car."
+    },
+    {
+      "id": "explorer-1-1958",
+      "checked_at": "2026-08-27",
+      "status": "verified",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://science.nasa.gov/mission/explorer-1/",
+      "notes": "NASA confirms Explorer 1 launched Jan. 31, 1958 as the first U.S. satellite and carried James Van Allen's cosmic-ray instrument package, supporting the discovery-oriented prototype lesson."
+    },
+    {
+      "id": "columbia-2003",
+      "checked_at": "2026-08-27",
+      "status": "verified",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.nasa.gov/remembering-columbia-sts-107/",
+      "notes": "NASA confirms Columbia suffered catastrophic failure during re-entry on Feb. 1, 2003 due to a breach from falling external-tank foam striking the reinforced carbon-carbon panels on the underside of the left wing."
+    },
+    {
+      "id": "east-palestine-2023",
+      "checked_at": "2026-08-27",
+      "status": "verified",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.ntsb.gov/news/press-releases/Pages/NR20240625.aspx",
+      "notes": "NTSB confirms the Feb. 3, 2023 East Palestine derailment, failed and overheated wheel bearing, hazardous-material release and fire, and failure of wayside monitoring systems to diagnose the hot bearing in time."
+    },
+    {
+      "id": "imperial-sugar-explosion-2008",
+      "checked_at": "2026-08-27",
+      "status": "verified",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.csb.gov/imperial-sugar-company-dust-explosion-and-fire/",
+      "notes": "CSB confirms the Feb. 7, 2008 Imperial Sugar explosion and fire at Port Wentworth, 14 deaths, 38 injuries and massive combustible sugar-dust accumulations throughout the packaging building."
+    },
+    {
+      "id": "boeing-747-first-flight-1969",
+      "checked_at": "2026-08-27",
+      "status": "verified_with_note",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.boeing.com/commercial/747-8",
+      "notes": "Boeing page confirms the first 747 took off on Feb. 9, 1969 and notes Everett factory construction began in 1966 and remains the world's largest building by volume. Source is retained, though a dedicated Boeing history page would be cleaner if one becomes available."
     }
   ]
 }
