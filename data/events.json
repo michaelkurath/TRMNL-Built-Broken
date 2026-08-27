@@ -2181,8 +2181,8 @@
       "title": "Clapham Junction exposes a wrong-side signal failure",
       "summary": "A crowded train collided with another near Clapham Junction after faulty signalling work allowed a signal to show proceed when it should not have. The crash killed 35 people and injured 484.",
       "lesson": "Safety-critical modifications need independent inspection, fatigue control and commissioning discipline; informal working habits can defeat formal protection.",
-      "source_label": "UK Rail Accident Investigation Branch",
-      "source_url": "https://www.gov.uk/raib-reports/report-19-2018-collision-at-london-waterloo"
+      "source_label": "The Railways Archive",
+      "source_url": "https://www.railwaysarchive.co.uk/docsummary.php?docID=36"
     },
     {
       "id": "silver-bridge-collapse-1967",
@@ -2242,7 +2242,7 @@
       "summary": "A containment dike failed at TVA's Kingston Fossil Plant, releasing about 5.4 million cubic yards of coal ash across waterways and roughly 300 acres of surrounding land.",
       "lesson": "Waste storage is a long-lived engineered system: monitor changing material properties, pore pressure, geometry and consequences throughout its operating life.",
       "source_label": "U.S. Environmental Protection Agency",
-      "source_url": "https://www.epa.gov/coal-combustion-residuals/coal-ash-rule"
+      "source_url": "https://19january2017snapshot.epa.gov/tn/epa-response-kingston-tva-coal-ash-spill_.html"
     },
     {
       "id": "first-kidney-transplant-1954",

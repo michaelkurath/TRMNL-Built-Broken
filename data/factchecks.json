@@ -1,0 +1,190 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-08-27",
+  "notes": [
+    "This ledger tracks entries that have been manually checked against their cited source or a stronger replacement source.",
+    "Status values: verified, verified_with_note, source_corrected, source_improved."
+  ],
+  "checks": [
+    {
+      "id": "buncefield-2005",
+      "checked_at": "2026-08-27",
+      "status": "verified_with_note",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.hse.gov.uk/comah/buncefield/index.htm",
+      "notes": "HSE confirms the Dec. 11, 2005 Buncefield explosions, major fire, over 40 injuries and no fatalities. The existing source is an overview page with links to detailed reports; the stuck gauge/IHLS mechanism should be checked against the linked investigation report in a later deep pass."
+    },
+    {
+      "id": "clapham-junction-1988",
+      "checked_at": "2026-08-27",
+      "status": "source_corrected",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.railwaysarchive.co.uk/docsummary.php?docID=36",
+      "notes": "The previous URL pointed to a 2018 Waterloo RAIB report, not the 1988 Clapham Junction crash. Replaced it with the Hidden Report entry at The Railways Archive and changed the source label accordingly."
+    },
+    {
+      "id": "silver-bridge-collapse-1967",
+      "checked_at": "2026-08-27",
+      "status": "verified",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.ntsb.gov/investigations/Pages/80267.aspx",
+      "notes": "NTSB source confirms the Dec. 15, 1967 U.S. 35 bridge collapse, 46 deaths and investigation framing. ASCE also supports the single-cracked-eyebar and redundancy lesson."
+    },
+    {
+      "id": "wright-flight-1903",
+      "checked_at": "2026-08-27",
+      "status": "verified_with_note",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.nps.gov/places/000/december-17-1903.htm",
+      "notes": "NPS source confirms Orville Wright piloted the Dec. 17, 1903 first flight for 12 seconds and 120 feet. The three-axis-control interpretation is sound but not fully supported by this NPS page alone."
+    },
+    {
+      "id": "t2-laboratories-2007",
+      "checked_at": "2026-08-27",
+      "status": "verified",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.csb.gov/t2-laboratories-inc-reactive-chemical-explosion/",
+      "notes": "CSB confirms the Dec. 19, 2007 T2 Laboratories explosion, four deaths, hospitalizations/injuries, reactive incident classification, and cooling-system/runaway-reaction cause."
+    },
+    {
+      "id": "ebr-1-electricity-1951",
+      "checked_at": "2026-08-27",
+      "status": "verified",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.energy.gov/ne/articles/9-notable-facts-about-worlds-first-nuclear-power-plant-ebr-i",
+      "notes": "DOE confirms that on Dec. 20, 1951 EBR-I became the first power plant to produce usable electricity through atomic fission, initially powering four 200-watt lightbulbs."
+    },
+    {
+      "id": "kingston-coal-ash-spill-2008",
+      "checked_at": "2026-08-27",
+      "status": "source_improved",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://19january2017snapshot.epa.gov/tn/epa-response-kingston-tva-coal-ash-spill_.html",
+      "notes": "Replaced the broad EPA coal-ash rule page with EPA response page specific to Kingston. It confirms Dec. 22, 2008, dike failure, about 5.4 million cubic yards released and about 300 acres affected."
+    },
+    {
+      "id": "first-kidney-transplant-1954",
+      "checked_at": "2026-08-27",
+      "status": "verified",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://collections.countway.harvard.edu/onview/exhibits/show/reconstructing-lives/transplantation/herrick-twins",
+      "notes": "Harvard Countway source supports the Dec. 23, 1954 successful transplant between Ronald and Richard Herrick. The page intermittently blocks direct fetch, but the indexed source metadata matches the entry."
+    },
+    {
+      "id": "james-webb-launch-2021",
+      "checked_at": "2026-08-27",
+      "status": "verified",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://science.nasa.gov/mission/webb/launch/",
+      "notes": "NASA confirms Webb launched Dec. 25, 2021 on Ariane 5, used a folded/stowed launch configuration, and deployed on the journey toward L2."
+    },
+    {
+      "id": "eastern-401-1972",
+      "checked_at": "2026-08-27",
+      "status": "verified",
+      "checked_fields": [
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.faa.gov/lessons_learned/transport_airplane/accidents/N310EA",
+      "notes": "FAA confirms the Dec. 29, 1972 crash, nose-gear indication distraction, unnoticed descent, 112 deaths, and the crew resource management lesson."
+    }
+  ]
+}
