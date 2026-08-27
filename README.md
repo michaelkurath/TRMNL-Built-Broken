@@ -123,7 +123,7 @@ Add the `trmnl` topic to the repository so other TRMNL plugin builders can find 
 
 ## Support
 
-Built & Broken is open source. If you find it useful or just enjoy the daily engineering lessons, you can [support ongoing fact-checking and maintenance through GitHub Sponsors](https://github.com/sponsors/michaelkurath).
+Built & Broken is open source. If you find it useful or just enjoy the daily engineering lessons, you can [support ongoing fact-checking and maintenance through PayPal](https://paypal.me/MichaelKurath).
 
 ## License
 
