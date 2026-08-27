@@ -27,8 +27,8 @@
 {% else %}
   {% for item in pool %}{% if item.month_day == today_key %}{% assign selected = item %}{% assign anniversary = true %}{% break %}{% endif %}{% endfor %}
 {% endif %}
-{% assign show_summary = true %}{% if settings.show_summary == false or settings.show_summary == "false" %}{% assign show_summary = false %}{% endif %}
-{% assign show_source = false %}{% if settings.show_source == true or settings.show_source == "true" %}{% assign show_source = true %}{% endif %}
+{% assign show_summary = true %}{% if settings.show_summary == false %}{% assign show_summary = false %}{% endif %}
+{% assign show_source = false %}{% if settings.show_source == true %}{% assign show_source = true %}{% endif %}
 
 <div class="layout layout--col layout--stretch">
   <div class="flex flex--col gap--small stretch">

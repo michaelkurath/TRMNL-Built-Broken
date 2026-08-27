@@ -22,7 +22,7 @@
 {% else %}
   {% for item in pool %}{% if item.month_day == today_key %}{% assign selected = item %}{% assign anniversary = true %}{% break %}{% endif %}{% endfor %}
 {% endif %}
-{% assign show_summary = true %}{% if settings.show_summary == false or settings.show_summary == "false" %}{% assign show_summary = false %}{% endif %}
+{% assign show_summary = true %}{% if settings.show_summary == false %}{% assign show_summary = false %}{% endif %}
 <div class="layout layout--col layout--stretch">
   <div class="flex flex--col flex--center-y gap--small h--full">
     <div class="flex flex--row flex--between flex--center-y gap--small">
