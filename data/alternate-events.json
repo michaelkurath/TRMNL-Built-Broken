@@ -38,6 +38,23 @@
       "notes": "NASA source confirms first Space Shuttle mission and Apr. 12, 1981 launch. Conflicts with Vostok 1 on 04-12."
     },
     {
+      "id": "hindenburg-disaster-1937",
+      "month_day": "05-06",
+      "year": 1937,
+      "type": "failure",
+      "discipline": "Aerospace",
+      "title": "Hindenburg burns during landing",
+      "summary": "The German passenger airship Hindenburg caught fire while preparing to land at Lakehurst, New Jersey. The disaster killed 35 people aboard and one member of the ground crew, ending confidence in hydrogen-filled passenger airships.",
+      "lesson": "A spectacular vehicle still depends on ordinary operational margins: weather, handling, materials, ignition controls and emergency escape all have to survive the final approach.",
+      "source_label": "U.S. National Archives",
+      "source_url": "https://www.archives.gov/exhibits/eyewitness/html.php?section=5",
+      "status": "reserve_date_conflict",
+      "conflicts_with": [
+        "channel-tunnel-1994"
+      ],
+      "notes": "National Archives source confirms May 6, 1937, Lakehurst, and fatalities. Conflicts with Channel Tunnel opening on 05-06."
+    },
+    {
       "id": "uster-pool-ceiling-collapse-1985",
       "month_day": "05-09",
       "year": 1985,
@@ -53,6 +70,23 @@
         "sunshine-skyway-collapse-1980"
       ],
       "notes": "SRF provides accessible anniversary/context coverage; BGE 115 IV 199 is stronger for technical facts: 207 chrome-nickel-steel hangers, acidic chloride-containing moisture film, pitting, transcrystalline stress-corrosion cracking, overloading, 12 deaths and 19 injured or directly endangered."
+    },
+    {
+      "id": "first-laser-1960",
+      "month_day": "05-16",
+      "year": 1960,
+      "type": "breakthrough",
+      "discipline": "Consumer Technology",
+      "title": "Maiman makes the first working laser",
+      "summary": "Theodore Maiman switched on a ruby laser at Hughes Research Laboratories, producing the first laser flash. The device turned a laboratory principle into a practical source of coherent light.",
+      "lesson": "A breakthrough can come from making a known principle buildable: materials, pumping method, geometry and timing matter as much as the theory.",
+      "source_label": "German Patent and Trade Mark Office",
+      "source_url": "https://www.dpma.de/english/our_office/publications/milestones/inventionsthatmadehistory/laser/index.html",
+      "status": "reserve_date_conflict",
+      "conflicts_with": [
+        "ronan-point-1968"
+      ],
+      "notes": "DPMA source confirms May 16, 1960 and Maiman's ruby laser. Conflicts with Ronan Point on 05-16."
     },
     {
       "id": "morse-telegraph-message-1844",
@@ -72,6 +106,57 @@
       "notes": "LOC source confirms May 24, 1844 and first telegraphic message. Conflicts with Brooklyn Bridge opening on 05-24."
     },
     {
+      "id": "gemini-iv-spacewalk-1965",
+      "month_day": "06-03",
+      "year": 1965,
+      "type": "breakthrough",
+      "discipline": "Space",
+      "title": "Gemini IV takes an American outside the spacecraft",
+      "summary": "NASA's Gemini IV mission launched with James McDivitt and Ed White aboard, and White performed the first American spacewalk. The EVA tested human mobility, tethers and hand-held maneuvering outside the capsule.",
+      "lesson": "Working outside a vehicle turns the astronaut, suit, tether, tools and procedures into one life-support system.",
+      "source_label": "NASA",
+      "source_url": "https://www.nasa.gov/mission/gemini-iv/",
+      "status": "reserve_date_conflict",
+      "conflicts_with": [
+        "therac25-first-overdose-1985"
+      ],
+      "notes": "NASA source confirms June 3, 1965 and the first American spacewalk. Conflicts with Therac-25 first overdose on 06-03."
+    },
+    {
+      "id": "spaceshipone-first-private-spaceflight-2004",
+      "month_day": "06-21",
+      "year": 2004,
+      "type": "breakthrough",
+      "discipline": "Space",
+      "title": "SpaceShipOne reaches space privately",
+      "summary": "SpaceShipOne became the first privately built and piloted vehicle to reach space. The flight showed that a small experimental team could build, fly and recover a crewed suborbital spacecraft.",
+      "lesson": "A smaller program still needs aerospace discipline: incremental tests, abort modes, recovery behavior and pilot workload decide whether bold hardware survives the demo.",
+      "source_label": "Smithsonian National Air and Space Museum",
+      "source_url": "https://airandspace.si.edu/collection-objects/spaceshipone/nasm_A20050459000",
+      "status": "reserve_date_conflict",
+      "conflicts_with": [
+        "manchester-baby-1948"
+      ],
+      "notes": "Smithsonian source confirms June 21, 2004 and first privately built, piloted vehicle to reach space. Conflicts with Manchester Baby on 06-21."
+    },
+    {
+      "id": "telstar-1-launch-1962",
+      "month_day": "07-10",
+      "year": 1962,
+      "type": "breakthrough",
+      "discipline": "Communications",
+      "title": "Telstar 1 opens live satellite television",
+      "summary": "Telstar 1 launched on a Delta rocket as an active communications satellite able to relay television across the Atlantic. It linked spacecraft, ground stations, antennas and microwave electronics into a working global media system.",
+      "lesson": "A communications satellite is only useful when orbit, power, bandwidth, pointing and ground infrastructure all close the link budget together.",
+      "source_label": "NASA",
+      "source_url": "https://www.nasa.gov/history/telstar-opened-era-of-global-satellite-television/",
+      "status": "reserve_date_conflict",
+      "conflicts_with": [
+        "seveso-1976"
+      ],
+      "notes": "NASA source confirms July 10, 1962 launch and Telstar's role in global satellite television. Conflicts with Seveso on 07-10."
+    },
+    {
       "id": "viking-1-mars-landing-1976",
       "month_day": "07-20",
       "year": 1976,
@@ -87,6 +172,40 @@
         "apollo-11-1969"
       ],
       "notes": "NASA source confirms July 20, 1976 and first truly successful Mars landing. Conflicts with Apollo 11 on 07-20."
+    },
+    {
+      "id": "luna-2-launch-1959",
+      "month_day": "09-12",
+      "year": 1959,
+      "type": "breakthrough",
+      "discipline": "Space",
+      "title": "Luna 2 launches toward the Moon",
+      "summary": "The Soviet Union launched Luna 2 on an intercept course with the Moon. The mission became the first human-made object to reach another celestial body when it impacted the lunar surface the next day.",
+      "lesson": "A deep-space first can be a one-way proof: navigation, tracking, staging and timing have to be accurate enough even without recovery.",
+      "source_label": "NASA",
+      "source_url": "https://www.nasa.gov/history/60-years-ago-luna-2-makes-impact-in-moon-race/",
+      "status": "reserve_date_conflict",
+      "conflicts_with": [
+        "kilby-integrated-circuit-1958"
+      ],
+      "notes": "NASA source confirms Sep. 12, 1959 launch and subsequent lunar impact. Conflicts with Kilby's integrated circuit demonstration on 09-12."
+    },
+    {
+      "id": "tat1-transatlantic-telephone-1956",
+      "month_day": "09-25",
+      "year": 1956,
+      "type": "breakthrough",
+      "discipline": "Communications",
+      "title": "TAT-1 carries telephone calls under the Atlantic",
+      "summary": "The first submarine transatlantic telephone cable system went into service, connecting North America and Europe by voice. The system depended on repeaters, cable reliability and shore stations surviving a hostile undersea environment.",
+      "lesson": "Long-distance infrastructure succeeds when every hidden element is designed for access limits, environmental exposure and repair reality.",
+      "source_label": "IEEE Engineering and Technology History Wiki",
+      "source_url": "https://ethw.org/Milestones%3AThe_First_Submarine_Transatlantic_Telephone_Cable_System_%28TAT-1%29%2C_1956",
+      "status": "reserve_date_conflict",
+      "conflicts_with": [
+        "psa-flight-182-1978"
+      ],
+      "notes": "IEEE Milestone source confirms Sep. 25, 1956 service start. Conflicts with PSA Flight 182 on 09-25."
     },
     {
       "id": "tokaido-shinkansen-opens-1964",
@@ -106,6 +225,40 @@
       "notes": "Embassy source confirms Oct. 1, 1964 and world's first high-speed rail service. A JR Central source would be preferable if found later. Conflicts with Sony CDP-101 on 10-01."
     },
     {
+      "id": "edison-carbon-lamp-1879",
+      "month_day": "10-21",
+      "year": 1879,
+      "type": "breakthrough",
+      "discipline": "Energy Engineering",
+      "title": "Edison's carbon-filament lamp lasts long enough to matter",
+      "summary": "Edison's Menlo Park laboratory produced a carbon-filament incandescent lamp that glowed for more than fourteen hours. The result moved electric lighting closer to a practical utility system.",
+      "lesson": "The useful invention was not just a glowing filament; it was a manufacturable lamp with lifetime, distribution and system economics moving in the same direction.",
+      "source_label": "IEEE Engineering and Technology History Wiki",
+      "source_url": "https://ethw.org/Edison%27s_Incandescent_Lamp",
+      "status": "reserve_date_conflict",
+      "conflicts_with": [
+        "aberfan-1966"
+      ],
+      "notes": "IEEE ETHW source confirms Oct. 21, 1879 and the carbonized-thread lamp result. Conflicts with Aberfan on 10-21."
+    },
+    {
+      "id": "new-york-subway-opens-1904",
+      "month_day": "10-27",
+      "year": 1904,
+      "type": "breakthrough",
+      "discipline": "Rail",
+      "title": "New York opens its first subway line",
+      "summary": "The Interborough Rapid Transit subway opened as New York's first underground rapid transit network, with 28 stations over a 9.1-mile route. It converted urban congestion into a large-scale civil, electrical and operating system.",
+      "lesson": "Urban transport capacity is engineered as a network: tunnels, stations, signaling, traction power and passenger flow have to scale together.",
+      "source_label": "New York Transit Museum",
+      "source_url": "https://www.nytransitmuseum.org/subway-day/",
+      "status": "reserve_date_conflict",
+      "conflicts_with": [
+        "nylon-announced-1938"
+      ],
+      "notes": "Transit Museum source confirms Oct. 27, 1904 opening, station count and route length. Conflicts with nylon announcement on 10-27."
+    },
+    {
       "id": "bhopal-gas-disaster-1984",
       "month_day": "12-03",
       "year": 1984,
@@ -121,6 +274,23 @@
         "mars-polar-lander-1999"
       ],
       "notes": "Peer-reviewed review hosted by NIH/PMC confirms Dec. 3, 1984, more than 40 tonnes of MIC, and at least 3,800 immediate deaths. Needs a later source-quality pass for detailed causal wording because official/primary narratives are contested. Conflicts with Mars Polar Lander on 12-03."
+    },
+    {
+      "id": "marconi-transatlantic-radio-1901",
+      "month_day": "12-12",
+      "year": 1901,
+      "type": "breakthrough",
+      "discipline": "Communications",
+      "title": "Marconi receives a signal across the Atlantic",
+      "summary": "Guglielmo Marconi and George Kemp received the first transatlantic radio signals at Signal Hill, Newfoundland. The experiment showed that wireless signals could reach beyond the horizon and across an ocean.",
+      "lesson": "A communication claim becomes engineering when propagation, receiver sensitivity, antenna arrangement and repeatable detection all survive the real environment.",
+      "source_label": "IEEE Engineering and Technology History Wiki",
+      "source_url": "https://ethw.org/Milestones%3AReception_of_Transatlantic_Radio_Signals%2C_1901",
+      "status": "reserve_date_conflict",
+      "conflicts_with": [
+        "clapham-junction-1988"
+      ],
+      "notes": "IEEE Milestone source confirms Dec. 12, 1901 at Signal Hill. Conflicts with Clapham Junction on 12-12."
     },
     {
       "id": "mitholz-ammunition-depot-explosion-1947",
