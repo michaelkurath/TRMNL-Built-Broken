@@ -4,6 +4,40 @@
   "purpose": "Candidate events for dates that are already occupied in data/events.json. These are source-backed reserve entries for future support of alternate facts, regional editions, topic packs, or a deeper archive.",
   "candidates": [
     {
+      "id": "lego-brick-patent-1958",
+      "month_day": "01-28",
+      "year": 1958,
+      "type": "breakthrough",
+      "discipline": "Consumer Technology",
+      "title": "LEGO patents a reusable physical interface",
+      "summary": "The LEGO Group filed a patent application for the stud-and-tube toy building element. The coupling geometry turned simple plastic bricks into a precise, reusable construction system.",
+      "lesson": "A simple interface becomes powerful when tolerances, retention and repeatability let small parts combine into many stable configurations.",
+      "source_label": "LEGO Group",
+      "source_url": "https://www.lego.com/en-us/history/articles/d-the-stud-and-tube-principle",
+      "status": "reserve_date_conflict",
+      "conflicts_with": [
+        "challenger-1986"
+      ],
+      "notes": "Strong official source; conflicts with Challenger on 01-28."
+    },
+    {
+      "id": "sts-1-shuttle-launch-1981",
+      "month_day": "04-12",
+      "year": 1981,
+      "type": "breakthrough",
+      "discipline": "Space",
+      "title": "STS-1 launches the first Space Shuttle",
+      "summary": "Space Shuttle Columbia launched on NASA's first shuttle mission with John Young and Robert Crippen aboard. The orbital flight test took a reusable spacecraft system into orbit without a prior uncrewed orbital flight.",
+      "lesson": "A reusable vehicle is a system test of structures, propulsion, thermal protection, software and operations at once; flight-test instrumentation must be treated as mission-critical hardware.",
+      "source_label": "NASA",
+      "source_url": "https://www.nasa.gov/mission/sts-1/",
+      "status": "reserve_date_conflict",
+      "conflicts_with": [
+        "vostok-1-1961"
+      ],
+      "notes": "NASA source confirms first Space Shuttle mission and Apr. 12, 1981 launch. Conflicts with Vostok 1 on 04-12."
+    },
+    {
       "id": "uster-pool-ceiling-collapse-1985",
       "month_day": "05-09",
       "year": 1985,
@@ -19,6 +53,74 @@
         "sunshine-skyway-collapse-1980"
       ],
       "notes": "SRF provides accessible anniversary/context coverage; BGE 115 IV 199 is stronger for technical facts: 207 chrome-nickel-steel hangers, acidic chloride-containing moisture film, pitting, transcrystalline stress-corrosion cracking, overloading, 12 deaths and 19 injured or directly endangered."
+    },
+    {
+      "id": "morse-telegraph-message-1844",
+      "month_day": "05-24",
+      "year": 1844,
+      "type": "breakthrough",
+      "discipline": "Communications",
+      "title": "Morse sends a message over an electric line",
+      "summary": "Samuel Morse sent the first telegraphic message over the experimental Washington-to-Baltimore line. The demonstration showed that coded electrical signals could carry messages over long distance faster than physical transport.",
+      "lesson": "A communication breakthrough needs an end-to-end channel, shared encoding and operational proof that the receiver can reconstruct the intended message.",
+      "source_label": "U.S. Library of Congress",
+      "source_url": "https://www.loc.gov/item/today-in-history/may-24/",
+      "status": "reserve_date_conflict",
+      "conflicts_with": [
+        "brooklyn-bridge-opens-1883"
+      ],
+      "notes": "LOC source confirms May 24, 1844 and first telegraphic message. Conflicts with Brooklyn Bridge opening on 05-24."
+    },
+    {
+      "id": "viking-1-mars-landing-1976",
+      "month_day": "07-20",
+      "year": 1976,
+      "type": "breakthrough",
+      "discipline": "Space",
+      "title": "Viking 1 lands and works on Mars",
+      "summary": "NASA's Viking 1 lander touched down safely on Mars and began transmitting images from the surface. It became the first truly successful Mars landing and surface mission.",
+      "lesson": "A landing milestone matters when touchdown, survivability, communications and useful data return all work together after arrival.",
+      "source_label": "NASA",
+      "source_url": "https://science.nasa.gov/mission/viking-1/",
+      "status": "reserve_date_conflict",
+      "conflicts_with": [
+        "apollo-11-1969"
+      ],
+      "notes": "NASA source confirms July 20, 1976 and first truly successful Mars landing. Conflicts with Apollo 11 on 07-20."
+    },
+    {
+      "id": "tokaido-shinkansen-opens-1964",
+      "month_day": "10-01",
+      "year": 1964,
+      "type": "breakthrough",
+      "discipline": "Rail",
+      "title": "Tokaido Shinkansen starts high-speed rail service",
+      "summary": "The Tokaido Shinkansen opened between Tokyo and Osaka as the world's first high-speed rail service. It treated track, trains, signalling, operations and city-pair demand as one engineered transport system.",
+      "lesson": "High speed is not just a faster vehicle; it requires a dedicated alignment, signalling, maintenance and operating model built around the target speed.",
+      "source_label": "Embassy of Japan in the UK",
+      "source_url": "https://www.uk.emb-japan.go.jp/en/webmagazine/2014/11/shinkansen.html",
+      "status": "reserve_date_conflict",
+      "conflicts_with": [
+        "sony-cdp101-1982"
+      ],
+      "notes": "Embassy source confirms Oct. 1, 1964 and world's first high-speed rail service. A JR Central source would be preferable if found later. Conflicts with Sony CDP-101 on 10-01."
+    },
+    {
+      "id": "bhopal-gas-disaster-1984",
+      "month_day": "12-03",
+      "year": 1984,
+      "type": "failure",
+      "discipline": "Process Engineering",
+      "title": "Bhopal: stored MIC escapes into a city",
+      "summary": "More than 40 tonnes of methyl isocyanate gas leaked from a pesticide plant in Bhopal, India. Thousands died immediately and the disaster became a defining case in chemical-process safety and emergency preparedness.",
+      "lesson": "High-hazard inventory near a city needs independent safeguards, maintainable protection layers, emergency planning and a management system that keeps them alive during shutdown and cost pressure.",
+      "source_label": "Environmental Health",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1142333/",
+      "status": "reserve_date_conflict",
+      "conflicts_with": [
+        "mars-polar-lander-1999"
+      ],
+      "notes": "Peer-reviewed review hosted by NIH/PMC confirms Dec. 3, 1984, more than 40 tonnes of MIC, and at least 3,800 immediate deaths. Needs a later source-quality pass for detailed causal wording because official/primary narratives are contested. Conflicts with Mars Polar Lander on 12-03."
     },
     {
       "id": "mitholz-ammunition-depot-explosion-1947",
