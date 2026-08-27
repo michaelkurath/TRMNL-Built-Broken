@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-08-27",
+  "purpose": "Candidate events for dates that are already occupied in data/events.json. These are source-backed reserve entries for future support of alternate facts, regional editions, topic packs, or a deeper archive.",
+  "candidates": [
+    {
+      "id": "uster-pool-ceiling-collapse-1985",
+      "month_day": "05-09",
+      "year": 1985,
+      "type": "failure",
+      "discipline": "Materials Engineering",
+      "title": "Uster: stainless hangers fail above a pool",
+      "summary": "A suspended concrete ceiling collapsed into the indoor pool at Uster, Switzerland, killing 12 people. Chrome-nickel-steel hangers had suffered chloride-driven corrosion and stress-corrosion cracking in the humid pool atmosphere.",
+      "lesson": "Stainless is not corrosion-proof. Safety-critical hidden components need material selection and inspection matched to the real atmosphere, not the material's marketing name.",
+      "source_label": "Swiss Federal Supreme Court",
+      "source_url": "https://servat.unibe.ch/dfr/bge/c4115199.html",
+      "status": "reserve_date_conflict",
+      "conflicts_with": [
+        "sunshine-skyway-collapse-1980"
+      ],
+      "notes": "SRF provides accessible anniversary/context coverage; BGE 115 IV 199 is stronger for technical facts: 207 chrome-nickel-steel hangers, acidic chloride-containing moisture film, pitting, transcrystalline stress-corrosion cracking, overloading, 12 deaths and 19 injured or directly endangered."
+    },
+    {
+      "id": "mitholz-ammunition-depot-explosion-1947",
+      "month_day": "12-19",
+      "year": 1947,
+      "type": "failure",
+      "discipline": "Process Engineering",
+      "title": "Mitholz: stored ammunition remains an active system",
+      "summary": "Part of the ammunition stored in the Swiss Army's underground Mitholz depot exploded, killing nine people and damaging the village. Thousands of tonnes of munition remnants remain a long-term clearance and risk-management problem.",
+      "lesson": "Hazardous storage does not become safe because it is abandoned or buried. Inventory, degradation, confinement, water ingress and future access remain engineering responsibilities for decades.",
+      "source_label": "armasuisse",
+      "source_url": "https://www.ar.admin.ch/de/ehemaliges-munitionslager-mitholz",
+      "status": "reserve_date_conflict",
+      "conflicts_with": [
+        "t2-laboratories-2007"
+      ],
+      "notes": "The explosion occurred during the night of 19/20 December 1947. Stored as 12-19 for now because armasuisse states December 1947 and other sources identify 19 December; 12-20 is also occupied by EBR-I."
+    }
+  ]
+}
