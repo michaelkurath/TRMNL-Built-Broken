@@ -18,17 +18,17 @@
 {% endif %}
 {% assign show_summary = true %}{% if settings.show_summary == false or settings.show_summary == "false" %}{% assign show_summary = false %}{% endif %}
 <div class="layout layout--col layout--stretch">
-  <div class="bb-compact">
-    <div class="bb-meta">
+  <div class="flex flex--col flex--center-y gap--small h--full">
+    <div class="flex flex--row flex--between flex--center-y gap--small">
       <span class="label {% if selected.type == 'failure' %}label--inverted{% else %}label--outline{% endif %}">{{ selected.type | upcase }}</span>
       <span class="label label--outline">{{ selected.year }}{% if display_mode contains "random" %} · RANDOM{% endif %}</span>
     </div>
-    <div class="bb-headline">{{ selected.title }}</div>
+    <div class="title">{{ selected.title }}</div>
     {% if show_summary %}<div class="description">{{ selected.summary }}</div>{% endif %}
-    <div class="bb-rule"></div>
+    <div class="divider"></div>
     <span class="label">ENGINEERING LESSON</span>
     <div class="bb-lesson-row">
-      <div class="bb-lesson-text">{{ selected.lesson }}</div>
+      <div class="description text--large font--bold">{{ selected.lesson }}</div>
     </div>
   </div>
 </div>

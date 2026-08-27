@@ -17,15 +17,15 @@
   {% for item in pool %}{% if item.month_day == today_key %}{% assign selected = item %}{% assign anniversary = true %}{% break %}{% endif %}{% endfor %}
 {% endif %}
 <div class="layout layout--col layout--stretch">
-  <div class="bb-compact">
-    <div class="bb-meta">
+  <div class="flex flex--col flex--center-y gap--small h--full">
+    <div class="flex flex--row flex--between flex--center-y gap--small">
       <span class="label {% if selected.type == 'failure' %}label--inverted{% else %}label--outline{% endif %}">{{ selected.type | upcase }}</span>
       <span class="label label--outline">{{ selected.discipline | upcase }} · {{ selected.year }}{% if display_mode contains "random" %} · RANDOM{% elsif anniversary %} · TODAY{% endif %}</span>
     </div>
-    <div class="bb-headline">{{ selected.title }}</div>
-    <div class="bb-rule"></div>
+    <div class="title">{{ selected.title }}</div>
+    <div class="divider"></div>
     <div class="bb-lesson-row">
-      <div class="bb-lesson-text">{{ selected.lesson }}</div>
+      <div class="description text--large font--bold">{{ selected.lesson }}</div>
     </div>
   </div>
 </div>
