@@ -60,7 +60,7 @@
           <span class="outline flex flex--row flex--center label w--8 h--8 {% if selected.type == 'failure' %}label--inverted{% endif %}">{% if selected.type == 'failure' %}!{% else %}+{% endif %}</span>
         </div>
         <div class="divider"></div>
-        <div class="flex flex--row flex--center-y grow"><div class="description text--large md:text--large lg:text--xlarge portrait:text--large md:portrait:text--large font--bold">{{ selected.lesson | default: "No engineering lesson is available." }}</div></div>
+        <div class="flex flex--row flex--center-y grow"><div class="description text--large md:text--large lg:text--xlarge portrait:text--large md:portrait:text--large text--center font--bold">{{ selected.lesson | default: "No engineering lesson is available." }}</div></div>
         {% if show_source %}
           <div class="divider"></div>
           <div class="description text--small pt--small" data-clamp="1">Source: {{ selected.source_label | default: "Unavailable" }}</div>
