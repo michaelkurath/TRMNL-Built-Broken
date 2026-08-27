@@ -1273,6 +1273,18 @@
       "source_url": "https://publications.gc.ca/site/eng/9.827974/publication.html"
     },
     {
+      "id": "pioneer-11-saturn-1979",
+      "month_day": "09-01",
+      "year": 1979,
+      "type": "breakthrough",
+      "discipline": "Space",
+      "title": "Pioneer 11 becomes the first spacecraft to fly by Saturn",
+      "summary": "NASA's Pioneer 11 crossed Saturn's ring plane and passed the planet at close range, returning images and measurements of the Saturn system. The flyby also helped assess ring-plane hazards before Voyager 2's later path.",
+      "lesson": "A pathfinder mission earns its name when it reduces uncertainty for the next system as well as completing its own objective.",
+      "source_label": "NASA",
+      "source_url": "https://science.nasa.gov/mission/pioneer-11/"
+    },
+    {
       "id": "swissair-111-1998",
       "month_day": "09-02",
       "year": 1998,
@@ -1283,6 +1295,18 @@
       "lesson": "Smoke of unknown origin is a time-critical system failure; materials, detection and procedures must assume that hidden fire can accelerate.",
       "source_label": "Transportation Safety Board of Canada",
       "source_url": "https://www.tsb.gc.ca/eng/rapports-reports/aviation/1998/a98h0003/a98h0003.html"
+    },
+    {
+      "id": "viking-2-landing-1976",
+      "month_day": "09-03",
+      "year": 1976,
+      "type": "breakthrough",
+      "discipline": "Space",
+      "title": "Viking 2 lands safely at Utopia Planitia",
+      "summary": "NASA's Viking 2 lander touched down on Mars, following Viking 1 and extending direct surface investigation to a second site. The mission returned images and environmental data from the Martian surface.",
+      "lesson": "Replication at a new site turns a single success into a more robust operating capability.",
+      "source_label": "NASA",
+      "source_url": "https://science.nasa.gov/mission/viking-2/"
     },
     {
       "id": "pearl-street-station-1882",
@@ -1309,6 +1333,42 @@
       "source_url": "https://science.nasa.gov/mission/voyager/voyager-1/"
     },
     {
+      "id": "noaa-n-prime-mishap-2003",
+      "month_day": "09-06",
+      "year": 2003,
+      "type": "failure",
+      "discipline": "Space",
+      "title": "NOAA-N Prime falls during factory work",
+      "summary": "The NOAA-N Prime satellite toppled from a handling fixture after bolts had been removed and the change was not effectively controlled. NASA's lessons-learned record tied the costly damage to configuration control and procedural discipline.",
+      "lesson": "Ground handling is a flight-project risk; removed fasteners, temporary states and handover assumptions need visible configuration control.",
+      "source_label": "NASA Lessons Learned",
+      "source_url": "https://llis.nasa.gov/lesson/1580"
+    },
+    {
+      "id": "mill-creek-three-phase-1893",
+      "month_day": "09-07",
+      "year": 1893,
+      "type": "breakthrough",
+      "discipline": "Electrical Engineering",
+      "title": "Mill Creek proves commercial three-phase power",
+      "summary": "The Mill Creek No. 1 hydroelectric plant began operating near Redlands, California. Its three-phase alternating-current system became an important early commercial demonstration of long-distance electric power transmission.",
+      "lesson": "An electrical architecture becomes persuasive when generation, transmission, load and protection work together in a paying system.",
+      "source_label": "IEEE Engineering and Technology History Wiki",
+      "source_url": "https://ethw.org/Milestones:List_of_IEEE_Milestones"
+    },
+    {
+      "id": "genesis-sample-return-crash-2004",
+      "month_day": "09-08",
+      "year": 2004,
+      "type": "failure",
+      "discipline": "Space",
+      "title": "Genesis returns samples but not under parachute",
+      "summary": "NASA's Genesis sample-return capsule crashed in Utah after its parachutes failed to deploy. The mishap investigation traced the failure to the entry, descent and landing sequence and its deceleration sensing.",
+      "lesson": "A recovery system is part of the mission payload; orientation, sensing and deployment logic deserve the same rigor as the science hardware.",
+      "source_label": "NASA Technical Reports Server",
+      "source_url": "https://ntrs.nasa.gov/citations/20060008607"
+    },
+    {
       "id": "san-bruno-pipeline-2010",
       "month_day": "09-09",
       "year": 2010,
@@ -1331,6 +1391,18 @@
       "lesson": "For enormous instruments, first operation proves interfaces: magnets, vacuum, timing, controls, cryogenics and people must work in one synchronized loop.",
       "source_label": "CERN",
       "source_url": "https://home.cern/first-beam-in-the-lhc-accelerating-science/"
+    },
+    {
+      "id": "world-trade-center-2001",
+      "month_day": "09-11",
+      "year": 2001,
+      "type": "failure",
+      "discipline": "Fire Safety",
+      "title": "World Trade Center towers collapse after impact and fire",
+      "summary": "After terrorist aircraft impacts and severe fires, the World Trade Center towers collapsed. NIST investigated the building performance, evacuation, emergency response and the technical conditions that led to collapse.",
+      "lesson": "High-rise resilience must account for structural damage, fireproofing loss, egress, communications and emergency operations as one life-safety system.",
+      "source_label": "National Institute of Standards and Technology",
+      "source_url": "https://www.nist.gov/el/final-reports-nist-world-trade-center-disaster-investigation"
     },
     {
       "id": "kilby-integrated-circuit-1958",
@@ -1369,6 +1441,18 @@
       "source_url": "https://www.ligo.caltech.edu/detection"
     },
     {
+      "id": "icesat-2-launch-2018",
+      "month_day": "09-15",
+      "year": 2018,
+      "type": "breakthrough",
+      "discipline": "Space",
+      "title": "ICESat-2 launches on the final Delta II",
+      "summary": "NASA launched ICESat-2 from Vandenberg on the final flight of the Delta II rocket. The laser-altimetry mission measures ice-sheet elevation and continues a long Earth-observation record.",
+      "lesson": "Precision environmental measurement depends on the full chain: stable orbit, calibrated instruments, repeatable geometry and long-term data continuity.",
+      "source_label": "NASA",
+      "source_url": "https://www.nasa.gov/centers-and-facilities/kennedy/marking-a-milestone-launch-services-program-celebrates-20th-anniversary/"
+    },
+    {
       "id": "reno-air-races-crash-2011",
       "month_day": "09-16",
       "year": 2011,
@@ -1379,6 +1463,66 @@
       "lesson": "Performance modifications need disciplined configuration control and flight testing; past airworthiness does not cover a changed aircraft.",
       "source_label": "U.S. National Transportation Safety Board",
       "source_url": "https://www.ntsb.gov/investigations/Pages/WPR11MA454.aspx"
+    },
+    {
+      "id": "ss-noronic-fire-1949",
+      "month_day": "09-17",
+      "year": 1949,
+      "type": "failure",
+      "discipline": "Marine Engineering",
+      "title": "SS Noronic burns at the Toronto pier",
+      "summary": "The passenger steamship SS Noronic was destroyed by fire while docked overnight in Toronto Harbour. The disaster exposed the consequences of poor detection, evacuation and crew response in a sleeping passenger vessel.",
+      "lesson": "Passenger safety depends on detection, alarm, compartmentation and trained response while people are least able to protect themselves.",
+      "source_label": "Canadian Red Cross",
+      "source_url": "https://www.redcross.ca/history/artifacts/1949-annual-report-noronic-disaster-cover"
+    },
+    {
+      "id": "saturn-sa7-launch-1964",
+      "month_day": "09-18",
+      "year": 1964,
+      "type": "breakthrough",
+      "discipline": "Space",
+      "title": "SA-7 tests Saturn I and Apollo compatibility",
+      "summary": "NASA launched the SA-7 Saturn I mission with a boilerplate Apollo spacecraft. The flight demonstrated launch vehicle and spacecraft compatibility and tested the launch escape system.",
+      "lesson": "Before committing crews, integrated test flights should prove physical interfaces, loads and abort hardware under real launch conditions.",
+      "source_label": "NASA",
+      "source_url": "https://www.nasa.gov/image-article/this-week-nasa-history-sa-7-launches-sept-18-1964/"
+    },
+    {
+      "id": "mexico-city-earthquake-1985",
+      "month_day": "09-19",
+      "year": 1985,
+      "type": "failure",
+      "discipline": "Civil Engineering",
+      "title": "Mexico City buildings fail on soft ground",
+      "summary": "A distant 8.1-magnitude earthquake caused severe damage in Mexico City because the city sits on unstable lakebed deposits. NIST documented structural and foundation failures and the seismic behavior behind the damage.",
+      "lesson": "Seismic design must start with the site response; a building is only as safe as the ground motion it is actually asked to survive.",
+      "source_label": "National Institute of Standards and Technology",
+      "source_url": "https://www.nist.gov/el/earthquake-mexico-1985"
+    },
+    {
+      "id": "qe2-launch-1967",
+      "month_day": "09-20",
+      "year": 1967,
+      "type": "breakthrough",
+      "discipline": "Marine Engineering",
+      "title": "Queen Elizabeth 2 is launched on the Clyde",
+      "summary": "Cunard's Queen Elizabeth 2 was launched at John Brown's shipyard in Clydebank. The ocean liner continued the transatlantic liner tradition while adapting to a market increasingly shaped by air travel.",
+      "lesson": "A mature transport technology survives by redesigning the product around changing use, not only by preserving the old performance target.",
+      "source_label": "Cunard",
+      "source_url": "https://www.cunard.com/en-us/inspiration/platinum-jubilee"
+    },
+    {
+      "id": "galileo-disposal-2003",
+      "month_day": "09-21",
+      "year": 2003,
+      "type": "breakthrough",
+      "discipline": "Space",
+      "title": "Galileo ends by protecting Jupiter's moons",
+      "summary": "NASA deliberately sent the Galileo spacecraft into Jupiter's atmosphere at the end of its mission. The disposal protected potentially habitable moons from accidental contamination by an aging spacecraft.",
+      "lesson": "End-of-life design is part of mission success; disposal, contamination control and residual risk must be planned before hardware becomes unreliable.",
+      "source_label": "NASA",
+      "source_url": "https://science.nasa.gov/mission/galileo/"
     },
     {
       "id": "big-bayou-canot-1993",
@@ -1403,6 +1547,78 @@
       "lesson": "Units are part of an interface contract. Make them explicit, machine-checkable and impossible to ignore.",
       "source_label": "NASA JPL",
       "source_url": "https://www.jpl.nasa.gov/missions/mars-climate-orbiter/"
+    },
+    {
+      "id": "doolittle-blind-flight-1929",
+      "month_day": "09-24",
+      "year": 1929,
+      "type": "breakthrough",
+      "discipline": "Aviation",
+      "title": "Doolittle proves full instrument flight",
+      "summary": "James Doolittle completed the first blind takeoff, flight and landing using radio and aeronautical instruments at Mitchel Field. The test showed that flight could be controlled without outside visual reference.",
+      "lesson": "Automation and instrumentation matter most when they replace a missing human sense; design the display loop around the decision the operator must trust.",
+      "source_label": "IEEE Engineering and Technology History Wiki",
+      "source_url": "https://ethw.org/Milestones:List_of_IEEE_Milestones"
+    },
+    {
+      "id": "psa-flight-182-1978",
+      "month_day": "09-25",
+      "year": 1978,
+      "type": "failure",
+      "discipline": "Aviation",
+      "title": "PSA 182 loses visual separation over San Diego",
+      "summary": "Pacific Southwest Airlines Flight 182 collided with a Cessna 172 during approach to San Diego. The FAA lessons-learned record highlights the limits of visual separation and crew-controller communication.",
+      "lesson": "A traffic system cannot depend on human sight alone when closure rates, workload and ambiguity exceed reliable perception.",
+      "source_label": "U.S. Federal Aviation Administration",
+      "source_url": "https://www.faa.gov/lessons_learned/transport_airplane/accidents/N533PS"
+    },
+    {
+      "id": "petrov-false-alarm-1983",
+      "month_day": "09-26",
+      "year": 1983,
+      "type": "failure",
+      "discipline": "Software & Systems",
+      "title": "A Soviet warning system reports false missile launches",
+      "summary": "The Soviet Oko early-warning system falsely indicated incoming U.S. missiles. Stanislav Petrov judged the warning inconsistent with a real attack and treated it as a false alarm.",
+      "lesson": "High-consequence automation needs independent confirmation paths and human procedures that allow operators to challenge a confident but fragile signal.",
+      "source_label": "Arms Control Association",
+      "source_url": "https://www.armscontrol.org/act/2017-10/news-briefs/man-who-saved-world-dies-77"
+    },
+    {
+      "id": "dawn-launch-2007",
+      "month_day": "09-27",
+      "year": 2007,
+      "type": "breakthrough",
+      "discipline": "Space",
+      "title": "Dawn launches with ion propulsion for two worlds",
+      "summary": "NASA's Dawn spacecraft launched toward the asteroid belt, later orbiting both Vesta and Ceres. Ion propulsion made the multi-target orbital mission practical.",
+      "lesson": "Low thrust can unlock high mission value when the trajectory, power system and patience are designed around continuous small changes.",
+      "source_label": "NASA Jet Propulsion Laboratory",
+      "source_url": "https://www.jpl.nasa.gov/missions/dawn/"
+    },
+    {
+      "id": "estonia-ferry-sinking-1994",
+      "month_day": "09-28",
+      "year": 1994,
+      "type": "failure",
+      "discipline": "Marine Engineering",
+      "title": "MV Estonia loses its bow visor in heavy seas",
+      "summary": "The ro-ro passenger ferry Estonia sank in the Baltic Sea after failure of the bow visor and flooding of the car deck. The official joint investigation examined structural loads, door arrangements and evacuation limits.",
+      "lesson": "Ro-ro ships need robust bow closures and rapid flooding detection because an open vehicle deck can remove stability faster than people can evacuate.",
+      "source_label": "Joint Accident Investigation Commission",
+      "source_url": "https://onse.fi/estonia/"
+    },
+    {
+      "id": "kyshtym-waste-tank-explosion-1957",
+      "month_day": "09-29",
+      "year": 1957,
+      "type": "failure",
+      "discipline": "Nuclear Engineering",
+      "title": "Kyshtym: decay heat explodes a waste tank",
+      "summary": "A high-level radioactive-waste tank at the Mayak site exploded after cooling failed and the waste overheated. The accident contaminated a large area and remained hidden for years.",
+      "lesson": "Stored waste remains an active system when decay heat, chemistry and containment can still generate energy after production ends.",
+      "source_label": "Stanford University",
+      "source_url": "https://large.stanford.edu/courses/2017/ph241/buttinger1/"
     },
     {
       "id": "hoover-dam-1935",
