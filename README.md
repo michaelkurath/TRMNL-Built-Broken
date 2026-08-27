@@ -121,6 +121,10 @@ Add the `trmnl` topic to the repository so other TRMNL plugin builders can find 
 - Choose the primary user-facing domain for `discipline`; keep cross-cutting causes such as fatigue, corrosion, human factors or software interfaces in the summary and lesson until tag support exists.
 - Never present fatalities as entertainment; focus on the system and the lesson.
 
+## Support
+
+Built & Broken is open source. If you find it useful or just enjoy the daily engineering lessons, you can [support ongoing fact-checking and maintenance through GitHub Sponsors](https://github.com/sponsors/michaelkurath).
+
 ## License
 
 Original markup, styling, summaries, and lessons are licensed under [CC BY 4.0](./LICENSE), consistent with the [TRMNL Community Plugin License](https://trmnl.com/plugin-license). Linked source material remains subject to its respective owner's terms.

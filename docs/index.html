@@ -358,6 +358,20 @@
         line-height: 1.5;
       }
 
+      .site-footer {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        padding: 22px 2px 0;
+        color: var(--muted);
+        font-size: 13px;
+        font-weight: 700;
+      }
+
+      .site-footer a {
+        font-weight: 900;
+      }
+
       @media (max-width: 980px) {
         .topbar,
         .layout,
@@ -531,6 +545,11 @@
           </section>
         </aside>
       </section>
+
+      <footer class="site-footer">
+        <span>Open-source engineering facts, built for TRMNL and the web.</span>
+        <a href="https://github.com/sponsors/michaelkurath" rel="noreferrer" target="_blank">Support this project</a>
+      </footer>
     </main>
 
     <script>
