@@ -6,7 +6,6 @@ static_data: "{}"
 polling_verb: get
 framework_version: 3.1.1
 serverless_language: ''
-# Polling response contract: {"events":[{"type","title","year","discipline","summary","lesson","month_day","source_label"}]}
 polling_url: https://raw.githubusercontent.com/michaelkurath/TRMNL-Built-Broken/main/data/events.json
 polling_headers: ''
 polling_body: ''
@@ -45,7 +44,7 @@ custom_fields:
   - Both: both
   - Breakthroughs: breakthrough
   - Failures: failure
-  default: 'both'
+  default: both
   description: Show all cases or limit the daily rotation to one type. Empty or unavailable results show all cases.
   optional: true
 - keyname: display_mode
@@ -54,7 +53,7 @@ custom_fields:
   options:
   - Daily: daily
   - Random: random
-  default: 'daily'
+  default: daily
   description: Daily prioritizes anniversaries; Random selects a new case on each render. Empty uses Daily.
   optional: true
 - keyname: show_summary
