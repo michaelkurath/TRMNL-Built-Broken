@@ -1093,6 +1093,66 @@
       "source_url": "https://www.ntsb.gov/investigations/Pages/HWY07MH024.aspx"
     },
     {
+      "id": "nautilus-north-pole-1958",
+      "month_day": "08-03",
+      "year": 1958,
+      "type": "breakthrough",
+      "discipline": "Marine Engineering",
+      "title": "USS Nautilus passes beneath the North Pole",
+      "summary": "The nuclear-powered submarine crossed under the geographic North Pole during Operation Sunshine. The voyage proved that submerged endurance, inertial navigation and reactor propulsion could open routes impossible for conventional submarines.",
+      "lesson": "A new energy source changes the operating envelope only when navigation, crew procedures, thermal management and mission planning mature around it.",
+      "source_label": "U.S. Naval History and Heritage Command",
+      "source_url": "https://www.history.navy.mil/browse-by-topic/ships/submarines/uss-nautilus.html"
+    },
+    {
+      "id": "phoenix-mars-launch-2007",
+      "month_day": "08-04",
+      "year": 2007,
+      "type": "breakthrough",
+      "discipline": "Space",
+      "title": "Phoenix launches toward the Martian arctic",
+      "summary": "NASA's Phoenix lander launched from Cape Canaveral on a Delta II rocket toward Mars' northern plains. The mission reused and adapted earlier spacecraft hardware to dig into icy soil and study the planet's water history.",
+      "lesson": "Reuse can reduce risk when inherited hardware is deliberately requalified for a different environment and mission profile.",
+      "source_label": "NASA",
+      "source_url": "https://science.nasa.gov/mission/mars-phoenix/"
+    },
+    {
+      "id": "san-jose-mine-collapse-2010",
+      "month_day": "08-05",
+      "year": 2010,
+      "type": "failure",
+      "discipline": "Civil Engineering",
+      "title": "San José mine collapses above 33 workers",
+      "summary": "A collapse in Chile's San José copper-gold mine trapped 33 miners about 2,300 feet underground. The later rescue succeeded, but the initial failure exposed the consequence of poor escape routes and weak emergency preparedness.",
+      "lesson": "Do not treat rescue as the primary safety system; underground work needs independent escape, communication and survivable refuge before collapse occurs.",
+      "source_label": "NASA Oral Histories",
+      "source_url": "https://www.nasa.gov/history/history-publications-and-resources/oral-histories/chilean-miners-rescue/"
+    },
+    {
+      "id": "curiosity-landing-2012",
+      "month_day": "08-06",
+      "year": 2012,
+      "type": "breakthrough",
+      "discipline": "Space",
+      "title": "Curiosity lands by sky crane on Mars",
+      "summary": "NASA's Curiosity rover landed in Gale Crater using a rocket-powered descent stage that lowered the rover on tethers. The sequence solved the mass limits of earlier airbag landings and enabled a much larger mobile laboratory.",
+      "lesson": "When legacy architectures hit a scaling limit, a more complex sequence can be safer if each phase is testable, timed and fault-managed.",
+      "source_label": "NASA",
+      "source_url": "https://science.nasa.gov/resource/curiosity-has-landed/"
+    },
+    {
+      "id": "magellan-venus-orbit-1990",
+      "month_day": "08-10",
+      "year": 1990,
+      "type": "breakthrough",
+      "discipline": "Space",
+      "title": "Magellan enters orbit around Venus",
+      "summary": "NASA's Magellan spacecraft arrived at Venus and began radar mapping through the planet's opaque cloud cover. Its synthetic-aperture radar produced a global view of surface geology that optical imaging could not provide.",
+      "lesson": "Choose the sensor for the environment, not the habit; good instrumentation sees through the constraint that blocks ordinary observation.",
+      "source_label": "NASA",
+      "source_url": "https://science.nasa.gov/mission/magellan/"
+    },
+    {
       "id": "ibm-pc-1981",
       "month_day": "08-12",
       "year": 1981,
@@ -1115,6 +1175,18 @@
       "lesson": "Temporary does not mean low consequence: define wind limits, verify the erected structure and assign one person clear authority to stop the event.",
       "source_label": "Indiana Department of Labor",
       "source_url": "https://www.in.gov/dol/files/FY_2014_Indiana_State_Occupational_Annual_Report.pdf"
+    },
+    {
+      "id": "northeast-blackout-2003",
+      "month_day": "08-14",
+      "year": 2003,
+      "type": "failure",
+      "discipline": "Electrical Engineering",
+      "title": "A grid alarm failure helps darken the Northeast",
+      "summary": "The northeastern United States and southern Canada lost power after local transmission problems cascaded across the grid. A failed control-room alarm system and weak situational awareness let operators miss the developing emergency.",
+      "lesson": "Large networks need observable failure states; protection logic is incomplete if operators cannot see the system degrading in time to act.",
+      "source_label": "U.S. Department of Energy",
+      "source_url": "https://www.energy.gov/oe/august-2003-blackout"
     },
     {
       "id": "panama-canal-1914",
@@ -1271,6 +1343,42 @@
       "lesson": "Reliability and scale improve when interfaces disappear; integrating components can remove more failure opportunities than perfecting each connection.",
       "source_label": "Texas Instruments",
       "source_url": "https://www.ti.com/about-ti/behind-chip/articles/from-idea-to-invention-the-origin-story-of-the-tiny-chip-that-changed-the-world.html"
+    },
+    {
+      "id": "goiania-radiological-accident-1987",
+      "month_day": "09-13",
+      "year": 1987,
+      "type": "failure",
+      "discipline": "Nuclear Engineering",
+      "title": "Goiânia: an abandoned medical source contaminates a city",
+      "summary": "A caesium-137 teletherapy source left without effective control was removed from an abandoned clinic in Goiânia, Brazil. The source was opened and spread through homes and scrap yards before authorities recognized the radiological hazard.",
+      "lesson": "Hazardous devices need lifecycle custody; decommissioning, physical security and ownership records are as important as operating controls.",
+      "source_label": "International Atomic Energy Agency",
+      "source_url": "https://www.iaea.org/publications/3684/the-radiological-accident-in-goiania"
+    },
+    {
+      "id": "ligo-first-detection-2015",
+      "month_day": "09-14",
+      "year": 2015,
+      "type": "breakthrough",
+      "discipline": "Electrical Engineering",
+      "title": "LIGO directly detects gravitational waves",
+      "summary": "The twin LIGO interferometers detected gravitational waves from a black-hole merger, opening a new observational channel for astronomy. The measurement depended on extraordinary vibration isolation, laser stability and signal analysis.",
+      "lesson": "Extreme measurement is systems engineering: remove noise across mechanics, optics, controls, data and environment until the signal can survive.",
+      "source_label": "LIGO Laboratory",
+      "source_url": "https://www.ligo.caltech.edu/detection"
+    },
+    {
+      "id": "reno-air-races-crash-2011",
+      "month_day": "09-16",
+      "year": 2011,
+      "type": "failure",
+      "discipline": "Aviation",
+      "title": "A modified racer loses control at Reno",
+      "summary": "A highly modified P-51D crashed into the spectator area during the Reno Air Races, killing the pilot and people on the ground. The NTSB linked the loss of control to trim-tab failure and untested aerodynamic effects of modifications.",
+      "lesson": "Performance modifications need disciplined configuration control and flight testing; past airworthiness does not cover a changed aircraft.",
+      "source_label": "U.S. National Transportation Safety Board",
+      "source_url": "https://www.ntsb.gov/investigations/Pages/WPR11MA454.aspx"
     },
     {
       "id": "big-bayou-canot-1993",
@@ -1523,6 +1631,42 @@
       "lesson": "Fire compartments fail if smoke paths remain open; model pressure, shafts and vertical transport as part of the life-safety system.",
       "source_label": "National Institute of Standards and Technology",
       "source_url": "https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir90-4253.pdf"
+    },
+    {
+      "id": "asterix-satellite-1965",
+      "month_day": "11-26",
+      "year": 1965,
+      "type": "breakthrough",
+      "discipline": "Space",
+      "title": "Diamant launches France's first satellite",
+      "summary": "France launched the Astérix satellite on a Diamant A rocket from Hammaguir. The mission made France the third country to place a satellite in orbit using its own launcher.",
+      "lesson": "Strategic capability comes from owning the launch chain: vehicle, payload, range, tracking and political commitment must mature together.",
+      "source_label": "CNES",
+      "source_url": "https://cnes.fr/en/history"
+    },
+    {
+      "id": "mars-2-impact-1971",
+      "month_day": "11-27",
+      "year": 1971,
+      "type": "failure",
+      "discipline": "Space",
+      "title": "Mars 2 reaches the surface by crashing",
+      "summary": "The Soviet Mars 2 lander became the first human-made object to touch Mars, but only as a failed landing. JPL notes that the descent likely malfunctioned after entering the atmosphere at too steep an angle.",
+      "lesson": "A milestone can still be a failed system; define success by controlled function, not by merely reaching the destination.",
+      "source_label": "NASA Jet Propulsion Laboratory",
+      "source_url": "https://www.jpl.nasa.gov/images/pia18888-search-for-the-mars-2-debris-field/"
+    },
+    {
+      "id": "erebus-flight-901-1979",
+      "month_day": "11-28",
+      "year": 1979,
+      "type": "failure",
+      "discipline": "Aviation",
+      "title": "Flight 901 flies into Mount Erebus",
+      "summary": "Air New Zealand Flight 901 struck Mount Erebus during an Antarctic sightseeing flight, killing all 257 people on board. The Royal Commission examined changed navigation coordinates, whiteout conditions and organizational failures around route information.",
+      "lesson": "Navigation systems are socio-technical; database changes, briefings, visibility limits and crew mental models must agree before terrain margins disappear.",
+      "source_label": "Mahon Report",
+      "source_url": "https://www.erebus.co.nz/Investigation/Mahon-Report"
     },
     {
       "id": "ford-moving-assembly-line-1913",
