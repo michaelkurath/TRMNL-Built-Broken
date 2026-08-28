@@ -27,8 +27,8 @@ When the dataset contains an event matching the current month and day, that anni
 The dataset currently contains 192 sourced cases split evenly between breakthroughs and failures. The long-term target is one curated anniversary for every day of the year.
 
 Progress:
-- 52 / 192 facts manually checked
-- 18 reserve candidates for occupied dates
+- 62 / 192 facts manually checked
+- 28 reserve candidates for occupied dates
 
 ### Categories
 
