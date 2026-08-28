@@ -31,8 +31,8 @@
 
     <div class="divider"></div>
 
-    <div class="grid grid--cols-1 md:grid--cols-3 gap--medium stretch">
-      <div class="col--span-1 md:col--span-2 flex flex--col flex--between gap--small">
+    <div class="flex flex--row flex--between gap--medium stretch">
+      <div class="flex flex--col flex--between gap--small grow">
         <div class="flex flex--row flex--between flex--bottom gap--small">
           <span class="value value--large md:value--xlarge value--tnums">{{ selected.y | default: "----" }}</span>
           <span class="label text--right">{{ selected.d | default: "General" }}</span>
@@ -40,7 +40,7 @@
         <div class="title title--small md:title--base lg:title--large portrait:title--small" data-clamp="2">{{ selected.t | default: "Engineering case" }}</div>
       </div>
 
-      <div class="col--span-1 outline flex flex--col flex--center gap--small p--medium">
+      <div class="outline flex flex--col flex--center gap--small p--medium">
         <span class="label">Lesson</span>
         <div class="description text--base md:text--large portrait:text--base text--center font--bold" data-clamp="4">{{ selected.l | default: "No engineering lesson is available." }}</div>
       </div>
