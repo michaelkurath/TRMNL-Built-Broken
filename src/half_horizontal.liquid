@@ -23,16 +23,30 @@
   {% for item in pool %}{% if item.m == today_key %}{% assign selected = item %}{% assign anniversary = true %}{% break %}{% endif %}{% endfor %}
 {% endif %}
 <div class="layout layout--col layout--stretch">
-  <div class="flex flex--col flex--center-y gap--small h--full">
+  <div class="flex flex--col flex--between gap--small h--full">
     <div class="flex flex--row flex--between flex--center-y gap--small">
+      <span class="label">BUILT &amp; BROKEN</span>
       <span class="label {% if selected.k == 'failure' %}label--inverted{% else %}label--outline{% endif %}">{{ selected.k | default: "case" | upcase }}</span>
-      <span class="label label--outline">{% if filter_fallback %}SHOWING ALL · {% endif %}{{ selected.d | default: "General" | upcase }} · {{ selected.y | default: "----" }}{% if display_mode == "random" %} · RANDOM{% elsif anniversary %} · TODAY{% endif %}</span>
     </div>
-    <div class="title title--small md:title--base lg:title--large portrait:title--small">{{ selected.t | default: "Engineering case" }}</div>
+
     <div class="divider"></div>
-    <div class="description text--base md:text--large portrait:text--base font--bold">{{ selected.l | default: "No engineering lesson is available." }}</div>
+
+    <div class="grid grid--cols-1 md:grid--cols-3 gap--medium stretch">
+      <div class="col--span-1 md:col--span-2 flex flex--col flex--between gap--small">
+        <div class="flex flex--row flex--between flex--bottom gap--small">
+          <span class="value value--large md:value--xlarge value--tnums">{{ selected.y | default: "----" }}</span>
+          <span class="label text--right">{{ selected.d | default: "General" }}</span>
+        </div>
+        <div class="title title--small md:title--base lg:title--large portrait:title--small" data-clamp="2">{{ selected.t | default: "Engineering case" }}</div>
+      </div>
+
+      <div class="col--span-1 outline flex flex--col flex--center gap--small p--medium">
+        <span class="label">Lesson</span>
+        <div class="description text--base md:text--large portrait:text--base text--center font--bold" data-clamp="4">{{ selected.l | default: "No engineering lesson is available." }}</div>
+      </div>
+    </div>
   </div>
 </div>
 
-<div class="title_bar"><span class="title">Built &amp; Broken</span><span class="instance">Engineering lesson</span></div>
+<div class="title_bar"><span class="title">Built &amp; Broken</span><span class="instance">{% if filter_fallback %}Showing all{% elsif display_mode == "random" %}Random{% elsif anniversary %}On this day{% else %}Daily{% endif %}</span></div>
 {% endif %}
