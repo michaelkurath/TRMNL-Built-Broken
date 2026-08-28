@@ -28,13 +28,7 @@
       <span class="label {% if selected.k == 'failure' %}label--inverted{% else %}label--outline{% endif %}">{{ selected.k | default: "case" | upcase }}</span>
     </div>
     <div class="divider"></div>
-    <div class="flex flex--col gap--small">
-      <div class="flex flex--row flex--between flex--bottom gap--small">
-        <span class="value value--large md:value--xlarge value--tnums">{{ selected.y | default: "----" }}</span>
-        <span class="label text--right">{{ selected.d | default: "General" }}</span>
-      </div>
-      <div class="title title--small md:title--base portrait:title--small" data-clamp="2">{{ selected.t | default: "Engineering case" }}</div>
-    </div>
+    <div class="title title--small md:title--base portrait:title--small" data-clamp="2">{{ selected.t | default: "Engineering case" }}</div>
     <div class="outline flex flex--col gap--small p--medium">
       <span class="label">Lesson</span>
       <div class="description text--small md:text--base portrait:text--small font--bold" data-clamp="3">{{ selected.l | default: "No engineering lesson is available." }}</div>
