@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-27",
+  "updated_at": "2026-08-28",
   "notes": [
     "This ledger tracks entries that have been manually checked against their cited source or a stronger replacement source.",
     "Status values: verified, verified_with_note, source_corrected, source_improved."
@@ -941,6 +941,196 @@
       ],
       "evidence_url": "https://www.osha.gov/aboutosha/40-years/trianglefactoryfireaccount",
       "notes": "Replaced a crawler-hostile DOL history URL with OSHA's Triangle account. OSHA confirms the March 25 fire at the Triangle Waist Company factory, 146 deaths, one collapsed fire escape, locked/wrong-way doors, trapped workers, poor fire protection and the workplace-safety reform legacy."
+    },
+    {
+      "id": "tenerife-runway-collision-1977",
+      "checked_at": "2026-08-28",
+      "status": "verified",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.faa.gov/lessons_learned/transport_airplane/accidents/PH-BUF",
+      "notes": "FAA confirms the Mar. 27, 1977 Tenerife collision between KLM 4805 and Pan Am 1736, both Boeing 747s, after KLM initiated takeoff while Pan Am was still taxiing on the runway. It supports the fog, congested/diverted airport, ambiguous radio language, operational pressure and 583-fatality context."
+    },
+    {
+      "id": "three-mile-island-1979",
+      "checked_at": "2026-08-28",
+      "status": "verified",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.nrc.gov/reading-rm/doc-collections/fact-sheets/3mile-isle",
+      "notes": "NRC confirms the Mar. 28, 1979 Three Mile Island Unit 2 partial meltdown, equipment malfunctions, design-related problems, worker errors, misleading valve indication, inadequate core-state information and subsequent control-room/human-factors reforms."
+    },
+    {
+      "id": "eiffel-tower-1889",
+      "checked_at": "2026-08-28",
+      "status": "verified",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.toureiffel.paris/en/the-monument/history",
+      "notes": "The official Eiffel Tower history confirms completion on Mar. 31, 1889 after two years, two months and five days, 18,038 metallic parts, 5,300 workshop designs, 2,500,000 rivets and tenth-of-a-millimetre preparation accuracy."
+    },
+    {
+      "id": "tiros-1-1960",
+      "checked_at": "2026-08-28",
+      "status": "verified",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.nasa.gov/image-article/tiros-nations-first-weather-satellite/",
+      "notes": "NASA confirms TIROS 1 launched on Apr. 1, 1960 as the nation's first weather satellite, operated for 78 days and demonstrated monitoring of Earth's cloud cover and weather patterns from space."
+    },
+    {
+      "id": "tesoro-anacortes-2010",
+      "checked_at": "2026-08-28",
+      "status": "verified_with_note",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.csb.gov/csb-releases-new-safety-video-behind-the-curve-detailing-report-findings-and-recommendations-on-fatal-2010-tesoro-anacortes-refinery-accident/",
+      "notes": "CSB confirms the Apr. 2, 2010 Tesoro Anacortes explosion and fire, seven worker deaths, nearly 40-year-old heat exchanger, startup after maintenance shutdown and long-term undetected high-temperature hydrogen attack. The current source URL remains the main CSB investigation page; this evidence URL is a CSB news/video page that exposes the startup wording more directly."
+    },
+    {
+      "id": "portable-cellular-call-1973",
+      "checked_at": "2026-08-28",
+      "status": "verified",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.motorolasolutions.com/en_us/about/history/explore-motorola-heritage/cell-phone-development.html",
+      "notes": "Motorola Solutions confirms that on Apr. 3, 1973 Motorola publicly demonstrated the world's first working prototype portable cellular system and phone, DynaTAC, in New York City, after work on portable two-way and pre-cellular systems."
+    },
+    {
+      "id": "crossness-pumping-station-1865",
+      "checked_at": "2026-08-28",
+      "status": "verified",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://crossness.org.uk/timeline/",
+      "notes": "Crossness Engines Trust confirms the official opening on Apr. 4, 1865 by HRH Albert Edward, Prince of Wales, as part of Bazalgette's southern outfall works, with sewage lifted into a covered reservoir and released on the ebb tide."
+    },
+    {
+      "id": "upper-big-branch-2010",
+      "checked_at": "2026-08-28",
+      "status": "source_improved",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.msha.gov/data-reports/fatality-reports/2010/fatality-3-through-31-april-5-2010/final-report",
+      "notes": "Replaced the older MSHA fatality URL, which now fails in fetches, with MSHA's live final-report URL. MSHA/NTIS metadata support the Apr. 5, 2010 Upper Big Branch explosion, 29 deaths, methane ignition/coal-dust explosion framing and failures in ventilation, rock dusting, equipment maintenance and safety management."
+    },
+    {
+      "id": "intelsat-1-1965",
+      "checked_at": "2026-08-28",
+      "status": "verified_with_note",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.nasa.gov/history/communications-satellites/",
+      "notes": "NASA History confirms COMSAT's Early Bird launched from Cape Canaveral on Apr. 6, 1965 and states global satellite communications had begun. The same page notes by the end of 1965 Early Bird had provided 150 telephone half-circuits and 80 hours of television service, so the entry's title is launch-centered while operational service matured after launch."
+    },
+    {
+      "id": "ibm-system-360-1964",
+      "checked_at": "2026-08-28",
+      "status": "verified",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.ibm.com/history/system-360",
+      "notes": "IBM confirms System/360 launched on Apr. 7, 1964 as a unified software-compatible architecture replacing five existing IBM product lines, covering six processor models and 54 peripherals, and pioneering the 8-bit byte."
     }
   ]
 }
