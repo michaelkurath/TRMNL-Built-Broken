@@ -22,7 +22,6 @@
 {% else %}
   {% for item in pool %}{% if item.m == today_key %}{% assign selected = item %}{% assign anniversary = true %}{% break %}{% endif %}{% endfor %}
 {% endif %}
-{% assign show_summary = true %}{% if settings.show_summary == false %}{% assign show_summary = false %}{% endif %}
 <div class="layout layout--col layout--stretch">
   <div class="flex flex--col flex--between gap--small h--full">
     <div class="flex flex--col gap--small">
@@ -35,10 +34,7 @@
         <span class="value value--large md:value--xlarge value--tnums">{{ selected.y | default: "----" }}</span>
         <span class="label text--right">{{ selected.d | default: "General" }}</span>
       </div>
-      <div class="title title--small md:title--base lg:title--large portrait:title--small" data-clamp="3">{{ selected.t | default: "Engineering case" }}</div>
-      {% if show_summary %}
-        <div class="description text--small md:text--base portrait:text--small" data-clamp="3">{{ selected.s | default: "No event summary is available." }}</div>
-      {% endif %}
+      <div class="title title--small md:title--base lg:title--large portrait:title--small" data-clamp="2">{{ selected.t | default: "Engineering case" }}</div>
     </div>
 
     <div class="outline flex flex--col gap--small p--medium">
