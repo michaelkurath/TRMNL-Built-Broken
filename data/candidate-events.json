@@ -4,6 +4,20 @@
   "purpose": "Source-backed candidate events for currently open dates. These are ready for later integration after the scalable TRMNL runtime feed is in place, so they do not increase the current TRMNL polling payload.",
   "candidates": [
     {
+      "id": "burj-khalifa-opens-2010",
+      "month_day": "01-04",
+      "year": 2010,
+      "type": "breakthrough",
+      "discipline": "Civil Engineering",
+      "title": "Burj Khalifa opens at skyscraper scale",
+      "summary": "The formal opening of Burj Khalifa marked completion of an 828-metre supertall tower whose buttressed-core structure, high-strength concrete and staged vertical construction pushed skyscraper engineering upward.",
+      "lesson": "Extreme height is a system problem: structure, wind response, concrete pumping, vertical transport and construction logistics all have to scale together.",
+      "source_label": "The Skyscraper Museum",
+      "source_url": "https://skyscraper.org/exhibitions/worlds-tallest-building-burj-dubai/",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. Source confirms the formal opening on Jan. 4, 2010 and describes construction/structural details."
+    },
+    {
       "id": "painter-crown-cap-patent-1892",
       "month_day": "02-02",
       "year": 1892,
@@ -30,6 +44,20 @@
       "source_url": "https://www.gao.gov/assets/gao-09-649.pdf",
       "status": "ready_after_serverless",
       "notes": "Free-date candidate. Useful underrepresented category candidate; source supports the recall scale and inspection-control concerns."
+    },
+    {
+      "id": "castle-bravo-fallout-1954",
+      "month_day": "03-01",
+      "year": 1954,
+      "type": "failure",
+      "discipline": "Nuclear Engineering",
+      "title": "Castle Bravo produces far more fallout than expected",
+      "summary": "The Castle Bravo thermonuclear test produced a roughly 15-megaton yield, far above its expected yield, spreading radioactive fallout across Marshall Islands communities, U.S. personnel and a Japanese fishing vessel.",
+      "lesson": "A model error in a high-energy system can become a public disaster; uncertainty, exclusion zones and environmental pathways must be sized for what could happen, not only what is expected.",
+      "source_label": "National Security Archive",
+      "source_url": "https://nsarchive.gwu.edu/briefing-book/nuclear-vault/2024-02-29/castle-bravo-70-worst-nuclear-test-us-history",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. Source confirms Mar. 1, 1954, the 15 Mt yield, lower estimate, fallout and affected populations."
     },
     {
       "id": "bell-telephone-patent-1876",
@@ -74,6 +102,20 @@
       "notes": "Free-date candidate. Mercedes-Benz Public Archive confirms 18 March 1895 and the Siegen-Netphen-Deuz service."
     },
     {
+      "id": "sydney-harbour-bridge-opens-1932",
+      "month_day": "03-19",
+      "year": 1932,
+      "type": "breakthrough",
+      "discipline": "Civil Engineering",
+      "title": "Sydney Harbour Bridge opens as a steel arch landmark",
+      "summary": "Sydney Harbour Bridge opened after a major steel-arch construction effort, joining road, rail and pedestrian traffic across the harbour as a national infrastructure milestone.",
+      "lesson": "A landmark bridge is more than a span; fabrication, erection sequence, transport demand and public operations must meet at the same opening day.",
+      "source_label": "Australian Government DCCEEW",
+      "source_url": "https://www.dcceew.gov.au/parks-heritage/heritage/places/national/sydney-harbour-bridge",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. Source supports the Mar. 19, 1932 opening and bridge significance; useful civil breakthrough candidate."
+    },
+    {
       "id": "hunt-safety-pin-patent-1849",
       "month_day": "04-10",
       "year": 1849,
@@ -102,6 +144,20 @@
       "notes": "Free-date candidate. NASA source supports Apr. 13, 1970, oxygen tank rupture, power loss and mission abort."
     },
     {
+      "id": "titanic-iceberg-strike-1912",
+      "month_day": "04-14",
+      "year": 1912,
+      "type": "failure",
+      "discipline": "Marine Engineering",
+      "title": "Titanic's iceberg strike defeats compartment safety",
+      "summary": "RMS Titanic struck an iceberg late on 14 April. Flooding across multiple watertight compartments exceeded the ship's survivability assumptions, and the liner sank early the next morning.",
+      "lesson": "Compartmentalization only protects against the damage case it actually bounds; collision energy, breach length, flooding paths and evacuation capacity must be considered together.",
+      "source_label": "U.S. Naval Institute",
+      "source_url": "https://www.usni.org/magazines/naval-history-magazine/1996/october/how-did-titanic-really-sink",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. Source supports the Apr. 14 iceberg strike and flooding/sinking sequence with engineering framing."
+    },
+    {
       "id": "deepwater-horizon-sinks-2010",
       "month_day": "04-22",
       "year": 2010,
@@ -114,6 +170,20 @@
       "source_url": "https://response.restoration.noaa.gov/timelines/deepwater-horizon-oil-spill",
       "status": "ready_after_serverless",
       "notes": "Free-date candidate. NOAA timeline confirms Apr. 22, 2010 rig sinking after the Apr. 20 explosion."
+    },
+    {
+      "id": "zuse-z3-completed-1941",
+      "month_day": "05-12",
+      "year": 1941,
+      "type": "breakthrough",
+      "discipline": "Computing",
+      "title": "Zuse completes the program-controlled Z3",
+      "summary": "Konrad Zuse completed the Z3, a program-controlled electromechanical digital computer that used relay logic to automate calculations before electronic computers became practical.",
+      "lesson": "A computing breakthrough can come from architecture before speed: representation, programmability and repeatable control define the machine.",
+      "source_label": "Computer History Museum",
+      "source_url": "https://www.computerhistory.org/tdih/may/12/",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. Source confirms May 12, 1941 and describes the Z3 as the first program-controlled electromechanical digital computer."
     },
     {
       "id": "takata-airbag-recall-2015",
@@ -144,6 +214,20 @@
       "notes": "Free-date candidate. Good low-overlap manufacturing example with a primary-record-oriented source."
     },
     {
+      "id": "johnstown-flood-dam-failure-1889",
+      "month_day": "05-31",
+      "year": 1889,
+      "type": "failure",
+      "discipline": "Civil Engineering",
+      "title": "South Fork Dam fails above Johnstown",
+      "summary": "The South Fork Dam failed after modifications, blocked drainage and heavy rain left the reservoir overtopping. The resulting flood devastated Johnstown and killed more than two thousand people.",
+      "lesson": "A dam is never just earthwork; spillways, outlets, maintenance, ownership and emergency warning are part of the safety system.",
+      "source_label": "U.S. National Park Service",
+      "source_url": "https://www.nps.gov/jofl/learn/historyculture/the-south-fork-dam.htm",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. Source confirms May 31, 1889, dam failure, water volume and deaths; strong civil failure candidate."
+    },
+    {
       "id": "goodyear-vulcanized-rubber-patent-1844",
       "month_day": "06-15",
       "year": 1844,
@@ -172,6 +256,34 @@
       "notes": "Free-date candidate. Good underrepresented materials entry; may deserve a later source-quality pass against DuPont or ACS material if used."
     },
     {
+      "id": "dolly-adult-cell-cloning-1996",
+      "month_day": "07-05",
+      "year": 1996,
+      "type": "breakthrough",
+      "discipline": "Medicine",
+      "title": "Dolly proves adult-cell cloning can work",
+      "summary": "Dolly was born at the Roslin Institute after being cloned from an adult mammary-gland cell, proving that a specialized adult cell could be reprogrammed to develop into a whole organism.",
+      "lesson": "Biological engineering depends on process control at tiny interfaces: cell source, nuclear transfer, embryo development and surrogate timing all have to align.",
+      "source_label": "The Roslin Institute",
+      "source_url": "https://vet.ed.ac.uk/roslin/about/history/dolly/facts/life-of-dolly",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. Source confirms Jul. 5, 1996 birth and first mammal cloned from an adult cell."
+    },
+    {
+      "id": "delta-191-wind-shear-1985",
+      "month_day": "08-02",
+      "year": 1985,
+      "type": "failure",
+      "discipline": "Aviation",
+      "title": "Delta 191 reveals the danger of microbursts",
+      "summary": "Delta Air Lines Flight 191 crashed on approach to Dallas/Fort Worth after encountering intense wind shear from a thunderstorm downdraft, highlighting a poorly understood low-altitude weather hazard.",
+      "lesson": "Aircraft safety depends on sensing the environment in time; training, weather radar, warning systems and go-around decisions must match the hazard's speed.",
+      "source_label": "U.S. National Weather Service",
+      "source_url": "https://www.weather.gov/fwd/delta191",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. Source confirms Aug. 2, 1985, DFW crash and NTSB wind-shear/microburst finding."
+    },
+    {
       "id": "firestone-tire-recall-2000",
       "month_day": "08-09",
       "year": 2000,
@@ -184,6 +296,20 @@
       "source_url": "https://www.govinfo.gov/content/pkg/FR-2001-01-22/pdf/01-1502.pdf",
       "status": "ready_after_serverless",
       "notes": "Free-date candidate. Strong automotive failure candidate with official recall/investigation documentation."
+    },
+    {
+      "id": "windows-95-retail-release-1995",
+      "month_day": "08-24",
+      "year": 1995,
+      "type": "breakthrough",
+      "discipline": "Consumer Technology",
+      "title": "Windows 95 puts the Start menu into everyday computing",
+      "summary": "Microsoft marked the first anniversary of Windows 95 on August 24 after tens of millions of shipments. The release made the Start menu, taskbar and 32-bit consumer PC platform part of everyday use.",
+      "lesson": "A consumer platform succeeds when technical architecture and interaction design arrive together: APIs, drivers, applications and a learnable interface reinforce each other.",
+      "source_label": "Microsoft",
+      "source_url": "https://news.microsoft.com/source/1996/08/21/one-year-anniversary-of-windows-95-to-be-celebrated/",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. Microsoft source supports Aug. 24 as the one-year anniversary and Windows 95 adoption/momentum."
     },
     {
       "id": "windscale-pile-fire-1957",
@@ -268,6 +394,20 @@
       "source_url": "https://www.resolutionmineeis.us/documents/fundao-2016",
       "status": "ready_after_serverless",
       "notes": "Free-date candidate. Review Panel source confirms Nov. 5, 2015 failure and identifies liquefaction flowslide at the left abutment."
+    },
+    {
+      "id": "great-smog-london-1952",
+      "month_day": "12-05",
+      "year": 1952,
+      "type": "failure",
+      "discipline": "Environmental Engineering",
+      "title": "London's Great Smog turns air pollution lethal",
+      "summary": "A cold, windless period trapped coal smoke and pollutants over London from 5 to 9 December, reducing visibility and causing a severe public-health disaster.",
+      "lesson": "Environmental failures are engineered through systems too: fuel choice, emissions, weather, monitoring, public warnings and regulation decide whether pollution becomes catastrophe.",
+      "source_label": "UK Met Office",
+      "source_url": "https://weather.metoffice.gov.uk/learn-about/weather/case-studies/great-smog",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. Source confirms Dec. 5-9, 1952 and the severe pollution/death toll context."
     },
     {
       "id": "halifax-explosion-1917",
