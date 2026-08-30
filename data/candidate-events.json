@@ -4,6 +4,20 @@
   "purpose": "Source-backed candidate events for currently open dates. These are ready for later integration after the scalable TRMNL runtime feed is in place, so they do not increase the current TRMNL polling payload.",
   "candidates": [
     {
+      "id": "painter-crown-cap-patent-1892",
+      "month_day": "02-02",
+      "year": 1892,
+      "type": "breakthrough",
+      "discipline": "Manufacturing & Automation",
+      "title": "Painter patents the crown bottle cap",
+      "summary": "William Painter received a U.S. patent for a bottle-sealing device: a cheap crimped metal cap that could hold pressure and seal carbonated drinks reliably.",
+      "lesson": "Packaging is engineering. A small closure can reshape an industry when it solves sealing, cost, hygiene and repeatable application at the same time.",
+      "source_label": "U.S. Patent 468258",
+      "source_url": "https://patents.google.com/patent/US468258A/en",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. Patent record confirms Feb. 2, 1892 and describes the metallic sealing cap/bottle-sealing device."
+    },
+    {
       "id": "westland-hallmark-beef-recall-2008",
       "month_day": "02-17",
       "year": 2008,
@@ -16,6 +30,90 @@
       "source_url": "https://www.gao.gov/assets/gao-09-649.pdf",
       "status": "ready_after_serverless",
       "notes": "Free-date candidate. Useful underrepresented category candidate; source supports the recall scale and inspection-control concerns."
+    },
+    {
+      "id": "bell-telephone-patent-1876",
+      "month_day": "03-07",
+      "year": 1876,
+      "type": "breakthrough",
+      "discipline": "Communications",
+      "title": "Bell receives the telephone patent",
+      "summary": "Alexander Graham Bell received U.S. Patent No. 174,465 for transmitting vocal or other sounds telegraphically, giving the telephone a defensible technical and legal starting point.",
+      "lesson": "A communications breakthrough needs more than a clever device; it needs a reproducible signal path, a defined interface and a claim precise enough to build around.",
+      "source_label": "U.S. National Archives",
+      "source_url": "https://docsteach.org/document/alexander-graham-bells-telephone-patent-drawing-and-oath/",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. National Archives record supports the Mar. 7, 1876 patent drawing/oath date."
+    },
+    {
+      "id": "vanguard-1-solar-satellite-1958",
+      "month_day": "03-17",
+      "year": 1958,
+      "type": "breakthrough",
+      "discipline": "Space",
+      "title": "Vanguard 1 proves solar power in orbit",
+      "summary": "Vanguard 1 launched as the world's first solar-powered satellite, testing a three-stage launch vehicle and long-lived spacecraft systems in Earth orbit.",
+      "lesson": "A small spacecraft can become a durable experiment when power, telemetry, orbit and environmental exposure are designed as one long-running system.",
+      "source_label": "NASA",
+      "source_url": "https://www.nasa.gov/image-article/vanguard-satellite-1958/",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. NASA source confirms Mar. 17, 1958 launch and first solar-powered satellite claim."
+    },
+    {
+      "id": "benz-motor-bus-service-1895",
+      "month_day": "03-18",
+      "year": 1895,
+      "type": "breakthrough",
+      "discipline": "Automotive Engineering",
+      "title": "Benz puts a motor bus into regular service",
+      "summary": "The world's first motor-powered omnibus entered service between Siegen, Netphen and Deuz, turning the motor vehicle from a private machine into shared transport infrastructure.",
+      "lesson": "A vehicle becomes public infrastructure only when engine reliability, route length, capacity, maintenance and operating economics work together.",
+      "source_label": "Mercedes-Benz Public Archive",
+      "source_url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/First-motor-powered-omnibus-in-regular-service.xhtml?oid=4909557",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. Mercedes-Benz Public Archive confirms 18 March 1895 and the Siegen-Netphen-Deuz service."
+    },
+    {
+      "id": "hunt-safety-pin-patent-1849",
+      "month_day": "04-10",
+      "year": 1849,
+      "type": "breakthrough",
+      "discipline": "Manufacturing & Automation",
+      "title": "Hunt patents a safer spring pin",
+      "summary": "Walter Hunt received a U.S. patent for a dress pin with a spring and clasp, turning bent wire into a cheap, repeatable fastening mechanism that protected the point.",
+      "lesson": "Good product engineering can be tiny: store elastic energy, guide motion and shield the hazard with as few parts as possible.",
+      "source_label": "U.S. Patent 6281",
+      "source_url": "https://patents.google.com/patent/US6281A/en",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. Patent record confirms Apr. 10, 1849 and describes Hunt's dress-pin mechanism."
+    },
+    {
+      "id": "apollo-13-oxygen-tank-1970",
+      "month_day": "04-13",
+      "year": 1970,
+      "type": "failure",
+      "discipline": "Space",
+      "title": "Apollo 13 loses an oxygen tank on the way to the Moon",
+      "summary": "An oxygen tank ruptured in Apollo 13's service module, draining power and life-support resources and forcing the crew to use the lunar module as a lifeboat.",
+      "lesson": "Shared resources create shared failure modes; power, oxygen, cooling, controls and emergency procedures must be tested as one survival system.",
+      "source_label": "NASA",
+      "source_url": "https://www.nasa.gov/missions/apollo/apollo-13-mission-details/",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. NASA source supports Apr. 13, 1970, oxygen tank rupture, power loss and mission abort."
+    },
+    {
+      "id": "deepwater-horizon-sinks-2010",
+      "month_day": "04-22",
+      "year": 2010,
+      "type": "failure",
+      "discipline": "Process Engineering",
+      "title": "Deepwater Horizon sinks after the Macondo blowout",
+      "summary": "Two days after the blowout and explosion that killed 11 workers, the Deepwater Horizon drilling rig sank in about 5,000 feet of water in the Gulf of Mexico.",
+      "lesson": "A well-control failure is a system failure: barriers, test interpretation, alarms, emergency disconnects and evacuation all have to work before hydrocarbons reach ignition.",
+      "source_label": "NOAA",
+      "source_url": "https://response.restoration.noaa.gov/timelines/deepwater-horizon-oil-spill",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. NOAA timeline confirms Apr. 22, 2010 rig sinking after the Apr. 20 explosion."
     },
     {
       "id": "takata-airbag-recall-2015",
@@ -130,6 +228,20 @@
       "notes": "Free-date candidate. Good automotive breakthrough; source supports the October 23, 1971 patent milestone."
     },
     {
+      "id": "nedelin-r16-pad-explosion-1960",
+      "month_day": "10-24",
+      "year": 1960,
+      "type": "failure",
+      "discipline": "Space",
+      "title": "Nedelin disaster: an R-16 explodes on the pad",
+      "summary": "During rushed prelaunch work at Baikonur, a fueled Soviet R-16 missile exploded on the launch pad after premature second-stage ignition, killing many engineers and military personnel.",
+      "lesson": "Do not troubleshoot a fueled high-energy system as if it were inert. Schedule pressure must never move people inside the blast radius without hard isolation.",
+      "source_label": "NASA History",
+      "source_url": "https://www.nasa.gov/history/history-publications-and-resources/nasa-history-series/rockets-and-people/",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. NASA's Rockets and People series includes Chertok's account; a later source-quality pass should cite the exact volume/page if promoted."
+    },
+    {
       "id": "morris-worm-1988",
       "month_day": "11-02",
       "year": 1988,
@@ -142,6 +254,34 @@
       "source_url": "https://www.fbi.gov/news/stories/morris-worm-30-years-since-first-major-attack-on-internet-110218",
       "status": "ready_after_serverless",
       "notes": "Free-date candidate. Strong software/systems failure candidate with official retrospective source."
+    },
+    {
+      "id": "fundao-tailings-dam-failure-2015",
+      "month_day": "11-05",
+      "year": 2015,
+      "type": "failure",
+      "discipline": "Mining & Tunneling",
+      "title": "Fundao tailings dam fails in a liquefaction flowslide",
+      "summary": "The Fundao tailings dam at Samarco's Germano complex failed, releasing mine tailings downstream and killing 19 people.",
+      "lesson": "Tailings storage is active infrastructure. Drainage, liquefaction risk, raising history, monitoring and emergency planning must be managed for the life of the waste.",
+      "source_label": "Fundao Tailings Dam Review Panel",
+      "source_url": "https://www.resolutionmineeis.us/documents/fundao-2016",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. Review Panel source confirms Nov. 5, 2015 failure and identifies liquefaction flowslide at the left abutment."
+    },
+    {
+      "id": "halifax-explosion-1917",
+      "month_day": "12-06",
+      "year": 1917,
+      "type": "failure",
+      "discipline": "Process Engineering",
+      "title": "Halifax harbour detonates after a munitions collision",
+      "summary": "The explosives-laden Mont Blanc collided with Imo in Halifax harbour, caught fire and detonated, devastating nearby districts.",
+      "lesson": "Hazardous cargo turns routing, signalling, firefighting distance and public exclusion zones into one life-safety system.",
+      "source_label": "Canadian War Museum",
+      "source_url": "https://www.warmuseum.ca/firstworldwar/history/life-at-home-during-the-war/wartime-tragedies/the-halifax-explosion/",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. Canadian War Museum source confirms Dec. 6, 1917, the collision, fire and explosion of Mont Blanc's cargo."
     }
   ]
 }
