@@ -1402,6 +1402,62 @@
       "source_url": "https://www.ntsb.gov/investigations/AccidentReports/Reports/AAR8302.pdf",
       "status": "ready_after_serverless",
       "notes": "Small batch candidate. NTSB AAR-83-02 is the primary accident report for Pan Am Flight 759, July 9, 1982; PDF is large but authoritative."
+    },
+    {
+      "id": "luna-1-earth-escape-1959",
+      "month_day": "01-02",
+      "year": 1959,
+      "type": "breakthrough",
+      "discipline": "Space",
+      "title": "Luna 1 leaves Earth orbit",
+      "summary": "The Soviet Luna 1 mission launched toward the Moon and became the first human-made object to escape Earth orbit, missing the Moon but entering heliocentric orbit.",
+      "lesson": "A partial mission failure can still prove a new capability; trajectory control, staging and tracking may create a milestone even when the target is missed.",
+      "source_label": "NASA",
+      "source_url": "https://www.nasa.gov/history/monograph10/denoument.html",
+      "status": "ready_after_serverless",
+      "notes": "Small batch candidate. NASA source supports Jan. 2, 1959, Luna 1/Mechta and the first lunar flyby/Earth-escape context; promotion should check whether to frame as flyby, escape or heliocentric-orbit milestone."
+    },
+    {
+      "id": "apollo-14-fra-mauro-landing-1971",
+      "month_day": "02-05",
+      "year": 1971,
+      "type": "breakthrough",
+      "discipline": "Space",
+      "title": "Apollo 14 lands at Fra Mauro",
+      "summary": "Apollo 14's lunar module Antares landed at Fra Mauro, bringing the Apollo program back to the Moon after Apollo 13 and collecting samples from a scientifically important highland site.",
+      "lesson": "Recovery after a near-disaster is engineering work: redesigns, procedural changes, crew training and mission discipline have to restore confidence without hiding residual risk.",
+      "source_label": "NASA",
+      "source_url": "https://www.nasa.gov/missions/apollo/apollo-14-mission-details/",
+      "status": "ready_after_serverless",
+      "notes": "Small batch candidate. NASA mission detail page supports Apollo 14 context; promotion should verify the landing timestamp/date and Fra Mauro sampling details from the mission timeline."
+    },
+    {
+      "id": "air-inter-148-mode-confusion-1992",
+      "month_day": "01-20",
+      "year": 1992,
+      "type": "failure",
+      "discipline": "Aviation",
+      "title": "Air Inter 148 descends in the wrong vertical mode",
+      "summary": "Air Inter Flight 148 crashed near Strasbourg after an unusually high descent rate developed during approach, with investigators identifying likely confusion between flight-path-angle and vertical-speed modes.",
+      "lesson": "Automation interfaces must make mode and units unmistakable; a tiny display ambiguity can become fatal when workload is high and terrain is close.",
+      "source_label": "U.S. Federal Aviation Administration",
+      "source_url": "https://www.faa.gov/lessons_learned/transport_airplane/accidents/F-GGED",
+      "status": "ready_after_serverless",
+      "notes": "Small batch candidate. FAA Lessons Learned source supports Jan. 20, 1992, the Air Inter A320 accident and the VS/FPA mode-confusion safety lesson."
+    },
+    {
+      "id": "hinton-train-collision-1986",
+      "month_day": "02-08",
+      "year": 1986,
+      "type": "failure",
+      "discipline": "Rail",
+      "title": "Hinton train collision exposes weak safety culture",
+      "summary": "A Canadian National freight train collided head-on with a VIA Rail passenger train near Hinton, Alberta, killing 23 people and leading to a public inquiry into railway safety practices.",
+      "lesson": "A safety device is only effective if operating culture supports it; fatigue, communication, crew monitoring and automatic protection must reinforce each other.",
+      "source_label": "Government of Canada Publications",
+      "source_url": "https://publications.gc.ca/site/eng/9.818270/publication.html",
+      "status": "ready_after_serverless",
+      "notes": "Small batch candidate. Government of Canada catalogue record links the Foisy Commission report on the Hinton Train Collision; promotion should use the PDF report for exact findings wording."
     }
   ]
 }
