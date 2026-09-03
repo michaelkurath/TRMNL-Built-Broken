@@ -60,6 +60,20 @@
       "notes": "Free-date candidate. Useful underrepresented category candidate; source supports the recall scale and inspection-control concerns."
     },
     {
+      "id": "trevithick-penydarren-locomotive-1804",
+      "month_day": "02-21",
+      "year": 1804,
+      "type": "breakthrough",
+      "discipline": "Rail",
+      "title": "Trevithick's locomotive hauls iron on rails",
+      "summary": "Richard Trevithick's Penydarren locomotive hauled iron and passengers along a South Wales tramroad, demonstrating that steam power could move heavy loads on rails.",
+      "lesson": "A breakthrough can arrive before the supporting infrastructure is ready; vehicle, track strength, load and operating economics all have to mature together.",
+      "source_label": "Museum Wales",
+      "source_url": "https://museum.wales/learn/activity/725/Birth-of-the-Railway-Locomotive--Trevithick-and-the-Penydarren-Locomotive/",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. Museum Wales confirms Feb. 21, 1804 and the world's first railway journey from Penydarren to the Merthyr-Cardiff Canal."
+    },
+    {
       "id": "castle-bravo-fallout-1954",
       "month_day": "03-01",
       "year": 1954,
@@ -158,6 +172,20 @@
       "notes": "Free-date candidate. NRC source documents the Browns Ferry Nuclear Plant Fire of 1975 and its role in the history of NRC fire regulations; later promotion should use one of the linked NRC reports for finer event details."
     },
     {
+      "id": "comet-flight-201-fatigue-1954",
+      "month_day": "04-08",
+      "year": 1954,
+      "type": "failure",
+      "discipline": "Aviation",
+      "title": "A second Comet breakup confirms a fatigue crisis",
+      "summary": "South African Airways Flight 201, a de Havilland Comet operated through BOAC, broke up after departing Rome. Together with the earlier Elba crash, the accident exposed fatigue failure in pressurized jetliner cabins.",
+      "lesson": "Pressurization turns every flight into a load cycle. Full-scale fatigue testing, manufacturing detail and inspection must match the real structure, not an idealized section.",
+      "source_label": "U.S. Federal Aviation Administration",
+      "source_url": "https://www.faa.gov/lessons_learned/transport_airplane/accidents/G-ALYV",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. FAA Lessons Learned page explicitly covers the Apr. 8, 1954 Naples crash and links the Comet accidents to pressure-cabin fatigue failure."
+    },
+    {
       "id": "hunt-safety-pin-patent-1849",
       "month_day": "04-10",
       "year": 1849,
@@ -212,6 +240,20 @@
       "source_url": "https://earthquake.usgs.gov/earthquakes/events/1906calif/18april/",
       "status": "ready_after_serverless",
       "notes": "Free-date candidate. USGS source confirms Apr. 18, 1906 and describes the earthquake and fire death/destruction context."
+    },
+    {
+      "id": "game-boy-japan-release-1989",
+      "month_day": "04-21",
+      "year": 1989,
+      "type": "breakthrough",
+      "discipline": "Consumer Technology",
+      "title": "Game Boy makes portable gaming durable",
+      "summary": "Nintendo released the Game Boy in Japan, pairing modest hardware with cartridge software, long battery life and a portable form that made handheld gaming a mass-market platform.",
+      "lesson": "Consumer hardware can win by optimizing the whole use case: battery life, cost, durability, controls, software library and pocketable design can matter more than peak specs.",
+      "source_label": "Centre for Computing History",
+      "source_url": "https://www.computinghistory.org.uk/det/4033/nintendo-game-boy/",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. Source confirms Japan release on Apr. 21, 1989 and describes the handheld console, cartridge system and development context."
     },
     {
       "id": "deepwater-horizon-sinks-2010",
@@ -298,6 +340,20 @@
       "notes": "Free-date candidate. Good low-overlap manufacturing example with a primary-record-oriented source."
     },
     {
+      "id": "hoover-dam-last-concrete-1935",
+      "month_day": "05-29",
+      "year": 1935,
+      "type": "breakthrough",
+      "discipline": "Civil Engineering",
+      "title": "Hoover Dam receives its last concrete",
+      "summary": "The last concrete was placed in Hoover Dam after a massive staged pour, cooling-pipe and construction-logistics effort for one of the era's defining infrastructure projects.",
+      "lesson": "Mass concrete is a thermal and logistics problem as much as a structural one; sequence, cooling, placement rate and quality control decide whether scale stays sound.",
+      "source_label": "U.S. Bureau of Reclamation",
+      "source_url": "https://www.usbr.gov/lc/hooverdam/faqs/damfaqs.html",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. Bureau of Reclamation source confirms first concrete on Jun. 6, 1933, last concrete on May 29, 1935 and peak placement figures."
+    },
+    {
       "id": "johnstown-flood-dam-failure-1889",
       "month_day": "05-31",
       "year": 1889,
@@ -310,6 +366,20 @@
       "source_url": "https://www.nps.gov/jofl/learn/historyculture/the-south-fork-dam.htm",
       "status": "ready_after_serverless",
       "notes": "Free-date candidate. Source confirms May 31, 1889, dam failure, water volume and deaths; strong civil failure candidate."
+    },
+    {
+      "id": "surveyor-1-soft-landing-1966",
+      "month_day": "06-02",
+      "year": 1966,
+      "type": "breakthrough",
+      "discipline": "Space",
+      "title": "Surveyor 1 soft-lands on the Moon",
+      "summary": "NASA's Surveyor 1 landed successfully on the Moon's Ocean of Storms, returning images and surface data that helped prove automated lunar landing technology before Apollo.",
+      "lesson": "A precursor mission earns its keep when it reduces uncertainty for the next system: landing dynamics, surface bearing, telemetry and operations all become measured facts.",
+      "source_label": "NASA",
+      "source_url": "https://www.nasa.gov/history/55-years-ago-surveyor-1-makes-a-soft-landing-on-the-moon/",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. NASA confirms Surveyor 1's Jun. 2, 1966 soft landing, first American Moon soft landing and return of thousands of images."
     },
     {
       "id": "le-mans-disaster-1955",
@@ -452,6 +522,20 @@
       "notes": "Free-date candidate. Source confirms Aug. 2, 1985, DFW crash and NTSB wind-shear/microburst finding."
     },
     {
+      "id": "banqiao-dam-failure-1975",
+      "month_day": "08-08",
+      "year": 1975,
+      "type": "failure",
+      "discipline": "Civil Engineering",
+      "title": "Banqiao Dam fails in a cascade of flooding",
+      "summary": "China's Banqiao Dam failed during extreme rainfall from Typhoon Nina, releasing a destructive flood and contributing to a wider cascade of dam failures downstream.",
+      "lesson": "Reservoir safety depends on the whole flood system: hydrology, spillway capacity, gate operation, communications and downstream emergency planning must survive the same storm.",
+      "source_label": "The Chemical Engineer",
+      "source_url": "https://www.thechemicalengineer.com/features/reflections-on-banqiao/",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. IChemE article confirms Aug. 8, 1975, Banqiao failure, flood wave and downstream cascade; later pass should seek a stronger primary/official engineering source before promotion."
+    },
+    {
       "id": "firestone-tire-recall-2000",
       "month_day": "08-09",
       "year": 2000,
@@ -520,6 +604,20 @@
       "source_url": "https://www.linuxfoundation.org/blog/blog/anniversary-of-first-linux-kernel-release-a-look-at-collaborative-value",
       "status": "ready_after_serverless",
       "notes": "Free-date candidate. Linux Foundation source confirms Aug. 25 as the first public post/announcement date."
+    },
+    {
+      "id": "mattmark-glacier-disaster-1965",
+      "month_day": "08-30",
+      "year": 1965,
+      "type": "failure",
+      "discipline": "Civil Engineering",
+      "title": "Mattmark worksite is buried by glacier ice",
+      "summary": "A glacial slide from the Allalin glacier buried the Mattmark dam construction site in Valais, killing 88 workers and raising hard questions about construction siting below known alpine hazards.",
+      "lesson": "Temporary works are part of the engineered system. Camps, access roads and work zones need hazard assessment with the same seriousness as the permanent structure.",
+      "source_label": "Diplomatic Documents of Switzerland",
+      "source_url": "https://www.dodis.ch/en/catastrophe-mattmark-1965",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. Swiss source confirms Aug. 30, 1965, the Allalin glacier slide near Mattmark and 88 construction-worker deaths; useful Swiss candidate for later review."
     },
     {
       "id": "barcode-patent-1952",
@@ -604,6 +702,34 @@
       "source_url": "https://www.nasa.gov/history/history-publications-and-resources/nasa-history-series/rockets-and-people/",
       "status": "ready_after_serverless",
       "notes": "Free-date candidate. NASA's Rockets and People series includes Chertok's account; a later source-quality pass should cite the exact volume/page if promoted."
+    },
+    {
+      "id": "erie-canal-completed-1825",
+      "month_day": "10-26",
+      "year": 1825,
+      "type": "breakthrough",
+      "discipline": "Civil Engineering",
+      "title": "Erie Canal opens a new inland route",
+      "summary": "The Erie Canal was completed, connecting Lake Erie with the Hudson River through a long artificial waterway that transformed transport, trade and settlement patterns.",
+      "lesson": "Infrastructure can redraw economics when route, locks, water supply, maintenance and operating rules lower friction across an entire network.",
+      "source_label": "U.S. Government Publishing Office",
+      "source_url": "https://www.govinfo.gov/features/erie-canal",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. GovInfo source confirms Oct. 26, 1825 completion, 363-mile length and transport impact."
+    },
+    {
+      "id": "schweizerhalle-sandoz-fire-1986",
+      "month_day": "11-01",
+      "year": 1986,
+      "type": "failure",
+      "discipline": "Environmental Engineering",
+      "title": "Schweizerhalle fire contaminates the Rhine",
+      "summary": "A fire at the Sandoz chemical warehouse in Schweizerhalle near Basel caused contaminated firefighting water to enter the Rhine, producing serious ecological damage and prompting stronger Swiss major-accident prevention rules.",
+      "lesson": "Emergency response water can become a transport system for hazards; containment, drainage, storage layout and runoff paths need to be engineered before the fire.",
+      "source_label": "Swiss Federal Office for the Environment",
+      "source_url": "https://www.bafu.admin.ch/en/schweizerhalle-en",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. FOEN/BAFU source confirms the Nov. 1, 1986 Schweizerhalle fire, ecological damage along the Rhine and later Swiss accident-prevention regulation."
     },
     {
       "id": "morris-worm-1988",
@@ -702,6 +828,20 @@
       "source_url": "https://www.networkrail.co.uk/who-we-are/our-history/iconic-infrastructure/the-history-of-the-tay-bridge-dundee/",
       "status": "ready_after_serverless",
       "notes": "Free-date candidate. Network Rail source confirms Dec. 28, 1879, storm collapse, inquiry blame on design and later higher bridge-building standards."
+    },
+    {
+      "id": "iroquois-theatre-fire-1903",
+      "month_day": "12-30",
+      "year": 1903,
+      "type": "failure",
+      "discipline": "Fire Safety",
+      "title": "Iroquois Theatre proves fireproof claims hollow",
+      "summary": "A fire at Chicago's Iroquois Theatre killed hundreds of people after stage materials ignited and escape routes failed under crowd pressure.",
+      "lesson": "Life safety depends on verified details, not advertised labels: curtains, exits, doors, alarms, suppression and staff procedures must all work in the first minutes.",
+      "source_label": "National Fire Protection Association",
+      "source_url": "https://nfpa.access.preservica.com/uncategorized/SO_e6ec46f5-febd-422f-bc33-a443baad5ec1/",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. NFPA archive record confirms Dec. 30, 1903 investigation material; later promotion should use the full report or another detailed institutional source for exact casualty/mechanism wording."
     }
   ]
 }
