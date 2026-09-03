@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-30",
+  "updated_at": "2026-09-03",
   "purpose": "Source-backed candidate events for currently open dates. These are ready for later integration after the scalable TRMNL runtime feed is in place, so they do not increase the current TRMNL polling payload.",
   "candidates": [
     {
@@ -172,6 +172,20 @@
       "notes": "Free-date candidate. NOAA timeline confirms Apr. 22, 2010 rig sinking after the Apr. 20 explosion."
     },
     {
+      "id": "smallpox-eradication-declared-1980",
+      "month_day": "05-08",
+      "year": 1980,
+      "type": "breakthrough",
+      "discipline": "Medicine",
+      "title": "WHO declares smallpox eradicated",
+      "summary": "The 33rd World Health Assembly officially declared the world free of smallpox, closing a global vaccination and surveillance campaign against a disease that had killed hundreds of millions.",
+      "lesson": "Public-health engineering is still systems engineering: vaccine production, cold chains, surveillance, reporting and local execution all have to close the loop.",
+      "source_label": "World Health Organization",
+      "source_url": "https://www.who.int/news/item/08-05-2020-commemorating-smallpox-eradication-a-legacy-of-hope-for-covid-19-and-other-diseases",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. WHO source confirms May 8, 1980 declaration by the 33rd World Health Assembly and the global eradication context."
+    },
+    {
       "id": "zuse-z3-completed-1941",
       "month_day": "05-12",
       "year": 1941,
@@ -228,6 +242,20 @@
       "notes": "Free-date candidate. Source confirms May 31, 1889, dam failure, water volume and deaths; strong civil failure candidate."
     },
     {
+      "id": "le-mans-disaster-1955",
+      "month_day": "06-11",
+      "year": 1955,
+      "type": "failure",
+      "discipline": "Automotive Engineering",
+      "title": "Le Mans crash sends racing debris into spectators",
+      "summary": "During the 24 Hours of Le Mans, a high-speed collision sent a racing car and debris into spectator areas, killing more than 80 people and exposing how track layout, barriers and vehicle energy interact.",
+      "lesson": "Spectators are part of the safety envelope. Speed, stopping zones, debris paths, fuel, materials and crowd separation must be designed as one system.",
+      "source_label": "AP News",
+      "source_url": "https://apnews.com/article/ec6a2986a9e6cee1cd150102ca1935d4",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. AP supports Jun. 11, 1955 and the more-than-80 death toll; needs later source-quality pass for detailed vehicle/track/material mechanisms."
+    },
+    {
       "id": "goodyear-vulcanized-rubber-patent-1844",
       "month_day": "06-15",
       "year": 1844,
@@ -256,6 +284,34 @@
       "notes": "Free-date candidate. Good underrepresented materials entry; may deserve a later source-quality pass against DuPont or ACS material if used."
     },
     {
+      "id": "typewriter-patent-1868",
+      "month_day": "06-23",
+      "year": 1868,
+      "type": "breakthrough",
+      "discipline": "Consumer Technology",
+      "title": "Sholes, Glidden and Soule patent the typewriter",
+      "summary": "Christopher Latham Sholes, Carlos Glidden and Samuel W. Soule received a U.S. patent for improvements in type-writing machines, helping move writing from handcraft toward repeatable office machinery.",
+      "lesson": "An interface becomes infrastructure when mechanics, input layout, carriage motion and manufacturable parts make repeated human work faster and more consistent.",
+      "source_label": "U.S. Patent 79265",
+      "source_url": "https://patents.google.com/patent/US79265A/en",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. Patent record confirms Jun. 23, 1868 and the type-writing machine invention."
+    },
+    {
+      "id": "sampoong-department-store-collapse-1995",
+      "month_day": "06-29",
+      "year": 1995,
+      "type": "failure",
+      "discipline": "Civil Engineering",
+      "title": "Sampoong department store collapses from structural neglect",
+      "summary": "The Sampoong Department Store in Seoul collapsed after unsafe structural changes and overloading contributed to punching-shear failure in the building's flat-slab system.",
+      "lesson": "A building use change is an engineering change. Columns, slab capacity, added loads, vibration and visible cracking must trigger analysis and evacuation authority.",
+      "source_label": "Engineering Failure Analysis",
+      "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0379073811005275",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. Journal abstract supports Jun. 29, 1995 and collapse-cause inspection; needs later source-quality pass before promotion because full details are behind abstract/paywall."
+    },
+    {
       "id": "dolly-adult-cell-cloning-1996",
       "month_day": "07-05",
       "year": 1996,
@@ -268,6 +324,20 @@
       "source_url": "https://vet.ed.ac.uk/roslin/about/history/dolly/facts/life-of-dolly",
       "status": "ready_after_serverless",
       "notes": "Free-date candidate. Source confirms Jul. 5, 1996 birth and first mammal cloned from an adult cell."
+    },
+    {
+      "id": "eastland-capsize-1915",
+      "month_day": "07-24",
+      "year": 1915,
+      "type": "failure",
+      "discipline": "Marine Engineering",
+      "title": "Eastland capsizes while still tied to the dock",
+      "summary": "The passenger steamer Eastland rolled over in the Chicago River before departing, with more than 2,500 passengers and crew aboard and 844 people killed.",
+      "lesson": "Stability is a loading condition, not a paperwork certificate. Passenger distribution, ballast, freeboard and last-minute modifications can erase reserve stability at the pier.",
+      "source_label": "Eastland Disaster Historical Society",
+      "source_url": "https://eastlanddisaster.org/history/what-happened",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. Source confirms Jul. 24, 1915, capsize at the wharf, more than 2,500 aboard and 844 deaths; later pass should use an official investigation source if a stable one is found."
     },
     {
       "id": "delta-191-wind-shear-1985",
@@ -298,6 +368,20 @@
       "notes": "Free-date candidate. Strong automotive failure candidate with official recall/investigation documentation."
     },
     {
+      "id": "transatlantic-telegraph-message-1858",
+      "month_day": "08-16",
+      "year": 1858,
+      "type": "breakthrough",
+      "discipline": "Communications",
+      "title": "The first transatlantic telegraph message crosses the ocean",
+      "summary": "The first official message passed along the 1858 transatlantic telegraph cable, proving that electrical communication could link Europe and North America across the ocean.",
+      "lesson": "A communications breakthrough needs the whole channel: cable manufacture, laying method, insulation, signal power, operators and repair reality all decide whether the message arrives.",
+      "source_label": "Institution of Engineering and Technology",
+      "source_url": "https://www.theiet.org/membership/library-and-archives/the-iet-archives/archives-highlights/the-first-transatlantic-telegraph-cable-1858",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. IET source confirms the first official message on Aug. 16, 1858 and notes the cable's later failure from technical problems."
+    },
+    {
       "id": "windows-95-retail-release-1995",
       "month_day": "08-24",
       "year": 1995,
@@ -310,6 +394,34 @@
       "source_url": "https://news.microsoft.com/source/1996/08/21/one-year-anniversary-of-windows-95-to-be-celebrated/",
       "status": "ready_after_serverless",
       "notes": "Free-date candidate. Microsoft source supports Aug. 24 as the one-year anniversary and Windows 95 adoption/momentum."
+    },
+    {
+      "id": "linux-announced-1991",
+      "month_day": "08-25",
+      "year": 1991,
+      "type": "breakthrough",
+      "discipline": "Software & Systems",
+      "title": "Torvalds announces the Linux project",
+      "summary": "Linus Torvalds first posted that he was working on Linux, beginning a collaborative kernel project that grew into major open-source infrastructure.",
+      "lesson": "Software infrastructure can start small when the interfaces are open enough for others to inspect, build, repair and extend the system.",
+      "source_label": "Linux Foundation",
+      "source_url": "https://www.linuxfoundation.org/blog/blog/anniversary-of-first-linux-kernel-release-a-look-at-collaborative-value",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. Linux Foundation source confirms Aug. 25 as the first public post/announcement date."
+    },
+    {
+      "id": "barcode-patent-1952",
+      "month_day": "10-07",
+      "year": 1952,
+      "type": "breakthrough",
+      "discipline": "Manufacturing & Automation",
+      "title": "Woodland and Silver patent machine-readable classification",
+      "summary": "Norman Woodland and Bernard Silver received a patent for classifying articles using identifying patterns, an early barcode concept that later became essential to automated retail and logistics.",
+      "lesson": "Automation often begins with identification. A machine-readable code connects physical goods to computing, inventory and process control.",
+      "source_label": "U.S. Patent 2612994",
+      "source_url": "https://patents.google.com/patent/US2612994A/en",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. Patent record confirms Oct. 7, 1952 and describes identifying patterns for article classification."
     },
     {
       "id": "windscale-pile-fire-1957",
@@ -396,6 +508,20 @@
       "notes": "Free-date candidate. Review Panel source confirms Nov. 5, 2015 failure and identifies liquefaction flowslide at the left abutment."
     },
     {
+      "id": "edmund-fitzgerald-sinking-1975",
+      "month_day": "11-10",
+      "year": 1975,
+      "type": "failure",
+      "discipline": "Marine Engineering",
+      "title": "Edmund Fitzgerald sinks in a Lake Superior storm",
+      "summary": "The freighter Edmund Fitzgerald sank during a severe Lake Superior storm with all 29 crew lost, leaving investigators to weigh weather, flooding, buoyancy and structural questions.",
+      "lesson": "Marine safety depends on reserve margin under real weather: hatch integrity, freeboard, loading, routing and warning decisions must survive the worst water the vessel will meet.",
+      "source_label": "Michigan Sea Grant",
+      "source_url": "https://www.michiganseagrant.org/lessons/lessons/by-broad-concept/earth-science/data-sets/the-storm-that-sunk-the-edmund-fitzgerald/",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. Source confirms Nov. 10, 1975, Lake Superior sinking and 29 crew deaths; later pass could replace or supplement with USCG/NTSB report."
+    },
+    {
       "id": "great-smog-london-1952",
       "month_day": "12-05",
       "year": 1952,
@@ -422,6 +548,20 @@
       "source_url": "https://www.warmuseum.ca/firstworldwar/history/life-at-home-during-the-war/wartime-tragedies/the-halifax-explosion/",
       "status": "ready_after_serverless",
       "notes": "Free-date candidate. Canadian War Museum source confirms Dec. 6, 1917, the collision, fire and explosion of Mont Blanc's cargo."
+    },
+    {
+      "id": "tay-bridge-disaster-1879",
+      "month_day": "12-28",
+      "year": 1879,
+      "type": "failure",
+      "discipline": "Rail",
+      "title": "Tay Bridge collapses in a storm with a train aboard",
+      "summary": "The first Tay Rail Bridge collapsed during a violent storm while a passenger train crossed its high girders. The inquiry blamed the bridge design, and the replacement raised British bridge-building standards.",
+      "lesson": "Wind is a structural load. Design changes, bracing details, casting quality, inspection and operating limits must be treated as safety-critical, not secondary cost items.",
+      "source_label": "Network Rail",
+      "source_url": "https://www.networkrail.co.uk/who-we-are/our-history/iconic-infrastructure/the-history-of-the-tay-bridge-dundee/",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. Network Rail source confirms Dec. 28, 1879, storm collapse, inquiry blame on design and later higher bridge-building standards."
     }
   ]
 }
