@@ -928,18 +928,18 @@
       "notes": "Free-date candidate. USGS report documents seismic observations from the May 4, 1988 explosions; pair with the fire investigation during promotion for detailed causal wording."
     },
     {
-      "id": "piper-alpha-disaster-1988",
-      "month_day": "07-06",
-      "year": 1988,
+      "id": "tazreen-fashions-fire-2012",
+      "month_day": "11-24",
+      "year": 2012,
       "type": "failure",
-      "discipline": "Process Engineering",
-      "title": "Piper Alpha is destroyed by escalating hydrocarbon fires",
-      "summary": "An initial hydrocarbon release and explosion on the Piper Alpha platform escalated as connected pipelines continued feeding the fire, killing 167 people.",
-      "lesson": "Permit-to-work, shift handover, isolation and emergency shutdown are one barrier system; connected inventories must stop feeding an accident after control is lost.",
-      "source_label": "UK Health and Safety Executive",
-      "source_url": "https://www.hse.gov.uk/offshore/piper-alpha-disaster-public-inquiry.htm",
+      "discipline": "Fire Safety",
+      "title": "Tazreen factory fire exposes deadly workplace escape failures",
+      "summary": "A fire at the Tazreen Fashions garment factory in Bangladesh killed 112 workers and became a catalyst for national action on factory fire and building safety.",
+      "lesson": "Fire protection fails when workers cannot leave; alarms, protected exits, unlocked routes, occupancy controls and credible inspection must work together.",
+      "source_label": "International Labour Organization",
+      "source_url": "https://www.ilo.org/resource/chronology-recent-events-bangladesh-ready-made-garment-rmg-sector",
       "status": "ready_after_serverless",
-      "notes": "Free-date candidate. HSE hosts the official Cullen inquiry; verify the concise initiating-event wording against the report volume before promotion."
+      "notes": "Free-date candidate. ILO chronology confirms Nov. 24, 2012 and 112 deaths; a promotion pass should add a detailed investigation source for specific escape-route mechanisms."
     },
     {
       "id": "sts-135-final-shuttle-launch-2011",
