@@ -32,6 +32,20 @@
       "notes": "Free-date candidate. Patent record confirms Feb. 2, 1892 and describes the metallic sealing cap/bottle-sealing device."
     },
     {
+      "id": "deep-blue-kasparov-game-1996",
+      "month_day": "02-10",
+      "year": 1996,
+      "type": "breakthrough",
+      "discipline": "Computing",
+      "title": "Deep Blue wins one game against Kasparov",
+      "summary": "IBM's Deep Blue won the first game of its Philadelphia match against world chess champion Garry Kasparov, the first victory by a computer against a reigning champion under regular time controls.",
+      "lesson": "A milestone does not have to be the final victory. A narrow win can prove that architecture, compute power and search strategy have crossed a meaningful threshold.",
+      "source_label": "IBM",
+      "source_url": "https://www.ibm.com/history/deep-blue",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. IBM source confirms the February 1996 match, Deep Blue's first-game win and the first victory by a computer against a reigning world champion under regular time controls."
+    },
+    {
       "id": "westland-hallmark-beef-recall-2008",
       "month_day": "02-17",
       "year": 2008,
@@ -58,6 +72,20 @@
       "source_url": "https://nsarchive.gwu.edu/briefing-book/nuclear-vault/2024-02-29/castle-bravo-70-worst-nuclear-test-us-history",
       "status": "ready_after_serverless",
       "notes": "Free-date candidate. Source confirms Mar. 1, 1954, the 15 Mt yield, lower estimate, fallout and affected populations."
+    },
+    {
+      "id": "forth-bridge-opens-1890",
+      "month_day": "03-04",
+      "year": 1890,
+      "type": "breakthrough",
+      "discipline": "Civil Engineering",
+      "title": "Forth Bridge opens as a steel cantilever landmark",
+      "summary": "The Forth Bridge was formally opened by the Prince of Wales after testing and inspection, joining the railway across the Firth of Forth with a massive steel cantilever structure.",
+      "lesson": "A landmark structure needs more than a bold form. Load testing, inspection, erection sequence, materials and operating purpose all have to meet before opening day.",
+      "source_label": "Network Rail",
+      "source_url": "https://www.networkrail.co.uk/who-we-are/our-history/iconic-infrastructure/the-history-of-the-forth-bridge-fife/",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. Network Rail confirms the formal opening on Mar. 4, 1890 and describes the bridge, testing and final rivet ceremony."
     },
     {
       "id": "bell-telephone-patent-1876",
@@ -116,6 +144,20 @@
       "notes": "Free-date candidate. Source supports the Mar. 19, 1932 opening and bridge significance; useful civil breakthrough candidate."
     },
     {
+      "id": "browns-ferry-nuclear-fire-1975",
+      "month_day": "03-22",
+      "year": 1975,
+      "type": "failure",
+      "discipline": "Nuclear Engineering",
+      "title": "Browns Ferry turns a cable fire into a nuclear safety lesson",
+      "summary": "A fire at the Browns Ferry nuclear plant damaged safety-related electrical cables and became a major driver of U.S. nuclear fire-protection regulation.",
+      "lesson": "Separation only works when physical routing, barriers, detection and response are independent enough that one fire cannot remove redundant safety functions together.",
+      "source_label": "U.S. Nuclear Regulatory Commission",
+      "source_url": "https://www.nrc.gov/reading-rm/doc-collections/nuregs/brochures/br0361/s1/index",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. NRC source documents the Browns Ferry Nuclear Plant Fire of 1975 and its role in the history of NRC fire regulations; later promotion should use one of the linked NRC reports for finer event details."
+    },
+    {
       "id": "hunt-safety-pin-patent-1849",
       "month_day": "04-10",
       "year": 1849,
@@ -158,6 +200,20 @@
       "notes": "Free-date candidate. Source supports the Apr. 14 iceberg strike and flooding/sinking sequence with engineering framing."
     },
     {
+      "id": "san-francisco-earthquake-fire-1906",
+      "month_day": "04-18",
+      "year": 1906,
+      "type": "failure",
+      "discipline": "Fire Safety",
+      "title": "San Francisco burns after the earthquake",
+      "summary": "The 1906 San Francisco earthquake caused severe shaking damage, but the ensuing fires drove much of the catastrophe and made the event a lasting urban fire-safety lesson.",
+      "lesson": "A city is coupled infrastructure. Gas, water, streets, communications, firefighting access and building stock can turn one hazard into a second, larger failure mode.",
+      "source_label": "U.S. Geological Survey",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/events/1906calif/18april/",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. USGS source confirms Apr. 18, 1906 and describes the earthquake and fire death/destruction context."
+    },
+    {
       "id": "deepwater-horizon-sinks-2010",
       "month_day": "04-22",
       "year": 2010,
@@ -170,6 +226,20 @@
       "source_url": "https://response.restoration.noaa.gov/timelines/deepwater-horizon-oil-spill",
       "status": "ready_after_serverless",
       "notes": "Free-date candidate. NOAA timeline confirms Apr. 22, 2010 rig sinking after the Apr. 20 explosion."
+    },
+    {
+      "id": "sunshine-mine-fire-1972",
+      "month_day": "05-02",
+      "year": 1972,
+      "type": "failure",
+      "discipline": "Mining & Tunneling",
+      "title": "Sunshine Mine fire exposes underground evacuation limits",
+      "summary": "A fire in Idaho's Sunshine Mine killed 91 miners, most by smoke inhalation, and became a major case in mine-fire investigation, warning, escape and respiratory protection.",
+      "lesson": "Underground safety depends on time: detection, communication, refuge, breathing equipment and escape routes must work before smoke and toxic gases own the only paths out.",
+      "source_label": "U.S. Bureau of Mines via Mining History Association",
+      "source_url": "https://www.mininghistoryassociation.org/Journal/Bureau%20of%20Mines%20Report.pdf",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. Source republishes the U.S. Bureau of Mines investigation of the Sunshine Mine fire disaster of May 2, 1972; later pass should cite the original report if a stable federal copy is found."
     },
     {
       "id": "smallpox-eradication-declared-1980",
@@ -298,6 +368,20 @@
       "notes": "Free-date candidate. Patent record confirms Jun. 23, 1868 and the type-writing machine invention."
     },
     {
+      "id": "barclays-first-atm-1967",
+      "month_day": "06-27",
+      "year": 1967,
+      "type": "breakthrough",
+      "discipline": "Consumer Technology",
+      "title": "Barclays unveils the first cash machine",
+      "summary": "Barclays opened an automated teller machine at its Enfield branch, giving customers a way to withdraw cash directly from a machine outside normal counter service.",
+      "lesson": "A useful consumer system hides complexity: authentication, dispensing, accounting, physical security and user trust all have to work in one small public interface.",
+      "source_label": "Historic England",
+      "source_url": "https://historicengland.org.uk/whats-new/news/enfield-bank-listed/",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. Historic England confirms the Enfield bank was the first in the world fitted with an ATM and that its official opening was on Jun. 27, 1967."
+    },
+    {
       "id": "sampoong-department-store-collapse-1995",
       "month_day": "06-29",
       "year": 1995,
@@ -324,6 +408,20 @@
       "source_url": "https://vet.ed.ac.uk/roslin/about/history/dolly/facts/life-of-dolly",
       "status": "ready_after_serverless",
       "notes": "Free-date candidate. Source confirms Jul. 5, 1996 birth and first mammal cloned from an adult cell."
+    },
+    {
+      "id": "mont-blanc-tunnel-opens-1965",
+      "month_day": "07-16",
+      "year": 1965,
+      "type": "breakthrough",
+      "discipline": "Mining & Tunneling",
+      "title": "Mont-Blanc Tunnel opens beneath the Alps",
+      "summary": "The Mont-Blanc Tunnel was inaugurated by the French and Italian presidents, linking Chamonix and Courmayeur through a road tunnel beneath the mountain.",
+      "lesson": "A tunnel is a complete operating system. Alignment, ventilation, excavation, border operations, traffic flow and emergency response matter as much as the bore itself.",
+      "source_label": "Mont Blanc Tunnel",
+      "source_url": "https://www.tunnelmb.net/en-US/history",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. Official tunnel history confirms the Jul. 16, 1965 inauguration by Presidents Giuseppe Saragat and Charles de Gaulle."
     },
     {
       "id": "eastland-capsize-1915",
@@ -366,6 +464,20 @@
       "source_url": "https://www.govinfo.gov/content/pkg/FR-2001-01-22/pdf/01-1502.pdf",
       "status": "ready_after_serverless",
       "notes": "Free-date candidate. Strong automotive failure candidate with official recall/investigation documentation."
+    },
+    {
+      "id": "machhu-dam-failure-1979",
+      "month_day": "08-11",
+      "year": 1979,
+      "type": "failure",
+      "discipline": "Civil Engineering",
+      "title": "Machhu Dam II fails after overtopping",
+      "summary": "Machhu Dam II in Gujarat failed after flood inflow exceeded the dam's ability to pass water, overtopping the earthen embankments and sending destructive flooding downstream.",
+      "lesson": "Dam safety is governed by extremes. Spillway capacity, gate reliability, flood forecasting, embankment erosion and warning time must be designed for the storm that exceeds expectation.",
+      "source_label": "Association of State Dam Safety Officials",
+      "source_url": "https://damfailures.org/case-study/machhu-dam-ii-gujarat-india-1979",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. DamFailures.org case study confirms Aug. 11, 1979, overtopping of earthen embankments and failure of Machhu Dam II."
     },
     {
       "id": "transatlantic-telegraph-message-1858",
@@ -450,6 +562,20 @@
       "source_url": "https://www.gov.uk/government/news/60-years-since-the-day-that-changed-the-nuclear-industry",
       "status": "ready_after_serverless",
       "notes": "Free-date candidate. Good energy breakthrough; helps balance nuclear as more than accident history."
+    },
+    {
+      "id": "cleveland-gas-explosion-1944",
+      "month_day": "10-20",
+      "year": 1944,
+      "type": "failure",
+      "discipline": "Energy Engineering",
+      "title": "Cleveland's LNG tank farm explodes",
+      "summary": "A liquefied-natural-gas storage tank failure at the East Ohio Gas Company triggered explosions and fires across part of Cleveland, killing more than 130 people.",
+      "lesson": "Cryogenic storage is not passive. Tank geometry, material behavior, containment, vapor dispersion and urban siting all decide what happens after a leak.",
+      "source_label": "Case Western Reserve University",
+      "source_url": "https://case.edu/ech/articles/e/east-ohio-gas-co-explosion-and-fire",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. Encyclopedia of Cleveland History source confirms Oct. 20, 1944, the LNG tank explosion/fire and more than 130 deaths."
     },
     {
       "id": "mercedes-airbag-patent-1971",
@@ -548,6 +674,20 @@
       "source_url": "https://www.warmuseum.ca/firstworldwar/history/life-at-home-during-the-war/wartime-tragedies/the-halifax-explosion/",
       "status": "ready_after_serverless",
       "notes": "Free-date candidate. Canadian War Museum source confirms Dec. 6, 1917, the collision, fire and explosion of Mont Blanc's cargo."
+    },
+    {
+      "id": "apollo-8-lunar-orbit-1968",
+      "month_day": "12-24",
+      "year": 1968,
+      "type": "breakthrough",
+      "discipline": "Space",
+      "title": "Apollo 8 enters lunar orbit",
+      "summary": "Apollo 8 became the first crewed mission to enter lunar orbit, giving astronauts and mission control the first human operating experience around another world.",
+      "lesson": "A mission milestone is an interface test: navigation, propulsion, communications, life support and return planning must all work when Earth is no longer the operating center.",
+      "source_label": "NASA",
+      "source_url": "https://www.nasa.gov/missions/apollo/apollo-8-christmas-at-the-moon/",
+      "status": "ready_after_serverless",
+      "notes": "Free-date candidate. NASA source confirms Apollo 8 entered lunar orbit on Dec. 24, 1968 and describes the Christmas Eve broadcast from lunar orbit."
     },
     {
       "id": "tay-bridge-disaster-1879",
