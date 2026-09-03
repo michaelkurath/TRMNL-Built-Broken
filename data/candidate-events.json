@@ -1346,6 +1346,62 @@
       "source_url": "https://airandspace.si.edu/air-and-space-quarterly/winter-2023/set-checked",
       "status": "ready_after_serverless",
       "notes": "October candidate. Smithsonian source supports the 1935 Model 299 crash and checklist significance; promotion should verify exact Oct. 30 date against an accident record."
+    },
+    {
+      "id": "freedom-7-first-us-human-spaceflight-1961",
+      "month_day": "05-05",
+      "year": 1961,
+      "type": "breakthrough",
+      "discipline": "Space",
+      "title": "Freedom 7 carries the first American into space",
+      "summary": "Alan Shepard piloted Mercury-Redstone 3, Freedom 7, on the first U.S. human spaceflight, proving that the Mercury spacecraft and recovery system could carry and return a pilot.",
+      "lesson": "A short test can still validate a whole human-rated system: launch, controls, life support, tracking, re-entry and recovery all have to close the loop.",
+      "source_label": "NASA",
+      "source_url": "https://www.nasa.gov/mission/mercury-redstone-3-freedom-7/",
+      "status": "ready_after_serverless",
+      "notes": "Small batch candidate. NASA source supports May 5, 1961, Alan Shepard, Freedom 7 and the first U.S. human spaceflight."
+    },
+    {
+      "id": "apollo-17-launch-1972",
+      "month_day": "12-07",
+      "year": 1972,
+      "type": "breakthrough",
+      "discipline": "Space",
+      "title": "Apollo 17 launches the last Apollo lunar landing mission",
+      "summary": "Apollo 17 launched as NASA's final Apollo lunar landing mission and the first to include a professional scientist-astronaut, sending the crew toward Taurus-Littrow.",
+      "lesson": "Mature exploration still improves when the mission architecture changes: crew expertise, surface time, rover use and sample strategy can make the last flight scientifically richer than the first.",
+      "source_label": "NASA",
+      "source_url": "https://www.nasa.gov/mission/apollo-17/",
+      "status": "ready_after_serverless",
+      "notes": "Small batch candidate. NASA source supports Dec. 7, 1972 launch, final Apollo lunar landing mission and scientist-astronaut context."
+    },
+    {
+      "id": "brumadinho-tailings-dam-failure-2019",
+      "month_day": "01-25",
+      "year": 2019,
+      "type": "failure",
+      "discipline": "Mining & Tunneling",
+      "title": "Brumadinho tailings dam fails after closure",
+      "summary": "A tailings dam at the Corrego do Feijao iron ore mine in Brumadinho failed suddenly, releasing mining waste downstream and killing 270 people.",
+      "lesson": "A decommissioned dam is not a harmless dam; long-term material behavior, pore pressure, creep, monitoring and downstream exposure remain part of the safety case.",
+      "source_label": "Communications Earth & Environment",
+      "source_url": "https://www.nature.com/articles/s43247-023-01086-9",
+      "status": "ready_after_serverless",
+      "notes": "Small batch candidate. Source supports Jan. 25, 2019, the Feijao/Brumadinho tailings dam failure, 270 deaths and delayed failure mechanism discussion."
+    },
+    {
+      "id": "pan-am-759-microburst-crash-1982",
+      "month_day": "07-09",
+      "year": 1982,
+      "type": "failure",
+      "discipline": "Aviation",
+      "title": "Pan Am 759 crashes in microburst wind shear",
+      "summary": "Pan Am Flight 759 crashed shortly after takeoff from New Orleans after encountering microburst-induced wind shear, killing everyone aboard and people on the ground.",
+      "lesson": "Weather detection is part of the aircraft system; crews need timely wind-shear information, alerts and procedures before performance margins disappear after liftoff.",
+      "source_label": "U.S. National Transportation Safety Board",
+      "source_url": "https://www.ntsb.gov/investigations/AccidentReports/Reports/AAR8302.pdf",
+      "status": "ready_after_serverless",
+      "notes": "Small batch candidate. NTSB AAR-83-02 is the primary accident report for Pan Am Flight 759, July 9, 1982; PDF is large but authoritative."
     }
   ]
 }
