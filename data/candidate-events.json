@@ -1923,14 +1923,14 @@
       "month_day": "12-14",
       "year": 1911,
       "type": "breakthrough",
-      "discipline": "Exploration Engineering",
+      "discipline": "Software & Systems",
       "title": "Amundsen's expedition reaches the South Pole",
       "summary": "Roald Amundsen and four companions reached the geographic South Pole after a carefully planned journey using skis, dog teams, staged supplies and a shorter route from the Bay of Whales.",
       "lesson": "In extreme environments, logistics, transport choice, clothing, route selection and reserves are the engineering system that makes exploration survivable.",
       "source_label": "Royal Museums Greenwich",
       "source_url": "https://www.rmg.co.uk/stories/maritime-history/race-south-pole-scott-amundsen",
       "status": "ready_after_serverless",
-      "notes": "Open-date candidate. Museum source supports Dec. 14, 1911, the Bay of Whales route advantage, 99-day round trip and safe return. Before promotion, ensure Exploration Engineering is accepted as a category or map it to an existing discipline."
+      "notes": "Open-date candidate. Museum source supports Dec. 14, 1911, the Bay of Whales route advantage, 99-day round trip and safe return. Mapped to Software & Systems because the lesson centers on integrated expedition logistics, transport, clothing, route selection and reserves."
     },
     {
       "id": "rapid-city-flood-1972",
