@@ -3,7 +3,7 @@
   "updated_at": "2026-09-04",
   "notes": [
     "This ledger tracks entries that have been manually checked against their cited source or a stronger replacement source.",
-    "Status values: verified, verified_with_note, source_corrected, source_improved."
+    "Status values: verified, verified_with_note, corrected, source_corrected, source_improved."
   ],
   "checks": [
     {
@@ -1511,6 +1511,386 @@
       ],
       "evidence_url": "https://www.computerhistory.org/tdih/may/22/",
       "notes": "The Computer History Museum confirms that Robert Metcalfe wrote the original Ethernet memo at Xerox PARC on May 22, 1973, proposing a way to connect computers. Ethernet's broader role as a foundation for local networking and later internet infrastructure is accurate historical context but is only briefly supported by this page."
+    },
+    {
+      "id": "brooklyn-bridge-opens-1883",
+      "checked_at": "2026-09-04",
+      "status": "verified_with_note",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://npgallery.nps.gov/GetAsset/763eefb2-3e0e-44e3-be5e-c7bdd9608e7b",
+      "notes": "The cited New York City Municipal Archives collection guide was not readable by the checker, so the opening date and engineering significance were cross-checked against National Park Service documentation and Library of Congress material. The mixed rail, road and pedestrian use describes the bridge's operating system over time, not necessarily every service on opening day."
+    },
+    {
+      "id": "american-191-1979",
+      "checked_at": "2026-09-04",
+      "status": "verified",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.faa.gov/lessons_learned/transport_airplane/accidents/N110AA",
+      "notes": "The FAA confirms the May 25, 1979 accident, separation of the left engine and pylon, severed hydraulic and electrical systems, retraction of the left-wing slats and loss of the cockpit warnings that would have alerted the crew to the developing stall."
+    },
+    {
+      "id": "golden-gate-1937",
+      "checked_at": "2026-09-04",
+      "status": "verified",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.goldengate.org/bridge/history-research/moments-events/key-dates/",
+      "notes": "The Golden Gate Bridge District confirms Pedestrian Day on May 27, 1937, followed by the opening to vehicle traffic on May 28. Its official history also supports the record-setting main span and the project's ahead-of-schedule, under-budget completion."
+    },
+    {
+      "id": "air-france-447-2009",
+      "checked_at": "2026-09-04",
+      "status": "verified_with_note",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://bea.aero/en/investigation-reports/notified-events/detail/accident-to-the-airbus-a330-203-registered-f-gzcp-and-operated-by-air-france-occured-on-06-01-2009-in-the-atlantic-ocean/",
+      "notes": "The BEA confirms the June 1, 2009 loss, temporary pitot icing, erroneous airspeed indications, subsequent stall and failure to apply an appropriate response. The concise event page does not expose every cockpit-system detail; the autopilot-disconnection sequence is documented in the final investigation report."
+    },
+    {
+      "id": "therac25-first-overdose-1985",
+      "checked_at": "2026-09-04",
+      "status": "verified",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://web.mit.edu/6.033/2004/wwwdocs/papers/Therac_1.html",
+      "notes": "The MIT-hosted Leveson and Turner account identifies the first Therac-25 overdose at Kennestone Regional Oncology Center on June 3, 1985 and documents the machine's increased reliance on software without independent hardware interlocks."
+    },
+    {
+      "id": "ariane-501-1996",
+      "checked_at": "2026-09-04",
+      "status": "verified_with_note",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://esamultimedia.esa.int/docs/esa-x-1819eng.pdf",
+      "notes": "ESA confirms the June 4, 1996 loss of Ariane 501 and attributes it to inertial-reference-system software specification and design errors. The official inquiry report provides the detailed conversion-overflow and Ariane 4 software-reuse chain summarized by the entry."
+    },
+    {
+      "id": "teton-dam-1976",
+      "checked_at": "2026-09-04",
+      "status": "verified_with_note",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.usbr.gov/pn/snakeriver/dams/uppersnake/teton/index.html",
+      "notes": "The Bureau of Reclamation confirms the June 5, 1976 catastrophic failure, the observed seepage and unsuccessful efforts to plug it before the breach. The detailed first-filling and internal-erosion mechanism is documented in the linked technical history and reports rather than fully restated on the landing page."
+    },
+    {
+      "id": "williams-olefins-2013",
+      "checked_at": "2026-09-04",
+      "status": "verified",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.csb.gov/csb-releases-final-case-study-into-2013-explosion-and-fire-at-williams-olefins-plant-in-geismar-louisiana/",
+      "notes": "The U.S. Chemical Safety Board confirms the June 13, 2013 explosion, an offline reboiler isolated from its pressure-relief path, heat and pressure accumulation, the resulting BLEVE, two deaths and 167 injuries."
+    },
+    {
+      "id": "grenfell-tower-2017",
+      "checked_at": "2026-09-04",
+      "status": "verified",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.gov.uk/government/publications/grenfell-tower-inquiry-phase-2-report-government-response/grenfell-tower-inquiry-phase-2-report-government-response-html",
+      "notes": "The UK government's response to the inquiry confirms the June 14, 2017 kitchen fire, its escape into the external envelope, rapid spread around the tower and 72 deaths. It also supports the entry's cladding, testing and regulatory-failure framing."
+    },
+    {
+      "id": "tereshkova-vostok-6-1963",
+      "checked_at": "2026-09-04",
+      "status": "corrected",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://space.blog.gov.uk/2015/06/19/first-woman-in-space-image-of-the-week/",
+      "notes": "Corrected the orbit count from 49 to 48. ESA confirms the June 16, 1963 launch, nearly three-day mission, flight log and experiments; the UK Space Agency and Science Museum both report 48 Earth orbits."
+    },
+    {
+      "id": "manchester-baby-1948",
+      "checked_at": "2026-09-04",
+      "status": "verified",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.cs.manchester.ac.uk/about/history-and-heritage/",
+      "notes": "The University of Manchester confirms that the Baby successfully ran its first program on June 21, 1948 and was the first electronic digital computer able to store both program and data electronically."
+    },
+    {
+      "id": "fort-totten-metro-2009",
+      "checked_at": "2026-09-04",
+      "status": "verified",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.ntsb.gov/investigations/Pages/DCA09MR007.aspx",
+      "notes": "The NTSB confirms the June 22, 2009 rear-end collision, nine deaths and the failed track-circuit module that stopped detecting the stationary train and transmitted speed commands to the following train."
+    },
+    {
+      "id": "surfside-collapse-2021",
+      "checked_at": "2026-09-04",
+      "status": "verified_with_note",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.nist.gov/news-events/news/2026/06/nist-releases-technical-findings-what-caused-2021-partial-collapse",
+      "notes": "NIST's June 2026 technical findings confirm the June 24, 2021 partial collapse and 98 deaths, and identify failures at two garage-column/pool-deck connections followed by load redistribution in a structure with low margins, construction deviations and corrosion. The title's 'without warning' refers to the immediate collapse, not an absence of earlier signs of deterioration."
+    },
+    {
+      "id": "barcode-first-scan-1974",
+      "checked_at": "2026-09-04",
+      "status": "verified",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.si.edu/object/supermarket-scanner%3Anmah_892778",
+      "notes": "The Smithsonian confirms that the first supermarket scanner installation entered service at a Marsh supermarket in Troy, Ohio on June 26, 1974, supporting the date, place and first operational UPC-scan claim."
+    },
+    {
+      "id": "grand-canyon-midair-1956",
+      "checked_at": "2026-09-04",
+      "status": "verified",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.faa.gov/lessons_learned/transport_airplane/accidents/N6902C",
+      "notes": "The FAA confirms the June 30, 1956 collision of a TWA Super Constellation and United DC-7 while operating under visual flight rules, the loss of all 128 people aboard and the accident's role in major air-traffic-control reform."
+    },
+    {
+      "id": "sony-walkman-launch-1979",
+      "checked_at": "2026-09-04",
+      "status": "verified",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.sony.com/en/SonyInfo/CorporateInfo/History/SonyHistory/2-03.html",
+      "notes": "Sony's corporate history confirms that the first Walkman went on sale July 1, 1979, combined a playback-only portable stereo with lightweight headphones and established a new form of mobile personal listening."
+    },
+    {
+      "id": "haber-ammonia-synthesis-1909",
+      "checked_at": "2026-09-04",
+      "status": "verified",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://collection.sciencemuseumgroup.org.uk/objects/co525225/sample-of-habers-synthetic-ammonia-2-july-1909",
+      "notes": "The Science Museum Group identifies Haber's sealed-tube sample as the first liquefied ammonia synthesized on July 2, 1909 and explains how the process enabled synthetic fertilizer production from atmospheric nitrogen."
+    },
+    {
+      "id": "benz-public-drive-1886",
+      "checked_at": "2026-09-04",
+      "status": "verified",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/Benz-Patent-Motor-Car-1886---1894.xhtml?oid=4373",
+      "notes": "The Mercedes-Benz Public Archive confirms that Benz designed the engine, chassis and drivetrain as an integrated purpose-built automobile and made the Patent Motor Car's first public road drive in Mannheim on July 3, 1886."
+    },
+    {
+      "id": "piper-alpha-1988",
+      "checked_at": "2026-09-04",
+      "status": "verified_with_note",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.hse.gov.uk/offshore/assets/docs/piper-alpha-public-inquiry-volume1.pdf",
+      "notes": "The official Cullen inquiry supports the July 6, 1988 Piper Alpha event and the maintenance, permit-to-work and communication chain summarized by the entry. The HSE landing page is only an index; the detailed mechanism is contained in the scanned inquiry volumes."
+    },
+    {
+      "id": "seveso-1976",
+      "checked_at": "2026-09-04",
+      "status": "verified",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://minerva.jrc.ec.europa.eu/en/shorturl/minerva/9_mahb_bulletin_no9_fortheweb_a4",
+      "notes": "The European Commission's Joint Research Centre confirms the July 10, 1976 runaway reactor event at the TCP plant near Seveso, the release of a toxic cloud containing TCDD and the accident's role in creating the European Seveso industrial-safety framework."
     }
   ]
 }
