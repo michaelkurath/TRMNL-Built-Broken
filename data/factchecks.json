@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-08-28",
+  "updated_at": "2026-09-04",
   "notes": [
     "This ledger tracks entries that have been manually checked against their cited source or a stronger replacement source.",
     "Status values: verified, verified_with_note, source_corrected, source_improved."
@@ -1131,6 +1131,196 @@
       ],
       "evidence_url": "https://www.ibm.com/history/system-360",
       "notes": "IBM confirms System/360 launched on Apr. 7, 1964 as a unified software-compatible architecture replacing five existing IBM product lines, covering six processor models and 54 peripherals, and pioneering the 8-bit byte."
+    },
+    {
+      "id": "vostok-1-1961",
+      "checked_at": "2026-09-04",
+      "status": "verified_with_note",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/MagISStra/More_than_two_million_first_orbits",
+      "notes": "ESA confirms that Yuri Gagarin became the first human to fly in space on Apr. 12, 1961, completing one orbit in a 108-minute Vostok 1 mission. The entry's description of integrating launch, life support, orbital flight and return is a sound engineering synthesis rather than wording stated directly on the source page."
+    },
+    {
+      "id": "titanic-1912",
+      "checked_at": "2026-09-04",
+      "status": "verified_with_note",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.history.uscg.mil/research/chronology/",
+      "notes": "U.S. Coast Guard history confirms Titanic struck an iceberg late on Apr. 14, sank on Apr. 15, 1912, lost roughly 1,500 people and prompted lifesaving improvements and the International Ice Patrol. The dataset date correctly refers to the sinking; the cited NOAA page is official but was not retrievable by the checker."
+    },
+    {
+      "id": "texas-city-disaster-1947",
+      "checked_at": "2026-09-04",
+      "status": "verified",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://response.restoration.noaa.gov/about/media/56-years-after-chemical-catastrophe-science-prevented-second-texas-city-disaster.html",
+      "notes": "NOAA confirms the Apr. 16, 1947 Grandcamp fire and ammonium-nitrate explosion at Texas City, followed about 16 hours later by the explosion of the nearby High Flyer. The source also supports the scale and the danger of treating the smoking cargo as an ordinary shipboard fire."
+    },
+    {
+      "id": "west-fertilizer-2013",
+      "checked_at": "2026-09-04",
+      "status": "verified",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.csb.gov/chemical-safety-board-releases-new-safety-video-dangerously-close-explosion-in-west-texas-detailing-report-findings-and-recommendations-on-2013-fatal-west-fertilizer-company-explosion-and-fire/",
+      "notes": "The U.S. Chemical Safety Board confirms that approximately 30 tons of fertilizer-grade ammonium nitrate exploded after being heated by a fire on Apr. 17, 2013, killing 15 people, injuring more than 260 and damaging nearby homes and schools."
+    },
+    {
+      "id": "deepwater-horizon-2010",
+      "checked_at": "2026-09-04",
+      "status": "verified_with_note",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.csb.gov/macondo-blowout-and-explosion/",
+      "notes": "The U.S. Chemical Safety Board confirms the Apr. 20, 2010 Macondo blowout and Deepwater Horizon explosion, 11 deaths and the blowout preventer's failure during emergency well control. The precise negative-pressure-test interpretation is documented in the linked investigation reports rather than fully summarized on the landing page."
+    },
+    {
+      "id": "hubble-launch-1990",
+      "checked_at": "2026-09-04",
+      "status": "verified",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://science.nasa.gov/mission/hubble/overview/the-history-of-hubble/",
+      "notes": "NASA confirms Hubble's Apr. 24, 1990 launch, the primary-mirror flaw and the first servicing mission's corrective optics. The history also supports the entry's lesson that planned on-orbit serviceability made recovery possible."
+    },
+    {
+      "id": "flint-water-switch-2014",
+      "checked_at": "2026-09-04",
+      "status": "verified_with_note",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100UX21.TXT",
+      "notes": "CDC confirms the Apr. 25, 2014 source switch and subsequent pipe corrosion and lead leaching; the EPA Inspector General confirms that inadequate water treatment after the switch exposed residents to lead. The corrosion-control mechanism is supported more explicitly by the EPA report than by the current CDC landing page."
+    },
+    {
+      "id": "chernobyl-1986",
+      "checked_at": "2026-09-04",
+      "status": "verified",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.iaea.org/topics/chornobyl/faqs",
+      "notes": "The IAEA confirms that Unit 4 went out of control during a planned low-power test on Apr. 26, 1986, causing an explosion and fire. It also identifies reactor and shutdown-system design, procedural violations and weak safety culture as contributing factors."
+    },
+    {
+      "id": "a380-first-flight-2005",
+      "checked_at": "2026-09-04",
+      "status": "verified_with_note",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.airbus.com/en/newsroom/stories/2025-04-happy-20th-anniversary-a380",
+      "notes": "Airbus confirms the A380's first flight from Toulouse on Apr. 27, 2005, its unprecedented passenger-aircraft scale and enabling digital and materials innovations. The entry's global logistics and interface-control framing is a reasonable engineering synthesis but is not detailed on this anniversary page."
+    },
+    {
+      "id": "aloha-243-1988",
+      "checked_at": "2026-09-04",
+      "status": "verified",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.ntsb.gov/investigations/Pages/DCA88MA054.aspx",
+      "notes": "The NTSB confirms the Apr. 28, 1988 explosive decompression, separation of an approximately 18-foot upper-fuselage section and loss of one flight attendant. It attributes the accident to failures to detect lap-joint disbonding and fatigue damage, with maintenance-program and oversight contributors."
     }
   ]
 }
