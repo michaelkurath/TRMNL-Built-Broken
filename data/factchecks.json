@@ -1321,6 +1321,196 @@
       ],
       "evidence_url": "https://www.ntsb.gov/investigations/Pages/DCA88MA054.aspx",
       "notes": "The NTSB confirms the Apr. 28, 1988 explosive decompression, separation of an approximately 18-foot upper-fuselage section and loss of one flight attendant. It attributes the accident to failures to detect lap-joint disbonding and fatigue damage, with maintenance-program and oversight contributors."
+    },
+    {
+      "id": "web-public-domain-1993",
+      "checked_at": "2026-09-04",
+      "status": "verified",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://home.cern/30-years-free-and-open-web/",
+      "notes": "CERN confirms that on Apr. 30, 1993 it released the World Wide Web software into the public domain, relinquishing intellectual-property rights to the source and binary code and allowing anyone to use, duplicate, modify and redistribute it."
+    },
+    {
+      "id": "empire-state-building-1931",
+      "checked_at": "2026-09-04",
+      "status": "verified_with_note",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.esbnyc.com/about/history",
+      "notes": "The Empire State Building's official history confirms the 102-story building was constructed between Mar. 17, 1930 and May 1, 1931—one year and 45 days—and officially opened on May 1. The cited page does not detail every production-method claim about standardized steelwork, delivery coordination and repetitive floor planning."
+    },
+    {
+      "id": "channel-tunnel-1994",
+      "checked_at": "2026-09-04",
+      "status": "verified",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.leshuttle.com/uk-en/discover/why-choose-leshuttle/build/the-channel-tunnel",
+      "notes": "LeShuttle confirms the Channel Tunnel was officially opened on May 6, 1994, was excavated simultaneously from Britain and France, and consists of two running tunnels plus a central service tunnel."
+    },
+    {
+      "id": "sunshine-skyway-collapse-1980",
+      "checked_at": "2026-09-04",
+      "status": "verified",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.ntsb.gov/investigations/Pages/DCA80AM050.aspx",
+      "notes": "The NTSB confirms that Summit Venture struck a support pier on May 9, 1980, dropping about 1,297 feet of bridge into Tampa Bay and killing 35 people. It explicitly identifies the lack of a structural pier-protection system and a motorist-warning system as contributors, supporting both the title and lesson."
+    },
+    {
+      "id": "transcontinental-railroad-1869",
+      "checked_at": "2026-09-04",
+      "status": "verified",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.nps.gov/articles/getaway-gosp.htm",
+      "notes": "The National Park Service confirms that the Central Pacific and Union Pacific lines met at Promontory Summit on May 10, 1869, completing the Transcontinental Railroad, and that a nationwide telegraph message announced the connection."
+    },
+    {
+      "id": "valujet-592-1996",
+      "checked_at": "2026-09-04",
+      "status": "verified",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.ntsb.gov/investigations/Pages/DCA96MA054.aspx",
+      "notes": "The NTSB confirms the May 11, 1996 crash and all 110 deaths. It found that a cargo-compartment fire was initiated by improperly carried chemical oxygen generators and identified failures in their preparation, packaging and identification plus ValuJet and FAA oversight."
+    },
+    {
+      "id": "skylab-launch-1973",
+      "checked_at": "2026-09-04",
+      "status": "verified",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.nasa.gov/history/50-years-ago-the-launch-of-skylab-americas-first-space-station/",
+      "notes": "NASA confirms Skylab launched on May 14, 1973 as the first U.S. space station; launch forces tore away its thermal micrometeoroid shield, lost one solar array and trapped the other. Engineers and astronauts developed repairs that allowed three crews to complete productive missions."
+    },
+    {
+      "id": "gloster-e28-first-flight-1941",
+      "checked_at": "2026-09-04",
+      "status": "verified",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://heritage.baesystems.com/page/gloster-e.28-39",
+      "notes": "BAE Systems Heritage confirms Britain's first jet aircraft made its 17-minute first flight on May 15, 1941 with a Whittle W.1 engine. It describes the E.28/39 as a technology demonstrator and states that it led directly to the Gloster Meteor."
+    },
+    {
+      "id": "ronan-point-1968",
+      "checked_at": "2026-09-04",
+      "status": "verified",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://assets.publishing.service.gov.uk/media/5a81d68ced915d74e6234631/Independent_Review_of_Building_Regulations_and_Fire_Safety.pdf",
+      "notes": "The UK government's independent review confirms that a gas explosion in an 18th-floor kitchen on May 16, 1968 caused an entire corner of the 22-story Ronan Point tower to collapse, killing four people and injuring 17, and that the event drove structural-code changes."
+    },
+    {
+      "id": "ethernet-memo-1973",
+      "checked_at": "2026-09-04",
+      "status": "verified_with_note",
+      "checked_fields": [
+        "id",
+        "month_day",
+        "year",
+        "type",
+        "discipline",
+        "title",
+        "summary",
+        "lesson",
+        "source_label",
+        "source_url"
+      ],
+      "evidence_url": "https://www.computerhistory.org/tdih/may/22/",
+      "notes": "The Computer History Museum confirms that Robert Metcalfe wrote the original Ethernet memo at Xerox PARC on May 22, 1973, proposing a way to connect computers. Ethernet's broader role as a foundation for local networking and later internet infrastructure is accurate historical context but is only briefly supported by this page."
     }
   ]
 }
