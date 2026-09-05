@@ -28,7 +28,6 @@
 {% else %}
   {% for item in pool %}{% if item.m == today_key %}{% assign selected = item %}{% assign anniversary = true %}{% break %}{% endif %}{% endfor %}
 {% endif %}
-{% assign show_summary = true %}{% if settings.show_summary == false %}{% assign show_summary = false %}{% endif %}
 {% assign summary_length = selected.s | default: "" | size %}
 {% assign lesson_length = selected.l | default: "" | size %}
 
@@ -57,12 +56,10 @@
           <div class="title title--large md:title--large lg:title--xxlarge portrait:title--large md:portrait:title--large" data-clamp="3">{{ selected.t | default: "Engineering case" }}</div>
         </div>
 
-        {% if show_summary %}
-          <div class="flex flex--col gap--small">
-            <span class="label">What happened</span>
-            <div class="description text--base md:text--base portrait:text--base md:portrait:text--base {% if summary_length <= 190 %}lg:text--xlarge lg:portrait:text--xlarge{% else %}lg:text--large lg:portrait:text--large{% endif %}" data-clamp="4">{{ selected.s | default: "No event summary is available." }}</div>
-          </div>
-        {% endif %}
+        <div class="flex flex--col gap--small">
+          <span class="label">What happened</span>
+          <div class="description text--base md:text--base portrait:text--base md:portrait:text--base {% if summary_length <= 190 %}lg:text--xlarge lg:portrait:text--xlarge{% else %}lg:text--large lg:portrait:text--large{% endif %}" data-clamp="4">{{ selected.s | default: "No event summary is available." }}</div>
+        </div>
       </div>
 
       <div class="col--span-1 outline flex flex--col flex--between gap--small p--medium">

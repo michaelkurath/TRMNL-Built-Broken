@@ -56,12 +56,6 @@ custom_fields:
   default: daily
   description: Daily prioritizes anniversaries; Random selects a new case on each render. Empty uses Daily.
   optional: true
-- keyname: show_summary
-  name: Show event summary?
-  field_type: boolean
-  default: true
-  description: Include the short event account. Empty uses Yes.
-  optional: true
 name: Built & Broken
 description: Daily engineering wins and failures
 refresh_interval: 720
