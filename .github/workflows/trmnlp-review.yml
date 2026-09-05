@@ -27,6 +27,9 @@ jobs:
       - name: Validate project data
         run: node scripts/validate-data.js
 
+      - name: Prepare TRMNLP fixture
+        run: node scripts/write-trmnlp-fixture.js medium
+
       - name: Lint with TRMNLP
         run: |
           docker run --rm --pull always \
