@@ -5,7 +5,7 @@ dark_mode: 'no'
 static_data: "{}"
 polling_verb: get
 framework_version: 3.1.1
-serverless_language: ''
+serverless_language: node
 polling_url: https://raw.githubusercontent.com/michaelkurath/TRMNL-Built-Broken/main/data/trmnl.json
 polling_headers: ''
 polling_body: ''

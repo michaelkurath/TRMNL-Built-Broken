@@ -175,6 +175,12 @@ function validateEvents(data) {
     );
   }
 
+  if (dates.size !== 366) {
+    errors.push(
+      `data/events.json: expected complete leap-year coverage of 366 dates, got ${dates.size}.`,
+    );
+  }
+
   return data.events;
 }
 
@@ -191,15 +197,19 @@ function validateTrmnl(data, events) {
     );
   }
 
-  if (data.events.length !== events.length) {
-    errors.push(
-      `data/trmnl.json: expected ${events.length} compact events, got ${data.events.length}.`,
-    );
+  if (data.events.length === 0 || data.events.length > events.length) {
+    errors.push("data/trmnl.json: legacy fallback must contain between 1 and the full event count.");
   }
 
+  const eventsByTitle = new Map(events.map((event) => [event.title, event]));
   data.events.forEach((compactEvent, index) => {
-    const sourceEvent = events[index];
+    const sourceEvent = eventsByTitle.get(compactEvent.t);
     const label = sourceEvent?.id || `compact event at index ${index}`;
+
+    if (!sourceEvent) {
+      errors.push(`${label}: compact event does not exist in events.json.`);
+      return;
+    }
 
     for (const [compactField, eventField] of Object.entries(COMPACT_FIELD_MAP)) {
       if (!(compactField in compactEvent)) {
@@ -214,6 +224,12 @@ function validateTrmnl(data, events) {
       }
     }
   });
+
+  if (data.events.length < events.length) {
+    warnings.push(
+      `Legacy compact fallback covers ${data.events.length}/${events.length} events; Serverless loads the full archive.`,
+    );
+  }
 }
 
 function validateFactchecks(data, events) {

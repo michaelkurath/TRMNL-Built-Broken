@@ -1,0 +1,70 @@
+name: TRMNLP review QA
+
+on:
+  workflow_dispatch:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v6
+      - name: Validate project data
+        run: node scripts/validate-data.js
+      - name: Test Serverless selection
+        run: node scripts/test-serverless.js
+      - name: Prepare TRMNLP fixture
+        run: node scripts/write-trmnlp-fixture.js medium
+      - name: Lint with TRMNLP
+        run: docker run --rm --pull always --volume "$PWD:/plugin" trmnl/trmnlp lint
+      - name: Render review matrix with TRMNLP
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p qa-output
+          trap 'docker rm --force trmnlp-review >/dev/null 2>&1 || true' EXIT
+          for fixture in short medium long; do
+            node scripts/write-trmnlp-fixture.js "$fixture"
+            docker run --detach --rm --name trmnlp-review --publish 4567:4567 \
+              --volume "$PWD:/plugin" trmnl/trmnlp serve --bind 0.0.0.0
+            ready=false
+            for attempt in $(seq 1 30); do
+              if curl --fail --silent --get \
+                --data-urlencode 'screen_classes=screen screen--1bit screen--og_png screen--md screen--1x' \
+                --data 'width=800' --data 'height=480' \
+                http://127.0.0.1:4567/render/full.html >/dev/null; then
+                ready=true
+                break
+              fi
+              sleep 1
+            done
+            if [ "$ready" != true ]; then docker logs trmnlp-review; exit 1; fi
+            while IFS='|' read -r device width height depth classes; do
+              mkdir -p "qa-output/$fixture/$device"
+              for view in full half_horizontal half_vertical quadrant; do
+                curl --fail --silent --show-error --get \
+                  --output "qa-output/$fixture/$device/$view.png" \
+                  --data-urlencode "screen_classes=$classes" \
+                  --data "width=$width" --data "height=$height" --data "color_depth=$depth" \
+                  "http://127.0.0.1:4567/render/$view.png"
+              done
+            done <<'DEVICES'
+          og-landscape|800|480|1|screen screen--1bit screen--og_png screen--md screen--1x
+          x-landscape|1040|780|4|screen screen--4bit screen--v2 screen--lg screen--1x
+          x-portrait|780|1040|4|screen screen--4bit screen--v2 screen--lg screen--portrait screen--1x
+          DEVICES
+            docker stop trmnlp-review >/dev/null
+          done
+      - uses: actions/upload-artifact@v4
+        with:
+          name: trmnlp-review-screenshots
+          path: qa-output/
+          if-no-files-found: error
+          retention-days: 30

@@ -24,10 +24,11 @@ When the dataset contains an event matching the current month and day, that anni
 
 ## Current status
 
-The dataset currently contains 192 sourced cases split evenly between breakthroughs and failures. The long-term target is one curated anniversary for every day of the year.
+The production dataset contains 366 sourced cases: one unique anniversary for every date in a leap year, split evenly between breakthroughs and failures.
 
 Progress:
-- 102 / 192 facts manually checked
+- 102 / 366 facts manually checked
+- 366 / 366 calendar dates covered, including February 29
 - 28 reserve candidates for occupied dates
 
 ### Categories
@@ -71,8 +72,9 @@ assets/icon.svg          Scalable project icon
 assets/icon.png          Transparent 512 px icon
 data/events.json          Curated engineering cases
 data/alternate-events.json Reserve candidates for dates already used in the main archive
+data/candidate-events.json Empty staging area for future open-date candidates
 data/factchecks.json      Manual source-check ledger
-data/trmnl.json           Compact runtime feed for TRMNL
+data/trmnl.json           Compact legacy fallback feed for TRMNL
 docs/index.html           GitHub Pages web version
 src/full.liquid           Full-screen layout
 src/half_horizontal.liquid
@@ -80,6 +82,7 @@ src/half_vertical.liquid
 src/quadrant.liquid
 src/shared.liquid         Shared visual styling
 src/settings.yml          TRMNL recipe configuration
+src/transform.js          Serverless full-archive selector
 ```
 
 ## Data format
@@ -103,7 +106,7 @@ src/settings.yml          TRMNL recipe configuration
 }
 ```
 
-The polling response must contain a non-empty `events` array. Templates show a data-unavailable state if the array is missing or empty, and provide readable defaults when an individual display field is absent.
+The Serverless transform fetches the full archive, applies the user's type and display-mode settings, and passes one selected compact event to Liquid. If that fetch fails temporarily, the existing compact polling feed remains available as a 192-event fallback. Templates show a data-unavailable state only if both sources are unavailable.
 
 ## Development
 
@@ -114,7 +117,7 @@ gem install trmnl_preview
 trmnlp serve
 ```
 
-During local development, use `data/events.json` as the polling response. Before importing into TRMNL, ensure the polling URL in `src/settings.yml` points to the raw JSON file in the published repository.
+During local development, use `data/events.json` as the polling response. The published recipe keeps `data/trmnl.json` as a payload-safe fallback while `src/transform.js` loads and reduces the complete archive through TRMNL Serverless.
 
 Add the `trmnl` topic to the repository so other TRMNL plugin builders can find it.
 
@@ -124,7 +127,7 @@ Validate the data before publishing changes:
 node scripts/validate-data.js
 ```
 
-The validator checks the archive, compact TRMNL feed, alternate candidate file, factcheck ledger, category names, source URLs, type balance and the TRMNL payload size limit.
+The validator checks complete calendar coverage, the archive, compact fallback feed, alternate candidate file, factcheck ledger, category names, source URLs, type balance and the TRMNL payload size limit.
 
 ## Editorial rules
 

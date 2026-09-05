@@ -1,10 +1,10 @@
-# TRMNL Serverless Prototype
+# TRMNL Serverless Runtime
 
-This is an experimental implementation for issue #5. It keeps the submitted TRMNL plugin untouched while we test whether TRMNL Serverless can solve the runtime payload limit cleanly.
+The active implementation lives in [`src/transform.js`](../src/transform.js). It lets the recipe use the complete 366-event archive without sending that archive through TRMNL's polling payload.
 
 ## Goal
 
-The current compact feed is already close to TRMNL's payload limit. Instead of sending the full archive into Liquid, Serverless should reduce the data to one selected event before rendering.
+The compact fallback feed is already close to TRMNL's payload limit. Serverless fetches the full archive and reduces it to one selected event before rendering.
 
 The transform returns this shape:
 
@@ -30,12 +30,13 @@ The transform returns this shape:
 
 Keeping `events` as an array means the existing Liquid layouts can continue to render the selected case with minimal template changes.
 
-## Assumptions
+## Runtime
 
-- Input contains an `events` array from either `data/events.json` or `data/trmnl.json`.
+- `src/settings.yml` selects the Node.js Serverless runtime.
+- `src/transform.js` fetches `data/events.json` from the published GitHub repository.
+- If the archive request fails, the transform selects from the compact `data/trmnl.json` polling response.
 - Custom fields are available at `input.trmnl.plugin_settings.custom_fields_values`.
 - `input.trmnl.system.timestamp_utc` and `input.trmnl.user.utc_offset` are available for local date selection.
-- If the newer TRMNL Serverless runtime can fetch network resources directly, this script can be wrapped with a small fetch step later.
 
 ## Behavior
 
@@ -51,6 +52,4 @@ Keeping `events` as an array means the existing Liquid layouts can continue to r
 node scripts/test-serverless.js
 ```
 
-## Review Safety
-
-Do not merge this into `main` or change the submitted recipe settings until TRMNL confirms whether Serverless is available for published/community plugins.
+The compatibility module [`serverless/built-broken.js`](built-broken.js) re-exports the active transform for local tooling.
