@@ -32,6 +32,7 @@ const config = {
     trmnl: { plugin_settings: { custom_fields_values: {
       content_filter: "both", display_mode: "daily", show_summary: true,
       show_source: fixtureName === "long",
+      _trmnlp_fixture: true,
     } } },
   },
 };

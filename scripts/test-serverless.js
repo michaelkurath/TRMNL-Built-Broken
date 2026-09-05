@@ -110,6 +110,13 @@ async function testRuntime() {
     const fallback = await run(input());
     assert.equal(fallback.meta.data_source, "legacy_fallback");
     assert.equal(fallback.meta.total_events, 3);
+
+    global.fetch = async () => {
+      throw new Error("TRMNLP fixture must not fetch the live archive");
+    };
+    const fixture = await run(input({ _trmnlp_fixture: true }));
+    assert.equal(fixture.meta.data_source, "trmnlp_fixture");
+    assert.equal(fixture.meta.total_events, 3);
   } finally {
     global.fetch = originalFetch;
   }

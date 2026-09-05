@@ -150,15 +150,18 @@ async function fetchArchive() {
 }
 
 async function run(input) {
-  let source = "legacy_fallback";
+  const settings = getSettings(input);
+  let source = settings._trmnlp_fixture === true ? "trmnlp_fixture" : "legacy_fallback";
   let events = getSourceEvents(input);
 
-  try {
-    events = await fetchArchive();
-    source = "full_archive";
-  } catch (error) {
-    if (events.length === 0) {
-      return { events: [], meta: { error: "no_events", archive_error: error.message } };
+  if (source !== "trmnlp_fixture") {
+    try {
+      events = await fetchArchive();
+      source = "full_archive";
+    } catch (error) {
+      if (events.length === 0) {
+        return { events: [], meta: { error: "no_events", archive_error: error.message } };
+      }
     }
   }
 
