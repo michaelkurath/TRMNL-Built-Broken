@@ -29,6 +29,18 @@
 {% endif %}
 {% assign show_summary = true %}{% if settings.show_summary == false %}{% assign show_summary = false %}{% endif %}
 {% assign show_source = false %}{% if settings.show_source == true %}{% assign show_source = true %}{% endif %}
+{% assign selected_title = selected.t | default: "Engineering case" %}
+{% assign selected_summary = selected.s | default: "No event summary is available." %}
+{% assign selected_lesson = selected.l | default: "No engineering lesson is available." %}
+{% assign title_size = selected_title | size %}
+{% assign summary_size = selected_summary | size %}
+{% assign lesson_size = selected_lesson | size %}
+{% assign title_x_class = "lg:title--xxlarge" %}
+{% if title_size <= 45 %}{% assign title_x_class = "lg:title--xxxlarge" %}{% endif %}
+{% assign summary_x_class = "lg:text--large" %}
+{% if summary_size <= 190 %}{% assign summary_x_class = "lg:text--xlarge" %}{% endif %}
+{% assign lesson_x_class = "lg:text--xlarge" %}
+{% if lesson_size <= 115 %}{% assign lesson_x_class = "lg:text--xxlarge" %}{% endif %}
 
 <div class="layout layout--col layout--stretch">
   <div class="flex flex--col gap--small stretch">
@@ -44,13 +56,13 @@
             <span class="value value--xlarge md:value--xxxlarge portrait:value--large md:portrait:value--large value--tnums">{{ selected.y | default: "----" }}</span>
             <span class="label text--right pb--small">{{ selected.d | default: "General" }}<br>engineering</span>
           </div>
-          <div class="title title--large md:title--large lg:title--xxlarge portrait:title--large md:portrait:title--large" data-clamp="3">{{ selected.t | default: "Engineering case" }}</div>
+          <div class="title title--large md:title--large {{ title_x_class }} portrait:title--large md:portrait:title--large lg:portrait:title--xlarge" data-clamp="3">{{ selected_title }}</div>
         </div>
         {% if show_summary %}
           <div class="flex flex--col gap--small pt--small">
             <div class="divider"></div>
             <span class="label text--center">What happened</span>
-            <div class="description text--base md:text--base lg:text--large portrait:text--base md:portrait:text--base" data-clamp="3" data-clamp-lg="4">{{ selected.s | default: "No event summary is available." }}</div>
+            <div class="description text--base md:text--base {{ summary_x_class }} portrait:text--base md:portrait:text--base lg:portrait:text--large" data-clamp="3" data-clamp-lg="4">{{ selected_summary }}</div>
           </div>
         {% endif %}
       </div>
@@ -60,7 +72,7 @@
           <span class="outline flex flex--row flex--center label w--8 h--8 {% if selected.k == 'failure' %}label--inverted{% endif %}">{% if selected.k == 'failure' %}!{% else %}+{% endif %}</span>
         </div>
         <div class="divider"></div>
-        <div class="flex flex--row flex--center-y grow"><div class="description text--large md:text--large lg:text--xlarge portrait:text--large md:portrait:text--large text--center font--bold">{{ selected.l | default: "No engineering lesson is available." }}</div></div>
+        <div class="flex flex--row flex--center-y grow"><div class="description text--large md:text--large {{ lesson_x_class }} portrait:text--large md:portrait:text--large lg:portrait:text--xlarge text--center font--bold">{{ selected_lesson }}</div></div>
         {% if show_source %}
           <div class="divider"></div>
           <div class="description text--small pt--small" data-clamp="1">Source: {{ selected.r | default: "Unavailable" }}</div>
