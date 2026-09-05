@@ -31,9 +31,9 @@
     </div>
     <div class="divider"></div>
     <div class="title title--small md:title--base portrait:title--small {% if title_length <= 44 %}lg:title--large lg:portrait:title--large{% else %}lg:title--base lg:portrait:title--base{% endif %}" data-clamp="2">{{ selected.t | default: "Engineering case" }}</div>
-    <div class="outline flex flex--col gap--small p--medium">
+    <div class="outline grow flex flex--col flex--center gap--small p--medium text--center">
       <span class="label">Lesson</span>
-      <div class="description text--small md:text--base portrait:text--small {% if lesson_length <= 115 %}lg:text--large lg:portrait:text--large{% else %}lg:text--base lg:portrait:text--base{% endif %} font--bold" data-clamp="3">{{ selected.l | default: "No engineering lesson is available." }}</div>
+      <div class="description text--small md:text--base portrait:text--small {% if lesson_length <= 115 %}lg:text--large lg:portrait:text--large{% else %}lg:text--base lg:portrait:text--base{% endif %} font--bold" data-clamp="6">{{ selected.l | default: "No engineering lesson is available." }}</div>
     </div>
   </div>
 </div>
