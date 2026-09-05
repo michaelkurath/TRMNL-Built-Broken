@@ -22,6 +22,8 @@
 {% else %}
   {% for item in pool %}{% if item.m == today_key %}{% assign selected = item %}{% assign anniversary = true %}{% break %}{% endif %}{% endfor %}
 {% endif %}
+{% assign title_length = selected.t | default: "" | size %}
+{% assign lesson_length = selected.l | default: "" | size %}
 <div class="layout layout--col layout--stretch">
   <div class="flex flex--col flex--between gap--small h--full">
     <div class="flex flex--col gap--small">
@@ -31,15 +33,15 @@
       </div>
       <div class="divider"></div>
       <div class="flex flex--row flex--between flex--bottom gap--small">
-        <span class="value value--large md:value--xlarge value--tnums">{{ selected.y | default: "----" }}</span>
-        <span class="label text--right">{{ selected.d | default: "General" }}</span>
+        <span class="value value--large md:value--xlarge lg:value--xxlarge lg:portrait:value--large value--tnums">{{ selected.y | default: "----" }}</span>
+        <span class="label text--right" data-clamp="2">{{ selected.d | default: "General" }}</span>
       </div>
-      <div class="title title--small md:title--base lg:title--large portrait:title--small" data-clamp="2">{{ selected.t | default: "Engineering case" }}</div>
+      <div class="title title--small md:title--base portrait:title--small {% if title_length <= 48 %}lg:title--xlarge lg:portrait:title--small{% else %}lg:title--large lg:portrait:title--small{% endif %}" data-clamp="2">{{ selected.t | default: "Engineering case" }}</div>
     </div>
 
-    <div class="outline flex flex--col gap--small p--medium">
+    <div class="outline grow flex flex--col flex--center gap--small p--medium text--center">
       <span class="label">Engineering lesson</span>
-      <div class="description text--base md:text--large portrait:text--base font--bold" data-clamp="4">{{ selected.l | default: "No engineering lesson is available." }}</div>
+      <div class="description text--base md:text--large portrait:text--base {% if lesson_length <= 115 %}lg:text--xlarge lg:portrait:text--large{% else %}lg:text--large lg:portrait:text--base{% endif %} font--bold" data-clamp="8">{{ selected.l | default: "No engineering lesson is available." }}</div>
     </div>
   </div>
 </div>

@@ -65,6 +65,7 @@ const FACTCHECK_STATUSES = new Set([
 ]);
 
 const ALTERNATE_STATUSES = new Set(["reserve_date_conflict"]);
+const CANDIDATE_STATUSES = new Set(["ready_after_serverless"]);
 
 const errors = [];
 const warnings = [];
@@ -174,6 +175,12 @@ function validateEvents(data) {
     );
   }
 
+  if (dates.size !== 366) {
+    errors.push(
+      `data/events.json: expected complete leap-year coverage of 366 dates, got ${dates.size}.`,
+    );
+  }
+
   return data.events;
 }
 
@@ -190,15 +197,19 @@ function validateTrmnl(data, events) {
     );
   }
 
-  if (data.events.length !== events.length) {
-    errors.push(
-      `data/trmnl.json: expected ${events.length} compact events, got ${data.events.length}.`,
-    );
+  if (data.events.length === 0 || data.events.length > events.length) {
+    errors.push("data/trmnl.json: legacy fallback must contain between 1 and the full event count.");
   }
 
+  const eventsByTitle = new Map(events.map((event) => [event.title, event]));
   data.events.forEach((compactEvent, index) => {
-    const sourceEvent = events[index];
+    const sourceEvent = eventsByTitle.get(compactEvent.t);
     const label = sourceEvent?.id || `compact event at index ${index}`;
+
+    if (!sourceEvent) {
+      errors.push(`${label}: compact event does not exist in events.json.`);
+      return;
+    }
 
     for (const [compactField, eventField] of Object.entries(COMPACT_FIELD_MAP)) {
       if (!(compactField in compactEvent)) {
@@ -213,6 +224,12 @@ function validateTrmnl(data, events) {
       }
     }
   });
+
+  if (data.events.length < events.length) {
+    warnings.push(
+      `Legacy compact fallback covers ${data.events.length}/${events.length} events; Serverless loads the full archive.`,
+    );
+  }
 }
 
 function validateFactchecks(data, events) {
@@ -372,16 +389,122 @@ function validateAlternates(data, events) {
   });
 }
 
+function validateCandidates(data, events, alternatesData) {
+  if (!data) return;
+  if (!Array.isArray(data.candidates)) {
+    errors.push("data/candidate-events.json: expected a candidates array.");
+    return;
+  }
+
+  const eventById = new Map(events.map((event) => [event.id, event]));
+  const eventDates = new Set(events.map((event) => event.month_day));
+  const alternateIds = new Set(
+    alternatesData?.candidates?.map((candidate) => candidate.id) || [],
+  );
+  const candidateIds = new Set();
+  const candidateDates = new Set();
+
+  data.candidates.forEach((candidate, index) => {
+    const label = candidate.id || "candidate event at index " + index;
+
+    for (const field of [...REQUIRED_EVENT_FIELDS, "status"]) {
+      if (candidate[field] === undefined || candidate[field] === null) {
+        errors.push(label + ": missing required field \"" + field + "\".");
+      }
+    }
+
+    for (const field of [
+      "id",
+      "month_day",
+      "type",
+      "discipline",
+      "title",
+      "summary",
+      "lesson",
+      "source_label",
+      "source_url",
+      "status",
+    ]) {
+      if (!isNonEmptyString(candidate[field])) {
+        errors.push(label + ": \"" + field + "\" must be a non-empty string.");
+      }
+    }
+
+    if (candidateIds.has(candidate.id)) {
+      errors.push(label + ": duplicate candidate id \"" + candidate.id + "\".");
+    }
+    candidateIds.add(candidate.id);
+
+    if (eventById.has(candidate.id)) {
+      errors.push(label + ": candidate id already exists in events.json.");
+    }
+
+    if (alternateIds.has(candidate.id)) {
+      errors.push(
+        label + ": candidate id already exists in alternate-events.json.",
+      );
+    }
+
+    if (!isValidMonthDay(candidate.month_day)) {
+      errors.push(label + ": invalid month_day \"" + candidate.month_day + "\".");
+    } else {
+      if (eventDates.has(candidate.month_day)) {
+        errors.push(
+          label +
+            ": candidate date \"" +
+            candidate.month_day +
+            "\" already exists in events.json.",
+        );
+      }
+
+      if (candidateDates.has(candidate.month_day)) {
+        errors.push(
+          label + ": duplicate candidate date \"" + candidate.month_day + "\".",
+        );
+      }
+      candidateDates.add(candidate.month_day);
+    }
+
+    if (!Number.isInteger(candidate.year)) {
+      errors.push(label + ": year must be an integer.");
+    }
+
+    if (!EVENT_TYPES.has(candidate.type)) {
+      errors.push(label + ": unknown type \"" + candidate.type + "\".");
+    }
+
+    if (!CATEGORIES.has(candidate.discipline)) {
+      errors.push(label + ": unknown discipline \"" + candidate.discipline + "\".");
+    }
+
+    if (
+      typeof candidate.source_url === "string" &&
+      !candidate.source_url.startsWith("https://")
+    ) {
+      errors.push(label + ": source_url must use HTTPS.");
+    }
+
+    if (!CANDIDATE_STATUSES.has(candidate.status)) {
+      errors.push(label + ": unknown candidate status \"" + candidate.status + "\".");
+    }
+
+    if (candidate.notes !== undefined && !isNonEmptyString(candidate.notes)) {
+      errors.push(label + ": notes must be a non-empty string when present.");
+    }
+  });
+}
 const eventsData = readJson("data/events.json");
 const trmnlData = readJson("data/trmnl.json");
 const factchecksData = readJson("data/factchecks.json");
 const alternatesData = readJson("data/alternate-events.json");
+const candidatesData = readJson("data/candidate-events.json");
 
 const events = validateEvents(eventsData);
 if (events.length > 0) {
   validateTrmnl(trmnlData, events);
   validateFactchecks(factchecksData, events);
   validateAlternates(alternatesData, events);
+  validateCandidates(candidatesData, events, alternatesData);
 }
 
 if (warnings.length > 0) {
@@ -400,10 +523,12 @@ const breakthroughs = events.filter((event) => event.type === "breakthrough").le
 const failures = events.filter((event) => event.type === "failure").length;
 const checked = factchecksData?.checks?.length || 0;
 const alternates = alternatesData?.candidates?.length || 0;
+const candidates = candidatesData?.candidates?.length || 0;
 
 console.log("Validation passed:");
 console.log(`- Events: ${events.length}`);
 console.log(`- Breakthroughs/failures: ${breakthroughs}/${failures}`);
 console.log(`- Factchecks: ${checked}/${events.length}`);
 console.log(`- Alternate candidates: ${alternates}`);
+console.log(`- Open-date candidates: ${candidates}`);
 console.log(`- TRMNL payload: ${byteSize("data/trmnl.json")} bytes`);

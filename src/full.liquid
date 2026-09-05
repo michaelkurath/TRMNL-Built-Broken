@@ -30,6 +30,8 @@
 {% endif %}
 {% assign show_summary = true %}{% if settings.show_summary == false %}{% assign show_summary = false %}{% endif %}
 {% assign show_source = false %}{% if settings.show_source == true %}{% assign show_source = true %}{% endif %}
+{% assign summary_length = selected.s | default: "" | size %}
+{% assign lesson_length = selected.l | default: "" | size %}
 
 <div class="layout layout--col layout--stretch">
   <div class="flex flex--col flex--between gap--medium h--full">
@@ -50,7 +52,7 @@
       <div class="col--span-1 md:col--span-2 portrait:col--span-1 md:portrait:col--span-1 flex flex--col flex--between gap--medium">
         <div class="flex flex--col gap--small">
           <div class="flex flex--row flex--between flex--bottom gap--medium">
-            <span class="value value--xlarge md:value--xxxlarge portrait:value--large md:portrait:value--large value--tnums">{{ selected.y | default: "----" }}</span>
+            <span class="value value--xlarge md:value--xxxlarge lg:value--mega portrait:value--large md:portrait:value--large lg:portrait:value--xxxlarge value--tnums">{{ selected.y | default: "----" }}</span>
             <span class="label text--right pb--small">{{ selected.d | default: "General" }}<br>engineering</span>
           </div>
           <div class="title title--large md:title--large lg:title--xxlarge portrait:title--large md:portrait:title--large" data-clamp="3">{{ selected.t | default: "Engineering case" }}</div>
@@ -59,7 +61,7 @@
         {% if show_summary %}
           <div class="flex flex--col gap--small">
             <span class="label">What happened</span>
-            <div class="description text--base md:text--base lg:text--large portrait:text--base md:portrait:text--base" data-clamp="4">{{ selected.s | default: "No event summary is available." }}</div>
+            <div class="description text--base md:text--base portrait:text--base md:portrait:text--base {% if summary_length <= 190 %}lg:text--xlarge lg:portrait:text--xlarge{% else %}lg:text--large lg:portrait:text--large{% endif %}" data-clamp="4">{{ selected.s | default: "No event summary is available." }}</div>
           </div>
         {% endif %}
       </div>
@@ -71,7 +73,7 @@
         </div>
         <div class="divider"></div>
         <div class="flex flex--row flex--center-y grow">
-          <div class="description text--large md:text--large lg:text--xlarge portrait:text--large md:portrait:text--large text--center font--bold">{{ selected.l | default: "No engineering lesson is available." }}</div>
+          <div class="description text--large md:text--large portrait:text--large md:portrait:text--large {% if lesson_length <= 115 %}lg:text--xxlarge lg:portrait:text--xxlarge{% elsif lesson_length <= 145 %}lg:text--xlarge lg:portrait:text--xlarge{% else %}lg:text--large lg:portrait:text--large{% endif %} text--center font--bold">{{ selected.l | default: "No engineering lesson is available." }}</div>
         </div>
         {% if show_source %}
           <div class="divider"></div>

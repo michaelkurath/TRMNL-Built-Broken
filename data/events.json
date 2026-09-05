@@ -1,6 +1,30 @@
 {
   "events": [
     {
+      "discipline": "Computing",
+      "id": "arpanet-tcp-ip-flag-day-1983",
+      "lesson": "A network becomes infrastructure when interfaces are standardized; protocol migration, timing and backward-compatibility planning matter as much as the protocol itself.",
+      "month_day": "01-01",
+      "source_label": "Internet Society",
+      "source_url": "https://www.internetsociety.org/internet/history-internet/brief-history-internet/",
+      "summary": "ARPANET hosts moved from NCP to TCP/IP in a planned flag-day transition, helping turn separate packet networks into the interoperable foundation of the modern internet.",
+      "title": "ARPANET switches to TCP/IP",
+      "type": "breakthrough",
+      "year": 1983
+    },
+    {
+      "discipline": "Space",
+      "id": "luna-1-earth-escape-1959",
+      "lesson": "A partial mission failure can still prove a new capability; trajectory control, staging and tracking may create a milestone even when the target is missed.",
+      "month_day": "01-02",
+      "source_label": "NASA",
+      "source_url": "https://www.nasa.gov/history/monograph10/denoument.html",
+      "summary": "The Soviet Luna 1 mission launched toward the Moon and became the first human-made object to escape Earth orbit, missing the Moon but entering heliocentric orbit.",
+      "title": "Luna 1 leaves Earth orbit",
+      "type": "breakthrough",
+      "year": 1959
+    },
+    {
       "id": "sl1-reactor-accident-1961",
       "month_day": "01-03",
       "year": 1961,
@@ -13,6 +37,30 @@
       "source_url": "https://id.energy.gov/Home/FOIAReadingRoom"
     },
     {
+      "discipline": "Civil Engineering",
+      "id": "burj-khalifa-opens-2010",
+      "lesson": "Extreme height is a system problem: structure, wind response, concrete pumping, vertical transport and construction logistics all have to scale together.",
+      "month_day": "01-04",
+      "source_label": "The Skyscraper Museum",
+      "source_url": "https://skyscraper.org/exhibitions/worlds-tallest-building-burj-dubai/",
+      "summary": "The formal opening of Burj Khalifa marked completion of an 828-metre supertall tower whose buttressed-core structure, high-strength concrete and staged vertical construction pushed skyscraper engineering upward.",
+      "title": "Burj Khalifa opens at skyscraper scale",
+      "type": "breakthrough",
+      "year": 2010
+    },
+    {
+      "discipline": "Civil Engineering",
+      "id": "tasman-bridge-disaster-1975",
+      "lesson": "Bridge risk is not only vertical load; navigation channels, pier protection, traffic control and night visibility must be part of the safety case.",
+      "month_day": "01-05",
+      "source_label": "Australian Disaster Resilience Knowledge Hub",
+      "source_url": "https://knowledge.aidr.org.au/resources/maritimecoastal-lake-illawarra-sinking-and-tasman-bridge-collapse-1975/",
+      "summary": "The bulk carrier Lake Illawarra struck the Tasman Bridge in Hobart, collapsing two piers and 127 metres of bridge deck. Twelve people died, including motorists who drove into the gap.",
+      "title": "Tasman Bridge collapses after a ship strike",
+      "type": "failure",
+      "year": 1975
+    },
+    {
       "id": "stanford-heart-transplant-1968",
       "month_day": "01-06",
       "year": 1968,
@@ -23,6 +71,18 @@
       "lesson": "Clinical breakthroughs need a prepared technical system around the dramatic act: preservation, timing, monitoring, aftercare and repeatable protocol.",
       "source_label": "Stanford Medicine",
       "source_url": "https://med.stanford.edu/news/all-news/2018/01/50-years-ago-stanford-heart-doctors-made-history.html"
+    },
+    {
+      "discipline": "Communications",
+      "id": "transatlantic-telephone-service-1927",
+      "lesson": "A communications breakthrough is infrastructure, not only a device: radio links, switching, protocols, operators and pricing all have to work before distance feels smaller.",
+      "month_day": "01-07",
+      "source_label": "University of Texas at Arlington Libraries",
+      "source_url": "https://libraries.uta.edu/news/today-history-first-transatlantic-phone-call",
+      "summary": "AT&T opened official transatlantic telephone service with a call between New York and London, replacing slow message exchange with live voice across the ocean.",
+      "title": "The first official transatlantic telephone call connects New York and London",
+      "type": "breakthrough",
+      "year": 1927
     },
     {
       "id": "kegworth-1989",
@@ -61,6 +121,30 @@
       "source_url": "https://tfl.gov.uk/info-for/media/press-releases/2023/january/happy-birthday-london-underground-the-tube-celebrates-160-years-of-serving-the-capital"
     },
     {
+      "discipline": "Medicine",
+      "id": "first-insulin-injection-1922",
+      "lesson": "A laboratory discovery becomes a medical breakthrough only through purification, careful clinical testing and a path to reliable production.",
+      "month_day": "01-11",
+      "source_label": "University of Toronto Libraries",
+      "source_url": "https://insulin.library.utoronto.ca/about/patients",
+      "summary": "At Toronto General Hospital, 14-year-old Leonard Thompson became the first person treated with a pancreatic extract that led to insulin therapy.",
+      "title": "Leonard Thompson receives the first insulin injection",
+      "type": "breakthrough",
+      "year": 1922
+    },
+    {
+      "discipline": "Space",
+      "id": "deep-impact-launch-2005",
+      "lesson": "A deliberate collision can become a precision instrument when navigation, timing, imaging and separation are engineered as one experiment.",
+      "month_day": "01-12",
+      "source_label": "NASA",
+      "source_url": "https://science.nasa.gov/mission/deep-impact/",
+      "summary": "NASA launched Deep Impact toward comet Tempel 1, carrying an impactor and a flyby spacecraft designed to expose and observe material beneath the comet's surface.",
+      "title": "Deep Impact launches toward a comet collision",
+      "type": "breakthrough",
+      "year": 2005
+    },
+    {
       "id": "jack-in-the-box-ecoli-1993",
       "month_day": "01-13",
       "year": 1993,
@@ -71,6 +155,18 @@
       "lesson": "Food safety is an engineered control problem: critical temperatures, verification and traceability must survive peak demand.",
       "source_label": "U.S. Centers for Disease Control and Prevention",
       "source_url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/00020219.htm"
+    },
+    {
+      "discipline": "Fire Safety",
+      "id": "uss-enterprise-flight-deck-fire-1969",
+      "lesson": "Stored energy turns proximity into escalation; ordnance spacing, thermal protection, firefighting access and crew training must limit one ignition from becoming many.",
+      "month_day": "01-14",
+      "source_label": "Naval History and Heritage Command",
+      "source_url": "https://www.history.navy.mil/content/history/museums/nmusn/pamphlets/enterprise-fire.html",
+      "summary": "A rocket detonated on the flight deck of USS Enterprise near Hawaii, igniting fuel and munitions and causing a chain of explosions that killed 28 sailors.",
+      "title": "USS Enterprise flight-deck fire spreads through armed aircraft",
+      "type": "failure",
+      "year": 1969
     },
     {
       "id": "boston-molasses-flood-1919",
@@ -121,6 +217,54 @@
       "source_url": "https://nvlpubs.nist.gov/nistpubs/sp958-lide/html/283-288.html"
     },
     {
+      "id": "apple-lisa-released-1983",
+      "month_day": "01-19",
+      "year": 1983,
+      "type": "breakthrough",
+      "discipline": "Computing",
+      "title": "Apple Lisa brings the GUI into a personal computer",
+      "summary": "Apple released Lisa to the public with a bitmapped display, mouse, windows and document-oriented software, making graphical interaction available in a commercial personal-computer system.",
+      "lesson": "An interface breakthrough needs whole-product integration: display, pointing device, operating system, applications and price all shape whether the idea spreads.",
+      "source_label": "Computer History Museum",
+      "source_url": "https://computerhistory.org/blog/the-lisa-apples-most-influential-failure/"
+    },
+    {
+      "discipline": "Aviation",
+      "id": "air-inter-148-mode-confusion-1992",
+      "lesson": "Automation interfaces must make mode and units unmistakable; a tiny display ambiguity can become fatal when workload is high and terrain is close.",
+      "month_day": "01-20",
+      "source_label": "U.S. Federal Aviation Administration",
+      "source_url": "https://www.faa.gov/lessons_learned/transport_airplane/accidents/F-GGED",
+      "summary": "Air Inter Flight 148 crashed near Strasbourg after an unusually high descent rate developed during approach, with investigators identifying likely confusion between flight-path-angle and vertical-speed modes.",
+      "title": "Air Inter 148 descends in the wrong vertical mode",
+      "type": "failure",
+      "year": 1992
+    },
+    {
+      "id": "concorde-commercial-service-1976",
+      "month_day": "01-21",
+      "year": 1976,
+      "type": "breakthrough",
+      "discipline": "Aviation",
+      "title": "Concorde begins commercial supersonic passenger service",
+      "summary": "British Airways and Air France began scheduled Concorde service, carrying passengers from London to Bahrain and from Paris toward Rio de Janeiro at supersonic speed.",
+      "lesson": "A radical transport system reaches service only when aerodynamics, propulsion, materials, air-traffic procedures, maintenance and route economics work together.",
+      "source_label": "National Museums Scotland",
+      "source_url": "https://www.nms.ac.uk/discover-catalogue/concorde-the-story-of-supersonic-passenger-flight"
+    },
+    {
+      "discipline": "Mining & Tunneling",
+      "id": "knox-mine-inundation-1959",
+      "lesson": "Barrier thickness is a safety control, not spare material: maps, surveys, enforcement and independent checks must protect boundaries near water.",
+      "month_day": "01-22",
+      "source_label": "Penn State University Libraries",
+      "source_url": "https://pabook.libraries.psu.edu/literary-cultural-heritage-map-pa/feature-articles/death-underground-knox-mine-disaster",
+      "summary": "Mining beneath the Susquehanna left an inadequate rock barrier; the river broke through the roof, flooded connected workings and killed 12 miners.",
+      "title": "The Susquehanna River breaks into the Knox coal mine",
+      "type": "failure",
+      "year": 1959
+    },
+    {
       "id": "first-insulin-treatment-1922",
       "month_day": "01-23",
       "year": 1922,
@@ -143,6 +287,18 @@
       "lesson": "A technology becomes transformative when hardware, software and interaction design are engineered as one understandable product.",
       "source_label": "Computer History Museum",
       "source_url": "https://computerhistory.org/blog/a-computer-for-the-rest-of-us/"
+    },
+    {
+      "discipline": "Mining & Tunneling",
+      "id": "brumadinho-tailings-dam-failure-2019",
+      "lesson": "A decommissioned dam is not a harmless dam; long-term material behavior, pore pressure, creep, monitoring and downstream exposure remain part of the safety case.",
+      "month_day": "01-25",
+      "source_label": "Communications Earth & Environment",
+      "source_url": "https://www.nature.com/articles/s43247-023-01086-9",
+      "summary": "A tailings dam at the Corrego do Feijao iron ore mine in Brumadinho failed suddenly, releasing mining waste downstream and killing 270 people.",
+      "title": "Brumadinho tailings dam fails after closure",
+      "type": "failure",
+      "year": 2019
     },
     {
       "id": "baird-television-demo-1926",
@@ -193,6 +349,18 @@
       "source_url": "https://group.mercedes-benz.com/company/tradition/company-history/1885-1886.html"
     },
     {
+      "discipline": "Environmental Engineering",
+      "id": "baia-mare-cyanide-spill-2000",
+      "lesson": "Waste containment must be designed for weather, water balance and downstream consequence; a process boundary does not stop at a national border.",
+      "month_day": "01-30",
+      "source_label": "United Nations Environment Programme",
+      "source_url": "https://wedocs.unep.org/handle/20.500.11822/1749",
+      "summary": "A tailings containment failure near Baia Mare, Romania, released cyanide-contaminated water into the river system, causing extensive transboundary ecological damage.",
+      "title": "Baia Mare tailings spill sends cyanide into rivers",
+      "type": "failure",
+      "year": 2000
+    },
+    {
       "id": "explorer-1-1958",
       "month_day": "01-31",
       "year": 1958,
@@ -217,6 +385,18 @@
       "source_url": "https://www.nasa.gov/remembering-columbia-sts-107/"
     },
     {
+      "discipline": "Manufacturing & Automation",
+      "id": "painter-crown-cap-patent-1892",
+      "lesson": "Packaging is engineering. A small closure can reshape an industry when it solves sealing, cost, hygiene and repeatable application at the same time.",
+      "month_day": "02-02",
+      "source_label": "U.S. Patent 468258",
+      "source_url": "https://patents.google.com/patent/US468258A/en",
+      "summary": "William Painter received a U.S. patent for a bottle-sealing device: a cheap crimped metal cap that could hold pressure and seal carbonated drinks reliably.",
+      "title": "Painter patents the crown bottle cap",
+      "type": "breakthrough",
+      "year": 1892
+    },
+    {
       "id": "east-palestine-2023",
       "month_day": "02-03",
       "year": 2023,
@@ -227,6 +407,42 @@
       "lesson": "Condition monitoring must provide enough detection distance, alarm clarity and response time to stop a degrading component before failure.",
       "source_label": "U.S. National Transportation Safety Board",
       "source_url": "https://www.ntsb.gov/news/press-releases/Pages/NR20240625.aspx"
+    },
+    {
+      "id": "plunkett-ptfe-patent-1941",
+      "month_day": "02-04",
+      "year": 1941,
+      "type": "breakthrough",
+      "discipline": "Materials Engineering",
+      "title": "Roy Plunkett receives the patent behind PTFE",
+      "summary": "Roy Plunkett's patent described tetrafluoroethylene polymers with unusual chemical and thermal properties. The material later became widely known under DuPont's Teflon trademark.",
+      "lesson": "An unexpected laboratory result becomes an engineering material only after its properties, production method and useful operating limits are systematically understood.",
+      "source_label": "United States Patent and Trademark Office via Google Patents",
+      "source_url": "https://patents.google.com/patent/US2230654A/en"
+    },
+    {
+      "discipline": "Space",
+      "id": "apollo-14-fra-mauro-landing-1971",
+      "lesson": "Recovery after a near-disaster is engineering work: redesigns, procedural changes, crew training and mission discipline have to restore confidence without hiding residual risk.",
+      "month_day": "02-05",
+      "source_label": "NASA",
+      "source_url": "https://www.nasa.gov/missions/apollo/apollo-14-mission-details/",
+      "summary": "Apollo 14's lunar module Antares landed at Fra Mauro, bringing the Apollo program back to the Moon after Apollo 13 and collecting samples from a scientifically important highland site.",
+      "title": "Apollo 14 lands at Fra Mauro",
+      "type": "breakthrough",
+      "year": 1971
+    },
+    {
+      "discipline": "Electrical Engineering",
+      "id": "kilby-integrated-circuit-patent-1959",
+      "lesson": "Integration changes manufacturing economics as much as circuit size: fewer separate parts and connections enable reliable, repeatable complexity.",
+      "month_day": "02-06",
+      "source_label": "German Patent and Trade Mark Office",
+      "source_url": "https://www.dpma.de/english/our_office/publications/milestones/computerpioneers/65yearsintegratedcircuit/index.html",
+      "summary": "Texas Instruments engineer Jack Kilby filed a patent for miniaturized electronic circuits, integrating multiple components on one semiconductor body.",
+      "title": "Jack Kilby files his integrated-circuit patent",
+      "type": "breakthrough",
+      "year": 1959
     },
     {
       "id": "imperial-sugar-explosion-2008",
@@ -241,6 +457,18 @@
       "source_url": "https://www.csb.gov/imperial-sugar-company-dust-explosion-and-fire/"
     },
     {
+      "discipline": "Rail",
+      "id": "hinton-train-collision-1986",
+      "lesson": "A safety device is only effective if operating culture supports it; fatigue, communication, crew monitoring and automatic protection must reinforce each other.",
+      "month_day": "02-08",
+      "source_label": "Government of Canada Publications",
+      "source_url": "https://publications.gc.ca/site/eng/9.818270/publication.html",
+      "summary": "A Canadian National freight train collided head-on with a VIA Rail passenger train near Hinton, Alberta, killing 23 people and leading to a public inquiry into railway safety practices.",
+      "title": "Hinton train collision exposes weak safety culture",
+      "type": "failure",
+      "year": 1986
+    },
+    {
       "id": "boeing-747-first-flight-1969",
       "month_day": "02-09",
       "year": 1969,
@@ -251,6 +479,66 @@
       "lesson": "When scale changes radically, the factory, tooling and logistics become part of the product design.",
       "source_label": "Boeing",
       "source_url": "https://www.boeing.com/commercial/747-8"
+    },
+    {
+      "discipline": "Computing",
+      "id": "deep-blue-kasparov-game-1996",
+      "lesson": "A milestone does not have to be the final victory. A narrow win can prove that architecture, compute power and search strategy have crossed a meaningful threshold.",
+      "month_day": "02-10",
+      "source_label": "IBM",
+      "source_url": "https://www.ibm.com/history/deep-blue",
+      "summary": "IBM's Deep Blue won the first game of its Philadelphia match against world chess champion Garry Kasparov, the first victory by a computer against a reigning champion under regular time controls.",
+      "title": "Deep Blue wins one game against Kasparov",
+      "type": "breakthrough",
+      "year": 1996
+    },
+    {
+      "id": "ohsumi-first-japanese-satellite-1970",
+      "month_day": "02-11",
+      "year": 1970,
+      "type": "breakthrough",
+      "discipline": "Space",
+      "title": "Ohsumi makes Japan the fourth nation to reach orbit",
+      "summary": "Japan's Institute of Space and Aeronautical Science launched the 24-kilogram Ohsumi satellite aboard an L-4S-5 rocket, demonstrating an independently developed path to orbit.",
+      "lesson": "A small technology demonstrator can establish national capability when it validates the complete chain from propulsion and guidance to separation and tracking.",
+      "source_label": "Japan Aerospace Exploration Agency",
+      "source_url": "https://www.isas.jaxa.jp/en/missions/spacecraft/past/ohsumi.html"
+    },
+    {
+      "id": "colgan-air-3407-2009",
+      "month_day": "02-12",
+      "year": 2009,
+      "type": "failure",
+      "discipline": "Aviation",
+      "title": "Colgan Air 3407 stalls during approach to Buffalo",
+      "summary": "A Bombardier Q400 entered an aerodynamic stall on approach. The captain responded incorrectly to the stall warning, and the aircraft crashed into a house, killing 49 aboard and one person on the ground.",
+      "lesson": "Warnings only protect a system when training makes the correct response reliable under surprise; fatigue, proficiency, procedures and automation must be treated together.",
+      "source_label": "U.S. National Transportation Safety Board",
+      "source_url": "https://www.ntsb.gov/investigations/Pages/DCA09MA027.aspx"
+    },
+    {
+      "id": "cinema-statuto-fire-1983",
+      "month_day": "02-13",
+      "year": 1983,
+      "type": "failure",
+      "discipline": "Fire Safety",
+      "title": "Cinema Statuto turns interior materials into lethal smoke",
+      "summary": "A fire in Turin's Cinema Statuto spread through interior materials and filled the gallery with toxic smoke. Sixty-four people died, and the disaster became a turning point for Italian public-venue fire safety.",
+      "lesson": "Fire safety is a system of materials, detection, trained response, clear routes and unlocked exits; certification is weak if evacuation conditions fail in minutes.",
+      "source_label": "Italian National Fire and Rescue Service",
+      "source_url": "https://www.vigilfuoco.it/chi-siamo/memoria-storica/notizie-storiche/la-tragedia-del-cinema-statuto"
+    },
+    {
+      "discipline": "Computing",
+      "id": "eniac-public-unveiling-1946",
+      "lesson": "Computing scale depends on the whole machine: logic, memory, input, programming, cooling, power and maintainability must advance together.",
+      "month_day": "02-14",
+      "source_label": "University of Pennsylvania",
+      "source_url": "https://penntoday.upenn.edu/news/worlds-first-general-purpose-computer-turns-75",
+      "summary": "The University of Pennsylvania publicly unveiled ENIAC, a room-sized electronic computer that used thousands of vacuum tubes to calculate far faster than electromechanical machines.",
+      "title": "ENIAC is unveiled as a general-purpose electronic computer",
+      "type": "breakthrough",
+      "year": 1946
     },
     {
       "id": "eniac-unveiled-1946",
@@ -265,6 +553,54 @@
       "source_url": "https://highlights.cis.upenn.edu/in-celebration-of-eniac/"
     },
     {
+      "id": "hamburg-storm-surge-1962",
+      "month_day": "02-16",
+      "year": 1962,
+      "type": "failure",
+      "discipline": "Environmental Engineering",
+      "title": "Hamburg storm surge overwhelms flood defenses",
+      "summary": "A hurricane-force North Sea storm drove the Elbe to a record 5.70 metres during the night of February 16–17. Dikes failed and low-lying districts across southern Hamburg flooded.",
+      "lesson": "Urban flood resilience needs defense in depth: sound barriers, monitored weak points, reliable warnings, communications, evacuation plans and coordinated emergency command.",
+      "source_label": "Helmut Schmidt Foundation",
+      "source_url": "https://www.helmut-schmidt.de/en/topics/past-and-present/the-night-of-the-great-flood-of-1962"
+    },
+    {
+      "discipline": "Food & Agricultural Engineering",
+      "id": "westland-hallmark-beef-recall-2008",
+      "lesson": "Food production safety depends on enforceable process controls and traceability; inspection that cannot see the real process becomes paperwork, not protection.",
+      "month_day": "02-17",
+      "source_label": "U.S. Government Accountability Office",
+      "source_url": "https://www.gao.gov/assets/gao-09-649.pdf",
+      "summary": "The U.S. Department of Agriculture announced the recall of about 143 million pounds of beef after animal-handling violations and inspection-control failures at Westland/Hallmark became public.",
+      "title": "Westland/Hallmark recalls 143 million pounds of beef",
+      "type": "failure",
+      "year": 2008
+    },
+    {
+      "discipline": "Fire Safety",
+      "id": "daegu-subway-fire-2003",
+      "lesson": "Underground transit needs time-preserving safety layers: materials, detection, lighting, ventilation, communication and door/control logic must keep escape possible in smoke.",
+      "month_day": "02-18",
+      "source_label": "Asia-Oceania Symposium on Fire Science and Technology",
+      "source_url": "https://publications.iafss.org/publications/aofst/6/s-5",
+      "summary": "A deliberately set fire on a Daegu subway train spread through underground rail cars and station spaces, exposing weaknesses in fire prevention, evacuation, communication and emergency response.",
+      "title": "Daegu subway fire turns arson into a mass-casualty tunnel disaster",
+      "type": "failure",
+      "year": 2003
+    },
+    {
+      "discipline": "Consumer Technology",
+      "id": "edison-phonograph-patent-1878",
+      "lesson": "A new medium begins with a transducer: capture physical motion, preserve it in a repeatable form and convert it back into something people can perceive.",
+      "month_day": "02-19",
+      "source_label": "U.S. Patent 200521",
+      "source_url": "https://patents.google.com/patent/US200521A/en",
+      "summary": "Thomas Edison received a U.S. patent for the phonograph, describing a machine that could record vibrations from speech or other sounds and reproduce them later.",
+      "title": "Edison receives a patent for recording sound",
+      "type": "breakthrough",
+      "year": 1878
+    },
+    {
       "id": "friendship-7-1962",
       "month_day": "02-20",
       "year": 1962,
@@ -275,6 +611,30 @@
       "lesson": "A complex system is demonstrated only when every interface works across the complete operating cycle.",
       "source_label": "NASA",
       "source_url": "https://www.nasa.gov/history/friendship7/"
+    },
+    {
+      "discipline": "Rail",
+      "id": "trevithick-penydarren-locomotive-1804",
+      "lesson": "A breakthrough can arrive before the supporting infrastructure is ready; vehicle, track strength, load and operating economics all have to mature together.",
+      "month_day": "02-21",
+      "source_label": "Museum Wales",
+      "source_url": "https://museum.wales/learn/activity/725/Birth-of-the-Railway-Locomotive--Trevithick-and-the-Penydarren-Locomotive/",
+      "summary": "Richard Trevithick's Penydarren locomotive hauled iron and passengers along a South Wales tramroad, demonstrating that steam power could move heavy loads on rails.",
+      "title": "Trevithick's locomotive hauls iron on rails",
+      "type": "breakthrough",
+      "year": 1804
+    },
+    {
+      "id": "navstar-1-first-gps-satellite-1978",
+      "month_day": "02-22",
+      "year": 1978,
+      "type": "breakthrough",
+      "discipline": "Communications",
+      "title": "Navstar 1 begins the GPS satellite test program",
+      "summary": "The U.S. Air Force launched Navstar 1, the first Block I demonstration satellite for the system that became GPS and ultimately provided continuous global positioning and timing.",
+      "lesson": "Infrastructure-scale precision emerges from a synchronized system of clocks, orbital geometry, radio links, receivers and continuously maintained reference data.",
+      "source_label": "Air Force Historical Foundation",
+      "source_url": "https://afhistory.org/february-22-1978-3/"
     },
     {
       "id": "grayrigg-derailment-2007",
@@ -325,6 +685,30 @@
       "source_url": "https://www.rafmuseum.org.uk/research/research-enquiries/history-of-aviation-timeline/british-military-aviation/1935-2/"
     },
     {
+      "id": "maule-earthquake-building-performance-2010",
+      "month_day": "02-27",
+      "year": 2010,
+      "type": "failure",
+      "discipline": "Civil Engineering",
+      "title": "The Maule earthquake exposes reinforced-concrete weaknesses",
+      "summary": "Chile's magnitude 8.8 Maule earthquake damaged engineered buildings and collapsed the Alto Río apartment tower, generating detailed evidence about reinforced-concrete wall performance.",
+      "lesson": "A code-compliant structural concept still needs detailing that preserves load paths, confinement and deformation capacity under cyclic demands beyond ordinary design conditions.",
+      "source_label": "National Institute of Standards and Technology",
+      "source_url": "https://www.nist.gov/news-events/news/2016/04/chile-quake-epicenter-expanding-disaster-and-failure-data-repository"
+    },
+    {
+      "discipline": "Materials Engineering",
+      "id": "nylon-66-synthesized-1935",
+      "lesson": "A new material becomes engineering when chemistry, process control, mechanical properties and manufacturability line up.",
+      "month_day": "02-28",
+      "source_label": "American Chemical Society",
+      "source_url": "https://www.acs.org/education/whatischemistry/landmarks/carotherspolymers.html",
+      "summary": "Wallace Carothers's team synthesized nylon 66 from adipic acid and hexamethylenediamine, creating a strong synthetic polymer that could be drawn into useful fibers.",
+      "title": "DuPont chemists synthesize nylon 66",
+      "type": "breakthrough",
+      "year": 1935
+    },
+    {
       "id": "raspberry-pi-launch-2012",
       "month_day": "02-29",
       "year": 2012,
@@ -335,6 +719,18 @@
       "lesson": "Accessibility is an engineering requirement: cost, documentation, ports and community support determine who can build with a platform.",
       "source_label": "Raspberry Pi Foundation",
       "source_url": "https://www.raspberrypi.com/news/happy-birthday-2018/"
+    },
+    {
+      "discipline": "Nuclear Engineering",
+      "id": "castle-bravo-fallout-1954",
+      "lesson": "A model error in a high-energy system can become a public disaster; uncertainty, exclusion zones and environmental pathways must be sized for what could happen, not only what is expected.",
+      "month_day": "03-01",
+      "source_label": "National Security Archive",
+      "source_url": "https://nsarchive.gwu.edu/briefing-book/nuclear-vault/2024-02-29/castle-bravo-70-worst-nuclear-test-us-history",
+      "summary": "The Castle Bravo thermonuclear test produced a roughly 15-megaton yield, far above its expected yield, spreading radioactive fallout across Marshall Islands communities, U.S. personnel and a Japanese fishing vessel.",
+      "title": "Castle Bravo produces far more fallout than expected",
+      "type": "failure",
+      "year": 1954
     },
     {
       "id": "concorde-first-flight-1969",
@@ -349,6 +745,42 @@
       "source_url": "https://www.airbus.com/en/newsroom/stories/2019-03-the-day-concorde-flew-into-the-history-books"
     },
     {
+      "discipline": "Aviation",
+      "id": "turkish-airlines-981-cargo-door-1974",
+      "lesson": "A warning is not a barrier. Latch geometry, indication, structural load paths and control routing must prevent one closure error from disabling the aircraft.",
+      "month_day": "03-03",
+      "source_label": "U.S. Federal Aviation Administration",
+      "source_url": "https://www.faa.gov/lessons_learned/transport_airplane/accidents/TC-JAV",
+      "summary": "Turkish Airlines Flight 981 crashed after its DC-10 rear cargo door opened in flight, causing decompression, floor collapse and loss of critical control cables.",
+      "title": "Flight 981 crashes after an explosive cargo-door failure",
+      "type": "failure",
+      "year": 1974
+    },
+    {
+      "discipline": "Civil Engineering",
+      "id": "forth-bridge-opens-1890",
+      "lesson": "A landmark structure needs more than a bold form. Load testing, inspection, erection sequence, materials and operating purpose all have to meet before opening day.",
+      "month_day": "03-04",
+      "source_label": "Network Rail",
+      "source_url": "https://www.networkrail.co.uk/who-we-are/our-history/iconic-infrastructure/the-history-of-the-forth-bridge-fife/",
+      "summary": "The Forth Bridge was formally opened by the Prince of Wales after testing and inspection, joining the railway across the Firth of Forth with a massive steel cantilever structure.",
+      "title": "Forth Bridge opens as a steel cantilever landmark",
+      "type": "breakthrough",
+      "year": 1890
+    },
+    {
+      "discipline": "Aviation",
+      "id": "spitfire-first-flight-1936",
+      "lesson": "Performance emerges from integration: aerodynamics, structure, propulsion, controls and manufacturability have to improve as one aircraft.",
+      "month_day": "03-05",
+      "source_label": "BAE Systems",
+      "source_url": "https://www.baesystems.com/en/heritage/supermarine-spitfire",
+      "summary": "The Supermarine Type 300 prototype that became the Spitfire made its first flight from Eastleigh, combining a stressed-skin airframe, elliptical wing and Rolls-Royce engine.",
+      "title": "The prototype Spitfire makes its first flight",
+      "type": "breakthrough",
+      "year": 1936
+    },
+    {
       "id": "herald-free-enterprise-1987",
       "month_day": "03-06",
       "year": 1987,
@@ -359,6 +791,42 @@
       "lesson": "A fast-loading operational design needs positive status indication and authority to stop departure when a single unchecked state can sink the system.",
       "source_label": "UK Marine Accident Investigation Branch",
       "source_url": "https://www.gov.uk/maib-reports/flooding-and-subsequent-capsize-of-ro-ro-passenger-ferry-herald-of-free-enterprise-off-the-port-of-zeebrugge-belgium-with-loss-of-193-lives"
+    },
+    {
+      "discipline": "Communications",
+      "id": "bell-telephone-patent-1876",
+      "lesson": "A communications breakthrough needs more than a clever device; it needs a reproducible signal path, a defined interface and a claim precise enough to build around.",
+      "month_day": "03-07",
+      "source_label": "U.S. National Archives",
+      "source_url": "https://docsteach.org/document/alexander-graham-bells-telephone-patent-drawing-and-oath/",
+      "summary": "Alexander Graham Bell received U.S. Patent No. 174,465 for transmitting vocal or other sounds telegraphically, giving the telephone a defensible technical and legal starting point.",
+      "title": "Bell receives the telephone patent",
+      "type": "breakthrough",
+      "year": 1876
+    },
+    {
+      "id": "castle-gate-mine-disaster-1924",
+      "month_day": "03-08",
+      "year": 1924,
+      "type": "failure",
+      "discipline": "Mining & Tunneling",
+      "title": "Castle Gate explosions leave no survivors underground",
+      "summary": "Explosions in Utah's Castle Gate coal mine killed the underground crew after methane and coal dust ignited, leaving no survivors and devastating the mining community.",
+      "lesson": "Coal-dust control, methane management, ignition prevention and rescue planning must be treated as one underground safety system.",
+      "source_label": "Utah Division of Archives and Records Service",
+      "source_url": "https://archives.utah.gov/2021/03/07/remembering-the-castle-gate-mining-disaster/"
+    },
+    {
+      "id": "scotia-mine-explosion-1976",
+      "month_day": "03-09",
+      "year": 1976,
+      "type": "failure",
+      "discipline": "Mining & Tunneling",
+      "title": "Scotia mine explosion kills fifteen workers",
+      "summary": "An explosion in Kentucky's Scotia coal mine killed fifteen workers. A second explosion two days later killed eleven people who had entered the mine during the investigation and recovery effort.",
+      "lesson": "Mine safety and rescue safety are one system: gas and dust controls, ventilation, monitoring, enforcement and re-entry decisions must all control the same evolving hazard.",
+      "source_label": "U.S. Congress report record",
+      "source_url": "https://catalog.hathitrust.org/Record/003220035"
     },
     {
       "id": "telephone-call-1876",
@@ -445,6 +913,42 @@
       "source_url": "https://www.nasa.gov/history/95-years-ago-goddards-first-liquid-fueled-rocket/"
     },
     {
+      "discipline": "Space",
+      "id": "vanguard-1-solar-satellite-1958",
+      "lesson": "A small spacecraft can become a durable experiment when power, telemetry, orbit and environmental exposure are designed as one long-running system.",
+      "month_day": "03-17",
+      "source_label": "NASA",
+      "source_url": "https://www.nasa.gov/image-article/vanguard-satellite-1958/",
+      "summary": "Vanguard 1 launched as the world's first solar-powered satellite, testing a three-stage launch vehicle and long-lived spacecraft systems in Earth orbit.",
+      "title": "Vanguard 1 proves solar power in orbit",
+      "type": "breakthrough",
+      "year": 1958
+    },
+    {
+      "discipline": "Automotive Engineering",
+      "id": "benz-motor-bus-service-1895",
+      "lesson": "A vehicle becomes public infrastructure only when engine reliability, route length, capacity, maintenance and operating economics work together.",
+      "month_day": "03-18",
+      "source_label": "Mercedes-Benz Public Archive",
+      "source_url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/First-motor-powered-omnibus-in-regular-service.xhtml?oid=4909557",
+      "summary": "The world's first motor-powered omnibus entered service between Siegen, Netphen and Deuz, turning the motor vehicle from a private machine into shared transport infrastructure.",
+      "title": "Benz puts a motor bus into regular service",
+      "type": "breakthrough",
+      "year": 1895
+    },
+    {
+      "discipline": "Civil Engineering",
+      "id": "sydney-harbour-bridge-opens-1932",
+      "lesson": "A landmark bridge is more than a span; fabrication, erection sequence, transport demand and public operations must meet at the same opening day.",
+      "month_day": "03-19",
+      "source_label": "Australian Government DCCEEW",
+      "source_url": "https://www.dcceew.gov.au/parks-heritage/heritage/places/national/sydney-harbour-bridge",
+      "summary": "Sydney Harbour Bridge opened after a major steel-arch construction effort, joining road, rail and pedestrian traffic across the harbour as a national infrastructure milestone.",
+      "title": "Sydney Harbour Bridge opens as a steel arch landmark",
+      "type": "breakthrough",
+      "year": 1932
+    },
+    {
       "id": "volta-electric-pile-1800",
       "month_day": "03-20",
       "year": 1800,
@@ -455,6 +959,30 @@
       "lesson": "A useful energy source must provide controlled flow, not merely a dramatic peak; continuity can matter more than intensity.",
       "source_label": "MIT Lemelson Program",
       "source_url": "https://lemelson.mit.edu/resources/alessandro-volta"
+    },
+    {
+      "id": "first-twitter-message-2006",
+      "month_day": "03-21",
+      "year": 2006,
+      "type": "breakthrough",
+      "discipline": "Software & Systems",
+      "title": "The first Twitter message tests a new public messaging model",
+      "summary": "Jack Dorsey sent the first message on the service then called twttr, an SMS-shaped system that would turn short status updates into a global real-time communication network.",
+      "lesson": "A constrained interface can create a new communications behavior when identity, distribution and near-real-time delivery are combined into one simple action.",
+      "source_label": "Computer History Museum",
+      "source_url": "https://www.computerhistory.org/tdih/march/21/"
+    },
+    {
+      "discipline": "Nuclear Engineering",
+      "id": "browns-ferry-nuclear-fire-1975",
+      "lesson": "Separation only works when physical routing, barriers, detection and response are independent enough that one fire cannot remove redundant safety functions together.",
+      "month_day": "03-22",
+      "source_label": "U.S. Nuclear Regulatory Commission",
+      "source_url": "https://www.nrc.gov/reading-rm/doc-collections/nuregs/brochures/br0361/s1/index",
+      "summary": "A fire at the Browns Ferry nuclear plant damaged safety-related electrical cables and became a major driver of U.S. nuclear fire-protection regulation.",
+      "title": "Browns Ferry turns a cable fire into a nuclear safety lesson",
+      "type": "failure",
+      "year": 1975
     },
     {
       "id": "bp-texas-city-2005",
@@ -493,6 +1021,18 @@
       "source_url": "https://www.osha.gov/aboutosha/40-years/trianglefactoryfireaccount"
     },
     {
+      "id": "salk-polio-vaccine-announcement-1953",
+      "month_day": "03-26",
+      "year": 1953,
+      "type": "breakthrough",
+      "discipline": "Medicine",
+      "title": "Jonas Salk announces early success with a polio vaccine",
+      "summary": "Jonas Salk publicly reported successful initial testing of an inactivated-virus polio vaccine, an important step toward the much larger field trial and licensing that followed.",
+      "lesson": "A medical breakthrough advances through stages: laboratory concept, carefully measured early tests, large controlled trials, scalable production and continued safety monitoring.",
+      "source_label": "Salk Institute",
+      "source_url": "https://watch.salk.edu/march-26-1953-dr-jonas-salk-announces-he-successfully-tested-a-vaccine-against-the-virus-that-causes-polio"
+    },
+    {
       "id": "tenerife-runway-collision-1977",
       "month_day": "03-27",
       "year": 1977,
@@ -515,6 +1055,30 @@
       "lesson": "An indicator must show what the equipment actually did, not merely that a command was sent.",
       "source_label": "U.S. Nuclear Regulatory Commission",
       "source_url": "https://www.nrc.gov/reading-rm/doc-collections/fact-sheets/3mile-isle"
+    },
+    {
+      "discipline": "Space",
+      "id": "mariner-10-mercury-flyby-1974",
+      "lesson": "A flyby is a brief systems exam: navigation, pointing, instruments, power and communications must all work during the few minutes when the science is possible.",
+      "month_day": "03-29",
+      "source_label": "NASA",
+      "source_url": "https://science.nasa.gov/mission/mariner-10/",
+      "summary": "NASA's Mariner 10 flew past Mercury at close range, returning the first spacecraft measurements and images from the innermost planet.",
+      "title": "Mariner 10 makes the first Mercury flyby",
+      "type": "breakthrough",
+      "year": 1974
+    },
+    {
+      "id": "lipman-pencil-eraser-patent-1858",
+      "month_day": "03-30",
+      "year": 1858,
+      "type": "breakthrough",
+      "discipline": "Consumer Technology",
+      "title": "Lipman patents a pencil with an integrated eraser",
+      "summary": "Hymen Lipman received a U.S. patent for placing graphite and erasing material in opposite ends of one wooden holder, keeping both tools together and sharpenable.",
+      "lesson": "Small product innovations often remove friction at an interface; combining familiar parts can make a task faster even when the underlying technologies are unchanged.",
+      "source_label": "United States Patent and Trademark Office via Google Patents",
+      "source_url": "https://patents.google.com/patent/US19783A/en"
     },
     {
       "id": "eiffel-tower-1889",
@@ -613,6 +1177,54 @@
       "source_url": "https://www.ibm.com/history/system-360"
     },
     {
+      "discipline": "Aviation",
+      "id": "comet-flight-201-fatigue-1954",
+      "lesson": "Pressurization turns every flight into a load cycle. Full-scale fatigue testing, manufacturing detail and inspection must match the real structure, not an idealized section.",
+      "month_day": "04-08",
+      "source_label": "U.S. Federal Aviation Administration",
+      "source_url": "https://www.faa.gov/lessons_learned/transport_airplane/accidents/G-ALYV",
+      "summary": "South African Airways Flight 201, a de Havilland Comet operated through BOAC, broke up after departing Rome. Together with the earlier Elba crash, the accident exposed fatigue failure in pressurized jetliner cabins.",
+      "title": "A second Comet breakup confirms a fatigue crisis",
+      "type": "failure",
+      "year": 1954
+    },
+    {
+      "id": "carothers-nylon-patent-filed-1937",
+      "month_day": "04-09",
+      "year": 1937,
+      "type": "breakthrough",
+      "discipline": "Materials Engineering",
+      "title": "Carothers files a foundational synthetic-fiber patent",
+      "summary": "Wallace Carothers filed a patent application describing synthetic linear polyamides that could be drawn into strong filaments, part of the technical foundation for DuPont's nylon fibers.",
+      "lesson": "A new material becomes useful when molecular design is connected to a repeatable process that produces controllable shapes, properties and manufacturing scale.",
+      "source_label": "United States Patent and Trademark Office via Google Patents",
+      "source_url": "https://patents.google.com/patent/US2130948A/en"
+    },
+    {
+      "discipline": "Manufacturing & Automation",
+      "id": "hunt-safety-pin-patent-1849",
+      "lesson": "Good product engineering can be tiny: store elastic energy, guide motion and shield the hazard with as few parts as possible.",
+      "month_day": "04-10",
+      "source_label": "U.S. Patent 6281",
+      "source_url": "https://patents.google.com/patent/US6281A/en",
+      "summary": "Walter Hunt received a U.S. patent for a dress pin with a spring and clasp, turning bent wire into a cheap, repeatable fastening mechanism that protected the point.",
+      "title": "Hunt patents a safer spring pin",
+      "type": "breakthrough",
+      "year": 1849
+    },
+    {
+      "discipline": "Fire Safety",
+      "id": "dusseldorf-airport-fire-1996",
+      "lesson": "Hot-work permits, fire watches, material control and smoke compartmentation must operate together, especially where fire can travel unseen.",
+      "month_day": "04-11",
+      "source_label": "Landtag Nordrhein-Westfalen",
+      "source_url": "https://www.landtag.nrw.de/portal/WWW/dokumentenarchiv/Dokument?Id=MMV12%2F559",
+      "summary": "Hot work ignited combustible insulation above the terminal ceiling; smoke and toxic gases spread through occupied areas and killed 17 people.",
+      "title": "Welding ignites Düsseldorf Airport's concealed ceiling fire",
+      "type": "failure",
+      "year": 1996
+    },
+    {
       "id": "vostok-1-1961",
       "month_day": "04-12",
       "year": 1961,
@@ -623,6 +1235,30 @@
       "lesson": "For a first-of-kind mission, success depends on managing the whole sequence—not optimizing any single phase in isolation.",
       "source_label": "European Space Agency",
       "source_url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/MagISStra/More_than_two_million_first_orbits"
+    },
+    {
+      "discipline": "Space",
+      "id": "apollo-13-oxygen-tank-1970",
+      "lesson": "Shared resources create shared failure modes; power, oxygen, cooling, controls and emergency procedures must be tested as one survival system.",
+      "month_day": "04-13",
+      "source_label": "NASA",
+      "source_url": "https://www.nasa.gov/missions/apollo/apollo-13-mission-details/",
+      "summary": "An oxygen tank ruptured in Apollo 13's service module, draining power and life-support resources and forcing the crew to use the lunar module as a lifeboat.",
+      "title": "Apollo 13 loses an oxygen tank on the way to the Moon",
+      "type": "failure",
+      "year": 1970
+    },
+    {
+      "discipline": "Marine Engineering",
+      "id": "titanic-iceberg-strike-1912",
+      "lesson": "Compartmentalization only protects against the damage case it actually bounds; collision energy, breach length, flooding paths and evacuation capacity must be considered together.",
+      "month_day": "04-14",
+      "source_label": "U.S. Naval Institute",
+      "source_url": "https://www.usni.org/magazines/naval-history-magazine/1996/october/how-did-titanic-really-sink",
+      "summary": "RMS Titanic struck an iceberg late on 14 April. Flooding across multiple watertight compartments exceeded the ship's survivability assumptions, and the liner sank early the next morning.",
+      "title": "Titanic's iceberg strike defeats compartment safety",
+      "type": "failure",
+      "year": 1912
     },
     {
       "id": "titanic-1912",
@@ -661,6 +1297,30 @@
       "source_url": "https://www.csb.gov/west-fertilizer-explosion-and-fire-/"
     },
     {
+      "discipline": "Fire Safety",
+      "id": "san-francisco-earthquake-fire-1906",
+      "lesson": "A city is coupled infrastructure. Gas, water, streets, communications, firefighting access and building stock can turn one hazard into a second, larger failure mode.",
+      "month_day": "04-18",
+      "source_label": "U.S. Geological Survey",
+      "source_url": "https://earthquake.usgs.gov/earthquakes/events/1906calif/18april/",
+      "summary": "The 1906 San Francisco earthquake caused severe shaking damage, but the ensuing fires drove much of the catastrophe and made the event a lasting urban fire-safety lesson.",
+      "title": "San Francisco burns after the earthquake",
+      "type": "failure",
+      "year": 1906
+    },
+    {
+      "discipline": "Marine Engineering",
+      "id": "uss-iowa-turret-explosion-1989",
+      "lesson": "Legacy weapon systems still need modern process discipline; propellant handling, loading sequence, instrumentation and investigation independence all matter when stored energy is immense.",
+      "month_day": "04-19",
+      "source_label": "Naval History and Heritage Command",
+      "source_url": "https://www.history.navy.mil/about-us/leadership/director/directors-corner/h-grams/h-gram-029/h-029-4.html",
+      "summary": "A rapid series of explosions inside Turret II aboard USS Iowa killed 47 sailors during a gunnery exercise, triggering Navy and later independent technical investigations.",
+      "title": "USS Iowa's turret explodes during a firing exercise",
+      "type": "failure",
+      "year": 1989
+    },
+    {
       "id": "deepwater-horizon-2010",
       "month_day": "04-20",
       "year": 2010,
@@ -671,6 +1331,42 @@
       "lesson": "A safety-critical test needs explicit acceptance criteria and a required response when the result is ambiguous.",
       "source_label": "U.S. Chemical Safety Board",
       "source_url": "https://www.csb.gov/macondo-blowout-and-explosion/"
+    },
+    {
+      "discipline": "Consumer Technology",
+      "id": "game-boy-japan-release-1989",
+      "lesson": "Consumer hardware can win by optimizing the whole use case: battery life, cost, durability, controls, software library and pocketable design can matter more than peak specs.",
+      "month_day": "04-21",
+      "source_label": "Centre for Computing History",
+      "source_url": "https://www.computinghistory.org.uk/det/4033/nintendo-game-boy/",
+      "summary": "Nintendo released the Game Boy in Japan, pairing modest hardware with cartridge software, long battery life and a portable form that made handheld gaming a mass-market platform.",
+      "title": "Game Boy makes portable gaming durable",
+      "type": "breakthrough",
+      "year": 1989
+    },
+    {
+      "discipline": "Process Engineering",
+      "id": "deepwater-horizon-sinks-2010",
+      "lesson": "A well-control failure is a system failure: barriers, test interpretation, alarms, emergency disconnects and evacuation all have to work before hydrocarbons reach ignition.",
+      "month_day": "04-22",
+      "source_label": "NOAA",
+      "source_url": "https://response.restoration.noaa.gov/timelines/deepwater-horizon-oil-spill",
+      "summary": "Two days after the blowout and explosion that killed 11 workers, the Deepwater Horizon drilling rig sank in about 5,000 feet of water in the Gulf of Mexico.",
+      "title": "Deepwater Horizon sinks after the Macondo blowout",
+      "type": "failure",
+      "year": 2010
+    },
+    {
+      "discipline": "Civil Engineering",
+      "id": "lambiance-plaza-collapse-1987",
+      "lesson": "Temporary construction states can govern safety; connections, sequencing, bracing, load paths and communication must be designed for every stage, not only the finished building.",
+      "month_day": "04-23",
+      "source_label": "U.S. National Institute of Standards and Technology",
+      "source_url": "https://www.nist.gov/publications/investigation-lambiance-plaza-building-collapse-bridgeport-connecticut",
+      "summary": "The partially built L'Ambiance Plaza apartment project in Bridgeport, Connecticut, collapsed while floor slabs were being lifted into position, killing 28 construction workers.",
+      "title": "L'Ambiance Plaza collapses during lift-slab construction",
+      "type": "failure",
+      "year": 1987
     },
     {
       "id": "hubble-launch-1990",
@@ -733,6 +1429,18 @@
       "source_url": "https://www.ntsb.gov/investigations/Pages/DCA88MA054.aspx"
     },
     {
+      "id": "national-airlines-102-cargo-shift-2013",
+      "month_day": "04-29",
+      "year": 2013,
+      "type": "failure",
+      "discipline": "Aviation",
+      "title": "Unrestrained heavy cargo makes Flight 102 uncontrollable",
+      "summary": "A National Airlines 747 carrying five armored vehicles pitched sharply upward and crashed after takeoff from Bagram. Inadequate restraint procedures allowed cargo to move aft and damage flight-control systems.",
+      "lesson": "Special cargo restraint must be engineered from verified loads and attachment limits; manuals, training, loading hardware and regulatory oversight are one safety system.",
+      "source_label": "Federal Aviation Administration",
+      "source_url": "https://www.faa.gov/lessons_learned/transport_airplane/accidents/N949CA"
+    },
+    {
       "id": "web-public-domain-1993",
       "month_day": "04-30",
       "year": 1993,
@@ -757,6 +1465,54 @@
       "source_url": "https://www.esbnyc.com/about/history"
     },
     {
+      "discipline": "Mining & Tunneling",
+      "id": "sunshine-mine-fire-1972",
+      "lesson": "Underground safety depends on time: detection, communication, refuge, breathing equipment and escape routes must work before smoke and toxic gases own the only paths out.",
+      "month_day": "05-02",
+      "source_label": "U.S. Bureau of Mines via Mining History Association",
+      "source_url": "https://www.mininghistoryassociation.org/Journal/Bureau%20of%20Mines%20Report.pdf",
+      "summary": "A fire in Idaho's Sunshine Mine killed 91 miners, most by smoke inhalation, and became a major case in mine-fire investigation, warning, escape and respiratory protection.",
+      "title": "Sunshine Mine fire exposes underground evacuation limits",
+      "type": "failure",
+      "year": 1972
+    },
+    {
+      "id": "first-commercial-spam-email-1978",
+      "month_day": "05-03",
+      "year": 1978,
+      "type": "failure",
+      "discipline": "Software & Systems",
+      "title": "The first commercial spam email abuses a shared network",
+      "summary": "Digital Equipment Corporation marketer Gary Thuerk sent one unsolicited promotional message to hundreds of ARPANET addresses, provoking immediate complaints from users and network administrators.",
+      "lesson": "A communication feature without consent, rate limits and enforceable norms can turn low-cost distribution into a burden imposed on everyone else.",
+      "source_label": "Computer History Museum",
+      "source_url": "https://www.computerhistory.org/tdih/may/3/"
+    },
+    {
+      "discipline": "Process Engineering",
+      "id": "pepcon-plant-explosion-1988",
+      "lesson": "Inventory is stored consequence; segregation, siting, firewater, process isolation and emergency distance must reflect the full energetic material on site.",
+      "month_day": "05-04",
+      "source_label": "U.S. Geological Survey",
+      "source_url": "https://pubs.usgs.gov/of/1988/0693/report.pdf",
+      "summary": "A fire at the PEPCON rocket-fuel oxidizer plant in Henderson, Nevada, escalated into multiple explosions as large quantities of ammonium perchlorate became involved.",
+      "title": "PEPCON fire escalates through ammonium perchlorate storage",
+      "type": "failure",
+      "year": 1988
+    },
+    {
+      "discipline": "Space",
+      "id": "freedom-7-first-us-human-spaceflight-1961",
+      "lesson": "A short test can still validate a whole human-rated system: launch, controls, life support, tracking, re-entry and recovery all have to close the loop.",
+      "month_day": "05-05",
+      "source_label": "NASA",
+      "source_url": "https://www.nasa.gov/mission/mercury-redstone-3-freedom-7/",
+      "summary": "Alan Shepard piloted Mercury-Redstone 3, Freedom 7, on the first U.S. human spaceflight, proving that the Mercury spacecraft and recovery system could carry and return a pilot.",
+      "title": "Freedom 7 carries the first American into space",
+      "type": "breakthrough",
+      "year": 1961
+    },
+    {
       "id": "channel-tunnel-1994",
       "month_day": "05-06",
       "year": 1994,
@@ -767,6 +1523,30 @@
       "lesson": "Interfaces between teams deserve the same design attention as the structure itself—geometry, standards and decisions must meet in the middle.",
       "source_label": "Eurotunnel LeShuttle",
       "source_url": "https://www.leshuttle.com/uk-en/discover/why-choose-leshuttle/build/the-channel-tunnel"
+    },
+    {
+      "id": "tesla-autopilot-williston-crash-2016",
+      "month_day": "05-07",
+      "year": 2016,
+      "type": "failure",
+      "discipline": "Automotive Engineering",
+      "title": "Tesla Autopilot crash exposes automation overreliance",
+      "summary": "A Tesla Model S operating with Traffic-Aware Cruise Control and Autosteer struck a turning semitrailer near Williston, Florida, killing the driver.",
+      "lesson": "Partial automation must keep the human in the control loop with clear limits, attention management and operational boundaries the system can actually enforce.",
+      "source_label": "U.S. National Transportation Safety Board",
+      "source_url": "https://www.ntsb.gov/investigations/Pages/HWY16FH018.aspx"
+    },
+    {
+      "discipline": "Medicine",
+      "id": "smallpox-eradication-declared-1980",
+      "lesson": "Public-health engineering is still systems engineering: vaccine production, cold chains, surveillance, reporting and local execution all have to close the loop.",
+      "month_day": "05-08",
+      "source_label": "World Health Organization",
+      "source_url": "https://www.who.int/news/item/08-05-2020-commemorating-smallpox-eradication-a-legacy-of-hope-for-covid-19-and-other-diseases",
+      "summary": "The 33rd World Health Assembly officially declared the world free of smallpox, closing a global vaccination and surveillance campaign against a disease that had killed hundreds of millions.",
+      "title": "WHO declares smallpox eradicated",
+      "type": "breakthrough",
+      "year": 1980
     },
     {
       "id": "sunshine-skyway-collapse-1980",
@@ -805,6 +1585,30 @@
       "source_url": "https://www.ntsb.gov/investigations/Pages/DCA96MA054.aspx"
     },
     {
+      "discipline": "Computing",
+      "id": "zuse-z3-completed-1941",
+      "lesson": "A computing breakthrough can come from architecture before speed: representation, programmability and repeatable control define the machine.",
+      "month_day": "05-12",
+      "source_label": "Computer History Museum",
+      "source_url": "https://www.computerhistory.org/tdih/may/12/",
+      "summary": "Konrad Zuse completed the Z3, a program-controlled electromechanical digital computer that used relay logic to automate calculations before electronic computers became practical.",
+      "title": "Zuse completes the program-controlled Z3",
+      "type": "breakthrough",
+      "year": 1941
+    },
+    {
+      "discipline": "Process Engineering",
+      "id": "enschede-fireworks-disaster-2000",
+      "lesson": "Hazard classification, inventory control and land-use planning are one safety system; paperwork cannot make energetic material compatible with nearby homes.",
+      "month_day": "05-13",
+      "source_label": "Government of the Netherlands",
+      "source_url": "https://www.government.nl/topics/fireworks",
+      "summary": "A fire at the S.E. Fireworks storage complex in Enschede escalated into massive explosions, killing 23 people and devastating the surrounding neighborhood.",
+      "title": "Enschede fireworks depot explodes inside a residential district",
+      "type": "failure",
+      "year": 2000
+    },
+    {
       "id": "skylab-launch-1973",
       "month_day": "05-14",
       "year": 1973,
@@ -841,6 +1645,66 @@
       "source_url": "https://assets.publishing.service.gov.uk/media/5a81d68ced915d74e6234631/Independent_Review_of_Building_Regulations_and_Fire_Safety.pdf"
     },
     {
+      "discipline": "Consumer Technology",
+      "id": "maxwell-first-colour-photograph-1861",
+      "lesson": "Complex colour can be reconstructed from a few controlled channels; measurement, filtering, registration and projection turn theory into a visible system.",
+      "month_day": "05-17",
+      "source_label": "Science Museum Group",
+      "source_url": "https://collection.sciencemuseumgroup.org.uk/objects/co8082573/tartan-ribbon-the-first-colour-photograph-photograph",
+      "summary": "James Clerk Maxwell presented a colour image made from three separate red, green and blue photographic records, demonstrating the principle behind additive colour imaging.",
+      "title": "Maxwell demonstrates additive colour photography",
+      "type": "breakthrough",
+      "year": 1861
+    },
+    {
+      "id": "mount-st-helens-eruption-1980",
+      "month_day": "05-18",
+      "year": 1980,
+      "type": "failure",
+      "discipline": "Environmental Engineering",
+      "title": "Mount St. Helens erupts sideways after its flank collapses",
+      "summary": "A magnitude-5-plus earthquake triggered a huge debris avalanche at Mount St. Helens, rapidly unloading the volcanic system and initiating a devastating lateral blast that killed 57 people.",
+      "lesson": "Hazard plans must account for mechanisms outside the expected pattern; monitoring, exclusion zones and communication should remain useful when the event unfolds differently from the reference scenario.",
+      "source_label": "U.S. Geological Survey",
+      "source_url": "https://www.usgs.gov/volcanoes/mount-st.-helens/science/1980-cataclysmic-eruption"
+    },
+    {
+      "discipline": "Automotive Engineering",
+      "id": "takata-airbag-recall-2015",
+      "lesson": "A safety device becomes a hazard when propellant chemistry, aging, humidity exposure and quality control are not validated across the real service environment.",
+      "month_day": "05-19",
+      "source_label": "U.S. Department of Transportation",
+      "source_url": "https://www.transportation.gov/briefing-room/us-department-transportation-announces-steps-address-takata-air-bag-defects",
+      "summary": "Takata acknowledged that defective airbag inflators required a national recall. The defect could make inflators rupture and spray fragments into the passenger compartment.",
+      "title": "Takata acknowledges a national airbag recall",
+      "type": "failure",
+      "year": 2015
+    },
+    {
+      "discipline": "Manufacturing & Automation",
+      "id": "jeans-rivet-patent-1873",
+      "lesson": "A small fastening detail can become a manufacturing breakthrough when it solves the common failure point and can be applied consistently at scale.",
+      "month_day": "05-20",
+      "source_label": "U.S. National Archives",
+      "source_url": "https://prologue.blogs.archives.gov/2010/05/20/forever-in-blue-jeansand-in-court/",
+      "summary": "Jacob Davis and Levi Strauss received a U.S. patent for reinforcing garment stress points with metal rivets, turning durable work trousers into a repeatable manufactured product.",
+      "title": "Davis and Strauss patent riveted workwear",
+      "type": "breakthrough",
+      "year": 1873
+    },
+    {
+      "id": "lindbergh-transatlantic-flight-1927",
+      "month_day": "05-21",
+      "year": 1927,
+      "type": "breakthrough",
+      "discipline": "Aviation",
+      "title": "Lindbergh completes a solo nonstop Atlantic crossing",
+      "summary": "Charles Lindbergh landed the Spirit of St. Louis near Paris after flying alone and nonstop from New York for about 33½ hours, completing 3,610 miles without a radio.",
+      "lesson": "Endurance records depend on ruthless system tradeoffs among fuel, mass, reliability, navigation, pilot workload and the ability to tolerate limited redundancy.",
+      "source_label": "Smithsonian National Air and Space Museum",
+      "source_url": "https://airandspace.si.edu/explore/stories/charles-lindbergh"
+    },
+    {
       "id": "ethernet-memo-1973",
       "month_day": "05-22",
       "year": 1973,
@@ -851,6 +1715,18 @@
       "lesson": "A scalable communication system needs rules for sharing the medium as much as it needs physical wires and signals.",
       "source_label": "Computer History Museum",
       "source_url": "https://www.computerhistory.org/tdih/may/22/"
+    },
+    {
+      "discipline": "Process Engineering",
+      "id": "abbeystead-methane-explosion-1984",
+      "lesson": "Water infrastructure can still carry gas hazards; enclosed spaces, stagnant tunnels, displacement, ignition control and public access all belong in the safety case.",
+      "month_day": "05-23",
+      "source_label": "UK Health and Safety Executive",
+      "source_url": "https://www.hse.gov.uk/comah/sragtech/caseabbeystead84.htm",
+      "summary": "A methane-air mixture exploded inside the Abbeystead valve house during a visit by local residents, killing 16 people and injuring many others.",
+      "title": "Abbeystead pumping station explodes during a public visit",
+      "type": "failure",
+      "year": 1984
     },
     {
       "id": "brooklyn-bridge-opens-1883",
@@ -877,6 +1753,18 @@
       "source_url": "https://www.faa.gov/lessons_learned/transport_airplane/accidents/N110AA"
     },
     {
+      "discipline": "Energy Engineering",
+      "id": "masjed-soleyman-oil-gusher-1908",
+      "lesson": "Energy infrastructure begins with uncertain subsurface engineering: geology, drilling persistence, logistics and transport plans have to converge before a resource becomes usable.",
+      "month_day": "05-26",
+      "source_label": "American Association of Petroleum Geologists",
+      "source_url": "https://www.aapg.org/news-and-media/explorer/the-first-oil-field-in-the-middle-east/",
+      "summary": "George Reynolds's drilling team struck a major oil gusher at Masjed Soleyman in southwest Persia, proving the first major oil field in the Middle East.",
+      "title": "Masjed Soleyman No. 1 strikes oil",
+      "type": "breakthrough",
+      "year": 1908
+    },
+    {
       "id": "golden-gate-1937",
       "month_day": "05-27",
       "year": 1937,
@@ -889,6 +1777,54 @@
       "source_url": "https://www.goldengate.org/bridge/history-research/moments-events/key-dates/"
     },
     {
+      "discipline": "Fire Safety",
+      "id": "beverly-hills-supper-club-fire-1977",
+      "lesson": "Assembly safety depends on enforceable occupant limits, obvious exits, compartmentation and alarms—not on staff improvisation after smoke appears.",
+      "month_day": "05-28",
+      "source_label": "National Institute of Standards and Technology",
+      "source_url": "https://firedoc.nist.gov/exact_term/page/35?keyword=fire+investigations",
+      "summary": "A fire spread through the sprawling Kentucky entertainment complex while crowding, confusing additions and inadequate exits hindered evacuation; 165 people died.",
+      "title": "Fire traps a crowded Beverly Hills Supper Club",
+      "type": "failure",
+      "year": 1977
+    },
+    {
+      "discipline": "Civil Engineering",
+      "id": "hoover-dam-last-concrete-1935",
+      "lesson": "Mass concrete is a thermal and logistics problem as much as a structural one; sequence, cooling, placement rate and quality control decide whether scale stays sound.",
+      "month_day": "05-29",
+      "source_label": "U.S. Bureau of Reclamation",
+      "source_url": "https://www.usbr.gov/lc/hooverdam/faqs/damfaqs.html",
+      "summary": "The last concrete was placed in Hoover Dam after a massive staged pour, cooling-pipe and construction-logistics effort for one of the era's defining infrastructure projects.",
+      "title": "Hoover Dam receives its last concrete",
+      "type": "breakthrough",
+      "year": 1935
+    },
+    {
+      "id": "vanport-flood-1948",
+      "month_day": "05-30",
+      "year": 1948,
+      "type": "failure",
+      "discipline": "Environmental Engineering",
+      "title": "Vanport flood destroys an Oregon city",
+      "summary": "A railroad fill serving as part of Vanport's flood defenses breached after prolonged high water. Flooding destroyed the city, displaced more than 18,000 residents and killed at least fifteen people.",
+      "lesson": "A protective system is only as strong as its repurposed weak links; ownership, inspection, warning language and evacuation capacity must be explicit before an emergency.",
+      "source_label": "ASDSO Dam Failures",
+      "source_url": "https://damfailures.org/case-study/columbia-river-levees-at-vanport-oregon-1948"
+    },
+    {
+      "discipline": "Civil Engineering",
+      "id": "johnstown-flood-dam-failure-1889",
+      "lesson": "A dam is never just earthwork; spillways, outlets, maintenance, ownership and emergency warning are part of the safety system.",
+      "month_day": "05-31",
+      "source_label": "U.S. National Park Service",
+      "source_url": "https://www.nps.gov/jofl/learn/historyculture/the-south-fork-dam.htm",
+      "summary": "The South Fork Dam failed after modifications, blocked drainage and heavy rain left the reservoir overtopping. The resulting flood devastated Johnstown and killed more than two thousand people.",
+      "title": "South Fork Dam fails above Johnstown",
+      "type": "failure",
+      "year": 1889
+    },
+    {
       "id": "air-france-447-2009",
       "month_day": "06-01",
       "year": 2009,
@@ -899,6 +1835,18 @@
       "lesson": "Automation handover must leave humans with enough cues, training and time to identify the actual flight state.",
       "source_label": "French Civil Aviation Safety Investigation Authority",
       "source_url": "https://bea.aero/en/investigation-reports/notified-events/detail/accident-to-the-airbus-a330-203-registered-f-gzcp-and-operated-by-air-france-occured-on-06-01-2009-in-the-atlantic-ocean/"
+    },
+    {
+      "discipline": "Space",
+      "id": "surveyor-1-soft-landing-1966",
+      "lesson": "A precursor mission earns its keep when it reduces uncertainty for the next system: landing dynamics, surface bearing, telemetry and operations all become measured facts.",
+      "month_day": "06-02",
+      "source_label": "NASA",
+      "source_url": "https://www.nasa.gov/history/55-years-ago-surveyor-1-makes-a-soft-landing-on-the-moon/",
+      "summary": "NASA's Surveyor 1 landed successfully on the Moon's Ocean of Storms, returning images and surface data that helped prove automated lunar landing technology before Apollo.",
+      "title": "Surveyor 1 soft-lands on the Moon",
+      "type": "breakthrough",
+      "year": 1966
     },
     {
       "id": "therac25-first-overdose-1985",
@@ -937,6 +1885,90 @@
       "source_url": "https://www.usbr.gov/pn/snakeriver/dams/uppersnake/teton/index.html"
     },
     {
+      "id": "tetris-created-1984",
+      "month_day": "06-06",
+      "year": 1984,
+      "type": "breakthrough",
+      "discipline": "Computing",
+      "title": "Alexey Pajitnov creates Tetris on an Elektronika 60",
+      "summary": "Working at the Soviet Academy of Sciences, Alexey Pajitnov designed a compact falling-block puzzle whose simple rules could be implemented across radically different computers.",
+      "lesson": "A durable software idea can emerge from tight constraints when its rules are simple, legible and independent of one machine or interface.",
+      "source_label": "Computer History Museum",
+      "source_url": "https://www.computerhistory.org/revolution/computer-games/16/194"
+    },
+    {
+      "id": "boeing-777-commercial-service-1995",
+      "month_day": "06-07",
+      "year": 1995,
+      "type": "breakthrough",
+      "discipline": "Aviation",
+      "title": "Boeing 777 enters commercial service",
+      "summary": "United Airlines flew the Boeing 777's first revenue service from London Heathrow to Washington Dulles. The aircraft had been designed end to end with a shared three-dimensional digital model.",
+      "lesson": "A digital model becomes transformative when design, suppliers, manufacturing, testing and operators work from the same product definition.",
+      "source_label": "EBSCO Research Starters",
+      "source_url": "https://www.ebsco.com/research-starters/history/boeings-777-takes-skies/"
+    },
+    {
+      "id": "intel-8086-introduced-1978",
+      "month_day": "06-08",
+      "year": 1978,
+      "type": "breakthrough",
+      "discipline": "Electrical Engineering",
+      "title": "Intel introduces the 8086 microprocessor",
+      "summary": "Intel introduced the 8086, a 16-bit microprocessor whose architecture, through the 8088 and later x86 chips, became a foundation for IBM-compatible personal computing.",
+      "lesson": "An architecture can outlive its first chip when compatibility, support tools and ecosystem timing make it easier to build on than replace.",
+      "source_label": "Intel",
+      "source_url": "https://timeline.intel.com/1978/the-beginning-of-a-legend:-the-8086"
+    },
+    {
+      "id": "rapid-city-flood-1972",
+      "month_day": "06-09",
+      "year": 1972,
+      "type": "failure",
+      "discipline": "Environmental Engineering",
+      "title": "Rapid City flood overwhelms a community and its warning time",
+      "summary": "Stationary thunderstorms produced devastating flash floods across Rapid City and the Black Hills. Floodwater destroyed homes, vehicles, businesses and bridges, and 238 people died.",
+      "lesson": "Flash-flood safety needs observation, rapid warnings, credible evacuation routes and land-use decisions that account for how quickly water can occupy a floodplain.",
+      "source_label": "U.S. National Weather Service",
+      "source_url": "https://www.weather.gov/unr/1972-06-09"
+    },
+    {
+      "discipline": "Computing",
+      "id": "apple-ii-ships-1977",
+      "lesson": "A platform spreads when the system around the processor is usable: enclosure, display, expansion, software and distribution matter as much as raw electronics.",
+      "month_day": "06-10",
+      "source_label": "Computer History Museum",
+      "source_url": "https://www.computerhistory.org/tdih/june/10/",
+      "summary": "Apple shipped the Apple II, pairing color graphics, expansion slots and an approachable package that helped move personal computing from hobbyist kits toward broader use.",
+      "title": "Apple II ships as a ready-to-use personal computer",
+      "type": "breakthrough",
+      "year": 1977
+    },
+    {
+      "discipline": "Automotive Engineering",
+      "id": "le-mans-disaster-1955",
+      "lesson": "Spectators are part of the safety envelope. Speed, stopping zones, debris paths, fuel, materials and crowd separation must be designed as one system.",
+      "month_day": "06-11",
+      "source_label": "AP News",
+      "source_url": "https://apnews.com/article/ec6a2986a9e6cee1cd150102ca1935d4",
+      "summary": "During the 24 Hours of Le Mans, a high-speed collision sent a racing car and debris into spectator areas, killing more than 80 people and exposing how track layout, barriers and vehicle energy interact.",
+      "title": "Le Mans crash sends racing debris into spectators",
+      "type": "failure",
+      "year": 1955
+    },
+    {
+      "id": "boeing-777-first-flight-1994",
+      "month_day": "06-12",
+      "year": 1994,
+      "type": "breakthrough",
+      "discipline": "Aviation",
+      "title": "The Boeing 777 makes its first flight",
+      "summary": "Boeing's first 777 test aircraft flew from Everett, beginning the flight-test phase for a wide-body twinjet developed with extensive airline input and digital design tools.",
+      "lesson": "Large-system design improves when operators contribute early and a shared digital model connects requirements, engineering and manufacturing.",
+      "source_label": "Boeing",
+      "source_url": "https://boeing.mediaroom.com/news-releases-statements?item=130291"
+    },
+    {
       "id": "williams-olefins-2013",
       "month_day": "06-13",
       "year": 2013,
@@ -961,16 +1993,76 @@
       "source_url": "https://www.gov.uk/government/publications/grenfell-tower-inquiry-phase-2-report-government-response/grenfell-tower-inquiry-phase-2-report-government-response-html"
     },
     {
+      "discipline": "Materials Engineering",
+      "id": "goodyear-vulcanized-rubber-patent-1844",
+      "lesson": "A material becomes broadly useful when processing controls its behavior in the actual environment, not just under ideal shop conditions.",
+      "month_day": "06-15",
+      "source_label": "U.S. Patent 3633",
+      "source_url": "https://patents.google.com/patent/US3633A/en",
+      "summary": "Charles Goodyear received a U.S. patent for treating rubber with heat and sulfur, creating a more stable material that could keep useful properties across changing temperatures.",
+      "title": "Goodyear patents vulcanized rubber",
+      "type": "breakthrough",
+      "year": 1844
+    },
+    {
       "id": "tereshkova-vostok-6-1963",
       "month_day": "06-16",
       "year": 1963,
       "type": "breakthrough",
       "discipline": "Space",
       "title": "Valentina Tereshkova becomes the first woman in space",
-      "summary": "Vostok 6 carried Valentina Tereshkova into orbit for nearly three days. She completed 49 orbits, kept a flight log and gathered data on the human body's response to spaceflight.",
+      "summary": "Vostok 6 carried Valentina Tereshkova into orbit for nearly three days. She completed 48 orbits, kept a flight log and gathered data on the human body's response to spaceflight.",
       "lesson": "Expanding who participates is part of expanding what a technical system can learn, test and ultimately serve.",
       "source_label": "European Space Agency",
       "source_url": "https://www.esa.int/About_Us/50_years_of_ESA/50_years_of_humans_in_space/First_woman_in_space_Valentina"
+    },
+    {
+      "id": "second-narrows-bridge-collapse-1958",
+      "month_day": "06-17",
+      "year": 1958,
+      "type": "failure",
+      "discipline": "Civil Engineering",
+      "title": "Second Narrows Bridge falsework collapses during construction",
+      "summary": "Several spans of Vancouver's unfinished Second Narrows Bridge collapsed into Burrard Inlet during erection. Eighteen workers died in the collapse, and a rescue diver died later.",
+      "lesson": "Temporary works carry real structural loads; their calculations, load sequence and independent checking need the same rigor as the permanent structure.",
+      "source_label": "BCcampus Open Education",
+      "source_url": "https://pressbooks.bccampus.ca/engineeringinsociety/chapter/infrastructure-disaster-ironworkers-memorial-bridge-vancouver-1958/"
+    },
+    {
+      "id": "bea-flight-548-staines-1972",
+      "month_day": "06-18",
+      "year": 1972,
+      "type": "failure",
+      "discipline": "Aviation",
+      "title": "BEA Flight 548 enters a deep stall after takeoff",
+      "summary": "A Hawker Siddeley Trident crashed near Staines shortly after departing Heathrow after its leading-edge droops were retracted at too low an airspeed. All 118 people aboard died.",
+      "lesson": "Critical configuration changes need clear state indication, speed protection and crew procedures that remain robust under distraction, workload and possible incapacitation.",
+      "source_label": "UK Air Accidents Investigation Branch",
+      "source_url": "https://www.gov.uk/aaib-reports/4-1973-g-arpi-18-june-1972"
+    },
+    {
+      "id": "communications-act-fcc-1934",
+      "month_day": "06-19",
+      "year": 1934,
+      "type": "breakthrough",
+      "discipline": "Communications",
+      "title": "Communications Act creates the FCC",
+      "summary": "The Communications Act became law, consolidating federal oversight of interstate and international communication by wire and radio and creating the Federal Communications Commission.",
+      "lesson": "Shared technical infrastructure scales through more than hardware: spectrum allocation, interoperability rules and clear system governance are part of the engineering environment.",
+      "source_label": "U.S. National Archives",
+      "source_url": "https://docsteach.org/document/act-of-june-19-1934-federal-communications-commission-act-public-law-73416-48-stat-1064-to-provide-for-the-regulation-of-interstate-and-foreign-communication-by-wire-or-radio-and-for-other-purposes/"
+    },
+    {
+      "discipline": "Materials Engineering",
+      "id": "kwolek-kevlar-patent-1972",
+      "lesson": "Materials innovation often hides in process windows: chemistry, solvent behavior and fiber formation determine whether strength can be manufactured.",
+      "month_day": "06-20",
+      "source_label": "U.S. Patent 3671542",
+      "source_url": "https://patents.google.com/patent/US3671542A/en",
+      "summary": "Stephanie Kwolek received a U.S. patent for processing aromatic polyamides into strong fibers, part of the technical path that led to Kevlar and other high-strength aramid materials.",
+      "title": "Kwolek's aramid patent points toward Kevlar",
+      "type": "breakthrough",
+      "year": 1972
     },
     {
       "id": "manchester-baby-1948",
@@ -997,6 +2089,18 @@
       "source_url": "https://www.ntsb.gov/investigations/Pages/DCA09MR007.aspx"
     },
     {
+      "discipline": "Consumer Technology",
+      "id": "typewriter-patent-1868",
+      "lesson": "An interface becomes infrastructure when mechanics, input layout, carriage motion and manufacturable parts make repeated human work faster and more consistent.",
+      "month_day": "06-23",
+      "source_label": "U.S. Patent 79265",
+      "source_url": "https://patents.google.com/patent/US79265A/en",
+      "summary": "Christopher Latham Sholes, Carlos Glidden and Samuel W. Soule received a U.S. patent for improvements in type-writing machines, helping move writing from handcraft toward repeatable office machinery.",
+      "title": "Sholes, Glidden and Soule patent the typewriter",
+      "type": "breakthrough",
+      "year": 1868
+    },
+    {
       "id": "surfside-collapse-2021",
       "month_day": "06-24",
       "year": 2021,
@@ -1009,6 +2113,18 @@
       "source_url": "https://www.nist.gov/news-events/news/2026/06/nist-releases-technical-findings-what-caused-2021-partial-collapse"
     },
     {
+      "discipline": "Communications",
+      "id": "first-commercial-color-tv-broadcast-1951",
+      "lesson": "A technical first does not guarantee adoption: receivers, standards compatibility, manufacturing capacity and installed infrastructure decide what scales.",
+      "month_day": "06-25",
+      "source_label": "Early Television Museum",
+      "source_url": "https://www.earlytelevision.org/Reitan/cbs_%20color_programming_rev_h.html",
+      "summary": "CBS transmitted the variety program Premiere in color over a five-station East Coast network using its field-sequential television system.",
+      "title": "CBS airs the first commercial color television broadcast",
+      "type": "breakthrough",
+      "year": 1951
+    },
+    {
       "id": "barcode-first-scan-1974",
       "month_day": "06-26",
       "year": 1974,
@@ -1019,6 +2135,42 @@
       "lesson": "Automation scales when every participant agrees on a simple, machine-readable interface at the boundary between systems.",
       "source_label": "Smithsonian Institution",
       "source_url": "https://americanhistory.si.edu/collections/object/nmah_892778"
+    },
+    {
+      "discipline": "Consumer Technology",
+      "id": "barclays-first-atm-1967",
+      "lesson": "A useful consumer system hides complexity: authentication, dispensing, accounting, physical security and user trust all have to work in one small public interface.",
+      "month_day": "06-27",
+      "source_label": "Historic England",
+      "source_url": "https://historicengland.org.uk/whats-new/news/enfield-bank-listed/",
+      "summary": "Barclays opened an automated teller machine at its Enfield branch, giving customers a way to withdraw cash directly from a machine outside normal counter service.",
+      "title": "Barclays unveils the first cash machine",
+      "type": "breakthrough",
+      "year": 1967
+    },
+    {
+      "id": "early-bird-commercial-service-1965",
+      "month_day": "06-28",
+      "year": 1965,
+      "type": "breakthrough",
+      "discipline": "Communications",
+      "title": "Early Bird opens commercial satellite communications",
+      "summary": "Early Bird I provided commercial communications service between North America and Western Europe, including capacity for voice circuits or a television channel.",
+      "lesson": "A communications satellite becomes infrastructure only when orbit, ground stations, capacity planning and service operations work as one network.",
+      "source_label": "European Space Agency",
+      "source_url": "https://www.esa.int/Science_Exploration/Space_Science/28_June"
+    },
+    {
+      "discipline": "Civil Engineering",
+      "id": "sampoong-department-store-collapse-1995",
+      "lesson": "A building use change is an engineering change. Columns, slab capacity, added loads, vibration and visible cracking must trigger analysis and evacuation authority.",
+      "month_day": "06-29",
+      "source_label": "Engineering Failure Analysis",
+      "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0379073811005275",
+      "summary": "The Sampoong Department Store in Seoul collapsed after unsafe structural changes and overloading contributed to punching-shear failure in the building's flat-slab system.",
+      "title": "Sampoong department store collapses from structural neglect",
+      "type": "failure",
+      "year": 1995
     },
     {
       "id": "grand-canyon-midair-1956",
@@ -1069,6 +2221,30 @@
       "source_url": "https://mercedes-benz-publicarchive.com/marsClassic/en/instance/ko/Benz-Patent-Motor-Car-1886---1894.xhtml?oid=4373"
     },
     {
+      "id": "cms-new-particle-2012",
+      "month_day": "07-04",
+      "year": 2012,
+      "type": "breakthrough",
+      "discipline": "Electrical Engineering",
+      "title": "CMS detector reveals a new 125 GeV particle",
+      "summary": "CERN's CMS collaboration reported a five-sigma excess near 125 GeV, interpreting it as a previously unobserved particle consistent with the Standard Model Higgs boson.",
+      "lesson": "Extraordinary measurements depend on engineered evidence: calibrated detectors, multiple measurement channels, blind analysis and independent cross-checks.",
+      "source_label": "CMS Experiment at CERN",
+      "source_url": "https://cms.cern/physics/higgs-boson/observation-new-particle-mass-125-gev"
+    },
+    {
+      "discipline": "Medicine",
+      "id": "dolly-adult-cell-cloning-1996",
+      "lesson": "Biological engineering depends on process control at tiny interfaces: cell source, nuclear transfer, embryo development and surrogate timing all have to align.",
+      "month_day": "07-05",
+      "source_label": "The Roslin Institute",
+      "source_url": "https://vet.ed.ac.uk/roslin/about/history/dolly/facts/life-of-dolly",
+      "summary": "Dolly was born at the Roslin Institute after being cloned from an adult mammary-gland cell, proving that a specialized adult cell could be reprogrammed to develop into a whole organism.",
+      "title": "Dolly proves adult-cell cloning can work",
+      "type": "breakthrough",
+      "year": 1996
+    },
+    {
       "id": "piper-alpha-1988",
       "month_day": "07-06",
       "year": 1988,
@@ -1079,6 +2255,42 @@
       "lesson": "Equipment status must survive every shift change. A permit system is a safety barrier only when operations can see and trust it.",
       "source_label": "UK Health and Safety Executive",
       "source_url": "https://www.hse.gov.uk/offshore/piper-alpha-disaster-public-inquiry.htm"
+    },
+    {
+      "discipline": "Food & Agricultural Engineering",
+      "id": "sliced-bread-commercial-debut-1928",
+      "lesson": "Food automation succeeds when the machine and the product meet: cutting speed, slice consistency, handling and packaging must preserve quality through sale.",
+      "month_day": "07-07",
+      "source_label": "Smithsonian Magazine",
+      "source_url": "https://www.smithsonianmag.com/smart-news/brief-history-sliced-bread-180954722/",
+      "summary": "The Chillicothe Baking Company began selling bread sliced by Otto Rohwedder's machine, pairing uniform cutting with packaging that kept the loaf together.",
+      "title": "Mechanically sliced bread reaches customers",
+      "type": "breakthrough",
+      "year": 1928
+    },
+    {
+      "discipline": "Space",
+      "id": "sts-135-final-shuttle-launch-2011",
+      "lesson": "A program's final flight is still an engineering mission; mature hardware depends on disciplined operations, configuration control and knowledge carried by people.",
+      "month_day": "07-08",
+      "source_label": "NASA",
+      "source_url": "https://www.nasa.gov/mission/sts-135/",
+      "summary": "Space Shuttle Atlantis launched on STS-135, the 135th and final mission of the Shuttle program, carrying supplies and a logistics module to the International Space Station.",
+      "title": "Atlantis launches on the final Space Shuttle mission",
+      "type": "breakthrough",
+      "year": 2011
+    },
+    {
+      "discipline": "Aviation",
+      "id": "pan-am-759-microburst-crash-1982",
+      "lesson": "Weather detection is part of the aircraft system; crews need timely wind-shear information, alerts and procedures before performance margins disappear after liftoff.",
+      "month_day": "07-09",
+      "source_label": "U.S. National Transportation Safety Board",
+      "source_url": "https://www.ntsb.gov/investigations/AccidentReports/Reports/AAR8302.pdf",
+      "summary": "Pan Am Flight 759 crashed shortly after takeoff from New Orleans after encountering microburst-induced wind shear, killing everyone aboard and people on the ground.",
+      "title": "Pan Am 759 crashes in microburst wind shear",
+      "type": "failure",
+      "year": 1982
     },
     {
       "id": "seveso-1976",
@@ -1093,6 +2305,30 @@
       "source_url": "https://minerva.jrc.ec.europa.eu/en/shorturl/minerva/9_mahb_bulletin_no9_fortheweb_a4"
     },
     {
+      "discipline": "Process Engineering",
+      "id": "los-alfaques-bleve-1978",
+      "lesson": "A pressure vessel is not safe just because it is moving; filling limits, relief protection, cargo history, routing and thermal exposure travel with the vehicle.",
+      "month_day": "07-11",
+      "source_label": "ARIA",
+      "source_url": "https://www.aria.developpement-durable.gouv.fr/accident/5003_en/?lang=en",
+      "summary": "A road tanker carrying liquefied propylene ruptured and exploded near the Los Alfaques campsite in Spain, turning hazardous-material transport into a mass-casualty fireball.",
+      "title": "Los Alfaques tanker explosion becomes a BLEVE disaster",
+      "type": "failure",
+      "year": 1978
+    },
+    {
+      "id": "bretigny-derailment-2013",
+      "month_day": "07-12",
+      "year": 2013,
+      "type": "failure",
+      "discipline": "Rail",
+      "title": "A loose rail joint component derails a train at Brétigny",
+      "summary": "An Intercités passenger train derailed at Brétigny-sur-Orge station after a fishplate in a complex track crossing pivoted into the wheel path. Seven people died.",
+      "lesson": "Small fasteners in a repeated-load assembly are system-critical when their loss can move a larger component into the vehicle path; inspection must target the failure sequence, not just visible condition.",
+      "source_label": "French Land Transport Accident Investigation Bureau",
+      "source_url": "https://www.bea-tt.developpement-durable.gouv.fr/rapport-final-r203.html"
+    },
+    {
       "id": "bakelite-patent-filed-1907",
       "month_day": "07-13",
       "year": 1907,
@@ -1103,6 +2339,18 @@
       "lesson": "A new material becomes an engineering platform when its processing route is controllable enough for repeatable parts.",
       "source_label": "U.S. Patent and Trademark Archive",
       "source_url": "https://classic-patents.com/patents/us-942699-baekeland-bakelite"
+    },
+    {
+      "discipline": "Space",
+      "id": "mariner-4-mars-flyby-1965",
+      "lesson": "Exploration changes when instruments cross the distance: navigation, imaging, storage and deep-space communication turn a flyby into evidence.",
+      "month_day": "07-14",
+      "source_label": "NASA Jet Propulsion Laboratory",
+      "source_url": "https://www.jpl.nasa.gov/missions/mariner-4/",
+      "summary": "Mariner 4 made its closest approach to Mars and captured the first close-up images of another planet, replacing speculation with direct spacecraft observations.",
+      "title": "Mariner 4 returns the first close-up views of Mars",
+      "type": "breakthrough",
+      "year": 1965
     },
     {
       "id": "mariner-4-images-1965",
@@ -1117,6 +2365,18 @@
       "source_url": "https://science.nasa.gov/resource/first-close-up-image-of-mars-by-mariner-4/"
     },
     {
+      "discipline": "Mining & Tunneling",
+      "id": "mont-blanc-tunnel-opens-1965",
+      "lesson": "A tunnel is a complete operating system. Alignment, ventilation, excavation, border operations, traffic flow and emergency response matter as much as the bore itself.",
+      "month_day": "07-16",
+      "source_label": "Mont Blanc Tunnel",
+      "source_url": "https://www.tunnelmb.net/en-US/history",
+      "summary": "The Mont-Blanc Tunnel was inaugurated by the French and Italian presidents, linking Chamonix and Courmayeur through a road tunnel beneath the mountain.",
+      "title": "Mont-Blanc Tunnel opens beneath the Alps",
+      "type": "breakthrough",
+      "year": 1965
+    },
+    {
       "id": "hyatt-walkways-1981",
       "month_day": "07-17",
       "year": 1981,
@@ -1127,6 +2387,18 @@
       "lesson": "A detail change is a design change. Recalculate the complete load path before approving it.",
       "source_label": "NIST",
       "source_url": "https://www.nist.gov/el/walkway-collapse-kansas-city-missouri-1981"
+    },
+    {
+      "discipline": "Electrical Engineering",
+      "id": "intel-founded-1968",
+      "lesson": "Some breakthroughs are organizations built around a technical bet; capability scales when process knowledge, device design, capital and manufacturing discipline sit in one place.",
+      "month_day": "07-18",
+      "source_label": "Computer History Museum",
+      "source_url": "https://www.computerhistory.org/tdih/july/18/",
+      "summary": "Robert Noyce and Gordon Moore incorporated Intel, focusing on semiconductor memory and helping establish a company that would later define much of microprocessor computing.",
+      "title": "Intel is founded to build semiconductor memory",
+      "type": "breakthrough",
+      "year": 1968
     },
     {
       "id": "united-232-1989",
@@ -1153,6 +2425,18 @@
       "source_url": "https://www3.nasa.gov/specials/60counting/spaceflight.html"
     },
     {
+      "id": "ns-savannah-launched-1959",
+      "month_day": "07-21",
+      "year": 1959,
+      "type": "breakthrough",
+      "discipline": "Nuclear Engineering",
+      "title": "NS Savannah launches as a nuclear merchant ship",
+      "summary": "The United States launched NS Savannah, the world's first nuclear-powered merchant ship, as a demonstration of civilian nuclear propulsion for commercial shipping.",
+      "lesson": "Demonstrators should test the whole operating model—not just technical feasibility, but staffing, ports, maintenance, regulation, public acceptance and economics.",
+      "source_label": "National Park Service",
+      "source_url": "https://npgallery.nps.gov/NRHP/GetAsset/NHLS/82001518_text"
+    },
+    {
       "id": "mariner-1-1962",
       "month_day": "07-22",
       "year": 1962,
@@ -1177,6 +2461,18 @@
       "source_url": "https://science.nasa.gov/mission/landsat-1/"
     },
     {
+      "discipline": "Marine Engineering",
+      "id": "eastland-capsize-1915",
+      "lesson": "Stability is a loading condition, not a paperwork certificate. Passenger distribution, ballast, freeboard and last-minute modifications can erase reserve stability at the pier.",
+      "month_day": "07-24",
+      "source_label": "Eastland Disaster Historical Society",
+      "source_url": "https://eastlanddisaster.org/history/what-happened",
+      "summary": "The passenger steamer Eastland rolled over in the Chicago River before departing, with more than 2,500 passengers and crew aboard and 844 people killed.",
+      "title": "Eastland capsizes while still tied to the dock",
+      "type": "failure",
+      "year": 1915
+    },
+    {
       "id": "concorde-af4590-2000",
       "month_day": "07-25",
       "year": 2000,
@@ -1187,6 +2483,18 @@
       "lesson": "Trace high-energy debris paths across subsystem boundaries; a small external object can defeat several protections in sequence.",
       "source_label": "French Bureau of Enquiry and Analysis",
       "source_url": "https://bea.aero/en/investigation-reports/notified-events/detail/accident-to-the-concorde-registered-f-btsc-operated-by-air-france-occured-on-07-25-00-at-gonesse/"
+    },
+    {
+      "id": "andrea-doria-sinks-1956",
+      "month_day": "07-26",
+      "year": 1956,
+      "type": "failure",
+      "discipline": "Marine Engineering",
+      "title": "Andrea Doria sinks after a fog-and-radar collision",
+      "summary": "After colliding with Stockholm in dense fog near Nantucket, Andrea Doria developed a severe list, lost access to half its lifeboats and sank the next morning.",
+      "lesson": "Navigation safety depends on shared situational awareness: radar interpretation, speed in fog, bridge staffing, stability and rescue capacity are one operating system.",
+      "source_label": "The Noble Maritime Collection",
+      "source_url": "https://noblemaritime.org/andrea-doria-home"
     },
     {
       "id": "transatlantic-cable-1866",
@@ -1201,6 +2509,54 @@
       "source_url": "https://americanhistory.si.edu/explore/exhibitions/cyrus-field-and-transatlantic-telegraph-cable"
     },
     {
+      "id": "empire-state-b25-crash-1945",
+      "month_day": "07-28",
+      "year": 1945,
+      "type": "failure",
+      "discipline": "Aviation",
+      "title": "A B-25 flies into the Empire State Building in fog",
+      "summary": "A U.S. Army B-25 transport aircraft struck the upper floors of the Empire State Building while flying through dense fog over Manhattan, killing 14 people.",
+      "lesson": "Visual-flight decisions, air-traffic guidance and urban obstacle risk must align; experience cannot substitute for operational limits when visibility removes the pilot's primary navigation reference.",
+      "source_label": "New York City Municipal Archives",
+      "source_url": "https://www.archives.nyc/blog/2019/10/18/the-empire-state-plane-crash-july-28-1945"
+    },
+    {
+      "discipline": "Fire Safety",
+      "id": "uss-forrestal-flight-deck-fire-1967",
+      "lesson": "High-tempo operations need barriers against accidental activation and escalation; connector design, ordnance condition, deck layout and firefighting readiness all matter.",
+      "month_day": "07-29",
+      "source_label": "Naval History and Heritage Command",
+      "source_url": "https://www.history.navy.mil/browse-by-topic/disasters-and-phenomena/forrestal-fire.html",
+      "summary": "A rocket accidentally fired across USS Forrestal's flight deck, striking a fueled aircraft and starting a fire in which bombs detonated, killing 134 sailors.",
+      "title": "USS Forrestal fire exposes cascading flight-deck hazards",
+      "type": "failure",
+      "year": 1967
+    },
+    {
+      "discipline": "Energy Engineering",
+      "id": "ghislenghien-pipeline-explosion-2004",
+      "lesson": "Buried energy infrastructure needs protection beyond the pipe wall: location data, excavation control, damage reporting and exclusion zones must work before ignition.",
+      "month_day": "07-30",
+      "source_label": "UK Health and Safety Executive",
+      "source_url": "https://www.hse.gov.uk/pipelines/ukopa.htm",
+      "summary": "A high-pressure gas pipeline exploded near Ghislenghien, Belgium, after prior damage from nearby works, killing and injuring people gathered around the leak.",
+      "title": "Ghislenghien gas pipeline explosion follows third-party damage",
+      "type": "failure",
+      "year": 2004
+    },
+    {
+      "id": "big-thompson-flood-1976",
+      "month_day": "07-31",
+      "year": 1976,
+      "type": "failure",
+      "discipline": "Environmental Engineering",
+      "title": "Big Thompson flood races through a crowded canyon",
+      "summary": "A nearly stationary thunderstorm produced extreme rainfall over Colorado's Big Thompson Canyon, sending a fast-rising flood through roads, homes and campgrounds and killing 144 people.",
+      "lesson": "Narrow-canyon hazards demand local sensors, fast communication and evacuation guidance designed for minutes—not regional forecasts designed for hours.",
+      "source_label": "U.S. Geological Survey",
+      "source_url": "https://pubs.usgs.gov/publication/pp1115AB"
+    },
+    {
       "id": "i35w-bridge-2007",
       "month_day": "08-01",
       "year": 2007,
@@ -1211,6 +2567,18 @@
       "lesson": "Reassess the complete load path when permanent weight or temporary construction loads change—not only the modified components.",
       "source_label": "U.S. National Transportation Safety Board",
       "source_url": "https://www.ntsb.gov/investigations/Pages/HWY07MH024.aspx"
+    },
+    {
+      "discipline": "Aviation",
+      "id": "delta-191-wind-shear-1985",
+      "lesson": "Aircraft safety depends on sensing the environment in time; training, weather radar, warning systems and go-around decisions must match the hazard's speed.",
+      "month_day": "08-02",
+      "source_label": "U.S. National Weather Service",
+      "source_url": "https://www.weather.gov/fwd/delta191",
+      "summary": "Delta Air Lines Flight 191 crashed on approach to Dallas/Fort Worth after encountering intense wind shear from a thunderstorm downdraft, highlighting a poorly understood low-altitude weather hazard.",
+      "title": "Delta 191 reveals the danger of microbursts",
+      "type": "failure",
+      "year": 1985
     },
     {
       "id": "nautilus-north-pole-1958",
@@ -1273,6 +2641,30 @@
       "source_url": "https://www.epa.gov/archive/epa/aboutepa/love-canal-tragedy.html"
     },
     {
+      "discipline": "Civil Engineering",
+      "id": "banqiao-dam-failure-1975",
+      "lesson": "Reservoir safety depends on the whole flood system: hydrology, spillway capacity, gate operation, communications and downstream emergency planning must survive the same storm.",
+      "month_day": "08-08",
+      "source_label": "The Chemical Engineer",
+      "source_url": "https://www.thechemicalengineer.com/features/reflections-on-banqiao/",
+      "summary": "China's Banqiao Dam failed during extreme rainfall from Typhoon Nina, releasing a destructive flood and contributing to a wider cascade of dam failures downstream.",
+      "title": "Banqiao Dam fails in a cascade of flooding",
+      "type": "failure",
+      "year": 1975
+    },
+    {
+      "discipline": "Automotive Engineering",
+      "id": "firestone-tire-recall-2000",
+      "lesson": "A component failure can become a vehicle-system failure when tire construction, operating pressure, heat, loading, handling and field data are not treated together.",
+      "month_day": "08-09",
+      "source_label": "U.S. Federal Register",
+      "source_url": "https://www.govinfo.gov/content/pkg/FR-2001-01-22/pdf/01-1502.pdf",
+      "summary": "Bridgestone/Firestone announced a large recall of ATX, ATX II and Wilderness AT tires after tread separations were linked to crashes involving Ford Explorer vehicles.",
+      "title": "Firestone recalls millions of tires after tread separations",
+      "type": "failure",
+      "year": 2000
+    },
+    {
       "id": "magellan-venus-orbit-1990",
       "month_day": "08-10",
       "year": 1990,
@@ -1283,6 +2675,18 @@
       "lesson": "Choose the sensor for the environment, not the habit; good instrumentation sees through the constraint that blocks ordinary observation.",
       "source_label": "NASA",
       "source_url": "https://science.nasa.gov/mission/magellan/"
+    },
+    {
+      "discipline": "Civil Engineering",
+      "id": "machhu-dam-failure-1979",
+      "lesson": "Dam safety is governed by extremes. Spillway capacity, gate reliability, flood forecasting, embankment erosion and warning time must be designed for the storm that exceeds expectation.",
+      "month_day": "08-11",
+      "source_label": "Association of State Dam Safety Officials",
+      "source_url": "https://damfailures.org/case-study/machhu-dam-ii-gujarat-india-1979",
+      "summary": "Machhu Dam II in Gujarat failed after flood inflow exceeded the dam's ability to pass water, overtopping the earthen embankments and sending destructive flooding downstream.",
+      "title": "Machhu Dam II fails after overtopping",
+      "type": "failure",
+      "year": 1979
     },
     {
       "id": "ibm-pc-1981",
@@ -1333,6 +2737,18 @@
       "source_url": "https://pancanal.com/en/end-of-the-construction/"
     },
     {
+      "discipline": "Communications",
+      "id": "transatlantic-telegraph-message-1858",
+      "lesson": "A communications breakthrough needs the whole channel: cable manufacture, laying method, insulation, signal power, operators and repair reality all decide whether the message arrives.",
+      "month_day": "08-16",
+      "source_label": "Institution of Engineering and Technology",
+      "source_url": "https://www.theiet.org/membership/library-and-archives/the-iet-archives/archives-highlights/the-first-transatlantic-telegraph-cable-1858",
+      "summary": "The first official message passed along the 1858 transatlantic telegraph cable, proving that electrical communication could link Europe and North America across the ocean.",
+      "title": "The first transatlantic telegraph message crosses the ocean",
+      "type": "breakthrough",
+      "year": 1858
+    },
+    {
       "id": "sayano-shushenskaya-2009",
       "month_day": "08-17",
       "year": 2009,
@@ -1343,6 +2759,30 @@
       "lesson": "Large energy systems need vibration limits, shutdown authority and inspection regimes that treat abnormal operation as a warning, not a production inconvenience.",
       "source_label": "POWER Magazine",
       "source_url": "https://www.powermag.com/investigating-the-sayano-shushenskaya-hydro-power-plant-disaster/"
+    },
+    {
+      "id": "hurricane-alicia-glazing-failures-1983",
+      "month_day": "08-18",
+      "year": 1983,
+      "type": "failure",
+      "discipline": "Materials Engineering",
+      "title": "Hurricane Alicia strips glass from Houston towers",
+      "summary": "Hurricane Alicia struck the Texas coast and exposed a serious high-rise vulnerability: wind and wind-borne debris shattered glass cladding, sending thousands of panes into downtown Houston.",
+      "lesson": "Façade safety is a system property. Glass, frames, anchors, pressure cycling and debris impact must be designed and tested together.",
+      "source_label": "NOAA AOML",
+      "source_url": "https://www.aoml.noaa.gov/hurricane_blog/35th-anniversary-of-hurricane-alicia/"
+    },
+    {
+      "discipline": "Aviation",
+      "id": "saudia-163-cabin-fire-1980",
+      "lesson": "Survival after landing depends on the emergency sequence: detection, decision, shutdown, door operation, cabin crew action and rescue access all have to happen fast.",
+      "month_day": "08-19",
+      "source_label": "U.S. Federal Aviation Administration",
+      "source_url": "https://www.faa.gov/lessons_learned/transport_airplane/accidents/HZ-AHK",
+      "summary": "Saudi Arabian Airlines Flight 163 returned to Riyadh after an in-flight fire warning, but the aircraft stopped without an immediate evacuation and all 301 people aboard died.",
+      "title": "Saudia 163 lands but never evacuates",
+      "type": "failure",
+      "year": 1980
     },
     {
       "id": "voyager-2-launch-1977",
@@ -1357,6 +2797,30 @@
       "source_url": "https://science.nasa.gov/mission/voyager/voyager-2/"
     },
     {
+      "discipline": "Environmental Engineering",
+      "id": "lake-nyos-gas-disaster-1986",
+      "lesson": "Natural systems can store invisible energy and hazards; monitoring, physical models and controlled degassing can convert a rare surprise into a managed risk.",
+      "month_day": "08-21",
+      "source_label": "U.S. Geological Survey",
+      "source_url": "https://www.usgs.gov/publications/21-august-1986-lake-nyos-gas-disaster-cameroon-final-report-united-states-scientific",
+      "summary": "A sudden release of dissolved carbon dioxide from the deep Cameroonian crater lake sent dense gas through nearby valleys, killing about 1,700 people.",
+      "title": "Lake Nyos releases a lethal carbon-dioxide cloud",
+      "type": "failure",
+      "year": 1986
+    },
+    {
+      "discipline": "Fire Safety",
+      "id": "british-airtours-28m-fire-1985",
+      "lesson": "Survivability after a rejected takeoff depends on the whole fire system: containment, fuel paths, wind, exits, cabin materials, crew action and evacuation flow.",
+      "month_day": "08-22",
+      "source_label": "U.S. Federal Aviation Administration",
+      "source_url": "https://www.faa.gov/lessons_learned/transport_airplane/accidents/G-BGJL",
+      "summary": "A Boeing 737 abandoned takeoff after an engine failure, but fuel-fed fire and cabin smoke overtook the evacuation at Manchester Airport.",
+      "title": "British Airtours 28M burns on the runway at Manchester",
+      "type": "failure",
+      "year": 1985
+    },
+    {
       "id": "millard-ammonia-release-2010",
       "month_day": "08-23",
       "year": 2010,
@@ -1367,6 +2831,30 @@
       "lesson": "Transient states in fluid systems can be more dangerous than steady operation; procedures must account for trapped liquid, rapid valve changes and mixed phases.",
       "source_label": "U.S. Chemical Safety Board",
       "source_url": "https://www.csb.gov/millard-refrigerated-services-ammonia-release/"
+    },
+    {
+      "discipline": "Consumer Technology",
+      "id": "windows-95-retail-release-1995",
+      "lesson": "A consumer platform succeeds when technical architecture and interaction design arrive together: APIs, drivers, applications and a learnable interface reinforce each other.",
+      "month_day": "08-24",
+      "source_label": "Microsoft",
+      "source_url": "https://news.microsoft.com/source/1996/08/21/one-year-anniversary-of-windows-95-to-be-celebrated/",
+      "summary": "Microsoft marked the first anniversary of Windows 95 on August 24 after tens of millions of shipments. The release made the Start menu, taskbar and 32-bit consumer PC platform part of everyday use.",
+      "title": "Windows 95 puts the Start menu into everyday computing",
+      "type": "breakthrough",
+      "year": 1995
+    },
+    {
+      "discipline": "Software & Systems",
+      "id": "linux-announced-1991",
+      "lesson": "Software infrastructure can start small when the interfaces are open enough for others to inspect, build, repair and extend the system.",
+      "month_day": "08-25",
+      "source_label": "Linux Foundation",
+      "source_url": "https://www.linuxfoundation.org/blog/blog/anniversary-of-first-linux-kernel-release-a-look-at-collaborative-value",
+      "summary": "Linus Torvalds first posted that he was working on Linux, beginning a collaborative kernel project that grew into major open-source infrastructure.",
+      "title": "Torvalds announces the Linux project",
+      "type": "breakthrough",
+      "year": 1991
     },
     {
       "id": "mini-1959",
@@ -1415,6 +2903,30 @@
       "lesson": "Visible deformation is system feedback, not a scheduling inconvenience; stop work until the discrepancy between calculation and reality is resolved.",
       "source_label": "Royal Commission, Government of Canada",
       "source_url": "https://publications.gc.ca/site/eng/9.827974/publication.html"
+    },
+    {
+      "discipline": "Civil Engineering",
+      "id": "mattmark-glacier-disaster-1965",
+      "lesson": "Temporary works are part of the engineered system. Camps, access roads and work zones need hazard assessment with the same seriousness as the permanent structure.",
+      "month_day": "08-30",
+      "source_label": "Diplomatic Documents of Switzerland",
+      "source_url": "https://www.dodis.ch/en/catastrophe-mattmark-1965",
+      "summary": "A glacial slide from the Allalin glacier buried the Mattmark dam construction site in Valais, killing 88 workers and raising hard questions about construction siting below known alpine hazards.",
+      "title": "Mattmark worksite is buried by glacier ice",
+      "type": "failure",
+      "year": 1965
+    },
+    {
+      "discipline": "Aviation",
+      "id": "aeromexico-498-cerritos-midair-1986",
+      "lesson": "Airspace safety needs engineered visibility: surveillance, altitude reporting, collision alerts and clear responsibility must cover the traffic mix actually present.",
+      "month_day": "08-31",
+      "source_label": "U.S. Federal Aviation Administration",
+      "source_url": "https://www.faa.gov/lessons_learned/transport_airplane/accidents/N533PS",
+      "summary": "AeroMexico Flight 498 and a private Piper collided over Cerritos, California, exposing limits in see-and-avoid, transponder coverage and terminal-area traffic protection.",
+      "title": "AeroMexico 498 collides in busy terminal airspace",
+      "type": "failure",
+      "year": 1986
     },
     {
       "id": "pioneer-11-saturn-1979",
@@ -1801,6 +3313,18 @@
       "source_url": "https://www.csb.gov/xcel-energy-company-hydroelectric-tunnel-fire/"
     },
     {
+      "discipline": "Space",
+      "id": "v2-first-successful-flight-1942",
+      "lesson": "Engineering progress can come from morally compromised systems; technical lessons should be separated from celebration and carried forward with historical honesty.",
+      "month_day": "10-03",
+      "source_label": "Smithsonian National Air and Space Museum",
+      "source_url": "https://airandspace.si.edu/collection-objects/missile-surface-surface-v-2-4/nasm_A19600342000",
+      "summary": "A German A-4/V-2 test launch from Peenemunde became the first successful flight of a large liquid-fueled ballistic rocket, proving technologies later reused in space launch vehicles.",
+      "title": "The A-4/V-2 rocket makes its first successful flight",
+      "type": "breakthrough",
+      "year": 1942
+    },
+    {
       "id": "sputnik-1957",
       "month_day": "10-04",
       "year": 1957,
@@ -1823,6 +3347,30 @@
       "lesson": "Repeated near misses are evidence of a system defect; aggregate and act on weak signals before the same pathway produces a catastrophe.",
       "source_label": "UK Office of Rail and Road",
       "source_url": "https://www.orr.gov.uk/search-news/ladbroke-grove-25-years-was-era-defining-event"
+    },
+    {
+      "discipline": "Communications",
+      "id": "jazz-singer-sound-film-premiere-1927",
+      "lesson": "Synchronization is an interface problem: recording, playback speed, projection, amplification and distribution must stay aligned for the illusion to work.",
+      "month_day": "10-06",
+      "source_label": "Library of Congress",
+      "source_url": "https://www.loc.gov/static/programs/national-film-preservation-board/documents/jazz_singer.pdf",
+      "summary": "The Jazz Singer premiered using the Vitaphone sound-on-disc system, helping move commercial cinema from silent projection toward synchronized dialogue and music.",
+      "title": "The Jazz Singer synchronizes recorded sound with cinema",
+      "type": "breakthrough",
+      "year": 1927
+    },
+    {
+      "discipline": "Manufacturing & Automation",
+      "id": "barcode-patent-1952",
+      "lesson": "Automation often begins with identification. A machine-readable code connects physical goods to computing, inventory and process control.",
+      "month_day": "10-07",
+      "source_label": "U.S. Patent 2612994",
+      "source_url": "https://patents.google.com/patent/US2612994A/en",
+      "summary": "Norman Woodland and Bernard Silver received a patent for classifying articles using identifying patterns, an early barcode concept that later became essential to automated retail and logistics.",
+      "title": "Woodland and Silver patent machine-readable classification",
+      "type": "breakthrough",
+      "year": 1952
     },
     {
       "id": "implantable-pacemaker-1958",
@@ -1849,6 +3397,18 @@
       "source_url": "https://www.unesco.org/en/memory-world/criminal-proceedings-vajont-dam-disaster"
     },
     {
+      "discipline": "Nuclear Engineering",
+      "id": "windscale-pile-fire-1957",
+      "lesson": "A recovery operation is still an operating mode; stored energy, instrumentation limits and delayed feedback can turn maintenance into the accident sequence.",
+      "month_day": "10-10",
+      "source_label": "UK Nuclear Decommissioning Authority",
+      "source_url": "https://nda.blog.gov.uk/sixty-two-years-on/",
+      "summary": "A fire broke out in Windscale Pile 1 during a graphite-reactor annealing operation, releasing radioactive material before the reactor was cooled and brought under control.",
+      "title": "Windscale Pile 1 burns inside the reactor core",
+      "type": "failure",
+      "year": 1957
+    },
+    {
       "id": "ibm-1311-disk-pack-1962",
       "month_day": "10-11",
       "year": 1962,
@@ -1859,6 +3419,18 @@
       "lesson": "Decoupling media from mechanism can change how capacity, security and maintenance scale across a computing system.",
       "source_label": "Computer History Museum",
       "source_url": "https://www.computerhistory.org/timeline/1962/"
+    },
+    {
+      "discipline": "Marine Engineering",
+      "id": "uss-holland-commissioned-1900",
+      "lesson": "A new vehicle class becomes real when propulsion, controls, weapons, crew operation and maintenance are accepted into regular service.",
+      "month_day": "10-12",
+      "source_label": "Naval History and Heritage Command",
+      "source_url": "https://www.history.navy.mil/our-collections/photography/us-navy-ships/alphabetical-listing/h/uss-holland--submarine-torpedo--1-0.html",
+      "summary": "The U.S. Navy commissioned Holland, a compact submarine with gasoline engine surface propulsion, electric submerged propulsion and torpedo armament, marking the start of U.S. submarine service.",
+      "title": "USS Holland enters U.S. Navy submarine service",
+      "type": "breakthrough",
+      "year": 1900
     },
     {
       "id": "chilean-miners-rescued-2010",
@@ -1897,6 +3469,30 @@
       "source_url": "https://www.alptransit-portal.ch/en/events/ereignis/breakthrough-in-the-gotthard"
     },
     {
+      "discipline": "Medicine",
+      "id": "ether-day-anesthesia-1846",
+      "lesson": "A medical breakthrough needs delivery control, observation and repeatable procedure; the active substance alone is not the whole system.",
+      "month_day": "10-16",
+      "source_label": "PubMed Central",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4920664/",
+      "summary": "At Massachusetts General Hospital's Ether Dome, William Morton administered ether while John Collins Warren removed a tumor, demonstrating that surgery could be performed without the usual pain.",
+      "title": "Ether anesthesia is demonstrated in surgery",
+      "type": "breakthrough",
+      "year": 1846
+    },
+    {
+      "discipline": "Energy Engineering",
+      "id": "calder-hall-opens-1956",
+      "lesson": "A new energy source becomes infrastructure only when reactor, balance-of-plant, grid connection, operations and public accountability all work as one system.",
+      "month_day": "10-17",
+      "source_label": "UK Government",
+      "source_url": "https://www.gov.uk/government/news/60-years-since-the-day-that-changed-the-nuclear-industry",
+      "summary": "Calder Hall was officially opened as the world's first full-scale commercial nuclear power station, connecting nuclear heat, steam generation and grid electricity as an industrial power system.",
+      "title": "Calder Hall opens as a full-scale nuclear power station",
+      "type": "breakthrough",
+      "year": 1956
+    },
+    {
       "id": "clean-water-act-1972",
       "month_day": "10-18",
       "year": 1972,
@@ -1907,6 +3503,30 @@
       "lesson": "Environmental performance becomes engineerable when limits, monitoring and treatment capacity are specified as enforceable system requirements.",
       "source_label": "U.S. Environmental Protection Agency",
       "source_url": "https://www.epa.gov/laws-regulations/discover-history-clean-water-act"
+    },
+    {
+      "id": "black-monday-market-systems-1987",
+      "month_day": "10-19",
+      "year": 1987,
+      "type": "failure",
+      "discipline": "Software & Systems",
+      "title": "Black Monday exposes feedback loops in automated trading",
+      "summary": "Global equity markets plunged as heavy selling, portfolio-insurance strategies and strained trading and communications systems reinforced uncertainty. The Dow fell 22.6 percent in one day.",
+      "lesson": "Automation that reacts to the same signal can create system-wide positive feedback; capacity limits, circuit breakers and liquidity plans must be designed for correlated behavior.",
+      "source_label": "Federal Reserve History",
+      "source_url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1987"
+    },
+    {
+      "discipline": "Energy Engineering",
+      "id": "cleveland-gas-explosion-1944",
+      "lesson": "Cryogenic storage is not passive. Tank geometry, material behavior, containment, vapor dispersion and urban siting all decide what happens after a leak.",
+      "month_day": "10-20",
+      "source_label": "Case Western Reserve University",
+      "source_url": "https://case.edu/ech/articles/e/east-ohio-gas-co-explosion-and-fire",
+      "summary": "A liquefied-natural-gas storage tank failure at the East Ohio Gas Company triggered explosions and fires across part of Cleveland, killing more than 130 people.",
+      "title": "Cleveland's LNG tank farm explodes",
+      "type": "failure",
+      "year": 1944
     },
     {
       "id": "aberfan-1966",
@@ -1921,6 +3541,66 @@
       "source_url": "https://www.gov.uk/guidance/national-recovery-guidance"
     },
     {
+      "discipline": "Consumer Technology",
+      "id": "first-xerographic-image-1938",
+      "lesson": "A useful office machine begins as a materials-and-fields problem: charge, exposure, powder adhesion and transfer have to become a repeatable process.",
+      "month_day": "10-22",
+      "source_label": "Xerox",
+      "source_url": "https://www.xerox.com/en-us/innovation/insights/chester-carlson-xerography",
+      "summary": "Chester Carlson and Otto Kornei produced the first xerographic image, proving that electrostatic copying could capture and reproduce marks without wet photographic chemistry.",
+      "title": "Carlson makes the first xerographic image",
+      "type": "breakthrough",
+      "year": 1938
+    },
+    {
+      "discipline": "Automotive Engineering",
+      "id": "mercedes-airbag-patent-1971",
+      "lesson": "Safety innovation needs sensing, deployment timing, materials, crash data and manufacturability before a promising concept can protect people at speed.",
+      "month_day": "10-23",
+      "source_label": "Mercedes-Benz Group",
+      "source_url": "https://group.mercedes-benz.com/company/tradition/company-history/140-years-milestones.html",
+      "summary": "Mercedes-Benz filed a patent for an airbag system for motor vehicles, part of the long engineering path from restraint concept to production safety equipment.",
+      "title": "Mercedes-Benz patents a practical automotive airbag",
+      "type": "breakthrough",
+      "year": 1971
+    },
+    {
+      "discipline": "Space",
+      "id": "nedelin-r16-pad-explosion-1960",
+      "lesson": "Do not troubleshoot a fueled high-energy system as if it were inert. Schedule pressure must never move people inside the blast radius without hard isolation.",
+      "month_day": "10-24",
+      "source_label": "NASA History",
+      "source_url": "https://www.nasa.gov/history/history-publications-and-resources/nasa-history-series/rockets-and-people/",
+      "summary": "During rushed prelaunch work at Baikonur, a fueled Soviet R-16 missile exploded on the launch pad after premature second-stage ignition, killing many engineers and military personnel.",
+      "title": "Nedelin disaster: an R-16 explodes on the pad",
+      "type": "failure",
+      "year": 1960
+    },
+    {
+      "discipline": "Marine Engineering",
+      "id": "uss-tang-circular-torpedo-1944",
+      "lesson": "A weapon is still part of the launching platform's safety case; guidance, arming logic and post-launch behavior must be considered as hazards to the operator too.",
+      "month_day": "10-25",
+      "source_label": "Naval History and Heritage Command",
+      "source_url": "https://www.history.navy.mil/browse-by-topic/ships/submarines/tang-ss-306.html",
+      "summary": "USS Tang was lost after one of its torpedoes malfunctioned, circled back and struck the submarine. Only nine crew members survived.",
+      "title": "USS Tang is sunk by its own torpedo",
+      "type": "failure",
+      "year": 1944
+    },
+    {
+      "discipline": "Civil Engineering",
+      "id": "erie-canal-completed-1825",
+      "lesson": "Infrastructure can redraw economics when route, locks, water supply, maintenance and operating rules lower friction across an entire network.",
+      "month_day": "10-26",
+      "source_label": "U.S. Government Publishing Office",
+      "source_url": "https://www.govinfo.gov/features/erie-canal",
+      "summary": "The Erie Canal was completed, connecting Lake Erie with the Hudson River through a long artificial waterway that transformed transport, trade and settlement patterns.",
+      "title": "Erie Canal opens a new inland route",
+      "type": "breakthrough",
+      "year": 1825
+    },
+    {
       "id": "nylon-announced-1938",
       "month_day": "10-27",
       "year": 1938,
@@ -1933,6 +3613,18 @@
       "source_url": "https://www.acs.org/education/whatischemistry/landmarks/carotherspolymers.html"
     },
     {
+      "discipline": "Fire Safety",
+      "id": "baku-metro-fire-1995",
+      "lesson": "Tunnel transport safety depends on evacuation time: materials, ventilation, emergency lighting, communication and train control have to preserve survivable escape paths.",
+      "month_day": "10-28",
+      "source_label": "Azerbaijan International",
+      "source_url": "https://www.azer.com/aiweb/categories/magazine/34_folder/34_articles/34_metro.html",
+      "summary": "A fire on a Baku Metro train between stations killed hundreds of passengers and exposed the extreme evacuation difficulty of smoke, toxic gases and stalled trains in tunnels.",
+      "title": "Baku Metro fire traps passengers underground",
+      "type": "failure",
+      "year": 1995
+    },
+    {
       "id": "arpanet-message-1969",
       "month_day": "10-29",
       "year": 1969,
@@ -1943,6 +3635,54 @@
       "lesson": "The first useful systems test is small, end-to-end and allowed to fail where the interfaces are real.",
       "source_label": "UCLA Samueli School of Engineering",
       "source_url": "https://samueli.ucla.edu/internet50-press/"
+    },
+    {
+      "discipline": "Aviation",
+      "id": "boeing-model-299-crash-1935",
+      "lesson": "When a machine becomes too complex to remember safely, the interface must include procedure: checklists turn fragile memory into engineered operation.",
+      "month_day": "10-30",
+      "source_label": "Smithsonian National Air and Space Museum",
+      "source_url": "https://airandspace.si.edu/air-and-space-quarterly/winter-2023/set-checked",
+      "summary": "The Boeing Model 299 prototype crashed during takeoff at Wright Field after the elevator controls remained locked, a failure later associated with the adoption of formal cockpit checklists.",
+      "title": "Boeing Model 299 crashes and exposes cockpit complexity",
+      "type": "failure",
+      "year": 1935
+    },
+    {
+      "discipline": "Aviation",
+      "id": "singapore-airlines-006-wrong-runway-2000",
+      "lesson": "Runway safety is an interface system: signage, lighting, charts, clearance, surface surveillance and crew position awareness must agree in low visibility.",
+      "month_day": "10-31",
+      "source_label": "Taiwan Transportation Safety Board",
+      "source_url": "https://www.ttsb.gov.tw/english/18609/18610/21799/post",
+      "summary": "Singapore Airlines Flight 006 attempted takeoff from the wrong runway at Taipei during typhoon conditions and struck construction equipment, destroying the aircraft.",
+      "title": "Singapore 006 starts takeoff on a closed runway",
+      "type": "failure",
+      "year": 2000
+    },
+    {
+      "discipline": "Environmental Engineering",
+      "id": "schweizerhalle-sandoz-fire-1986",
+      "lesson": "Emergency response water can become a transport system for hazards; containment, drainage, storage layout and runoff paths need to be engineered before the fire.",
+      "month_day": "11-01",
+      "source_label": "Swiss Federal Office for the Environment",
+      "source_url": "https://www.bafu.admin.ch/en/schweizerhalle-en",
+      "summary": "A fire at the Sandoz chemical warehouse in Schweizerhalle near Basel caused contaminated firefighting water to enter the Rhine, producing serious ecological damage and prompting stronger Swiss major-accident prevention rules.",
+      "title": "Schweizerhalle fire contaminates the Rhine",
+      "type": "failure",
+      "year": 1986
+    },
+    {
+      "discipline": "Software & Systems",
+      "id": "morris-worm-1988",
+      "lesson": "Connectivity multiplies software risk; authentication flaws, default trust and uncontrolled replication can turn a local bug into a system-wide outage.",
+      "month_day": "11-02",
+      "source_label": "Federal Bureau of Investigation",
+      "source_url": "https://www.fbi.gov/news/stories/morris-worm-30-years-since-first-major-attack-on-internet-110218",
+      "summary": "The Morris worm spread through networked Unix systems, disrupting a significant fraction of the early internet and becoming one of the first major internet-scale security incidents.",
+      "title": "The Morris worm slows the young internet",
+      "type": "failure",
+      "year": 1988
     },
     {
       "id": "minamata-cause-report-1956",
@@ -1967,6 +3707,30 @@
       "lesson": "High-energy rotating machinery needs containment, segregation and failure-management paths that assume fragments and cascading system damage are possible.",
       "source_label": "Australian Transport Safety Bureau",
       "source_url": "https://www.atsb.gov.au/investigations/ao-2010-089"
+    },
+    {
+      "discipline": "Mining & Tunneling",
+      "id": "fundao-tailings-dam-failure-2015",
+      "lesson": "Tailings storage is active infrastructure. Drainage, liquefaction risk, raising history, monitoring and emergency planning must be managed for the life of the waste.",
+      "month_day": "11-05",
+      "source_label": "Fundao Tailings Dam Review Panel",
+      "source_url": "https://www.resolutionmineeis.us/documents/fundao-2016",
+      "summary": "The Fundao tailings dam at Samarco's Germano complex failed, releasing mine tailings downstream and killing 19 people.",
+      "title": "Fundao tailings dam fails in a liquefaction flowslide",
+      "type": "failure",
+      "year": 2015
+    },
+    {
+      "id": "armstrong-fm-paper-1935",
+      "month_day": "11-06",
+      "year": 1935,
+      "type": "breakthrough",
+      "discipline": "Communications",
+      "title": "Armstrong presents wideband FM radio",
+      "summary": "Edwin Howard Armstrong presented his frequency-modulation system to the New York section of the Institute of Radio Engineers, showing how wideband FM could suppress noise in radio reception.",
+      "lesson": "A better signal architecture can outperform attempts to patch noise afterward by encoding information in a property the dominant interference affects less.",
+      "source_label": "Proceedings of the Institute of Radio Engineers",
+      "source_url": "https://radiosystemdesign.com/assets/pdf/downloads/Armstrong1936.pdf"
     },
     {
       "id": "tacoma-narrows-1940",
@@ -2005,6 +3769,18 @@
       "source_url": "https://www.nasa.gov/history/55-years-ago-apollo-4-the-first-flight-of-the-saturn-v/"
     },
     {
+      "discipline": "Marine Engineering",
+      "id": "edmund-fitzgerald-sinking-1975",
+      "lesson": "Marine safety depends on reserve margin under real weather: hatch integrity, freeboard, loading, routing and warning decisions must survive the worst water the vessel will meet.",
+      "month_day": "11-10",
+      "source_label": "Michigan Sea Grant",
+      "source_url": "https://www.michiganseagrant.org/lessons/lessons/by-broad-concept/earth-science/data-sets/the-storm-that-sunk-the-edmund-fitzgerald/",
+      "summary": "The freighter Edmund Fitzgerald sank during a severe Lake Superior storm with all 29 crew lost, leaving investigators to weigh weather, flooding, buoyancy and structural questions.",
+      "title": "Edmund Fitzgerald sinks in a Lake Superior storm",
+      "type": "failure",
+      "year": 1975
+    },
+    {
       "id": "bessemer-steel-patent-1856",
       "month_day": "11-11",
       "year": 1856,
@@ -2017,6 +3793,42 @@
       "source_url": "https://reach.ieee.org/primary-sources/henry-bessemer-us-patent-manufacture-of-iron-and-steel/"
     },
     {
+      "discipline": "Civil Engineering",
+      "id": "san-francisco-oakland-bay-bridge-opens-1936",
+      "lesson": "A megaproject succeeds by joining distinct structures into one transport system: foundations, spans, tunnel, approaches and operations must share compatible assumptions.",
+      "month_day": "11-12",
+      "source_label": "California Department of Transportation",
+      "source_url": "https://dot.ca.gov/caltrans-near-me/district-4/d4-projects/sf-oakland-bay-bridge",
+      "summary": "The original San Francisco-Oakland Bay Bridge opened to traffic, linking the cities with a complex crossing of suspension spans, a tunnel and a cantilever section.",
+      "title": "The San Francisco-Oakland Bay Bridge opens",
+      "type": "breakthrough",
+      "year": 1936
+    },
+    {
+      "discipline": "Marine Engineering",
+      "id": "prestige-tanker-casualty-2002",
+      "lesson": "A damaged ship becomes a regional systems problem; structural condition, cargo, weather, towage and access to refuge determine whether a casualty can be contained.",
+      "month_day": "11-13",
+      "source_label": "European Commission",
+      "source_url": "https://eur-lex.europa.eu/LexUriServ/LexUriServ.do?uri=COM%3A2002%3A0681%3AFIN%3AEN%3APDF",
+      "summary": "The single-hull tanker Prestige suffered hull damage in heavy seas off Galicia while carrying about 77,000 tonnes of heavy fuel oil, beginning a prolonged maritime pollution disaster.",
+      "title": "Prestige suffers hull damage with 77,000 tonnes of fuel aboard",
+      "type": "failure",
+      "year": 2002
+    },
+    {
+      "id": "eurostar-commercial-service-1994",
+      "month_day": "11-14",
+      "year": 1994,
+      "type": "breakthrough",
+      "discipline": "Rail",
+      "title": "Eurostar begins passenger service through the Channel Tunnel",
+      "summary": "Eurostar's inaugural passenger journeys linked London with Paris and Brussels through the Channel Tunnel, turning a newly completed fixed link into an international high-speed rail service.",
+      "lesson": "Cross-border infrastructure works only when vehicles, power, signaling, stations, safety rules and border processes are engineered as one interoperable service.",
+      "source_label": "Eurostar",
+      "source_url": "https://mediacentre.eurostar.com/mc_view?article_Id=ka4Rz00000AIRaHIAX&language=uk-en"
+    },
+    {
       "id": "intel-4004-1971",
       "month_day": "11-15",
       "year": 1971,
@@ -2027,6 +3839,30 @@
       "lesson": "A powerful abstraction moves complexity from specialized hardware into a reusable platform.",
       "source_label": "Intel",
       "source_url": "https://www.intel.com/pressroom/kits/quickrefyr.htm"
+    },
+    {
+      "discipline": "Communications",
+      "id": "arecibo-message-transmitted-1974",
+      "lesson": "Communication design begins with shared assumptions: even a tiny message must encode structure, units and meaning without a common language.",
+      "month_day": "11-16",
+      "source_label": "University of Puerto Rico",
+      "source_url": "https://phl.upr.edu/message",
+      "summary": "The rebuilt Arecibo radio telescope sent a binary-encoded demonstration message containing mathematical, biological and astronomical information.",
+      "title": "Arecibo transmits a 1,679-bit message toward Messier 13",
+      "type": "breakthrough",
+      "year": 1974
+    },
+    {
+      "discipline": "Space",
+      "id": "lunokhod-1-moon-rover-1970",
+      "lesson": "Remote mobility combines vehicle mechanics with delayed human control; traction, power, thermal survival, cameras and communications must close the loop.",
+      "month_day": "11-17",
+      "source_label": "Smithsonian National Air and Space Museum",
+      "source_url": "https://airandspace.si.edu/multimedia-gallery/image/web12065-2011640jpg",
+      "summary": "Luna 17 landed on the Moon and deployed Lunokhod 1, the first successful remotely controlled rover to operate on another celestial body.",
+      "title": "Lunokhod 1 becomes the first rover on another world",
+      "type": "breakthrough",
+      "year": 1970
     },
     {
       "id": "kings-cross-fire-1987",
@@ -2077,6 +3913,54 @@
       "source_url": "https://nvlpubs.nist.gov/nistpubs/Legacy/IR/nistir90-4253.pdf"
     },
     {
+      "id": "toy-story-released-1995",
+      "month_day": "11-22",
+      "year": 1995,
+      "type": "breakthrough",
+      "discipline": "Computing",
+      "title": "Toy Story makes computer animation feature-length",
+      "summary": "Pixar released Toy Story, the world's first computer-animated feature film, proving that a full theatrical movie could be produced through a digital animation pipeline.",
+      "lesson": "A graphics breakthrough becomes a production method when software, rendering, art direction, storytelling and schedule discipline all hold for feature length.",
+      "source_label": "Pixar",
+      "source_url": "https://www.pixar.com/our-story"
+    },
+    {
+      "id": "golden-age-nursing-home-fire-1963",
+      "month_day": "11-23",
+      "year": 1963,
+      "type": "failure",
+      "discipline": "Fire Safety",
+      "title": "Golden Age nursing home fire kills sixty-three",
+      "summary": "A nighttime fire swept through the Golden Age Nursing Home in Fitchville, Ohio, killing 63 residents and exposing the extreme evacuation risk in facilities housing people with limited mobility.",
+      "lesson": "Care facilities need layered protection: automatic detection and suppression, compartmentation, usable exits, trained staff and coordinated emergency response.",
+      "source_label": "U.S. Office of Civil Defense",
+      "source_url": "https://udspace.udel.edu/items/1b2b31d0-f0b5-410d-bbdc-c77c67329e96"
+    },
+    {
+      "discipline": "Fire Safety",
+      "id": "tazreen-fashions-fire-2012",
+      "lesson": "Fire protection fails when workers cannot leave; alarms, protected exits, unlocked routes, occupancy controls and credible inspection must work together.",
+      "month_day": "11-24",
+      "source_label": "International Labour Organization",
+      "source_url": "https://www.ilo.org/resource/chronology-recent-events-bangladesh-ready-made-garment-rmg-sector",
+      "summary": "A fire at the Tazreen Fashions garment factory in Bangladesh killed 112 workers and became a catalyst for national action on factory fire and building safety.",
+      "title": "Tazreen factory fire exposes deadly workplace escape failures",
+      "type": "failure",
+      "year": 2012
+    },
+    {
+      "id": "de-havilland-mosquito-first-flight-1940",
+      "month_day": "11-25",
+      "year": 1940,
+      "type": "breakthrough",
+      "discipline": "Materials Engineering",
+      "title": "Wooden Mosquito prototype makes its first flight",
+      "summary": "The de Havilland Mosquito prototype made its maiden flight only eleven months after detailed design began. Its smooth stressed-skin wooden construction used non-strategic materials and specialist woodworking capacity.",
+      "lesson": "Performance can come from material architecture and manufacturability—not merely from scarce high-strength materials or conventional production lines.",
+      "source_label": "de Havilland Aircraft Museum",
+      "source_url": "https://www.dehavillandmuseum.co.uk/about-us/"
+    },
+    {
       "id": "asterix-satellite-1965",
       "month_day": "11-26",
       "year": 1965,
@@ -2125,6 +4009,18 @@
       "source_url": "https://www.ebrd.com/home/news-and-events/news/2016/unique-engineering-feat-concluded-as-chernobyl-arch-has-reached-resting-place.html"
     },
     {
+      "discipline": "Computing",
+      "id": "chatgpt-released-2022",
+      "lesson": "Interface design can turn a technical capability into a mass-use tool, while reliability, provenance and human verification remain part of the system.",
+      "month_day": "11-30",
+      "source_label": "OpenAI",
+      "source_url": "https://openai.com/index/chatgpt/",
+      "summary": "OpenAI made ChatGPT publicly available, packaging a language model in a dialogue interface that could answer follow-ups and revise responses.",
+      "title": "OpenAI releases ChatGPT as a conversational research preview",
+      "type": "breakthrough",
+      "year": 2022
+    },
+    {
       "id": "ford-moving-assembly-line-1913",
       "month_day": "12-01",
       "year": 1913,
@@ -2159,6 +4055,66 @@
       "lesson": "Autonomous landing software must distinguish transient deployment signals from irreversible state transitions before committing to engine shutdown.",
       "source_label": "NASA",
       "source_url": "https://science.nasa.gov/mission/mars-polar-lander-deep-space-2/"
+    },
+    {
+      "id": "pioneer-10-jupiter-encounter-1973",
+      "month_day": "12-04",
+      "year": 1973,
+      "type": "breakthrough",
+      "discipline": "Space",
+      "title": "Pioneer 10 makes the first close pass of Jupiter",
+      "summary": "Pioneer 10 reached closest approach to Jupiter, becoming the first spacecraft to observe the planet at close range while returning measurements from an intense radiation environment.",
+      "lesson": "Pathfinder missions reduce uncertainty for everything that follows by measuring navigation, communications, radiation and environmental hazards at operational scale.",
+      "source_label": "NASA",
+      "source_url": "https://science.nasa.gov/mission/pioneer-10/"
+    },
+    {
+      "discipline": "Environmental Engineering",
+      "id": "great-smog-london-1952",
+      "lesson": "Environmental failures are engineered through systems too: fuel choice, emissions, weather, monitoring, public warnings and regulation decide whether pollution becomes catastrophe.",
+      "month_day": "12-05",
+      "source_label": "UK Met Office",
+      "source_url": "https://weather.metoffice.gov.uk/learn-about/weather/case-studies/great-smog",
+      "summary": "A cold, windless period trapped coal smoke and pollutants over London from 5 to 9 December, reducing visibility and causing a severe public-health disaster.",
+      "title": "London's Great Smog turns air pollution lethal",
+      "type": "failure",
+      "year": 1952
+    },
+    {
+      "discipline": "Process Engineering",
+      "id": "halifax-explosion-1917",
+      "lesson": "Hazardous cargo turns routing, signalling, firefighting distance and public exclusion zones into one life-safety system.",
+      "month_day": "12-06",
+      "source_label": "Canadian War Museum",
+      "source_url": "https://www.warmuseum.ca/firstworldwar/history/life-at-home-during-the-war/wartime-tragedies/the-halifax-explosion/",
+      "summary": "The explosives-laden Mont Blanc collided with Imo in Halifax harbour, caught fire and detonated, devastating nearby districts.",
+      "title": "Halifax harbour detonates after a munitions collision",
+      "type": "failure",
+      "year": 1917
+    },
+    {
+      "discipline": "Space",
+      "id": "apollo-17-launch-1972",
+      "lesson": "Mature exploration still improves when the mission architecture changes: crew expertise, surface time, rover use and sample strategy can make the last flight scientifically richer than the first.",
+      "month_day": "12-07",
+      "source_label": "NASA",
+      "source_url": "https://www.nasa.gov/mission/apollo-17/",
+      "summary": "Apollo 17 launched as NASA's final Apollo lunar landing mission and the first to include a professional scientist-astronaut, sending the crew toward Taurus-Littrow.",
+      "title": "Apollo 17 launches the last Apollo lunar landing mission",
+      "type": "breakthrough",
+      "year": 1972
+    },
+    {
+      "id": "santiago-compania-church-fire-1863",
+      "month_day": "12-08",
+      "year": 1863,
+      "type": "failure",
+      "discipline": "Fire Safety",
+      "title": "Santiago church fire turns decoration and exits into a trap",
+      "summary": "Fire swept through the densely packed Iglesia de la Compañía in Santiago amid extensive candles, lamps and combustible decorations. Roughly 2,000 people died as escape routes became overwhelmed.",
+      "lesson": "Assembly safety depends on limiting ignition and fuel, providing outward-flowing exits, controlling crowd density and maintaining an organized fire response.",
+      "source_label": "History Today",
+      "source_url": "https://www.historytoday.com/fire-and-faith"
     },
     {
       "id": "engelbart-demo-1968",
@@ -2209,6 +4165,30 @@
       "source_url": "https://www.railwaysarchive.co.uk/docsummary.php?docID=36"
     },
     {
+      "id": "air-indiana-flight-216-1977",
+      "month_day": "12-13",
+      "year": 1977,
+      "type": "failure",
+      "discipline": "Aviation",
+      "title": "Air Indiana Flight 216 crashes after takeoff",
+      "summary": "A chartered DC-3 crashed shortly after departing Evansville, Indiana, killing all 29 aboard. Investigators found locked flight controls and an overloaded, aft-centre-of-gravity condition.",
+      "lesson": "Before takeoff, control freedom and weight-and-balance limits need independent, functional verification; a checklist mark cannot substitute for a physical check.",
+      "source_label": "NTSB",
+      "source_url": "https://www.ntsb.gov/investigations/AccidentReports/Reports/AAR7810.pdf"
+    },
+    {
+      "id": "amundsen-south-pole-1911",
+      "month_day": "12-14",
+      "year": 1911,
+      "type": "breakthrough",
+      "discipline": "Software & Systems",
+      "title": "Amundsen's expedition reaches the South Pole",
+      "summary": "Roald Amundsen and four companions reached the geographic South Pole after a carefully planned journey using skis, dog teams, staged supplies and a shorter route from the Bay of Whales.",
+      "lesson": "In extreme environments, logistics, transport choice, clothing, route selection and reserves are the engineering system that makes exploration survivable.",
+      "source_label": "Royal Museums Greenwich",
+      "source_url": "https://www.rmg.co.uk/stories/maritime-history/race-south-pole-scott-amundsen"
+    },
+    {
       "id": "silver-bridge-collapse-1967",
       "month_day": "12-15",
       "year": 1967,
@@ -2221,6 +4201,18 @@
       "source_url": "https://www.ntsb.gov/investigations/Pages/80267.aspx"
     },
     {
+      "discipline": "Electrical Engineering",
+      "id": "point-contact-transistor-1947",
+      "lesson": "A device breakthrough often arrives as a measurable effect first; packaging, theory, manufacturing and reliability then turn the effect into a platform.",
+      "month_day": "12-16",
+      "source_label": "Computer History Museum",
+      "source_url": "https://www.computerhistory.org/siliconengine/invention-of-the-point-contact-transistor/",
+      "summary": "John Bardeen and Walter Brattain's point-contact device produced semiconductor amplification, an experimental result that led directly to the transistor.",
+      "title": "Bell Labs gets semiconductor amplification",
+      "type": "breakthrough",
+      "year": 1947
+    },
+    {
       "id": "wright-flight-1903",
       "month_day": "12-17",
       "year": 1903,
@@ -2231,6 +4223,18 @@
       "lesson": "Solve controllability, not just raw performance. A machine that cannot be controlled has not solved the problem.",
       "source_label": "U.S. National Park Service",
       "source_url": "https://www.nps.gov/places/000/december-17-1903.htm"
+    },
+    {
+      "id": "html-40-recommendation-1997",
+      "month_day": "12-18",
+      "year": 1997,
+      "type": "breakthrough",
+      "discipline": "Software & Systems",
+      "title": "HTML 4.0 becomes a W3C Recommendation",
+      "summary": "W3C published HTML 4.0 as a Recommendation, standardizing richer web documents with support for scripting, style sheets, accessibility, internationalization and better interoperability.",
+      "lesson": "Software infrastructure scales when competing implementations converge on stable standards that authors, browsers and tools can trust.",
+      "source_label": "World Wide Web Consortium",
+      "source_url": "https://www.w3.org/TR/REC-html40-971218/"
     },
     {
       "id": "t2-laboratories-2007",
@@ -2257,6 +4261,18 @@
       "source_url": "https://www.energy.gov/ne/articles/9-notable-facts-about-worlds-first-nuclear-power-plant-ebr-i"
     },
     {
+      "id": "lockerbie-pan-am-103-1988",
+      "month_day": "12-21",
+      "year": 1988,
+      "type": "failure",
+      "discipline": "Aviation",
+      "title": "A concealed bomb destroys Pan Am Flight 103 over Lockerbie",
+      "summary": "An explosive device hidden in baggage ruptured the Boeing 747 in flight over Lockerbie, killing all 259 people aboard and 11 people on the ground.",
+      "lesson": "Transport security is part of system safety: baggage reconciliation, screening, intelligence and chain-of-custody controls must close pathways for deliberate attack.",
+      "source_label": "UK Air Accidents Investigation Branch",
+      "source_url": "https://www.gov.uk/aaib-reports/2-1990-boeing-747-121-n739pa-21-december-1988"
+    },
+    {
       "id": "kingston-coal-ash-spill-2008",
       "month_day": "12-22",
       "year": 2008,
@@ -2281,6 +4297,18 @@
       "source_url": "https://collections.countway.harvard.edu/onview/exhibits/show/reconstructing-lives/transplantation/herrick-twins"
     },
     {
+      "discipline": "Space",
+      "id": "apollo-8-lunar-orbit-1968",
+      "lesson": "A mission milestone is an interface test: navigation, propulsion, communications, life support and return planning must all work when Earth is no longer the operating center.",
+      "month_day": "12-24",
+      "source_label": "NASA",
+      "source_url": "https://www.nasa.gov/missions/apollo/apollo-8-christmas-at-the-moon/",
+      "summary": "Apollo 8 became the first crewed mission to enter lunar orbit, giving astronauts and mission control the first human operating experience around another world.",
+      "title": "Apollo 8 enters lunar orbit",
+      "type": "breakthrough",
+      "year": 1968
+    },
+    {
       "id": "james-webb-launch-2021",
       "month_day": "12-25",
       "year": 2021,
@@ -2293,6 +4321,42 @@
       "source_url": "https://science.nasa.gov/mission/webb/launch/"
     },
     {
+      "id": "indian-ocean-tsunami-warning-gap-2004",
+      "month_day": "12-26",
+      "year": 2004,
+      "type": "failure",
+      "discipline": "Environmental Engineering",
+      "title": "Indian Ocean tsunami exposes the missing warning network",
+      "summary": "The 2004 Indian Ocean tsunami killed more than 230,000 people, with NOAA noting that the lack of a warning system or proper education left communities caught by surprise.",
+      "lesson": "Hazard science saves lives only when sensors, models, communications, education and local evacuation routes form a working warning system.",
+      "source_label": "NOAA Center for Tsunami Research",
+      "source_url": "https://nctr.pmel.noaa.gov/Articles/5th_anniversary.html"
+    },
+    {
+      "discipline": "Mining & Tunneling",
+      "id": "chasnala-mine-inundation-1975",
+      "lesson": "Old flooded workings must be treated as active hazards: accurate plans, protective barriers, probe drilling and conservative separation are essential.",
+      "month_day": "12-27",
+      "source_label": "International Journal of Disaster Risk Reduction",
+      "source_url": "https://ui.adsabs.harvard.edu/abs/2016IJDRR..20...93D/abstract",
+      "summary": "An explosion damaged the barrier to adjacent water-filled workings at India's Chasnala colliery, inundating the mine and killing hundreds.",
+      "title": "Chasnala mine explosion is followed by catastrophic flooding",
+      "type": "failure",
+      "year": 1975
+    },
+    {
+      "discipline": "Rail",
+      "id": "tay-bridge-disaster-1879",
+      "lesson": "Wind is a structural load. Design changes, bracing details, casting quality, inspection and operating limits must be treated as safety-critical, not secondary cost items.",
+      "month_day": "12-28",
+      "source_label": "Network Rail",
+      "source_url": "https://www.networkrail.co.uk/who-we-are/our-history/iconic-infrastructure/the-history-of-the-tay-bridge-dundee/",
+      "summary": "The first Tay Rail Bridge collapsed during a violent storm while a passenger train crossed its high girders. The inquiry blamed the bridge design, and the replacement raised British bridge-building standards.",
+      "title": "Tay Bridge collapses in a storm with a train aboard",
+      "type": "failure",
+      "year": 1879
+    },
+    {
       "id": "eastern-401-1972",
       "month_day": "12-29",
       "year": 1972,
@@ -2303,6 +4367,30 @@
       "lesson": "Troubleshooting must never consume the function that keeps the system safe; assign one person and one instrument loop to guard the primary state.",
       "source_label": "U.S. Federal Aviation Administration",
       "source_url": "https://www.faa.gov/lessons_learned/transport_airplane/accidents/N310EA"
+    },
+    {
+      "discipline": "Fire Safety",
+      "id": "iroquois-theatre-fire-1903",
+      "lesson": "Life safety depends on verified details, not advertised labels: curtains, exits, doors, alarms, suppression and staff procedures must all work in the first minutes.",
+      "month_day": "12-30",
+      "source_label": "National Fire Protection Association",
+      "source_url": "https://nfpa.access.preservica.com/uncategorized/SO_e6ec46f5-febd-422f-bc33-a443baad5ec1/",
+      "summary": "A fire at Chicago's Iroquois Theatre killed hundreds of people after stage materials ignited and escape routes failed under crowd pressure.",
+      "title": "Iroquois Theatre proves fireproof claims hollow",
+      "type": "failure",
+      "year": 1903
+    },
+    {
+      "discipline": "Fire Safety",
+      "id": "dupont-plaza-hotel-fire-1986",
+      "lesson": "Buildings must remain survivable even when ignition is deliberate; sprinklers, compartmentation, exits, alarms, finishes and evacuation management provide independent layers.",
+      "month_day": "12-31",
+      "source_label": "U.S. National Institute of Standards and Technology",
+      "source_url": "https://www.nist.gov/el/dupont-plaza-hotel-fire-puerto-rico-1986",
+      "summary": "A deliberately set fire spread rapidly through the lobby and casino of the Dupont Plaza Hotel in San Juan, killing 98 people.",
+      "title": "Dupont Plaza Hotel fire races through public spaces",
+      "type": "failure",
+      "year": 1986
     }
   ]
 }

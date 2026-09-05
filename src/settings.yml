@@ -5,7 +5,7 @@ dark_mode: 'no'
 static_data: "{}"
 polling_verb: get
 framework_version: 3.1.1
-serverless_language: ''
+serverless_language: node
 polling_url: https://raw.githubusercontent.com/michaelkurath/TRMNL-Built-Broken/main/data/trmnl.json
 polling_headers: ''
 polling_body: ''
@@ -36,7 +36,7 @@ custom_fields:
   name: About This Plugin
   category: custom,education
   description: Daily engineering breakthroughs and failures, each reduced to the decision, detail or assumption engineers can learn from.
-  learn_more_url: https://github.com/michaelkurath/TRMNL-Built-Broken
+  github_url: https://github.com/michaelkurath/TRMNL-Built-Broken
 - keyname: content_filter
   name: Cases to show
   field_type: select
