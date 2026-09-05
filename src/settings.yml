@@ -62,12 +62,6 @@ custom_fields:
   default: true
   description: Include the short event account. Empty uses Yes.
   optional: true
-- keyname: show_source
-  name: Show source name?
-  field_type: boolean
-  default: false
-  description: Add the authoritative source name in the full layout. Empty uses No.
-  optional: true
 name: Built & Broken
 description: Daily engineering wins and failures
 refresh_interval: 720
