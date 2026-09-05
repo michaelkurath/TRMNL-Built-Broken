@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const assert = require("node:assert/strict");
-const { compactEvent, run, transform } = require("../serverless/built-broken.js");
+const { compactEvent, run, selectEvent } = require("../src/transform.js");
 
 const fullEvents = [
   {
@@ -59,18 +59,18 @@ function input(settings = {}) {
   };
 }
 
-const anniversary = run(input());
+const anniversary = selectEvent(input());
 assert.equal(anniversary.events.length, 1);
 assert.equal(anniversary.events[0].t, "Breakthrough B");
 assert.equal(anniversary.meta.selection_reason, "anniversary");
 
-const filtered = run(input({ content_filter: "failure" }));
+const filtered = selectEvent(input({ content_filter: "failure" }));
 assert.equal(filtered.events.length, 1);
 assert.equal(filtered.events[0].k, "failure");
 assert.equal(filtered.meta.selection_reason, "daily_fallback");
 assert.equal(filtered.meta.pool_size, 2);
 
-const compact = transform({
+const compact = selectEvent({
   events: fullEvents.map(compactEvent),
   settings: { content_filter: "both", display_mode: "daily" },
   today_key: "08-28",
@@ -79,17 +79,45 @@ assert.equal(compact.events[0].t, "Breakthrough B");
 
 const random = input({ display_mode: "random" });
 random.random_seed = "fixed-seed";
-assert.equal(run(random).events[0].t, run(random).events[0].t);
-assert.equal(run(random).meta.selection_reason, "random");
+assert.equal(selectEvent(random).events[0].t, selectEvent(random).events[0].t);
+assert.equal(selectEvent(random).meta.selection_reason, "random");
 
-const badFilter = run(input({ content_filter: "unknown" }));
+const badFilter = selectEvent(input({ content_filter: "unknown" }));
 assert.equal(badFilter.meta.filter_mode, "both");
 
-const empty = run({ events: [] });
+const empty = selectEvent({ events: [] });
 assert.deepEqual(empty.events, []);
 assert.equal(empty.meta.error, "no_events");
 
 const payloadBytes = Buffer.byteLength(JSON.stringify(anniversary), "utf8");
 assert.ok(payloadBytes < 5000, `selected payload should stay tiny, got ${payloadBytes} bytes`);
 
-console.log("Serverless transform tests passed.");
+async function testRuntime() {
+  const originalFetch = global.fetch;
+
+  try {
+    global.fetch = async () => ({
+      ok: true,
+      json: async () => ({ events: fullEvents }),
+    });
+    const live = await run(input());
+    assert.equal(live.meta.data_source, "full_archive");
+    assert.equal(live.meta.total_events, 3);
+
+    global.fetch = async () => {
+      throw new Error("temporary network failure");
+    };
+    const fallback = await run(input());
+    assert.equal(fallback.meta.data_source, "legacy_fallback");
+    assert.equal(fallback.meta.total_events, 3);
+  } finally {
+    global.fetch = originalFetch;
+  }
+
+  console.log("Serverless transform tests passed.");
+}
+
+testRuntime().catch((error) => {
+  console.error(error);
+  process.exit(1);
+});
