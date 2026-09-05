@@ -4,7 +4,8 @@
 {% if events == nil or events == empty %}
 <div class="layout layout--col layout--center">
   <div class="flex flex--col flex--center gap--small text--center">
-    <span class="title">Built &amp; Broken</span>
+    <span class="label">TODAY IN ENGINEERING</span>
+    <span class="title title--large">Built &amp; Broken</span>
     <span class="description">No engineering cases were received. Check the polling data source.</span>
   </div>
 </div>
@@ -29,58 +30,59 @@
 {% endif %}
 {% assign show_summary = true %}{% if settings.show_summary == false %}{% assign show_summary = false %}{% endif %}
 {% assign show_source = false %}{% if settings.show_source == true %}{% assign show_source = true %}{% endif %}
-{% assign selected_title = selected.t | default: "Engineering case" %}
-{% assign selected_summary = selected.s | default: "No event summary is available." %}
-{% assign selected_lesson = selected.l | default: "No engineering lesson is available." %}
-{% assign title_size = selected_title | size %}
-{% assign summary_size = selected_summary | size %}
-{% assign lesson_size = selected_lesson | size %}
-{% assign title_x_class = "lg:title--xxlarge" %}
-{% if title_size <= 45 %}{% assign title_x_class = "lg:title--xxxlarge" %}{% endif %}
-{% assign summary_x_class = "lg:text--large" %}
-{% if summary_size <= 190 %}{% assign summary_x_class = "lg:text--xlarge" %}{% endif %}
-{% assign lesson_x_class = "lg:text--xlarge" %}
-{% if lesson_size <= 115 %}{% assign lesson_x_class = "lg:text--xxlarge" %}{% endif %}
+{% assign summary_length = selected.s | default: "" | size %}
+{% assign lesson_length = selected.l | default: "" | size %}
 
 <div class="layout layout--col layout--stretch">
-  <div class="flex flex--col gap--small stretch">
-    <div class="flex flex--row flex--between flex--center-y gap--small">
-      <span class="label {% if selected.k == 'failure' %}label--inverted{% else %}label--outline{% endif %}">{{ selected.k | default: "case" | upcase }}</span>
-      <span class="label">{% if filter_fallback %}Filter unavailable · showing all{% elsif display_mode == "random" %}Random case{% elsif anniversary %}On this day · {{ today_key | replace: "-", "." }}{% else %}Curated case{% endif %}</span>
+  <div class="flex flex--col flex--between gap--medium h--full">
+    <div class="flex flex--row flex--between flex--bottom gap--medium">
+      <div class="flex flex--col gap--small">
+        <span class="label">TODAY IN ENGINEERING</span>
+        <span class="title title--large md:title--large lg:title--xxlarge">Built &amp; Broken</span>
+      </div>
+      <div class="flex flex--col gap--small text--right">
+        <span class="label {% if selected.k == 'failure' %}label--inverted{% else %}label--outline{% endif %}">{{ selected.k | default: "case" | upcase }}</span>
+        <span class="label label--outline">{% if filter_fallback %}Showing all{% elsif display_mode == "random" %}Random case{% elsif anniversary %}On this day{% else %}Curated case{% endif %}</span>
+      </div>
     </div>
+
+    <div class="divider"></div>
+
     <div class="grid grid--cols-1 md:grid--cols-3 portrait:grid--cols-1 md:portrait:grid--cols-1 gap--medium stretch">
-      <div class="col--span-1 md:col--span-2 portrait:col--span-1 md:portrait:col--span-1 flex flex--col flex--between gap--small">
+      <div class="col--span-1 md:col--span-2 portrait:col--span-1 md:portrait:col--span-1 flex flex--col flex--between gap--medium">
         <div class="flex flex--col gap--small">
-          <div class="divider"></div>
-          <div class="flex flex--row flex--between flex--bottom gap--small">
-            <span class="value value--xlarge md:value--xxxlarge portrait:value--large md:portrait:value--large value--tnums">{{ selected.y | default: "----" }}</span>
+          <div class="flex flex--row flex--between flex--bottom gap--medium">
+            <span class="value value--xlarge md:value--xxxlarge lg:value--mega portrait:value--large md:portrait:value--large lg:portrait:value--xxxlarge value--tnums">{{ selected.y | default: "----" }}</span>
             <span class="label text--right pb--small">{{ selected.d | default: "General" }}<br>engineering</span>
           </div>
-          <div class="title title--large md:title--large {{ title_x_class }} portrait:title--large md:portrait:title--large lg:portrait:title--xlarge" data-clamp="3">{{ selected_title }}</div>
+          <div class="title title--large md:title--large lg:title--xxlarge portrait:title--large md:portrait:title--large" data-clamp="3">{{ selected.t | default: "Engineering case" }}</div>
         </div>
+
         {% if show_summary %}
-          <div class="flex flex--col gap--small pt--small">
-            <div class="divider"></div>
-            <span class="label text--center">What happened</span>
-            <div class="description text--base md:text--base {{ summary_x_class }} portrait:text--base md:portrait:text--base lg:portrait:text--large" data-clamp="3" data-clamp-lg="4">{{ selected_summary }}</div>
+          <div class="flex flex--col gap--small">
+            <span class="label">What happened</span>
+            <div class="description text--base md:text--base portrait:text--base md:portrait:text--base {% if summary_length <= 190 %}lg:text--xlarge lg:portrait:text--xlarge{% else %}lg:text--large lg:portrait:text--large{% endif %}" data-clamp="4">{{ selected.s | default: "No event summary is available." }}</div>
           </div>
         {% endif %}
       </div>
-      <div class="col--span-1 outline flex flex--col gap--small p--medium">
-        <div class="flex flex--row flex--between flex--center-y gap--small pb--small">
+
+      <div class="col--span-1 outline flex flex--col flex--between gap--small p--medium">
+        <div class="flex flex--row flex--between flex--center-y gap--small">
           <span class="label">Engineering lesson</span>
           <span class="outline flex flex--row flex--center label w--8 h--8 {% if selected.k == 'failure' %}label--inverted{% endif %}">{% if selected.k == 'failure' %}!{% else %}+{% endif %}</span>
         </div>
         <div class="divider"></div>
-        <div class="flex flex--row flex--center-y grow"><div class="description text--large md:text--large {{ lesson_x_class }} portrait:text--large md:portrait:text--large lg:portrait:text--xlarge text--center font--bold">{{ selected_lesson }}</div></div>
+        <div class="flex flex--row flex--center-y grow">
+          <div class="description text--large md:text--large portrait:text--large md:portrait:text--large {% if lesson_length <= 115 %}lg:text--xxlarge lg:portrait:text--xxlarge{% elsif lesson_length <= 145 %}lg:text--xlarge lg:portrait:text--xlarge{% else %}lg:text--large lg:portrait:text--large{% endif %} text--center font--bold">{{ selected.l | default: "No engineering lesson is available." }}</div>
+        </div>
         {% if show_source %}
           <div class="divider"></div>
-          <div class="description text--small pt--small" data-clamp="1">Source: {{ selected.r | default: "Unavailable" }}</div>
+          <div class="description text--small" data-clamp="1">Source: {{ selected.r | default: "Unavailable" }}</div>
         {% endif %}
       </div>
     </div>
   </div>
 </div>
 
-<div class="title_bar"><span class="title">Built &amp; Broken</span><span class="instance">{{ selected.y | default: "----" }} · {{ selected.d | default: "General" }}</span></div>
+<div class="title_bar"><span class="title">Built &amp; Broken</span><span class="instance">{{ selected.y | default: "----" }} | {{ selected.d | default: "General" }}</span></div>
 {% endif %}

@@ -22,17 +22,33 @@
 {% else %}
   {% for item in pool %}{% if item.m == today_key %}{% assign selected = item %}{% assign anniversary = true %}{% break %}{% endif %}{% endfor %}
 {% endif %}
+{% assign title_length = selected.t | default: "" | size %}
+{% assign lesson_length = selected.l | default: "" | size %}
 <div class="layout layout--col layout--stretch">
-  <div class="flex flex--col flex--center-y gap--small h--full">
+  <div class="flex flex--col flex--between gap--small h--full">
     <div class="flex flex--row flex--between flex--center-y gap--small">
+      <span class="label">BUILT &amp; BROKEN</span>
       <span class="label {% if selected.k == 'failure' %}label--inverted{% else %}label--outline{% endif %}">{{ selected.k | default: "case" | upcase }}</span>
-      <span class="label label--outline">{% if filter_fallback %}SHOWING ALL · {% endif %}{{ selected.d | default: "General" | upcase }} · {{ selected.y | default: "----" }}{% if display_mode == "random" %} · RANDOM{% elsif anniversary %} · TODAY{% endif %}</span>
     </div>
-    <div class="title title--small md:title--base lg:title--large portrait:title--small">{{ selected.t | default: "Engineering case" }}</div>
+
     <div class="divider"></div>
-    <div class="description text--base md:text--large portrait:text--base font--bold">{{ selected.l | default: "No engineering lesson is available." }}</div>
+
+    <div class="grid grid--cols-2 gap--medium stretch grow">
+      <div class="flex flex--col flex--center gap--small">
+        <div class="flex flex--row flex--between flex--bottom gap--small">
+          <span class="value value--large md:value--large lg:value--xlarge lg:portrait:value--large value--tnums">{{ selected.y | default: "----" }}</span>
+          <span class="label text--right" data-clamp="2">{{ selected.d | default: "General" }}</span>
+        </div>
+        <div class="title title--small md:title--base portrait:title--small {% if title_length <= 48 %}lg:title--large lg:portrait:title--base{% else %}lg:title--base lg:portrait:title--small{% endif %}" data-clamp="2">{{ selected.t | default: "Engineering case" }}</div>
+      </div>
+
+      <div class="outline flex flex--col flex--center gap--small p--medium h--full">
+        <span class="label">Lesson</span>
+        <div class="description text--base md:text--large portrait:text--base {% if lesson_length <= 125 %}lg:text--xlarge lg:portrait:text--large{% else %}lg:text--large lg:portrait:text--large{% endif %} text--center font--bold" data-clamp="8">{{ selected.l | default: "No engineering lesson is available." }}</div>
+      </div>
+    </div>
   </div>
 </div>
 
-<div class="title_bar"><span class="title">Built &amp; Broken</span><span class="instance">Engineering lesson</span></div>
+<div class="title_bar"><span class="title">Built &amp; Broken</span><span class="instance">{% if filter_fallback %}Showing all{% elsif display_mode == "random" %}Random{% elsif anniversary %}On this day{% else %}Daily{% endif %}</span></div>
 {% endif %}
