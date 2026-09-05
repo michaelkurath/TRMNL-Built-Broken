@@ -1,0 +1,71 @@
+name: TRMNLP review QA
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - review/x-adaptive-typography
+    paths:
+      - src/**
+      - data/events.json
+      - scripts/write-trmnlp-fixture.js
+      - scripts/validate-data.js
+      - .github/workflows/trmnlp-review.yml
+
+permissions:
+  contents: read
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v6
+
+      - name: Validate project data
+        run: node scripts/validate-data.js
+
+      - name: Lint with TRMNLP
+        run: |
+          docker run --rm --pull always \
+            --volume "$PWD:/plugin" \
+            trmnl/trmnlp lint
+
+      - name: Render review matrix with TRMNLP
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          mkdir -p qa-output
+
+          for fixture in short medium long; do
+            node scripts/write-trmnlp-fixture.js "$fixture"
+
+            while read -r device width height depth; do
+              docker run --rm \
+                --volume "$PWD:/plugin" \
+                trmnl/trmnlp build --png \
+                --width "$width" \
+                --height "$height" \
+                --color-depth "$depth"
+
+              sudo chown -R "$(id -u):$(id -g)" _build
+              mkdir -p "qa-output/$fixture/$device"
+              mv _build/*.png "qa-output/$fixture/$device/"
+              rm -rf _build
+            done <<'DEVICES'
+          og-landscape 800 480 1
+          x-landscape 1872 1404 4
+          x-portrait 1404 1872 4
+          DEVICES
+          done
+
+      - name: Upload TRMNLP screenshots
+        uses: actions/upload-artifact@v4
+        with:
+          name: trmnlp-review-screenshots
+          path: qa-output/
+          if-no-files-found: error
+          retention-days: 30

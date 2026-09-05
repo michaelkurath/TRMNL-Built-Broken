@@ -21,17 +21,22 @@
 {% else %}
   {% for item in pool %}{% if item.m == today_key %}{% assign selected = item %}{% break %}{% endif %}{% endfor %}
 {% endif %}
+{% assign title_length = selected.t | default: "" | size %}
+{% assign lesson_length = selected.l | default: "" | size %}
 <div class="layout layout--col layout--stretch">
-  <div class="flex flex--col flex--center-y gap--small h--full">
+  <div class="flex flex--col flex--between gap--small h--full">
     <div class="flex flex--row flex--between flex--center-y gap--small">
+      <span class="label">B&amp;B</span>
       <span class="label {% if selected.k == 'failure' %}label--inverted{% else %}label--outline{% endif %}">{{ selected.k | default: "case" | upcase }}</span>
-      <span class="label label--outline">{% if filter_fallback %}ALL · {% endif %}{{ selected.y | default: "----" }}{% if display_mode == "random" %} · RANDOM{% endif %}</span>
     </div>
-    <div class="title title--small md:title--base portrait:title--small">{{ selected.t | default: "Engineering case" }}</div>
     <div class="divider"></div>
-    <div class="description text--small md:text--base portrait:text--small font--bold">{{ selected.l | default: "No engineering lesson is available." }}</div>
+    <div class="title title--small md:title--base portrait:title--small {% if title_length <= 44 %}lg:title--large lg:portrait:title--large{% else %}lg:title--base lg:portrait:title--base{% endif %}" data-clamp="2">{{ selected.t | default: "Engineering case" }}</div>
+    <div class="outline flex flex--col gap--small p--medium">
+      <span class="label">Lesson</span>
+      <div class="description text--small md:text--base portrait:text--small {% if lesson_length <= 115 %}lg:text--large lg:portrait:text--large{% else %}lg:text--base lg:portrait:text--base{% endif %} font--bold" data-clamp="3">{{ selected.l | default: "No engineering lesson is available." }}</div>
+    </div>
   </div>
 </div>
 
-<div class="title_bar"><span class="title">Built &amp; Broken</span><span class="instance">{{ selected.d | default: "General" }}</span></div>
+<div class="title_bar"><span class="title">Built &amp; Broken</span><span class="instance">{{ selected.y | default: "----" }}</span></div>
 {% endif %}
