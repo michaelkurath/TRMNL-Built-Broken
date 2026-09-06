@@ -61,9 +61,9 @@ Cases use one of 21 normalized categories:
 
 - Show both types, breakthroughs only, or failures only
 - Choose a stable daily case or a new random case on each render
-- Show or hide the event summary
-- Optionally show the source name
 - Full, half-horizontal, half-vertical, and quadrant layouts
+
+The full layout always includes the event summary. Source links remain available on the website and in the public dataset, but are intentionally omitted from the TRMNL device layouts.
 
 ## Repository structure
 
